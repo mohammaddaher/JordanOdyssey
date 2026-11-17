@@ -4,41 +4,20 @@
 //
 // - Every .html page under each language folder is included, except pages with a robots "noindex"
 //   tag or an instant meta-refresh redirect.
-// - A language's homepage (/en/index.html) is listed as /en/, the address it redirects to.
-//   Other pages keep the address the site links to (for example /en/destinations/index.html).
+// - Addresses come from scripts/site.mjs, the same place each page's canonical tag comes from:
+//   a language's homepage (/en/index.html) is listed as /en/, other pages keep the address the
+//   site links to (for example /en/destinations/index.html).
 // - <lastmod> is the date of the page's last git commit; without git history, the file's modified date.
 // - When the same page exists in /en/ and /ar/, both entries get hreflang alternates
 //   (en, ar, and x-default pointing to the English page).
 // It never fails the deploy: if anything goes wrong it reports the error and leaves the build running.
 
-import { readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
-import { join, relative, sep } from 'node:path';
+import { readFileSync, statSync, writeFileSync } from 'node:fs';
+import { join, relative } from 'node:path';
 import { execFileSync } from 'node:child_process';
-import { fileURLToPath } from 'node:url';
+import { ROOT, LANGS, allPages, isIndexable, urlFor } from './site.mjs';
 
-const ROOT = join(fileURLToPath(import.meta.url), '..', '..');
-const SITE = 'https://www.jordanodyssey.com';
-const LANGS = ['en', 'ar'];          // the first language is the x-default
 const OUT = join(ROOT, 'sitemap.xml');
-
-function pagesIn(dir) {
-  let out = [];
-  let entries = [];
-  try { entries = readdirSync(dir, { withFileTypes: true }); } catch { return out; }
-  for (const e of entries) {
-    const p = join(dir, e.name);
-    if (e.isDirectory()) out = out.concat(pagesIn(p));
-    else if (e.name.endsWith('.html')) out.push(p);
-  }
-  return out;
-}
-
-function isIndexable(html) {
-  const metas = html.match(/<meta\b[^>]*>/gi) || [];
-  return !metas.some((m) =>
-    (/name\s*=\s*["']?(robots|googlebot)["']?/i.test(m) && /content\s*=\s*["'][^"']*noindex/i.test(m)) ||
-    /http-equiv\s*=\s*["']?refresh["']?/i.test(m));
-}
 
 // Git dates need the full history; Vercel may clone only the latest commits, so ask for the rest first.
 let gitOk = false;
@@ -62,23 +41,15 @@ function lastmod(file) {
   return statSync(file).mtime.toISOString().slice(0, 10);
 }
 
-function urlFor(lang, rel) {
-  const path = rel === 'index.html' ? '' : rel;   // the language homepage is served at /en/
-  return `${SITE}/${lang}/${path}`;
-}
-
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 try {
   // page key (path inside the language folder) -> { lang: { loc, lastmod } }
   const pages = new Map();
-  for (const lang of LANGS) {
-    for (const file of pagesIn(join(ROOT, lang))) {
-      const rel = relative(join(ROOT, lang), file).split(sep).join('/');
-      if (!isIndexable(readFileSync(file, 'utf8'))) { console.log(`sitemap: skipped ${lang}/${rel} (noindex or redirect)`); continue; }
-      if (!pages.has(rel)) pages.set(rel, {});
-      pages.get(rel)[lang] = { loc: urlFor(lang, rel), lastmod: lastmod(file) };
-    }
+  for (const { lang, rel, file } of allPages()) {
+    if (!isIndexable(readFileSync(file, 'utf8'))) { console.log(`sitemap: skipped ${lang}/${rel} (noindex or redirect)`); continue; }
+    if (!pages.has(rel)) pages.set(rel, {});
+    pages.get(rel)[lang] = { loc: urlFor(lang, rel), lastmod: lastmod(file) };
   }
 
   const keys = [...pages.keys()].sort((a, b) =>

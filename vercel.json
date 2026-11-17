@@ -1,5 +1,5 @@
 {
-  "buildCommand": "node scripts/build-sitemap.mjs",
+  "buildCommand": "node scripts/build-head.mjs && node scripts/build-sitemap.mjs",
   "outputDirectory": ".",
   "redirects": [
     { "source": "/", "destination": "/en/", "statusCode": 301 },

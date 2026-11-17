@@ -1,0 +1,92 @@
+{
+  "*": {
+    "image": "assets/img/share/default.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "The Treasury of Petra, carved into a rose-red cliff face"
+  },
+  "destinations/index.html": {
+    "image": "assets/img/share/destinations.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "The theatre and carved tombs of Petra in rose-red sandstone"
+  },
+  "destinations/amman.html": {
+    "image": "assets/img/share/destination-amman.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "The Temple of Hercules on Amman Citadel, above the white houses of the city’s hills"
+  },
+  "destinations/aqaba.html": {
+    "image": "assets/img/share/destination-aqaba.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "A sandy beach on the turquoise Red Sea coast near Aqaba"
+  },
+  "destinations/dead-sea.html": {
+    "image": "assets/img/share/destination-dead-sea.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "The sun setting over the Dead Sea, with beach umbrellas on the shore"
+  },
+  "destinations/jerash.html": {
+    "image": "assets/img/share/destination-jerash.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "The Oval Plaza in Jerash, ringed by Roman columns"
+  },
+  "destinations/petra.html": {
+    "image": "assets/img/share/destination-petra.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "The Treasury in Petra, glimpsed at the end of the narrow Siq"
+  },
+  "destinations/wadi-rum.html": {
+    "image": "assets/img/share/destination-wadi-rum.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "Sandstone mountains rising from the red sand of Wadi Rum"
+  },
+  "programs/best-of-jordan.html": {
+    "image": "assets/img/share/program-best-of-jordan.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "The Gulf of Aqaba at dusk, with the city’s tall flagpole and the mountains behind"
+  },
+  "programs/grand-jordan.html": {
+    "image": "assets/img/share/program-grand-jordan.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "The Treasury of Petra, carved into a rose-red cliff face"
+  },
+  "programs/jordan-delights-1.html": {
+    "image": "assets/img/share/program-jordan-delights-1.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "The colonnaded Oval Plaza of Roman Jerash"
+  },
+  "programs/jordan-delights-2.html": {
+    "image": "assets/img/share/program-jordan-delights-2.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "Swimmers floating on the still, pale water of the Dead Sea"
+  },
+  "programs/jordan-discovery.html": {
+    "image": "assets/img/share/program-jordan-discovery.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "The Treasury (Al-Khazneh) at Petra, its columned façade carved into the rose sandstone cliff"
+  },
+  "programs/jordan-explorer.html": {
+    "image": "assets/img/share/program-jordan-explorer.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "Sandstone mountains rising from the red sand of Wadi Rum"
+  },
+  "programs/jordan-revealed.html": {
+    "image": "assets/img/share/program-jordan-revealed.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "Amman’s hills of pale stone houses, seen from the Citadel"
+  }
+}
