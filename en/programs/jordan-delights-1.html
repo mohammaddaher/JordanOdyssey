@@ -22,7 +22,7 @@
   <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- ============ Header ============ -->
-  <header class="site-header" data-header>
+  <header class="site-header site-header--solid" data-header>
     <div class="container header-inner">
       <a class="brand" href="../index.html" aria-label="Jordan Odyssey — home">
         <img class="brand-emblem" src="../../assets/img/brand/logo.png" width="440" height="563" alt="">
@@ -37,7 +37,8 @@
         <ul class="nav-list">
           <li><a class="nav-link" href="../index.html#heritage">Heritage</a></li>
           <li><a class="nav-link" href="../index.html#discover">Discover</a></li>
-          <li><a class="nav-link" href="../index.html#programs">Programs</a></li>
+          <li><a class="nav-link" href="../destinations/index.html">Destinations</a></li>
+          <li><a class="nav-link is-active" href="../index.html#programs" aria-current="true">Programs</a></li>
         </ul>
         <a class="btn btn--primary btn--small" href="../enquire.html">Plan your trip</a>
         <!-- Becomes a link to the matching /ar/ page once the Arabic version exists -->
@@ -162,43 +163,29 @@
   <!-- ============ Footer ============ -->
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <div class="footer-logo">
-            <img class="footer-emblem" src="../../assets/img/brand/logo.png" width="440" height="563" loading="lazy" alt="">
-            <img class="footer-wordmark" src="../../assets/img/brand/wordmark.png" width="408" height="132" loading="lazy" alt="Jordan Odyssey">
-          </div>
-          <p class="footer-slogan">Every stone has a story</p>
-        </div>
+      <div class="footer-band">
+        <a class="footer-brand" href="../index.html" aria-label="Jordan Odyssey — home">
+          <img class="footer-emblem" src="../../assets/img/brand/logo.png" width="440" height="563" loading="lazy" alt="">
+          <span class="footer-name">
+            <img class="footer-wordmark" src="../../assets/img/brand/wordmark.png" width="408" height="132" loading="lazy" alt="">
+            <span class="footer-slogan">Every stone has a story</span>
+          </span>
+        </a>
 
-        <div class="footer-cols">
-          <div>
-            <p class="footer-heading">Explore</p>
-            <ul class="footer-links">
-              <li><a href="../index.html">Home</a></li>
-              <li><a href="../index.html#discover">Discover Jordan</a></li>
-              <li><a href="../index.html#programs">Programs</a></li>
-            </ul>
-          </div>
-          <div>
-            <p class="footer-heading">Jordan Odyssey</p>
-            <p class="footer-text">Independent journeys across Jordan, from the Roman north to Petra, the desert and the Red Sea.</p>
-          </div>
-        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#heritage">Heritage</a></li>
+            <li><a href="../index.html#discover">Discover</a></li>
+            <li><a href="../destinations/index.html">Destinations</a></li>
+            <li><a href="../index.html#programs">Programs</a></li>
+          </ul>
+        </nav>
       </div>
 
       <div class="footer-bottom">
-        <p>© <span data-year>2026</span> Jordan Odyssey · jordanodyssey.com</p>
-        <a class="text-link" href="#top">Back to top ↑</a>
-
-        <div class="credits-wrap">
-          <details class="credits">
-            <summary>Photo credits</summary>
-            <ul>
-              <li>Jerash, Oval Plaza: Arian Zwegers, <a href="https://creativecommons.org/licenses/by/2.0" rel="license">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Jerash,_Oval_Plaza_(6738144433).jpg">Wikimedia Commons</a></li>
-            </ul>
-          </details>
-        </div>
+        <p>© <span data-year>2026</span> Jordan Odyssey</p>
+        <a class="footer-top-link" href="#top">Back to top ↑</a>
       </div>
     </div>
   </footer>

@@ -1,5 +1,6 @@
 // Jordan Odyssey: enquiry page. Pre-selects the program from ?program=<slug>,
-// checks the fields, and sends the enquiry once the server endpoint exists.
+// checks the fields, and sends the enquiry (program, name, email, phone, travel dates,
+// number of travelers and message) once the server endpoint exists.
 (function () {
   'use strict';
 
@@ -11,7 +12,7 @@
       name: 'Please enter your name.',
       email: 'Please enter a valid email address, like name@example.com.',
       phone: 'Please enter a valid phone or WhatsApp number, or leave it empty.',
-      message: 'Please write a short message (at least 10 characters).',
+      message: 'Please keep your message under 3,000 characters.',
       fix: 'Please check the highlighted fields.',
       sending: 'Sending…',
       sent: 'Thank you. Your enquiry has been sent, and we’ll reply by email soon.',
@@ -33,9 +34,8 @@
     var slug = opt && opt.getAttribute('data-slug');
     summary.hidden = !slug;
     if (!slug) return;
-    summary.querySelector('[data-summary-name]').textContent = opt.value;
     summary.querySelector('[data-summary-days]').textContent = opt.getAttribute('data-days') + ' days';
-    summary.querySelector('[data-summary-price]').textContent = 'From ' + opt.getAttribute('data-price');
+    summary.querySelector('[data-summary-price]').textContent = opt.getAttribute('data-price');
     summary.querySelector('[data-summary-link]').href = opt.getAttribute('data-url');
   }
   var params = new URLSearchParams(location.search);
@@ -59,7 +59,7 @@
     name: function (v) { return v.length >= 2; },
     email: function (v) { return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v); },
     phone: function (v) { return !v || (/^[+()\d\s.-]{6,30}$/.test(v) && v.replace(/\D/g, '').length >= 6); },
-    message: function (v) { return v.length >= 10; }
+    message: function (v) { return v.length <= 3000; }
   };
   function check(name) {
     var field = form.elements[name];

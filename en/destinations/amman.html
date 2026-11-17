@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Amman | Jordan Odyssey</title>
-  <meta name="description" content="Visit Amman: the Citadel and Temple of Hercules, the Roman Theatre, downtown souks and the Jordan Museum.">
+  <meta name="description" content="Amman in a day: the Citadel, the Roman Theatre and Odeon and the Roman Nymphaeum, then the downtown souks, knafeh and Arabic coffee, and the Hejaz Railway Station if you have more time.">
   <meta name="theme-color" content="#4a170f">
   <meta name="robots" content="noindex"><!-- design preview: remove at launch -->
 
@@ -13,17 +13,17 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Amiri:wght@400&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Amiri:wght@400&display=swap">
 
-  <link rel="preload" as="image" href="../../assets/img/discover/amman.jpg">
+  <link rel="preload" as="image" imagesrcset="../../assets/img/guides/hero-amman-640.jpg 640w, ../../assets/img/guides/hero-amman.jpg 1114w" imagesizes="(min-width: 700px) 70vw, 100vw">
   <link rel="stylesheet" href="../../assets/css/styles.css">
   <script>document.documentElement.classList.add('js');</script>
 </head>
-<body id="top">
+<body id="top" class="dg-body">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- ============ Header ============ -->
-  <header class="site-header" data-header>
+  <header class="site-header site-header--solid" data-header>
     <div class="container header-inner">
       <a class="brand" href="../index.html" aria-label="Jordan Odyssey — home">
         <img class="brand-emblem" src="../../assets/img/brand/logo.png" width="440" height="563" alt="">
@@ -38,7 +38,8 @@
         <ul class="nav-list">
           <li><a class="nav-link" href="../index.html#heritage">Heritage</a></li>
           <li><a class="nav-link" href="../index.html#discover">Discover</a></li>
-          <li><a class="nav-link" href="#programs">Programs</a></li>
+          <li><a class="nav-link is-active" href="index.html">Destinations</a></li>
+          <li><a class="nav-link" href="../index.html#programs">Programs</a></li>
         </ul>
         <a class="btn btn--primary btn--small" href="../enquire.html">Plan your trip</a>
         <!-- Becomes a link to the matching /ar/ page once the Arabic version exists -->
@@ -47,184 +48,107 @@
     </div>
   </header>
 
-  <main id="main">
-    <!-- ============ Photo and name ============ -->
-    <section class="place-hero" aria-labelledby="place-title">
-      <img class="place-hero-photo" style="--pos: 50% 0%; --pos-m: 46% 50%" src="../../assets/img/discover/amman.jpg" width="1772" height="1285" alt="Standing columns of the Temple of Hercules on the Amman Citadel against a blue sky" fetchpriority="high">
-      <div class="container place-hero-inner">
-        <div class="place-hero-copy">
-          <nav class="place-crumbs" aria-label="Breadcrumb">
-            <ol>
-              <li><a href="../index.html">Home</a></li>
-              <li><a href="../index.html#discover">Discover Jordan</a></li>
-              <li><span aria-current="page">Amman</span></li>
-            </ol>
-          </nav>
-          <p class="hero-kicker">North · The capital</p>
-          <h1 class="hero-title" id="place-title">Amman</h1>
-          <p class="hero-lede">A modern capital built over ancient hills, where Roman ruins sit among busy streets, markets and cafés.</p>
-          <div class="hero-actions">
-            <a class="btn btn--primary" href="#programs">See programs</a>
-            <a class="text-link" href="../index.html#discover">Back to the map</a>
-          </div>
+  <main id="main" class="dg-page">
+    <!-- ============ Photo, name and introduction ============ -->
+    <section class="dg-hero dg-hero--light" style="--cut: 27.47%; --title-vw: 4.6vw" aria-labelledby="place-title">
+      <div class="dg-hero-fill" aria-hidden="true"><img src="../../assets/img/guides/hero-amman-640.jpg" width="640" height="124" alt=""></div>
+      <div class="dg-hero-photo">
+        <img src="../../assets/img/guides/hero-amman.jpg" srcset="../../assets/img/guides/hero-amman-640.jpg 640w, ../../assets/img/guides/hero-amman.jpg 1114w" sizes="(min-width: 700px) 70vw, 100vw" width="1114" height="215" style="--pos-m: 80% 50%" alt="The Temple of Hercules on Amman Citadel, above the white houses of the city’s hills" fetchpriority="high">
+      </div>
+      <div class="container dg-hero-inner">
+        <div class="dg-hero-copy">
+          <h1 class="dg-hero-title" id="place-title">Amman</h1>
+          <p class="dg-hero-lede">One day in Jordan’s capital</p>
         </div>
       </div>
     </section>
 
-    <!-- ============ Overview ============ -->
-    <section class="place-overview" aria-labelledby="overview-title">
-      <div class="container place-overview-grid">
-        <div>
-          <div class="section-head reveal">
-            <p class="eyebrow">Overview</p>
-            <h2 class="section-title" id="overview-title">Ancient hills, modern capital</h2>
-          </div>
-          <div class="place-text reveal">
-            <p>The Temple of Hercules crowns Amman’s Citadel hill. It was built between AD 162 and 166, when the city was Roman Philadelphia, on a hill people have lived on for thousands of years. Look up at the two tallest columns, which still carry a carved block of the temple’s upper beam.</p>
-            <p>See the Temple of Hercules on the Citadel and the Roman Theatre downtown, then follow the city’s food, coffee and markets into the evening.</p>
-          </div>
-        </div>
-        <aside class="place-facts reveal" data-delay="1" aria-labelledby="facts-title">
-          <h2 class="place-facts-title" id="facts-title">Plan your visit</h2>
-          <dl>
-              <div><dt>Suggested visit</dt><dd><span class="place-duration">1–2 days</span></dd></div>
-              <div><dt>Best for</dt><dd>Culture, food, history</dd></div>
-              <div><dt>Getting there</dt><dd>Queen Alia International Airport is about 35 km south of the city</dd></div>
-          </dl>
-        </aside>
-      </div>
-    </section>
-
-    <!-- ============ Highlights ============ -->
-    <section class="place-highlights" aria-labelledby="highlights-title">
+    <!-- ============ Section links ============ -->
+    <nav class="dg-jump" aria-label="On this page">
       <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Highlights</p>
-          <h2 class="section-title" id="highlights-title">Don’t miss</h2>
-        </div>
-        <ol class="highlight-list">
-          <li class="highlight reveal">
-            <span class="highlight-num" aria-hidden="true">01</span>
-            <h3 class="highlight-name">The Citadel</h3>
-            <p class="highlight-text">The Temple of Hercules, the remains of an Umayyad palace and the Jordan Archaeological Museum share the hill at the heart of the old city.</p>
+        <ul class="dg-jump-list">
+          <li><a href="#places">Places to explore</a></li>
+          <li><a href="#experiences">Experiences to try</a></li>
+          <li><a href="#plan-your-visit">Plan your visit</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="dg-section" id="places" aria-labelledby="places-title">
+      <div class="container">
+        <h2 class="dg-section-title" id="places-title">Places to explore</h2>
+        <p class="dg-section-intro">A one-day route: begin at the Citadel in the morning, then walk down to the Roman Theatre and the Nymphaeum in the old downtown.</p>
+        <ul class="dg-cards dg-cards--long">
+          <li class="dg-card">
+            <div class="dg-card-photo" style="--ar: 473 / 193"><img src="../../assets/img/guides/amman-citadel.jpg" width="473" height="193" sizes="(min-width: 1536px) 480px, (min-width: 1024px) 31vw, (min-width: 600px) 48vw, 100vw" loading="lazy" alt="Two standing columns of the Temple of Hercules, with Amman spread over the hills behind"></div>
+            <div class="dg-card-body">
+              <div class="dg-card-copy">
+                <h3 class="dg-card-title">Morning at Amman Citadel</h3>
+                <p class="dg-card-text">Start at the Amman Citadel, where the columns of the Temple of Hercules, built in AD 161–166, look out over the city’s hills.</p>
+              </div>
+            </div>
           </li>
-          <li class="highlight reveal" data-delay="1">
-            <span class="highlight-num" aria-hidden="true">02</span>
-            <h3 class="highlight-name">The Roman Theatre</h3>
-            <p class="highlight-text">Cut into a hillside in the 2nd century AD, it seated about 6,000 people and still hosts performances.</p>
+          <li class="dg-card">
+            <div class="dg-card-photo" style="--ar: 473 / 193"><img src="../../assets/img/guides/amman-theatre.jpg" width="472" height="193" sizes="(min-width: 1536px) 480px, (min-width: 1024px) 31vw, (min-width: 600px) 48vw, 100vw" loading="lazy" alt="The steep stone seating of Amman’s Roman Theatre"></div>
+            <div class="dg-card-body">
+              <div class="dg-card-copy">
+                <h3 class="dg-card-title">Roman Theatre &amp; Odeon</h3>
+                <p class="dg-card-text">Visit the Roman Theatre, built in the 2nd century AD in the reign of Antoninus Pius (138–161), and the smaller Odeon beside it, from the same century.</p>
+              </div>
+            </div>
           </li>
-          <li class="highlight reveal">
-            <span class="highlight-num" aria-hidden="true">03</span>
-            <h3 class="highlight-name">Downtown</h3>
-            <p class="highlight-text">The souks and coffee shops of downtown Amman, Al-Balad, are the place for spices, sweets and a slow cup of Arabic coffee.</p>
+          <li class="dg-card">
+            <div class="dg-card-photo" style="--ar: 473 / 193"><img src="../../assets/img/guides/amman-nymphaeum.jpg" width="473" height="194" sizes="(min-width: 1536px) 480px, (min-width: 1024px) 31vw, (min-width: 600px) 48vw, 100vw" loading="lazy" alt="The arched stone facade of the Roman Nymphaeum among downtown buildings"></div>
+            <div class="dg-card-body">
+              <div class="dg-card-copy">
+                <h3 class="dg-card-title">Roman Nymphaeum</h3>
+                <p class="dg-card-text">See the Roman Nymphaeum in downtown Amman, a large public fountain built in AD 191 at the heart of the old city.</p>
+              </div>
+            </div>
           </li>
-          <li class="highlight reveal" data-delay="1">
-            <span class="highlight-num" aria-hidden="true">04</span>
-            <h3 class="highlight-name">The Jordan Museum</h3>
-            <p class="highlight-text">The national museum shows the plaster statues of ʿAin Ghazal, among the oldest human figures ever made, and the Copper Scroll from the Dead Sea Scrolls.</p>
-          </li>
-        </ol>
+        </ul>
       </div>
     </section>
 
-    <!-- ============ Programs ============ -->
-    <section class="programs" id="programs" aria-labelledby="programs-title">
+    <section class="dg-section" id="experiences" aria-labelledby="experiences-title">
       <div class="container">
-        <div class="section-head section-head--split reveal">
+        <h2 class="dg-section-title" id="experiences-title">Experiences to try</h2>
+        <div class="dg-feature">
+          <figure class="dg-feature-photo" style="--ar: 568 / 170"><img src="../../assets/img/guides/amman-souk.jpg" width="568" height="170" loading="lazy" alt="A downtown souk street hung with textiles and scarves, with shoppers walking past"></figure>
+          <div class="dg-feature-copy">
+            <h3 class="dg-card-title">Souks, knafeh and Arabic coffee</h3>
+            <p class="dg-card-text">Take time to wander Amman’s lively downtown souks, shop for local crafts and spices, and enjoy a plate of knafeh with a cup of traditional Arabic coffee.</p>
+          </div>
+          <figure class="dg-feature-photo" style="--ar: 357 / 171"><img src="../../assets/img/guides/amman-knafeh-coffee.jpg" width="357" height="171" loading="lazy" alt="A round knafeh on a plate beside a cup of Arabic coffee and a brass coffee pot"></figure>
+        </div>
+        <div class="dg-more">
+          <p class="dg-more-label">Have more time?</p>
+          <figure class="dg-more-photo"><img src="../../assets/img/guides/amman-hejaz.jpg" width="286" height="81" loading="lazy" alt="The stone building of the Hejaz Railway Station in Amman"></figure>
           <div>
-            <p class="eyebrow">Travel programs</p>
-            <h2 class="section-title" id="programs-title" style="margin-block-start:18px">See Amman on a program</h2>
+            <h3 class="dg-card-title">Hejaz Railway Station</h3>
+            <p class="dg-card-text">Visit the Hejaz Railway Station, an Ottoman stop on the line that reached Amman in 1903. The old station now houses a small railway museum.</p>
           </div>
-          <p class="section-intro">Every program starts in Amman. These five include a tour of the city. Every program can be adjusted for your dates, pace and hotels.</p>
         </div>
+      </div>
+    </section>
 
-        <div class="program-grid program-grid--place">
-          <article class="program-card reveal">
-            <div class="program-media">
-              <img src="../../assets/img/photos/program-wadi-rum.jpg" width="1000" height="670" loading="lazy"
-                   alt="A 4×4 crossing the open sand of Wadi Rum below sandstone cliffs">
-              <p class="program-duration"><strong>5</strong><span>Days<br>4 nights</span></p>
-            </div>
-            <div class="program-body">
-              <h3 class="program-name">Jordan Explorer Tour</h3>
-              <ul class="program-route" aria-label="Main stops">
-                <li>Amman</li><li>Petra</li><li>Wadi Rum</li><li>Dead Sea</li>
-              </ul>
-              <div class="program-foot">
-                <p class="program-price">From <b>USD 990</b> per person</p>
-                <a class="program-more" href="../programs/jordan-explorer.html" aria-label="View itinerary: Jordan Explorer Tour">View itinerary</a>
-              </div>
-            </div>
-          </article>
-          <article class="program-card reveal" data-delay="1">
-            <div class="program-media">
-              <img src="../../assets/img/photos/program-jerash.jpg" width="1000" height="666" loading="lazy"
-                   alt="The Oval Plaza and colonnade of Roman Jerash">
-              <p class="program-duration"><strong>6</strong><span>Days<br>5 nights</span></p>
-            </div>
-            <div class="program-body">
-              <h3 class="program-name">Jordan Delights Tour 1</h3>
-              <ul class="program-route" aria-label="Main stops">
-                <li>Amman</li><li>Ajloun</li><li>Jerash</li><li>Madaba</li><li>Petra</li><li>Wadi Rum</li><li>Dead Sea</li>
-              </ul>
-              <div class="program-foot">
-                <p class="program-price">From <b>USD 1,065</b> per person</p>
-                <a class="program-more" href="../programs/jordan-delights-1.html" aria-label="View itinerary: Jordan Delights Tour 1">View itinerary</a>
-              </div>
-            </div>
-          </article>
-          <article class="program-card reveal" data-delay="2">
-            <div class="program-media">
-              <img src="../../assets/img/photos/dead-sea.jpg" width="1000" height="750" loading="lazy"
-                   alt="The calm water and salt-crusted shore of the Dead Sea">
-              <p class="program-duration"><strong>6</strong><span>Days<br>5 nights</span></p>
-            </div>
-            <div class="program-body">
-              <h3 class="program-name">Jordan Delights Tour 2</h3>
-              <ul class="program-route" aria-label="Main stops">
-                <li>Amman</li><li>Dead Sea</li><li>Petra</li><li>Little Petra</li><li>Wadi Rum</li><li>Aqaba</li>
-              </ul>
-              <div class="program-foot">
-                <p class="program-price">From <b>USD 976</b> per person</p>
-                <a class="program-more" href="../programs/jordan-delights-2.html" aria-label="View itinerary: Jordan Delights Tour 2">View itinerary</a>
-              </div>
-            </div>
-          </article>
-          <article class="program-card reveal">
-            <div class="program-media">
-              <img src="../../assets/img/photos/program-petra.jpg" width="1000" height="666" loading="lazy"
-                   alt="Visitors in front of the Treasury in Petra">
-              <p class="program-duration"><strong>8</strong><span>Days<br>7 nights</span></p>
-            </div>
-            <div class="program-body">
-              <h3 class="program-name">The Grand Jordan Tour</h3>
-              <ul class="program-route" aria-label="Main stops">
-                <li>Amman</li><li>Jerash</li><li>Ajloun</li><li>Umm Qais</li><li>Desert Castles</li><li>Madaba</li><li>Petra</li><li>Wadi Rum</li><li>Dead Sea</li>
-              </ul>
-              <div class="program-foot">
-                <p class="program-price">From <b>USD 1,315</b> per person</p>
-                <a class="program-more" href="../programs/grand-jordan.html" aria-label="View itinerary: The Grand Jordan Tour">View itinerary</a>
-              </div>
-            </div>
-          </article>
-          <article class="program-card reveal" data-delay="1">
-            <div class="program-media">
-              <img src="../../assets/img/photos/amman-citadel.jpg" width="1000" height="725" loading="lazy"
-                   alt="The columns of the Temple of Hercules on the Amman Citadel">
-              <p class="program-duration"><strong>8</strong><span>Days<br>7 nights</span></p>
-            </div>
-            <div class="program-body">
-              <h3 class="program-name">The Jordan Revealed Tour</h3>
-              <ul class="program-route" aria-label="Main stops">
-                <li>Amman</li><li>Madaba</li><li>Mount Nebo</li><li>Dead Sea</li><li>Petra</li><li>Little Petra</li><li>Wadi Rum</li><li>Aqaba</li>
-              </ul>
-              <div class="program-foot">
-                <p class="program-price">From <b>USD 1,290</b> per person</p>
-                <a class="program-more" href="../programs/jordan-revealed.html" aria-label="View itinerary: The Jordan Revealed Tour">View itinerary</a>
-              </div>
-            </div>
-          </article>
+    <!-- ============ Plan your visit ============ -->
+    <section class="dg-visit" id="plan-your-visit" aria-labelledby="visit-title">
+      <div class="container">
+        <div class="dg-visit-band">
+          <h2 class="dg-section-title" id="visit-title">Plan your visit</h2>
+          <ul class="dg-visit-tags">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg><span>Suggested visit</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21s-6.5-6.2-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.8 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.4"/></svg><span>Getting there</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6.5 8.5h11a1.5 1.5 0 0 1 1.5 1.6l-.7 9a1.5 1.5 0 0 1-1.5 1.4H7.2a1.5 1.5 0 0 1-1.5-1.4l-.7-9a1.5 1.5 0 0 1 1.5-1.6z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/></svg><span>What to bring</span></li>
+          </ul>
         </div>
+        <dl class="dg-visit-facts">
+          <div><dt>Suggested visit</dt><dd>One to two days. The theatre, the Odeon, the Nymphaeum and the souks are close together downtown, and the Citadel is on the hill above.</dd></div>
+          <div><dt>Getting there</dt><dd>Queen Alia International Airport is about 35 km south of the city. The Hejaz Railway Station is a taxi ride east of downtown.</dd></div>
+          <div><dt>What to bring</dt><dd>Comfortable shoes for steep streets and stairs. The climb to the Citadel is steep, so a short taxi ride saves your legs.</dd></div>
+        </dl>
+        <p class="dg-visit-note">Entry to the Citadel and the Roman Theatre is included in the Jordan Pass. Opening hours change during the year, so check them before you go.</p>
       </div>
     </section>
 
@@ -232,60 +156,40 @@
     <nav class="place-pager" aria-label="Destinations, north to south">
       <div class="container place-pager-inner">
         <a class="place-pager-stop" href="jerash.html"><small>← Previous stop</small><span>Jerash</span></a>
-        <a class="text-link place-pager-map" href="../index.html#discover">Back to the map</a>
-        <a class="place-pager-stop place-pager-next" href="dead-sea.html"><small>Next stop →</small><span>Dead Sea</span></a>
+        <a class="text-link place-pager-map place-pager-all" href="index.html">All destinations</a>
+        <a class="place-pager-stop place-pager-next" href="dead-sea.html"><small>Next stop →</small><span>The Dead Sea</span></a>
       </div>
     </nav>
   </main>
 
-  <!-- ============ Footer ============ -->
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <div class="footer-logo">
-            <img class="footer-emblem" src="../../assets/img/brand/logo.png" width="440" height="563" loading="lazy" alt="">
-            <img class="footer-wordmark" src="../../assets/img/brand/wordmark.png" width="408" height="132" loading="lazy" alt="Jordan Odyssey">
-          </div>
-          <p class="footer-slogan">Every stone has a story</p>
-        </div>
+      <div class="footer-band">
+        <a class="footer-brand" href="../index.html" aria-label="Jordan Odyssey — home">
+          <img class="footer-emblem" src="../../assets/img/brand/logo.png" width="440" height="563" loading="lazy" alt="">
+          <span class="footer-name">
+            <img class="footer-wordmark" src="../../assets/img/brand/wordmark.png" width="408" height="132" loading="lazy" alt="">
+            <span class="footer-slogan">Every stone has a story</span>
+          </span>
+        </a>
 
-        <div class="footer-cols">
-          <div>
-            <p class="footer-heading">Explore</p>
-            <ul class="footer-links">
-              <li><a href="../index.html">Home</a></li>
-              <li><a href="../index.html#discover">Discover Jordan</a></li>
-              <li><a href="../index.html#programs">Programs</a></li>
-            </ul>
-          </div>
-          <div>
-            <p class="footer-heading">Jordan Odyssey</p>
-            <p class="footer-text">Independent journeys across Jordan, from the Roman north to Petra, the desert and the Red Sea.</p>
-          </div>
-        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#heritage">Heritage</a></li>
+            <li><a href="../index.html#discover">Discover</a></li>
+            <li><a href="../destinations/index.html">Destinations</a></li>
+            <li><a href="../index.html#programs">Programs</a></li>
+          </ul>
+        </nav>
       </div>
 
       <div class="footer-bottom">
-        <p>© <span data-year>2026</span> Jordan Odyssey · jordanodyssey.com</p>
-        <a class="text-link" href="#top">Back to top ↑</a>
-
-        <div class="credits-wrap">
-          <details class="credits">
-            <summary>Photo credits</summary>
-            <ul>
-              <li>Amman, Temple of Hercules: AliAbuRas, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Temple_of_Hercules_-_Amman_citadel.jpg">Wikimedia Commons</a></li>
-              <li>Wadi Rum 4×4: Berthold Werner, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Wadi_Rum_BW_16.JPG">Wikimedia Commons</a></li>
-              <li>Jerash, Oval Plaza: Arian Zwegers, <a href="https://creativecommons.org/licenses/by/2.0" rel="license">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Jerash,_Oval_Plaza_(6738144433).jpg">Wikimedia Commons</a></li>
-              <li>Dead Sea, Jordanian shore: Alexandermcnabb, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Dead_Sea,_Jordanian_Shore.jpg">Wikimedia Commons</a></li>
-              <li>Petra, the Treasury: Ankur P, <a href="https://creativecommons.org/licenses/by/2.0" rel="license">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/wiki/File:The_Treasury_(Al_Khazneh)_at_Petra_(25).jpg">Wikimedia Commons</a></li>
-            </ul>
-          </details>
-        </div>
+        <p>© <span data-year>2026</span> Jordan Odyssey</p>
+        <a class="footer-top-link" href="#top">Back to top ↑</a>
       </div>
     </div>
   </footer>
-
   <script src="../../assets/js/main.js" defer></script>
 </body>
 </html>

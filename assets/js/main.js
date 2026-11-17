@@ -14,6 +14,19 @@
   window.addEventListener('scroll', updateHeader, { passive: true });
   updateHeader();
 
+  /* Arriving from another page at a section (e.g. index.html#programs): the browser
+     aims before the web fonts settle, and the text reflow can leave the section off by
+     a few lines. Aim again once the fonts settle, unless the visitor has started scrolling. */
+  if (location.hash.length > 1 && document.fonts && document.fonts.ready) {
+    var target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    var moved = false;
+    var stop = function () { moved = true; };
+    ['wheel', 'touchstart', 'keydown'].forEach(function (t) { window.addEventListener(t, stop, { once: true, passive: true }); });
+    if (target) document.fonts.ready.then(function () {
+      setTimeout(function () { if (!moved) target.scrollIntoView({ block: 'start' }); }, 60);
+    });
+  }
+
   /* Mobile menu */
   function setMenu(open) {
     toggle.setAttribute('aria-expanded', String(open));
@@ -191,7 +204,7 @@
       setCaption(t < 2.5 ? 'The ridges above Petra'
         : t < 3.6 ? 'Entrance to the Siq'
         : t < 7.2 ? 'Inside the Siq'
-        : t < 11.3 ? 'Al-Khazneh, seen from the Siq'
+        : t < 11.3 ? 'Al-Khazneh, the Treasury'
         : 'The ridges above Petra');
     }
 

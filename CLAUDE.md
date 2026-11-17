@@ -9,3 +9,11 @@ I’m Jordanian and live in the UAE. I’ve already registered **jordanodyssey.c
 **Brand direction.** Start the visual identity for Jordan Odyssey from scratch. Set aside all earlier logo concepts and visual preferences. You have full creative freedom over the symbol, wording, typography, colors, mood, and slogan. Choose what you think works best for an independent travel brand that helps people discover and explore Jordan.
 
 **Start by proposing** the first-release sitemap, a simple project structure, and three genuinely different visual directions. Once we agree on the direction, proceed with the build.
+
+## Preview and publishing workflow
+
+The project is connected to the GitHub repository **mohammaddaher/JordanOdyssey**. Vercel automatically deploys every push to `main` to **https://jordanodyssey.com**.
+
+1. **Preview locally first.** Make changes in the local project, run the local development server, and give me the exact localhost URL for each page you changed. Briefly summarize what changed and what you tested. Keep all changes local (no commits, no pushes) while I review them.
+2. **Publish only when I explicitly say “publish.”** Treat that word as approval to publish the changes I just reviewed, and nothing else. Check the diff, commit only those changes, and push to `main` on mohammaddaher/JordanOdyssey. The push triggers the Vercel deployment through the existing GitHub connection; don’t deploy any other way.
+3. **Verify after publishing.** Give me the commit ID and the live URL. Check that the updated page is live on jordanodyssey.com, and tell me if the deployment is still pending or has failed.
