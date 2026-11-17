@@ -1,0 +1,2 @@
+# Built on every deploy by scripts/build-sitemap.mjs
+/sitemap.xml

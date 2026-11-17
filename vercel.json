@@ -1,7 +1,15 @@
 {
+  "buildCommand": "node scripts/build-sitemap.mjs",
+  "outputDirectory": ".",
   "redirects": [
     { "source": "/", "destination": "/en/", "statusCode": 301 },
     { "source": "/index.html", "destination": "/en/", "statusCode": 301 },
     { "source": "/en/index.html", "destination": "/en/", "statusCode": 301 }
+  ],
+  "headers": [
+    {
+      "source": "/sitemap.xml",
+      "headers": [{ "key": "Content-Type", "value": "application/xml; charset=utf-8" }]
+    }
   ]
 }
