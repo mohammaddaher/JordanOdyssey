@@ -18,6 +18,9 @@ import { join } from 'node:path';
 import { ROOT, SITE, SITE_NAME, LANGS, LOCALES, DIRS, allPages, isIndexable, urlFor } from './site.mjs';
 
 const CHECK_ONLY = process.argv.includes('--check');
+// The only pages allowed to carry a robots "noindex" tag (paths inside a language folder).
+// Anywhere else it stops the deploy, so the live site keeps its indexable pages.
+const NOINDEX_ALLOWED = new Set(['404.html', 'thank-you.html']);
 const START = '<!-- seo:start: written by scripts/build-head.mjs; edit the <title>, meta description or page content instead -->';
 const END = '<!-- seo:end -->';
 const BLOCK_RE = /[ \t]*<!-- seo:start[\s\S]*?<!-- seo:end -->\n?/;
@@ -216,6 +219,7 @@ function block(lang, rel, html, indexable) {
 /* ---------- run ---------- */
 
 const problems = [];
+const blocked = [];
 const seen = { title: new Map(), description: new Map() };
 let changed = 0;
 for (const { lang, rel, file } of allPages()) {
@@ -226,6 +230,10 @@ for (const { lang, rel, file } of allPages()) {
     const indexable = isIndexable(html);
     const { page, text: tags } = block(lang, rel, html.replace(BLOCK_RE, ''), indexable);
     const where = `${lang}/${rel}`;
+    const robots = html.match(/<meta\b[^>]*name\s*=\s*["']?(robots|googlebot)["']?[^>]*>/gi) || [];
+    if (robots.some((m) => /noindex/i.test(m)) && !NOINDEX_ALLOWED.has(rel)) {
+      blocked.push(`${where} has a robots "noindex" tag; remove it, or add the page to NOINDEX_ALLOWED in scripts/build-head.mjs`);
+    }
 
     if (!page.title) problems.push(`${where}: missing <title>`);
     else if (page.title.length > 60) problems.push(`${where}: title is ${page.title.length} characters (aim for 60 or fewer)`);
@@ -255,3 +263,8 @@ for (const { lang, rel, file } of allPages()) {
 }
 for (const p of problems) console.warn('head: ' + p);
 console.log(`head: ${CHECK_ONLY ? 'checked' : `updated ${changed}`} page(s), ${problems.length} problem(s)`);
+if (blocked.length) {
+  for (const b of blocked) console.error('head: STOPPED: ' + b);
+  console.error('head: deploy stopped so the live site stays indexable');
+  process.exit(1);
+}
