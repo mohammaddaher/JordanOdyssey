@@ -1,11 +1,10 @@
 // Jordan Odyssey: enquiry page. Pre-selects the program from ?program=<slug>,
-// checks the fields, and sends the enquiry (program, name, email, phone, travel dates,
-// number of travelers and message) once the server endpoint exists.
+// checks the fields, adds where the visit came from, and sends the enquiry to /api/enquiry
+// (a Vercel Function that emails it). A confirmed send is reported to the dataLayer as generate_lead.
 (function () {
   'use strict';
 
-  // Set to '/api/enquiry' once the Vercel Function and email service are connected.
-  var ENDPOINT = null;
+  var ENDPOINT = '/api/enquiry';
 
   var TEXT = {
     en: {
@@ -20,7 +19,8 @@
       offline: 'The enquiry form isn’t connected yet, so this message hasn’t been sent.'
     }
   };
-  var t = TEXT[document.documentElement.lang] || TEXT.en;
+  var lang = (document.documentElement.lang || 'en').slice(0, 2).toLowerCase();
+  var t = TEXT[lang] || TEXT.en;
 
   var form = document.querySelector('[data-enquire-form]');
   if (!form) return;
@@ -74,6 +74,32 @@
     });
   });
 
+  /* Where the visit came from (campaign tags, landing page, referrer), plus this page and the program.
+     Stored values come from tracking.js; without storage, the current address still supplies its tags. */
+  function fillSource() {
+    var src = (window.JO && window.JO.attribution) ? window.JO.attribution() : {};
+    var here = new URLSearchParams(location.search);
+    ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'gbraid', 'wbraid', 'fbclid'].forEach(function (k) {
+      if (!src[k] && here.get(k)) src[k] = here.get(k).slice(0, 300);
+    });
+    var opt = select.options[select.selectedIndex];
+    src.landing_page = src.landing_page || location.href;
+    src.referrer = src.referrer || document.referrer;
+    src.page_submitted_from = location.href;
+    src.language = lang;
+    src.program_slug = (opt && opt.getAttribute('data-slug')) || '';
+    Array.prototype.forEach.call(form.querySelectorAll('[data-source]'), function (input) {
+      input.value = src[input.name] || '';
+    });
+  }
+
+  /* "3–4 travellers" -> "3-4", "9 or more travellers" -> "9+", nothing chosen -> "not_given" */
+  function travellerCount(v) {
+    if (!v) return 'not_given';
+    if (/or more/.test(v)) return v.replace(/\D+/g, '') + '+';
+    return v.replace(/[^\d–-]/g, '').replace('–', '-');
+  }
+
   function setStatus(msg, kind) {
     status.textContent = msg;
     status.className = 'form-status' + (kind ? ' is-' + kind : '');
@@ -87,22 +113,50 @@
       form.elements[bad[0]].focus();
       return;
     }
-    if (!ENDPOINT) { setStatus(t.offline, 'error'); return; }
-
+    fillSource();
     var data = {};
     new FormData(form).forEach(function (v, k) { data[k] = String(v).trim(); });
-    data.page = location.href;
+    // Kept before the form resets: the analytics event carries no personal details
+    var lead = {
+      event: 'generate_lead',
+      form_name: 'enquiry',
+      program: data.program_slug || 'undecided',
+      language: lang,
+      travellers: travellerCount(data.travelers)
+    };
     var button = form.querySelector('[type="submit"]');
     button.disabled = true;
     setStatus(t.sending);
-    fetch(ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
+    fetch(ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(data) })
       .then(function (r) {
-        if (!r.ok) throw new Error(r.status);
-        setStatus(t.sent, 'success');
-        form.reset();
-        showSummary();
-        // Hook for analytics: a successful submission
-        document.dispatchEvent(new CustomEvent('jo:enquiry-sent', { detail: { program: data.program } }));
+        return r.json().catch(function () { return {}; }).then(function (body) { return { status: r.status, ok: r.ok, body: body }; });
+      })
+      .then(function (res) {
+        if (res.ok && res.body.ok === true) {
+          setStatus(t.sent, 'success');
+          form.reset();
+          showSummary();
+          // Only after the server confirms the enquiry was sent
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push(lead);
+          return;
+        }
+        var err = res.body.error;
+        if (err === 'validation' && res.body.fields) {
+          var first = null;
+          Object.keys(res.body.fields).forEach(function (name) {
+            if (!form.elements[name] || !t[name]) return;
+            form.elements[name].setAttribute('aria-invalid', 'true');
+            form.querySelector('[data-error-for="' + name + '"]').textContent = t[name];
+            first = first || name;
+          });
+          setStatus(t.fix, 'error');
+          if (first) form.elements[first].focus();
+        } else if (err === 'not_configured') {
+          setStatus(t.offline, 'error');
+        } else {
+          setStatus(t.failed, 'error');
+        }
       })
       .catch(function () { setStatus(t.failed, 'error'); })
       .then(function () { button.disabled = false; });

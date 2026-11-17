@@ -3,6 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Consent Mode v2: off until accepted in the EU/EEA, the UK and Switzerland, on elsewhere; a saved choice wins -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('consent', 'default', {
+      ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied',
+      wait_for_update: 500,
+      region: ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'IS', 'LI', 'NO', 'GB', 'CH']
+    });
+    gtag('consent', 'default', { ad_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted', analytics_storage: 'granted' });
+    (function () {
+      try {
+        var c = JSON.parse(localStorage.getItem('jo_consent') || 'null');
+        if (c && Date.now() - c.at < 365 * 864e5) {
+          var v = c.choice === 'accepted' ? 'granted' : 'denied';
+          gtag('consent', 'update', { ad_storage: v, ad_user_data: v, ad_personalization: v, analytics_storage: v });
+        }
+      } catch (e) { /* storage unavailable */ }
+    })();
+  </script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MQDSTF98');</script>
+  <!-- End Google Tag Manager -->
   <title>Amman | Jordan Odyssey</title>
   <meta name="description" content="Amman in a day: the Citadel, the Roman Theatre and Odeon and the Roman Nymphaeum, then the downtown souks, knafeh and Arabic coffee, and the Hejaz Railway Station if you have more time.">
   <meta name="theme-color" content="#4a170f">
@@ -19,6 +46,9 @@
   <script>document.documentElement.classList.add('js');</script>
 </head>
 <body id="top" class="dg-body">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQDSTF98" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- ============ Header ============ -->
@@ -185,10 +215,12 @@
 
       <div class="footer-bottom">
         <p>© <span data-year>2026</span> Jordan Odyssey</p>
+        <p class="footer-legal"><a href="../privacy.html">Privacy</a><span aria-hidden="true">·</span><a href="../privacy.html#cookies" data-cookie-settings>Cookie settings</a></p>
         <a class="footer-top-link" href="#top">Back to top ↑</a>
       </div>
     </div>
   </footer>
+  <script src="../../assets/js/tracking.js" defer></script>
   <script src="../../assets/js/main.js" defer></script>
 </body>
 </html>
