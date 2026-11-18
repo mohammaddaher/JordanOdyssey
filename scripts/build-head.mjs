@@ -55,7 +55,8 @@ function readPage(html) {
   const crumbs = [];
   const nav = first(html, /<nav\b[^>]*aria-label="Breadcrumb"[^>]*>([\s\S]*?)<\/nav>/i);
   for (const li of nav.match(/<li\b[^>]*>[\s\S]*?<\/li>/gi) || []) {
-    crumbs.push({ name: text(li), href: first(li, /href="([^"]*)"/i) });
+    // an icon-only link (the About page's home icon) is named by its aria-label
+    crumbs.push({ name: text(li) || decode(first(li, /aria-label="([^"]*)"/i)).trim(), href: first(li, /href="([^"]*)"/i) });
   }
   return { title, description, h1, crumbName, crumbs };
 }

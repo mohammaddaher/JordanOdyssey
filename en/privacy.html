@@ -108,6 +108,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Amiri:wght@400&display=swap">
   <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/privacy.css">
   <script>document.documentElement.classList.add('js');</script>
 </head>
 <body id="top">
@@ -143,29 +144,61 @@
     </div>
   </header>
 
-  <main id="main">
-    <article class="legal" aria-labelledby="privacy-title">
-      <div class="container legal-inner">
-        <h1 class="legal-title" id="privacy-title">Privacy</h1>
-        <p class="legal-lede">How Jordan Odyssey handles the details you share with us, and what this website measures.</p>
-        <p class="legal-updated">Last updated 17 November 2026</p>
+  <main id="main" class="privacy">
+    <article aria-labelledby="privacy-title">
+      <div class="pv-band">
+        <div class="container pv-band-inner">
+          <h1 class="pv-title" id="privacy-title">Privacy</h1>
+          <p class="pv-lede">How Jordan Odyssey handles the details you share with us, and what this website measures.</p>
+          <p class="pv-updated">Last updated 17 November 2026</p>
+        </div>
+      </div>
 
-        <h2 id="enquiries">When you send an enquiry</h2>
-        <p>The enquiry form sends us your name, email address, phone or WhatsApp number if you add one, your trip details and your message. We use them only to reply to you and plan your trip. The form is delivered to our inbox by our email service, Resend. We don’t sell your details or share them for anyone else’s marketing.</p>
+      <div class="container pv-layout">
+        <nav class="pv-toc" aria-labelledby="toc-title">
+          <h2 class="pv-toc-title" id="toc-title">On this page</h2>
+          <ul>
+            <li><a href="#enquiries">When you send an enquiry</a></li>
+            <li><a href="#source">How you found us</a></li>
+            <li><a href="#analytics">Analytics and cookies</a></li>
+            <li><a href="#cookies">Your choices</a></li>
+            <li><a href="#rights">Your rights</a></li>
+          </ul>
+          <button class="pv-settings" type="button" data-cookie-settings>Open cookie settings</button>
+        </nav>
 
-        <h2 id="source">Where your visit came from</h2>
-        <p>Each enquiry also tells us how you found us, so we can see which pages and adverts bring travellers to Jordan Odyssey. This includes any campaign tags in the link you followed (such as <code>utm_source</code> or an advert click ID like <code>gclid</code>), the first page you landed on, the website that sent you, and the page you sent the form from. Your browser keeps the campaign details for up to 90 days, so an enquiry made on a later visit is still matched to the advert that first brought you here.</p>
+        <div class="pv-policy">
+          <section class="pv-section" id="enquiries" aria-labelledby="enquiries-title">
+            <h2 id="enquiries-title">When you send an enquiry</h2>
+            <p>When you fill in our enquiry form, you send us your name and email address, your phone or WhatsApp number if you add one, your trip details and your message.</p>
+            <p>We use these details only to reply to you and plan your trip. We don’t sell them or share them for anyone else’s marketing. The form reaches our inbox through our email service, Resend.</p>
+          </section>
 
-        <h2 id="analytics">Google Analytics and cookies</h2>
-        <p>We use Google Analytics, through Google Tag Manager, to understand how the site is used, for example which pages are visited, roughly where visitors are and which devices they use, and to measure our adverts. Google Analytics sets cookies such as <code>_ga</code> to recognise returning visitors. You can read how Google uses this information on <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">Google’s privacy site</a>.</p>
+          <section class="pv-section" id="source" aria-labelledby="source-title">
+            <h2 id="source-title">How you found us</h2>
+            <p>Your enquiry may also tell us how you found us: the website or advert that brought you here, the first page you visited and the page you sent the form from. This shows us which pages and adverts are useful to travellers.</p>
+            <p>If you arrived through an advert or a campaign link, your browser keeps those details for up to 90 days. That way, an enquiry you send on a later visit is still matched to the advert that first brought you here.</p>
+          </section>
 
-        <h2 id="cookies">Your choices</h2>
-        <p>If you visit from the European Union, the European Economic Area, the United Kingdom or Switzerland, analytics and advertising cookies stay off until you choose <b>Accept</b>. Elsewhere they are on by default, and you can turn them off by choosing <b>Reject</b>. You can change your choice at any time with the <b>Cookie settings</b> link at the bottom of every page.</p>
-        <p>Your browser also stores three small items for this site: your cookie choice (kept for a year), the campaign details above (kept for 90 days) and the first page of your current visit.</p>
-        <p><a class="legal-settings" href="#cookies" data-cookie-settings>Open cookie settings</a></p>
+          <section class="pv-section" id="analytics" aria-labelledby="analytics-title">
+            <h2 id="analytics-title">Analytics and cookies</h2>
+            <p>We use Google Analytics to understand how people use this website: which pages they visit, roughly where they are and what devices they use. It also helps us measure how well our adverts work.</p>
+            <p>Google Analytics uses cookies to recognise returning visitors. You can read how Google uses this information on <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">Google’s privacy site</a>.</p>
+          </section>
 
-        <h2 id="rights">Your rights</h2>
-        <p>You can ask us what we hold about you, or ask us to correct or delete it. Reply to any email from us, or send a message through the <a href="enquire.html">enquiry form</a>.</p>
+          <section class="pv-section pv-section--choices" id="cookies" aria-labelledby="cookies-title">
+            <h2 id="cookies-title">Your choices</h2>
+            <p>If you visit from the European Union, the European Economic Area, the United Kingdom or Switzerland, analytics and advertising cookies stay off until you choose <b>Accept</b>. Everywhere else, they’re on by default, and you can turn them off by choosing <b>Reject</b>.</p>
+            <p>You can change your choice at any time with the <b>Cookie settings</b> link at the bottom of every page, or with the button below.</p>
+            <p>Your browser also keeps three small items for this website: your cookie choice (for a year), the campaign details mentioned above (for 90 days) and the first page of your current visit.</p>
+            <button class="pv-settings" type="button" data-cookie-settings>Open cookie settings</button>
+          </section>
+
+          <section class="pv-section" id="rights" aria-labelledby="rights-title">
+            <h2 id="rights-title">Your rights</h2>
+            <p>You can ask us what information we hold about you, or ask us to correct or delete it. Just reply to any email from us, or send a message through the <a href="enquire.html">enquiry form</a>.</p>
+          </section>
+        </div>
       </div>
     </article>
   </main>

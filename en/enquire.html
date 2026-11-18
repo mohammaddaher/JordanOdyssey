@@ -107,8 +107,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Amiri:wght@400&display=swap">
-  <link rel="preload" as="image" href="../assets/img/discover/wadi-rum.jpg" media="(min-width: 900px)">
+  <link rel="preload" as="image" href="../assets/img/photos/enquire-wadi-rum-night.jpg" media="(min-width: 960px)">
   <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/enquire.css">
   <script>document.documentElement.classList.add('js');</script>
 </head>
 <body id="top">
@@ -156,11 +157,12 @@
           <p class="enquire-lede">Share a few details and we’ll help shape your itinerary.</p>
 
           <form class="enquire-form" action="/api/enquiry" method="post" novalidate data-enquire-form>
-            <h2 class="enquire-heading">Trip details</h2>
-            <div class="field">
-              <label for="f-program">Travel program</label>
-              <select id="f-program" name="program" data-program-select aria-describedby="program-hint">
-                <option value="Help me choose or plan a custom trip">I’m still deciding</option>
+            <div class="enq-panel" role="group" aria-labelledby="trip-title">
+              <h2 class="enquire-heading" id="trip-title">Trip details</h2>
+              <div class="field">
+                <label for="f-program">Travel program</label>
+                <select id="f-program" name="program" data-program-select aria-describedby="program-hint">
+                  <option value="Help me choose or plan a custom trip">I’m still deciding</option>
                   <option value="Jordan Explorer Tour" data-slug="jordan-explorer" data-days="5" data-price="USD 990" data-url="programs/jordan-explorer.html">Jordan Explorer Tour (5 days)</option>
                   <option value="Best of Jordan Tour" data-slug="best-of-jordan" data-days="5" data-price="USD 1,075" data-url="programs/best-of-jordan.html">Best of Jordan Tour (5 days)</option>
                   <option value="Jordan Delights Tour 1" data-slug="jordan-delights-1" data-days="6" data-price="USD 1,065" data-url="programs/jordan-delights-1.html">Jordan Delights Tour 1 (6 days)</option>
@@ -168,57 +170,65 @@
                   <option value="Jordan Discovery Tour" data-slug="jordan-discovery" data-days="7" data-price="USD 1,120" data-url="programs/jordan-discovery.html">Jordan Discovery Tour (7 days)</option>
                   <option value="The Grand Jordan Tour" data-slug="grand-jordan" data-days="8" data-price="USD 1,315" data-url="programs/grand-jordan.html">The Grand Jordan Tour (8 days)</option>
                   <option value="The Jordan Revealed Tour" data-slug="jordan-revealed" data-days="8" data-price="USD 1,290" data-url="programs/jordan-revealed.html">The Jordan Revealed Tour (8 days)</option>
-              </select>
-              <p class="program-hint" id="program-hint" data-program-summary hidden>
-                <span data-summary-days></span> · From <b data-summary-price></b> per person · <a href="#" data-summary-link>View itinerary</a>
-              </p>
-            </div>
-            <div class="enquire-pair">
-              <div class="field field--date">
-                <label for="f-dates">Travel dates <span class="opt">(optional)</span></label>
-                <span class="field-icon">
-                  <input id="f-dates" name="dates" type="text" maxlength="100" placeholder="Dates or month">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
-                </span>
+                </select>
+                <p class="program-hint" id="program-hint" data-program-summary hidden>
+                  <span data-summary-days></span> · From <b data-summary-price></b> per person · <a href="#" data-summary-link>View itinerary</a>
+                </p>
+              </div>
+              <div class="enq-row">
+                <div class="field field--date" data-date-range>
+                  <label for="f-dates" id="l-dates">Travel dates <span class="opt">(optional)</span></label>
+                  <!-- Opens the calendar; the chosen range is sent in the hidden "dates" field -->
+                  <button class="date-trigger" id="f-dates" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="date-picker" aria-labelledby="l-dates f-dates-text" data-date-trigger>
+                    <svg class="date-trigger-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
+                    <span class="date-trigger-text is-empty" id="f-dates-text" data-date-text>Select travel dates</span>
+                  </button>
+                  <input type="hidden" name="dates" data-date-value>
+                  <div class="datepicker" id="date-picker" role="dialog" aria-label="Choose your travel dates" hidden data-datepicker></div>
+                </div>
+                <div class="field">
+                  <label for="f-travelers">Travellers</label>
+                  <select id="f-travelers" name="travelers">
+                    <option value="">Select travellers</option>
+                    <option value="1 traveller">1 traveller</option>
+                    <option value="2 travellers">2 travellers</option>
+                    <option value="3–4 travellers">3–4 travellers</option>
+                    <option value="5–8 travellers">5–8 travellers</option>
+                    <option value="9 or more travellers">9 or more travellers</option>
+                  </select>
+                </div>
               </div>
               <div class="field">
-                <label for="f-travelers">Travellers</label>
-                <select id="f-travelers" name="travelers">
-                  <option value="">Select travellers</option>
-                  <option value="1 traveller">1 traveller</option>
-                  <option value="2 travellers">2 travellers</option>
-                  <option value="3–4 travellers">3–4 travellers</option>
-                  <option value="5–8 travellers">5–8 travellers</option>
-                  <option value="9 or more travellers">9 or more travellers</option>
-                </select>
+                <label for="f-message">What would you like to do? <span class="opt">(optional)</span></label>
+                <textarea id="f-message" name="message" rows="4" maxlength="3000" placeholder="Tell us about your interests, places you’d like to visit, or anything else…" aria-describedby="e-message"></textarea>
+                <p class="field-error" id="e-message" data-error-for="message"></p>
               </div>
             </div>
-            <div class="field">
-              <label for="f-message">What would you like to do? <span class="opt">(optional)</span></label>
-              <textarea id="f-message" name="message" rows="2" maxlength="3000" placeholder="Tell us about your interests, places you’d like to visit, or anything else…" aria-describedby="e-message"></textarea>
-              <p class="field-error" id="e-message" data-error-for="message"></p>
-            </div>
 
-            <h2 class="enquire-heading">Contact details</h2>
-            <div class="enquire-pair enquire-contact">
+            <div class="enq-panel" role="group" aria-labelledby="contact-title">
+              <h2 class="enquire-heading" id="contact-title">Contact details</h2>
               <div class="field">
                 <label for="f-name">Name</label>
                 <input id="f-name" name="name" type="text" autocomplete="name" required maxlength="100" placeholder="Your name" aria-describedby="e-name">
                 <p class="field-error" id="e-name" data-error-for="name"></p>
               </div>
-              <div class="field">
-                <label for="f-email">Email</label>
-                <input id="f-email" name="email" type="email" autocomplete="email" required maxlength="200" placeholder="Your email address" aria-describedby="e-email">
-                <p class="field-error" id="e-email" data-error-for="email"></p>
+              <div class="enq-row">
+                <div class="field">
+                  <label for="f-email">Email</label>
+                  <input id="f-email" name="email" type="email" autocomplete="email" required maxlength="200" placeholder="Your email address" aria-describedby="e-email">
+                  <p class="field-error" id="e-email" data-error-for="email"></p>
+                </div>
+                <div class="field">
+                  <label for="f-phone">Phone or WhatsApp <span class="opt">(optional)</span></label>
+                  <input id="f-phone" name="phone" type="tel" autocomplete="tel" maxlength="30" placeholder="Your phone number" aria-describedby="e-phone">
+                  <p class="field-error" id="e-phone" data-error-for="phone"></p>
+                </div>
               </div>
-              <div class="field">
-                <label for="f-phone">Phone or WhatsApp <span class="opt">(optional)</span></label>
-                <input id="f-phone" name="phone" type="tel" autocomplete="tel" maxlength="30" placeholder="Your phone number" aria-describedby="e-phone">
-                <p class="field-error" id="e-phone" data-error-for="phone"></p>
-              </div>
-              <button class="enquire-send" type="submit">Send enquiry</button>
-              <p class="enquire-privacy">We use your details only to reply. <a href="privacy.html">Privacy policy</a></p>
             </div>
+
+            <button class="enquire-send" type="submit">Send enquiry</button>
+            <p class="enquire-privacy">We use your details only to reply. <a href="privacy.html">Privacy policy</a></p>
+            <p class="form-status" role="status" aria-live="polite" data-form-status></p>
             <!-- Where the visit came from: filled in just before sending, shown in the email's "Source" section -->
             <input type="hidden" name="utm_source" data-source>
             <input type="hidden" name="utm_medium" data-source>
@@ -239,7 +249,6 @@
               <label for="f-website">Website</label>
               <input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off">
             </div>
-            <p class="form-status" role="status" aria-live="polite" data-form-status></p>
           </form>
         </div>
       </div>
@@ -280,6 +289,7 @@
 
   <script src="../assets/js/tracking.js" defer></script>
   <script src="../assets/js/main.js" defer></script>
+  <script src="../assets/js/date-range.js" defer></script>
   <script src="../assets/js/enquire.js" defer></script>
 </body>
 </html>

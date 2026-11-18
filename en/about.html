@@ -107,8 +107,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Amiri:wght@400&display=swap">
-  <link rel="preload" as="image" imagesrcset="../assets/img/about/hero-wadi-rum-800.jpg 800w, ../assets/img/about/hero-wadi-rum-1600.jpg 1600w" imagesizes="(min-width: 1024px) 56vw, 100vw">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Nunito+Sans:wght@400;600&family=Playfair+Display:ital,wght@1,700&display=swap">
+  <link rel="preload" as="image" imagesrcset="../assets/img/about/hero-siq-treasury-800.jpg 800w, ../assets/img/about/hero-siq-treasury-1600.jpg 1600w" imagesizes="(min-width: 768px) 54vw, 100vw">
   <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/about.css">
   <script>document.documentElement.classList.add('js');</script>
 </head>
 <body id="top" class="dg-body">
@@ -144,92 +146,137 @@
     </div>
   </header>
 
-  <main id="main" class="dg-page about-page" data-breadcrumb="About">
+  <main id="main" class="about-page" data-breadcrumb="About">
     <!-- ============ Hero ============ -->
-    <section class="dg-hero dg-hero--dark about-hero" style="--cut: 44%; --pos: 50% 62%; --pos-m: 38% 62%" aria-labelledby="about-title">
-      <div class="dg-hero-fill" aria-hidden="true"><img src="../assets/img/about/hero-wadi-rum-800.jpg" width="800" height="350" alt=""></div>
-      <div class="dg-hero-photo">
-        <img src="../assets/img/about/hero-wadi-rum-1600.jpg" srcset="../assets/img/about/hero-wadi-rum-800.jpg 800w, ../assets/img/about/hero-wadi-rum-1600.jpg 1600w" sizes="(min-width: 1024px) 56vw, 100vw" width="1600" height="700" alt="Sandstone mountains rising from the warm red sand of Wadi Rum" fetchpriority="high">
+    <section class="ab-hero" aria-labelledby="about-title">
+      <div class="ab-hero-photo">
+        <img src="../assets/img/about/hero-siq-treasury-1600.jpg" srcset="../assets/img/about/hero-siq-treasury-800.jpg 800w, ../assets/img/about/hero-siq-treasury-1600.jpg 1600w" sizes="(min-width: 768px) 54vw, 100vw" width="1600" height="900" alt="The Treasury at Petra, glimpsed through the narrow sandstone walls of the Siq" fetchpriority="high">
       </div>
-      <div class="container dg-hero-inner">
-        <div class="dg-hero-copy">
-          <h1 class="dg-hero-title dg-hero-title--plain about-title" id="about-title">Every Stone Has a Story. <span>We’re Here to Tell It.</span></h1>
-        </div>
+      <div class="ab-wrap ab-hero-inner">
+        <nav class="ab-crumbs" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="/en/" aria-label="Home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 11 12 4l8.5 7"/><path d="M5.5 9.5V20h4.5v-5.5h4V20h4.5V9.5"/></svg></a></li>
+            <li><span aria-current="page">About</span></li>
+          </ol>
+        </nav>
+        <h1 class="ab-title" id="about-title">Every Stone Has a Story. We’re Here to Tell It.</h1>
       </div>
+      <svg class="ab-wave" viewBox="0 0 1440 140" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path fill="currentColor" d="M0 102C140 62 230 50 320 54c240 10 540 78 800 82 140 2 230-36 320-128v132H0Z"/></svg>
     </section>
 
-    <div class="container about-body">
-      <p class="about-lead">Jordan isn’t a place you simply see. It’s a place you feel: the hush of the Siq before the Treasury appears, the silence of a Wadi Rum night, the warmth of a Bedouin welcome. Jordan Odyssey exists to help you experience all of it, without the stress of planning it alone.</p>
+    <div class="ab-body">
+      <svg class="ab-contours" viewBox="0 0 120 360" preserveAspectRatio="none" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true" focusable="false">
+        <path d="M120 6C70 40 40 90 52 150s58 110 30 170c-10 22-14 30-14 40"/>
+        <path d="M120 30C82 58 60 100 70 154s52 104 30 160c-8 20-10 32-10 46"/>
+        <path d="M120 56C94 78 78 112 86 158s44 96 28 150c-6 20-6 36-4 52"/>
+        <path d="M120 84c-16 18-26 46-20 78s34 84 22 132c-4 22-2 44 0 66"/>
+        <path d="M120 116c-8 14-12 34-8 56s20 60 12 104c-4 26 0 56 4 84"/>
+        <path d="M120 160c-4 10-4 22-2 36s8 40 4 70"/>
+      </svg>
 
-      <!-- ============ Our story ============ -->
-      <section class="about-section" aria-labelledby="story-title">
-        <h2 class="dg-section-title" id="story-title">Our story</h2>
-        <div class="about-prose">
-          <p>Jordan Odyssey is a family-run team based in Jordan and the UAE. Our experience guiding travellers in Jordan shapes the way we plan each trip, from when to set out for Petra to where it’s worth staying an extra night.</p>
-          <p>If it’s your first visit, we’ll help you work out what fits comfortably into the time you have. If you’re travelling with children or grandparents, we can build in shorter drives, time for lunch, and an easier start after a long day. We’ll help you spend your time in Jordan in a way that suits the people you’re travelling with.</p>
-        </div>
-      </section>
+      <div class="ab-wrap">
+        <p class="ab-lead ab-accent">Jordan isn’t a place you simply see. It’s a place you feel: the hush of the Siq before the Treasury appears, the silence of a Wadi Rum night, the warmth of a Bedouin welcome. Jordan Odyssey exists to help you experience all of it, without the stress of planning it alone.</p>
 
-      <!-- ============ Why travel with us ============ -->
-      <section class="about-section" aria-labelledby="why-title">
-        <h2 class="dg-section-title" id="why-title">Why travel with Jordan Odyssey</h2>
-        <ul class="about-reasons">
-          <li class="about-reason">
-            <h3 class="about-reason-title">First-hand local knowledge</h3>
-            <p>We draw on experience guiding in Jordan to suggest when to visit, where to find quieter viewpoints, and where to stop for a meal.</p>
-          </li>
-          <li class="about-reason">
-            <h3 class="about-reason-title">Designed for families</h3>
-            <p>We plan around comfortable transport, family-friendly stays, dining preferences, and a pace that works for everyone.</p>
-          </li>
-          <li class="about-reason">
-            <h3 class="about-reason-title">Every trip, your way</h3>
-            <p>Our programs are a starting point. We can adapt the dates, pace, hotels, and places you’d like to visit.</p>
-          </li>
-          <li class="about-reason">
-            <h3 class="about-reason-title">A real person to talk to</h3>
-            <p>You’ll hear directly from the team planning your trip.</p>
-          </li>
-          <li class="about-reason">
-            <h3 class="about-reason-title">Clear about what’s included</h3>
-            <p>We explain what the quote covers before you decide.</p>
-          </li>
-        </ul>
-      </section>
+        <!-- ============ Our story ============ -->
+        <section class="ab-story ab-accent" aria-labelledby="story-title">
+          <h2 class="ab-h2" id="story-title">Our story</h2>
+          <p>Jordan Odyssey is a family-run team. Our experience guiding travellers in Jordan shapes how we plan each trip, from when to set out for Petra to where it’s worth staying an extra night. If you’re travelling with children or grandparents, we can build in shorter drives, time for lunch and an easier start after a long day. Together, we plan journeys that feel personal from the first message to the last sunset.</p>
+        </section>
+
+        <!-- ============ Why travel with us ============ -->
+        <section class="ab-why" aria-labelledby="why-title">
+          <h2 class="ab-h2 ab-h2--xl" id="why-title">Why travel<br> with Jordan<br> Odyssey</h2>
+          <ul class="ab-reasons">
+            <li class="ab-reason">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12.5 9.5 18 20 6"/></svg>
+              <div>
+                <h3>Local knowledge, first-hand</h3>
+                <p>Our plans are built by someone who guides in Jordan. We know the best time to enter Petra, the quieter viewpoints, and where locals actually eat.</p>
+              </div>
+            </li>
+            <li class="ab-reason">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12.5 9.5 18 20 6"/></svg>
+              <div>
+                <h3>Designed for families</h3>
+                <p>Sensible pacing, comfortable transport, family-friendly hotels and halal dining are part of the plan.</p>
+              </div>
+            </li>
+            <li class="ab-reason">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12.5 9.5 18 20 6"/></svg>
+              <div>
+                <h3>Every trip, your way</h3>
+                <p>Our programs are a starting point. Change the dates, the pace, the hotels or the places to visit, and we’ll shape the trip around you.</p>
+              </div>
+            </li>
+            <li class="ab-reason">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12.5 9.5 18 20 6"/></svg>
+              <div>
+                <h3>A real person, every step</h3>
+                <p>You talk directly with the people planning your trip, before you travel and while you’re there.</p>
+              </div>
+            </li>
+            <li class="ab-reason">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12.5 9.5 18 20 6"/></svg>
+              <div>
+                <h3>Clear and honest</h3>
+                <p>We explain what’s included before you commit.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
 
       <!-- ============ How it works ============ -->
-      <section class="about-section" aria-labelledby="how-title">
-        <h2 class="dg-section-title" id="how-title">How it works</h2>
-        <ol class="about-steps">
-          <li class="about-step">
-            <h3 class="about-step-title">Tell us about your trip</h3>
-            <p>Send an enquiry with your group size, what you’d love to see, and any dates you have in mind. It’s fine if you’re still deciding.</p>
-          </li>
-          <li class="about-step">
-            <h3 class="about-step-title">Get your personal plan</h3>
-            <p>We’ll reply with a suggested itinerary and a clear quote for your dates and group.</p>
-          </li>
-          <li class="about-step">
-            <h3 class="about-step-title">Refine your itinerary</h3>
-            <p>Once you’re happy with the itinerary, we’ll confirm what’s included and how each arrangement will be handled.</p>
-          </li>
-        </ol>
+      <section class="ab-how" aria-labelledby="how-title">
+        <h2 class="ab-h2 ab-h2--xl ab-how-title" id="how-title">How it works</h2>
+        <div class="ab-terraces">
+          <img class="ab-terraces-img" src="../assets/img/about/terraces-2048.webp" srcset="../assets/img/about/terraces-1024.webp 1024w, ../assets/img/about/terraces-2048.webp 2048w" sizes="100vw" width="2048" height="640" alt="" loading="lazy" decoding="async">
+          <ol class="ab-steps">
+            <li class="ab-step">
+              <span class="ab-step-num" aria-hidden="true">1</span>
+              <div class="ab-step-text">
+                <h3>Tell us about your trip</h3>
+                <p>Send an enquiry with your dates, group size and what you’d love to see. Not sure yet? That’s fine.</p>
+              </div>
+            </li>
+            <li class="ab-step">
+              <span class="ab-step-num" aria-hidden="true">2</span>
+              <div class="ab-step-text">
+                <h3>Get your personal plan</h3>
+                <p>We reply with a suggested itinerary and a clear quote for your dates and group.</p>
+              </div>
+            </li>
+            <li class="ab-step">
+              <span class="ab-step-num" aria-hidden="true">3</span>
+              <div class="ab-step-text">
+                <h3>Refine and travel</h3>
+                <p>Adjust anything you like. Then pack your bags. We’ll take care of the rest.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
       </section>
-    </div>
 
-    <!-- ============ Closing call to action ============ -->
-    <section class="about-cta" aria-labelledby="cta-title">
-      <div class="container">
-        <div class="about-cta-band">
-          <h2 class="dg-section-title about-cta-title" id="cta-title">Ready to start your Jordan odyssey?</h2>
-          <p class="about-cta-text">Tell us what you have in mind, and we’ll reply with a plan made for you.</p>
-          <div class="about-cta-actions">
-            <a class="btn btn--primary" href="enquire.html" data-cta>Plan your trip</a>
-            <a class="about-cta-link" href="/en/#programs" data-cta>Explore our programs<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <div class="ab-wrap">
+        <!-- ============ Our promise ============ -->
+        <section class="ab-promise ab-accent" aria-labelledby="promise-title">
+          <h2 class="ab-h2" id="promise-title">Our promise</h2>
+          <p>We treat every guest like family visiting our home. Jordan is our home, and we want you to leave it with stories of your own.</p>
+        </section>
+      </div>
+
+      <!-- ============ Closing call to action ============ -->
+      <section class="ab-cta" aria-labelledby="cta-title">
+        <div class="ab-wrap">
+          <h2 class="ab-h2" id="cta-title">Ready to start your Jordan odyssey?</h2>
+          <p class="ab-cta-text">Tell us what you have in mind, and we’ll reply with a plan made for you.</p>
+          <div class="ab-cta-actions">
+            <a class="ab-btn" href="/en/enquire.html" data-cta>Plan your trip</a>
+            <a class="ab-link" href="/en/#programs" data-cta><span>Explore our programs</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </main>
 
   <!-- ============ Footer ============ -->
