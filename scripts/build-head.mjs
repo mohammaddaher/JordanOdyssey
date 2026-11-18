@@ -50,12 +50,14 @@ function readPage(html) {
   const title = text(first(html, /<title>([\s\S]*?)<\/title>/i));
   const description = decode(first(html, /<meta\s+name="description"\s+content="([^"]*)"/i)).trim();
   const h1 = text(first(html, /<h1\b[^>]*>([\s\S]*?)<\/h1>/i));
+  // a short name for the breadcrumb when the heading is a headline: <main data-breadcrumb="About">
+  const crumbName = decode(first(html, /<main\b[^>]*\bdata-breadcrumb="([^"]*)"/i)).trim();
   const crumbs = [];
   const nav = first(html, /<nav\b[^>]*aria-label="Breadcrumb"[^>]*>([\s\S]*?)<\/nav>/i);
   for (const li of nav.match(/<li\b[^>]*>[\s\S]*?<\/li>/gi) || []) {
     crumbs.push({ name: text(li), href: first(li, /href="([^"]*)"/i) });
   }
-  return { title, description, h1, crumbs };
+  return { title, description, h1, crumbName, crumbs };
 }
 
 function readProgram(html) {
@@ -104,7 +106,7 @@ function breadcrumb(lang, rel, page, url) {
     if (rel.startsWith('destinations/') && rel !== 'destinations/index.html') {
       items.push({ name: 'Destinations', url: urlFor(lang, 'destinations/index.html') });
     }
-    items.push({ name: page.h1 || page.title.replace(/\s*\|.*$/, ''), url });
+    items.push({ name: page.crumbName || page.h1 || page.title.replace(/\s*\|.*$/, ''), url });
   }
   return {
     '@type': 'BreadcrumbList',

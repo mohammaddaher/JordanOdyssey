@@ -47,6 +47,12 @@
     "height": 630,
     "alt": "Sandstone mountains rising from the red sand of Wadi Rum"
   },
+  "about.html": {
+    "image": "assets/img/share/about.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "Sandstone mountains rising from the warm red sand of Wadi Rum"
+  },
   "programs/best-of-jordan.html": {
     "image": "assets/img/share/program-best-of-jordan.jpg",
     "width": 1200,

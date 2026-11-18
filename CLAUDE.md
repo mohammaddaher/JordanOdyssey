@@ -17,3 +17,7 @@ The project is connected to the GitHub repository **mohammaddaher/JordanOdyssey*
 1. **Preview locally first.** Make changes in the local project, run the local development server, and give me the exact localhost URL for each page you changed. Briefly summarize what changed and what you tested. Keep all changes local (no commits, no pushes) while I review them.
 2. **Publish only when I explicitly say “publish.”** Treat that word as approval to publish the changes I just reviewed, and nothing else. Check the diff, commit only those changes, and push to `main` on mohammaddaher/JordanOdyssey. The push triggers the Vercel deployment through the existing GitHub connection; don’t deploy any other way.
 3. **Verify after publishing.** Give me the commit ID and the live URL. Check that the updated page is live on jordanodyssey.com, and tell me if the deployment is still pending or has failed.
+
+## Indexing
+
+Ask for my explicit approval before generating any new page with a `noindex` directive, whether it is set through an HTML meta tag, an HTTP response header, or a deployment rule.

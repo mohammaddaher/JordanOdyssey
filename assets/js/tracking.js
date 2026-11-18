@@ -189,7 +189,8 @@
     var a = e.target.closest && e.target.closest('a[href]');
     if (!a) return;
     var href = a.getAttribute('href');
-    if (/(^|\/)enquire\.html(\?|#|$)/.test(href)) {
+    // Calls to action: every link to the enquiry page, plus any link marked data-cta (one event per click)
+    if (/(^|\/)enquire\.html(\?|#|$)/.test(href) || a.hasAttribute('data-cta')) {
       var program = '';
       try { program = new URL(a.href).searchParams.get('program') || ''; } catch (err) { /* old browsers */ }
       w.dataLayer.push({

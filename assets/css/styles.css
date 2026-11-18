@@ -245,8 +245,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .primary-nav { display: flex; align-items: center; gap: clamp(20px, 3vw, 40px); }
 .nav-list { display: flex; align-items: center; gap: clamp(18px, 2.6vw, 36px); }
 .primary-nav .btn { white-space: nowrap; }
-/* Tighter header on small desktops so all four links and the button fit on one line */
-/* Small desktops: four links, the button and the language label share one line (rules below .nav-link so they win) */
+/* Small desktops: the five links, the button and the language label share one line (rules below .nav-link so they win) */
 .nav-link {
   position: relative;
   padding-block: 8px;
@@ -274,7 +273,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .nav-link.is-active { color: #fff; }
 .nav-link:hover::after,
 .nav-link.is-active::after { transform: scaleX(1); }
-@media (min-width: 900px) and (max-width: 1279px) {
+@media (min-width: 900px) and (max-width: 1379px) {
   .primary-nav { gap: 16px; }
   .nav-list { gap: 16px; }
   .primary-nav .nav-link { font-size: 0.75rem; letter-spacing: 0.1em; }
@@ -2343,13 +2342,133 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
   .footer-nav ul { column-gap: 22px; }
   .footer-nav li + li::before { content: none; }
 }
+@media (max-width: 539px) {
+  /* phones: the six links as two even rows of three */
+  .footer-nav ul { display: grid; grid-template-columns: repeat(3, auto); justify-content: center; column-gap: clamp(16px, 5vw, 26px); }
+  .footer-nav li { justify-content: center; }
+}
 @media (max-width: 479px) {
-  /* all five links fit on one row at phone widths */
-  .footer-nav ul { column-gap: clamp(10px, 3vw, 16px); }
   .footer-nav a { font-size: 1rem; }
   .footer-bottom { flex-direction: column; justify-content: center; text-align: center; }
   .footer-bottom > p:first-child { padding-block-start: 6px; }
 }
+
+/* ---------- About page (en/about.html): the destination guides' hero, colours and type ---------- */
+
+/* A taller hero than the guides, so the two-sentence title sits on the dark side of the photo */
+.about-hero { min-height: clamp(230px, 19vw, 380px); }
+.about-title {
+  max-width: 13em;
+  font-size: clamp(2.25rem, 3.4vw, 3.75rem);
+  line-height: 1.08;
+  text-wrap: balance;
+}
+.about-title span { display: block; color: var(--copper-light); }
+.about-title::after { margin-block-end: 0; }
+
+.about-body { padding-block: clamp(26px, 3vw, 44px) clamp(8px, 1vw, 16px); }
+.about-lead {
+  max-width: 62ch;
+  margin: 0 0 clamp(28px, 3.2vw, 48px);
+  padding-inline-start: 4px;
+  font-size: clamp(1.25rem, 1.6vw, 1.5rem);
+  line-height: 1.5;
+  color: var(--dg-ink);
+}
+.about-section + .about-section { margin-block-start: clamp(32px, 3.6vw, 54px); }
+.about-prose { max-width: 70ch; padding-inline-start: 4px; }
+.about-prose p { margin: 0; font-size: 1.1875rem; line-height: 1.6; }
+.about-prose p + p { margin-block-start: 14px; }
+
+/* Why travel with us: cards in the guides' style, copper bar beside each title */
+.about-reasons { display: grid; grid-template-columns: 1fr; gap: 16px; margin: 0; padding: 0; list-style: none; }
+@media (min-width: 600px) { .about-reasons { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1024px) { .about-reasons { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.about-reason {
+  padding: 16px 20px 18px 30px;
+  background: var(--dg-card);
+  border: 1px solid var(--dg-card-line);
+  border-radius: 9px;
+  box-shadow: 0 3px 10px -6px rgba(90, 45, 25, 0.28);
+}
+.about-reason-title {
+  position: relative;
+  margin: 0;
+  font-family: var(--dg-serif);
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 1.25;
+  color: var(--dg-ink);
+}
+.about-reason-title::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: -14px;
+  inset-block: 0.14em 0.1em;
+  width: 2px;
+  background: var(--dg-copper);
+}
+.about-reason p { margin: 6px 0 0; font-size: 1.0625rem; line-height: 1.5; color: var(--dg-text); }
+
+/* How it works: three numbered steps */
+.about-steps { display: grid; grid-template-columns: 1fr; gap: 22px; margin: 0; padding: 0; list-style: none; counter-reset: step; }
+@media (min-width: 900px) { .about-steps { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 34px; } }
+.about-step { position: relative; padding-inline-start: 62px; counter-increment: step; }
+.about-step::before {
+  content: counter(step);
+  position: absolute;
+  inset-inline-start: 0;
+  inset-block-start: -2px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 2px solid var(--dg-copper);
+  border-radius: 50%;
+  font-family: var(--dg-serif);
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 1;
+  color: var(--dg-copper);
+}
+.about-step-title { margin: 0; font-family: var(--dg-serif); font-weight: 700; font-size: 1.375rem; line-height: 1.3; color: var(--dg-ink); }
+.about-step p { margin: 6px 0 0; font-size: 1.0625rem; line-height: 1.5; color: var(--dg-text); }
+
+/* Closing call to action: the guides' sandstone band */
+.about-cta { padding-block: clamp(36px, 4vw, 60px) clamp(44px, 5vw, 72px); }
+.about-cta-band {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+  padding: clamp(26px, 3vw, 40px) clamp(20px, 3vw, 48px);
+  border-radius: 9px;
+  background: var(--dg-band);
+  text-align: center;
+}
+.about-cta-title { margin: 0; padding: 0; text-wrap: balance; }
+.about-cta-text { max-width: 52ch; margin: 0; font-size: 1.1875rem; line-height: 1.5; }
+.about-cta-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 14px 28px; margin-block-start: 8px; }
+.about-cta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--dg-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--dg-copper);
+  text-underline-offset: 6px;
+}
+.about-cta-link svg { width: 20px; height: 20px; color: var(--dg-copper); transition: transform 0.2s var(--ease); }
+.about-cta-link:hover { color: var(--rust); }
+.about-cta-link:hover svg { transform: translateX(3px); }
+[dir="rtl"] .about-cta-link svg { transform: scaleX(-1); }
+[dir="rtl"] .about-cta-link:hover svg { transform: scaleX(-1) translateX(3px); }
+
+/* Arrival: the title fades and rises like the Destinations overview */
+.about-title { animation: dg-arrive 0.9s var(--ease) backwards; }
+@media (prefers-reduced-motion: reduce) { .about-title { animation: none; } }
 
 /* ---------- Cookie consent banner ---------- */
 
