@@ -80,17 +80,55 @@
       });
     }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
     document.querySelectorAll('.reveal').forEach(function (el) { revealObserver.observe(el); });
+
+    /* Photos just below the first screen wait until the page has finished loading (so they never compete
+       with the hero), or until the visitor scrolls close. The Heritage background is held back by the
+       stylesheet until .is-near; images marked data-defer keep their sources in data- attributes. */
+    var nearObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          release(entry.target);
+          nearObserver.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: '0px 0px -24px 0px' });
+    var later = document.querySelectorAll('.heritage, [data-defer]');
+    later.forEach(function (el) { nearObserver.observe(el); });
+    var whenIdle = window.requestIdleCallback || function (fn) { setTimeout(fn, 200); };
+    var releaseAll = function () { whenIdle(function () { later.forEach(release); }); };
+    if (document.readyState === 'complete') releaseAll(); else window.addEventListener('load', releaseAll, { once: true });
   } else {
     document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('is-visible'); });
+    document.querySelectorAll('.heritage, [data-defer]').forEach(release);
+  }
+
+  function release(el) {
+    if (el.classList.contains('heritage')) { el.classList.add('is-near'); return; }
+    if (!el.hasAttribute('data-defer')) return;
+    el.removeAttribute('data-defer');
+    var parts = el.tagName === 'PICTURE' ? el.querySelectorAll('source, img') : [el];
+    Array.prototype.forEach.call(parts, function (p) {
+      // a script may already have given the image a new photo: keep that one
+      if (p.tagName === 'IMG' && p.getAttribute('src')) return;
+      if (p.hasAttribute('data-srcset')) { p.setAttribute('srcset', p.getAttribute('data-srcset')); p.removeAttribute('data-srcset'); }
+      if (p.hasAttribute('data-src')) { p.setAttribute('src', p.getAttribute('data-src')); p.removeAttribute('data-src'); }
+    });
   }
 
   /* Hero sequence: a 12-second loop built from layered Petra photos (no video).
      0–3 s ridges and descent to the Siq entrance, 3–7 s flight through the Siq,
      7–12 s sideways slide to one lit Treasury column, then a foreground rock hides the loop.
-     Reduced motion, or any image failing to load, leaves the still photo in place. */
+     Reduced motion, or any image failing to load, leaves the still photo in place.
+     Phones and small tablets (and Save-Data) keep the still photo and never download the layers;
+     on larger screens the layers start loading only after the page has finished loading. */
   var media = document.querySelector('[data-hero-media]');
   var cine = document.querySelector('[data-cine]');
   var heroToggle = document.querySelector('[data-hero-toggle]');
+  var saveData = navigator.connection && navigator.connection.saveData;
+  if (cine && (mobileQuery.matches || saveData)) {
+    cine.parentNode.removeChild(cine);
+    cine = null;
+  }
   if (media && cine && heroToggle && window.requestAnimationFrame && window.Promise) {
     var label = heroToggle.querySelector('[data-hero-toggle-label]');
     var caption = document.querySelector('[data-hero-caption]');
@@ -249,9 +287,17 @@
       }, { threshold: 0.1 }).observe(media);
     }
 
-    // Wait for every layer image. If any fails, keep the still photo and hide the control.
+    // The layers wait in data-href / data-src until the page has loaded, so they never compete with the
+    // still photo. Then wait for every layer image. If any fails, keep the still photo and hide the control.
+    function loadLayers() {
     var urls = [];
-    Array.prototype.forEach.call(cine.querySelectorAll('image'), function (img) { urls.push(img.getAttribute('href')); });
+    Array.prototype.forEach.call(cine.querySelectorAll('image'), function (img) {
+      var src = img.getAttribute('data-href') || img.getAttribute('href');
+      img.setAttribute('href', src);
+      img.removeAttribute('data-href');
+      urls.push(src);
+    });
+    if (wipe.hasAttribute('data-src')) { wipe.src = wipe.getAttribute('data-src'); wipe.removeAttribute('data-src'); }
     urls.push(wipe.getAttribute('src'));
     Promise.all(urls.map(function (src) {
       return new Promise(function (resolve, reject) {
@@ -271,6 +317,10 @@
       cine.parentNode.removeChild(cine);
       if (caption) caption.textContent = stillCaption;
     });
+    }
+    var idle = window.requestIdleCallback || function (fn) { setTimeout(fn, 200); };
+    if (document.readyState === 'complete') idle(loadLayers);
+    else window.addEventListener('load', function () { idle(loadLayers); }, { once: true });
   }
 
   /* Discover map: pins, the mobile destination buttons and Previous/Next stop share one selection.
@@ -303,6 +353,12 @@
       if (img && img.tagName !== 'IMG') img = img.querySelector('img');
       if (!img) return Promise.resolve();
       if (img.hasAttribute('data-src')) {
+        // responsive sizes from the build, when present
+        if (img.hasAttribute('data-srcset')) {
+          img.sizes = img.getAttribute('data-sizes') || '100vw';
+          img.srcset = img.getAttribute('data-srcset');
+          img.removeAttribute('data-srcset');
+        }
         img.src = img.getAttribute('data-src');
         img.removeAttribute('data-src');
       }
@@ -475,9 +531,12 @@
       if (img.getAttribute('src') === d.img) return;
       var ticket = ++swap;
       var next = new Image();
+      // responsive sizes from the build, when present
+      if (d.srcset) { next.sizes = img.sizes; next.srcset = d.srcset; }
       next.src = d.img;
       var put = function () {
         if (ticket !== swap) return;
+        if (d.srcset) img.srcset = d.srcset; else img.removeAttribute('srcset');
         img.src = d.img;
         img.width = +d.w; img.height = +d.h;
         img.alt = d.alt;

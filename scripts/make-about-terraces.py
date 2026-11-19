@@ -1,7 +1,8 @@
 """Builds the About page's carved sandstone terraces (no text) from a photo of the Siq's rock wall.
 
-Writes assets/img/about/terraces-2048.webp and terraces-1024.webp (transparent, the stepped desktop
-layout) and assets/img/about/stone-1200.jpg (a plain sandstone texture for the stacked mobile steps).
+Writes the masters images-src/about/terraces.png (2048 x 640, transparent: the stepped desktop layout)
+and images-src/about/stone.jpg (a plain sandstone texture for the stacked mobile steps);
+scripts/build-images.mjs makes the web sizes and formats from them.
 The step positions here must match the --t*-x / --t*-y percentages in assets/css/about.css.
 Run: python scripts/make-about-terraces.py
 """
@@ -9,7 +10,7 @@ import numpy as np
 from PIL import Image, ImageFilter
 
 W, H = 2048, 640
-SRC = Image.open('assets/img/cine/s1-entrance.jpg').convert('RGB')   # 2000x1615, sunlit right-hand wall
+SRC = Image.open('images-src/cine/s1-entrance.jpg').convert('RGB')   # 2000x1615, sunlit right-hand wall
 RNG = np.random.default_rng(7)
 
 def grade(a):
@@ -122,9 +123,8 @@ alpha *= smooth((H - yy) / 60) * smooth((xx + 30) / 230)
 rgb = np.clip(rgb, 0, 1)
 
 img = Image.fromarray((np.dstack([rgb, alpha]) * 255).round().astype(np.uint8), 'RGBA')
-img.save('assets/img/about/terraces-2048.webp', quality=80, method=6)
-img.resize((1024, 320), Image.LANCZOS).save('assets/img/about/terraces-1024.webp', quality=80, method=6)
+img.save('images-src/about/terraces.png', optimize=True)
 
 t = texture(1200, 400, (720, 980, 1150), 1.3)
-Image.fromarray((t * 255).astype(np.uint8)).save('assets/img/about/stone-1200.jpg', quality=78, optimize=True, progressive=True)
+Image.fromarray((t * 255).astype(np.uint8)).save('images-src/about/stone.jpg', quality=92)
 print('ok')

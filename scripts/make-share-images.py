@@ -42,7 +42,7 @@ SHARE = {
 
 
 def crop(src, focus):
-    im = Image.open(os.path.join(ROOT, 'assets', 'img', src)).convert('RGB')
+    im = Image.open(os.path.join(ROOT, 'images-src', src)).convert('RGB')   # original photos live in images-src/
     scale = max(W / im.width, H / im.height)
     im = im.resize((round(im.width * scale), round(im.height * scale)), Image.LANCZOS)
     fx, fy = focus

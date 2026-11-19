@@ -92,7 +92,6 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Amiri:wght@400&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Nabataean&display=swap">
 
-  <link rel="preload" as="image" href="../assets/img/photos/hero-petra-treasury.jpg">
   <link rel="stylesheet" href="../assets/css/styles.css">
   <script>document.documentElement.classList.add('js');</script>
 </head>
@@ -106,8 +105,8 @@
   <header class="site-header site-header--solid" data-header>
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="Jordan Odyssey — back to top">
-        <img class="brand-emblem" src="../assets/img/brand/logo.png" width="440" height="563" alt="">
-        <img class="brand-wordmark" src="../assets/img/brand/wordmark.png" width="408" height="132" alt="Jordan Odyssey">
+        <img class="brand-emblem" src="../images-src/brand/logo.png" width="440" height="563" alt="">
+        <img class="brand-wordmark" src="../images-src/brand/wordmark.png" width="408" height="132" alt="Jordan Odyssey">
       </a>
 
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu" data-menu-toggle>
@@ -135,7 +134,7 @@
       <div class="hero-media is-still" data-hero-media>
         <!-- Still photo: always loaded. It stays on screen for reduced motion,
              and whenever the animation below can't load or run. -->
-        <img class="hero-still" src="../assets/img/photos/hero-petra-treasury.jpg" width="2200" height="1467"
+        <img class="hero-still" src="../images-src/photos/hero-petra-treasury.jpg" width="2200" height="1467"
              alt="The Treasury of Petra, carved into a rose-red cliff face" fetchpriority="high">
 
         <!-- 12-second Petra sequence built from layered photos (sources: IMAGE-LICENSES.md).
@@ -144,12 +143,12 @@
           <!-- Shot 1a: sweep over the sandstone ridges (distant panorama + nearer rock layer) -->
           <svg class="cine-shot" data-shot="ridges" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
             <rect width="1600" height="900" fill="#1d2a63"/>
-            <g data-layer="far"><image href="../assets/img/cine/s1-ridges.jpg" width="2878" height="1000" preserveAspectRatio="none"/></g>
-            <g data-layer="near"><image href="../assets/img/cine/s1-ridges-near.webp" width="2878" height="1000" preserveAspectRatio="none"/></g>
+            <g data-layer="far"><image href="../images-src/cine/s1-ridges.jpg" width="2878" height="1000" preserveAspectRatio="none"/></g>
+            <g data-layer="near"><image href="../images-src/cine/s1-ridges-near.webp" width="2878" height="1000" preserveAspectRatio="none"/></g>
           </svg>
           <!-- Shot 1b: descent toward the shadowed entrance of the Siq -->
           <svg class="cine-shot" data-shot="entrance" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
-            <g data-layer="far"><image href="../assets/img/cine/s1-entrance.jpg" x="-50" y="-400" width="1700" height="1373" preserveAspectRatio="none"/></g>
+            <g data-layer="far"><image href="../images-src/cine/s1-entrance.jpg" x="-50" y="-400" width="1700" height="1373" preserveAspectRatio="none"/></g>
           </svg>
           <!-- Shot 2: low flight between the canyon walls, shaft of light and dust -->
           <svg class="cine-shot" data-shot="siq" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
@@ -163,10 +162,10 @@
               <filter id="cine-mote" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="1.2"/></filter>
             </defs>
             <g data-layer="far">
-              <image href="../assets/img/cine/s2-siq.jpg" x="-140" y="-220" width="2000" height="1339" preserveAspectRatio="none"/>
+              <image href="../images-src/cine/s2-siq.jpg" x="-140" y="-220" width="2000" height="1339" preserveAspectRatio="none"/>
             </g>
-            <g data-layer="left"><image href="../assets/img/cine/s2-wall-left.webp" x="-140" y="-220" width="2000" height="1339" preserveAspectRatio="none"/></g>
-            <g data-layer="right"><image href="../assets/img/cine/s2-wall-right.webp" x="-140" y="-220" width="2000" height="1339" preserveAspectRatio="none"/></g>
+            <g data-layer="left"><image href="../images-src/cine/s2-wall-left.webp" x="-140" y="-220" width="2000" height="1339" preserveAspectRatio="none"/></g>
+            <g data-layer="right"><image href="../images-src/cine/s2-wall-right.webp" x="-140" y="-220" width="2000" height="1339" preserveAspectRatio="none"/></g>
             <g data-layer="air">
               <polygon class="cine-shaft" data-shaft points="805,-220 865,-220 830,920 690,920" fill="url(#cine-shaft-fill)" filter="url(#cine-soft)"/>
               <g data-dust filter="url(#cine-mote)"></g>
@@ -181,14 +180,14 @@
               </radialGradient>
             </defs>
             <g data-layer="far">
-              <image href="../assets/img/cine/s3-column.jpg" x="-659" y="-722" width="2400" height="1800" preserveAspectRatio="none"/>
+              <image href="../images-src/cine/s3-column.jpg" x="-659" y="-722" width="2400" height="1800" preserveAspectRatio="none"/>
               <rect data-dim x="-700" y="-800" width="3200" height="2000" fill="#1a1024"/>
               <ellipse class="cine-glow" data-glow cx="800" cy="520" rx="120" ry="270" fill="url(#cine-glow-fill)"/>
             </g>
-            <g data-layer="right"><image href="../assets/img/cine/s3-wall-right.webp" x="-659" y="-722" width="2400" height="1800" preserveAspectRatio="none"/></g>
+            <g data-layer="right"><image href="../images-src/cine/s3-wall-right.webp" x="-659" y="-722" width="2400" height="1800" preserveAspectRatio="none"/></g>
           </svg>
           <!-- Foreground rock that crosses the frame to hide the loop back to shot 1 -->
-          <img class="cine-wipe" data-wipe src="../assets/img/cine/wipe-rock.webp" alt="" width="1400" height="820">
+          <img class="cine-wipe" data-wipe src="../images-src/cine/wipe-rock.webp" alt="" width="1400" height="820">
         </div>
       </div>
 
@@ -234,12 +233,12 @@
          The chosen destination's photo fills the section; the map sits left and the details right. Visitors set the pace. -->
     <section class="discover" id="discover" aria-labelledby="discover-title" data-explorer>
       <div class="discover-backdrop" aria-hidden="true">
-        <img class="discover-bg" data-place-bg="jerash" data-src="../assets/img/discover/jerash.jpg" width="2000" height="1333" alt="The colonnaded Oval Plaza of Roman Jerash">
-        <img class="discover-bg" data-place-bg="amman" data-src="../assets/img/discover/amman.jpg" width="1772" height="1285" alt="Amman’s hills of pale stone houses, seen from the Citadel">
-        <img class="discover-bg" data-place-bg="dead-sea" data-src="../assets/img/discover/dead-sea.jpg" width="2000" height="960" alt="Swimmers floating on the still, pale water of the Dead Sea">
-        <picture class="discover-bg discover-bg--wide is-active" data-place-bg="petra"><source media="(min-width: 900px)" srcset="../assets/img/discover/petra-wide.jpg" width="3168" height="1344"><img src="../assets/img/discover/petra.jpg" width="1121" height="1403" alt="The Treasury (Al-Khazneh) at Petra, its columned façade carved into the rose sandstone cliff"></picture>
-        <img class="discover-bg" data-place-bg="wadi-rum" data-src="../assets/img/discover/wadi-rum.jpg" width="2000" height="1500" alt="Sandstone mountains rising from the red sand of Wadi Rum">
-        <img class="discover-bg" data-place-bg="aqaba" data-src="../assets/img/discover/aqaba.jpg" width="2000" height="1339" alt="The Gulf of Aqaba at dusk, with the city’s tall flagpole and the mountains behind">
+        <img class="discover-bg" data-place-bg="jerash" data-src="../images-src/discover/jerash.jpg" width="2000" height="1333" alt="The colonnaded Oval Plaza of Roman Jerash">
+        <img class="discover-bg" data-place-bg="amman" data-src="../images-src/discover/amman.jpg" width="1772" height="1285" alt="Amman’s hills of pale stone houses, seen from the Citadel">
+        <img class="discover-bg" data-place-bg="dead-sea" data-src="../images-src/discover/dead-sea.jpg" width="2000" height="960" alt="Swimmers floating on the still, pale water of the Dead Sea">
+        <picture class="discover-bg discover-bg--wide is-active" data-place-bg="petra" data-defer><source media="(min-width: 900px)" srcset="../images-src/discover/petra-wide.jpg" width="3168" height="1344"><img src="../images-src/discover/petra.jpg" width="1121" height="1403" alt="The Treasury (Al-Khazneh) at Petra, its columned façade carved into the rose sandstone cliff"></picture>
+        <img class="discover-bg" data-place-bg="wadi-rum" data-src="../images-src/discover/wadi-rum.jpg" width="2000" height="1500" alt="Sandstone mountains rising from the red sand of Wadi Rum">
+        <img class="discover-bg" data-place-bg="aqaba" data-src="../images-src/discover/aqaba.jpg" width="2000" height="1339" alt="The Gulf of Aqaba at dusk, with the city’s tall flagpole and the mountains behind">
       </div>
 
       <div class="discover-panel" data-map>
@@ -271,12 +270,12 @@
             <g class="discover-map-north" transform="translate(362 383)"><path d="M0 -16 L6 2 L0 -2 L-6 2Z"/><text y="18" text-anchor="middle">N</text></g>
           </svg>
           <ul class="discover-pins" aria-label="Places on the map of Jordan" aria-describedby="discover-map-hint">
-              <li><button class="map-pin map-pin--jerash" type="button" data-place="jerash" aria-pressed="false" aria-controls="discover-preview" style="left:23.72%;top:27.73%;--i:0"><span class="map-pin-dot" aria-hidden="true"></span><span class="map-pin-label">Jerash</span></button></li>
-              <li><button class="map-pin map-pin--amman" type="button" data-place="amman" aria-pressed="false" aria-controls="discover-preview" style="left:24.35%;top:35.23%;--i:1"><span class="map-pin-dot" aria-hidden="true"></span><span class="map-pin-label">Amman</span></button></li>
-              <li><button class="map-pin map-pin--dead-sea" type="button" data-place="dead-sea" aria-pressed="false" aria-controls="discover-preview" style="left:16.94%;top:40.72%;--i:2"><span class="map-pin-dot" aria-hidden="true"></span><span class="map-pin-label">Dead Sea</span></button></li>
-              <li><button class="map-pin map-pin--petra" type="button" data-place="petra" aria-pressed="true" aria-controls="discover-preview" style="left:13.9%;top:71.4%;--i:3"><span class="map-pin-dot" aria-hidden="true"></span><span class="map-pin-label">Petra</span></button></li>
-              <li><button class="map-pin map-pin--wadi-rum" type="button" data-place="wadi-rum" aria-pressed="false" aria-controls="discover-preview" style="left:13.39%;top:88.23%;--i:4"><span class="map-pin-dot" aria-hidden="true"></span><span class="map-pin-label">Wadi Rum</span></button></li>
-              <li><button class="map-pin map-pin--aqaba" type="button" data-place="aqaba" aria-pressed="false" aria-controls="discover-preview" style="left:4.48%;top:89.34%;--i:5"><span class="map-pin-dot" aria-hidden="true"></span><span class="map-pin-label">Aqaba</span></button></li>
+              <li><button class="map-pin map-pin--jerash" type="button" aria-label="Jerash" data-place="jerash" aria-pressed="false" aria-controls="discover-preview" style="left:23.72%;top:27.73%;--i:0"><span class="map-pin-dot" aria-hidden="true"></span><span class="map-pin-label">Jerash</span></button></li>
+              <li><button class="map-pin map-pin--amman" type="button" aria-label="Amman" data-place="amman" aria-pressed="false" aria-controls="discover-preview" style="left:24.35%;top:35.23%;--i:1"><span class="map-pin-dot" aria-hidden="true"></span><span class="map-pin-label">Amman</span></button></li>
+              <li><button class="map-pin map-pin--dead-sea" type="button" aria-label="Dead Sea" data-place="dead-sea" aria-pressed="false" aria-controls="discover-preview" style="left:16.94%;top:40.72%;--i:2"><span class="map-pin-dot" aria-hidden="true"></span><span class="map-pin-label">Dead Sea</span></button></li>
+              <li><button class="map-pin map-pin--petra" type="button" aria-label="Petra" data-place="petra" aria-pressed="true" aria-controls="discover-preview" style="left:13.9%;top:71.4%;--i:3"><span class="map-pin-dot" aria-hidden="true"></span><span class="map-pin-label">Petra</span></button></li>
+              <li><button class="map-pin map-pin--wadi-rum" type="button" aria-label="Wadi Rum" data-place="wadi-rum" aria-pressed="false" aria-controls="discover-preview" style="left:13.39%;top:88.23%;--i:4"><span class="map-pin-dot" aria-hidden="true"></span><span class="map-pin-label">Wadi Rum</span></button></li>
+              <li><button class="map-pin map-pin--aqaba" type="button" aria-label="Aqaba" data-place="aqaba" aria-pressed="false" aria-controls="discover-preview" style="left:4.48%;top:89.34%;--i:5"><span class="map-pin-dot" aria-hidden="true"></span><span class="map-pin-label">Aqaba</span></button></li>
           </ul>
         </div>
         <div class="discover-steps">
@@ -336,8 +335,8 @@
         <!-- Featured tour: the selector below swaps its contents in place -->
         <article class="tour-feature reveal" id="tour-feature" aria-labelledby="tour-feature-name" data-tour-feature data-start="grand-jordan">
           <div class="tour-feature-photo">
-            <img src="../assets/img/photos/hero-petra-treasury.jpg" width="2200" height="1467" loading="lazy" style="object-position: 50% 42%"
-                 alt="The Treasury of Petra, carved into a rose-red cliff face" data-feature-img>
+            <img src="../images-src/photos/hero-petra-treasury.jpg" width="2200" height="1467" sizes="(min-width: 900px) 50vw, 100vw" loading="lazy" style="object-position: 50% 42%"
+                 alt="The Treasury of Petra, carved into a rose-red cliff face" data-feature-img data-defer>
           </div>
           <div class="tour-feature-body">
             <p class="eyebrow">Featured tour</p>
@@ -359,43 +358,43 @@
           <ul class="tour-picks" data-tour-picks>
             <li><a class="tour-pick" href="programs/jordan-explorer.html" id="tour-pick-jordan-explorer"
                    data-tour="jordan-explorer" data-name="Jordan Explorer Tour" data-days="5" data-nights="4" data-price="USD 990"
-                   data-desc="Jordan’s essentials, at a steady pace. A day in Amman leads south to Petra, where you walk the Siq to the Treasury, then on to Wadi Rum for a 4×4 tour until sunset and a night at a desert camp." data-img="../assets/img/discover/wadi-rum.jpg" data-w="2000" data-h="1500" data-alt="Sandstone mountains rising from the red sand of Wadi Rum" data-pos="50% 60%">
+                   data-desc="Jordan’s essentials, at a steady pace. A day in Amman leads south to Petra, where you walk the Siq to the Treasury, then on to Wadi Rum for a 4×4 tour until sunset and a night at a desert camp." data-img="../images-src/discover/wadi-rum.jpg" data-w="2000" data-h="1500" data-alt="Sandstone mountains rising from the red sand of Wadi Rum" data-pos="50% 60%">
                 <span class="tour-pick-name">Jordan Explorer Tour</span>
                 <span class="tour-pick-meta"><span>5 days</span> <span>From USD 990</span></span>
               </a></li>
             <li><a class="tour-pick" href="programs/best-of-jordan.html" id="tour-pick-best-of-jordan"
                    data-tour="best-of-jordan" data-name="Best of Jordan Tour" data-days="5" data-nights="4" data-price="USD 1,075"
-                   data-desc="The widest sweep of Jordan in five days. A full day in Petra is followed by half a day on the Red Sea at Aqaba, with the chance to snorkel over the reef." data-img="../assets/img/discover/aqaba.jpg" data-w="2000" data-h="1339" data-alt="The Gulf of Aqaba at dusk, with the city’s tall flagpole and the mountains behind" data-pos="50% 55%">
+                   data-desc="The widest sweep of Jordan in five days. A full day in Petra is followed by half a day on the Red Sea at Aqaba, with the chance to snorkel over the reef." data-img="../images-src/discover/aqaba.jpg" data-w="2000" data-h="1339" data-alt="The Gulf of Aqaba at dusk, with the city’s tall flagpole and the mountains behind" data-pos="50% 55%">
                 <span class="tour-pick-name">Best of Jordan Tour</span>
                 <span class="tour-pick-meta"><span>5 days</span> <span>From USD 1,075</span></span>
               </a></li>
             <li><a class="tour-pick" href="programs/jordan-delights-1.html" id="tour-pick-jordan-delights-1"
                    data-tour="jordan-delights-1" data-name="Jordan Delights Tour 1" data-days="6" data-nights="5" data-price="USD 1,065"
-                   data-desc="Six days from north to south. Start with the hilltop castle of Ajloun and the Roman city of Jerash, then tour Amman before following the King’s Highway through Madaba, Mount Nebo and Shobak to Petra." data-img="../assets/img/discover/jerash.jpg" data-w="2000" data-h="1333" data-alt="The colonnaded Oval Plaza of Roman Jerash" data-pos="50% 55%">
+                   data-desc="Six days from north to south. Start with the hilltop castle of Ajloun and the Roman city of Jerash, then tour Amman before following the King’s Highway through Madaba, Mount Nebo and Shobak to Petra." data-img="../images-src/discover/jerash.jpg" data-w="2000" data-h="1333" data-alt="The colonnaded Oval Plaza of Roman Jerash" data-pos="50% 55%">
                 <span class="tour-pick-name">Jordan Delights Tour 1</span>
                 <span class="tour-pick-meta"><span>6 days</span> <span>From USD 1,065</span></span>
               </a></li>
             <li><a class="tour-pick" href="programs/jordan-delights-2.html" id="tour-pick-jordan-delights-2"
                    data-tour="jordan-delights-2" data-name="Jordan Delights Tour 2" data-days="6" data-nights="5" data-price="USD 976"
-                   data-desc="A relaxed six days that reach the Red Sea. After a morning in Amman you head to the Dead Sea, then on to Petra for a full guided visit." data-img="../assets/img/discover/dead-sea.jpg" data-w="2000" data-h="960" data-alt="Swimmers floating on the still, pale water of the Dead Sea" data-pos="62% 55%">
+                   data-desc="A relaxed six days that reach the Red Sea. After a morning in Amman you head to the Dead Sea, then on to Petra for a full guided visit." data-img="../images-src/discover/dead-sea.jpg" data-w="2000" data-h="960" data-alt="Swimmers floating on the still, pale water of the Dead Sea" data-pos="62% 55%">
                 <span class="tour-pick-name">Jordan Delights Tour 2</span>
                 <span class="tour-pick-meta"><span>6 days</span> <span>From USD 976</span></span>
               </a></li>
             <li><a class="tour-pick" href="programs/jordan-discovery.html" id="tour-pick-jordan-discovery"
                    data-tour="jordan-discovery" data-name="Jordan Discovery Tour" data-days="7" data-nights="6" data-price="USD 1,120"
-                   data-desc="A week that leaves time for Petra. The first full day takes you north to Jerash and the old town of Salt, then the King’s Highway leads south past Madaba, Mount Nebo, Wadi Mujib and Shobak." data-img="../assets/img/discover/petra-wide.jpg" data-w="3168" data-h="1344" data-alt="The Treasury (Al-Khazneh) at Petra, its columned façade carved into the rose sandstone cliff" data-pos="50% 45%">
+                   data-desc="A week that leaves time for Petra. The first full day takes you north to Jerash and the old town of Salt, then the King’s Highway leads south past Madaba, Mount Nebo, Wadi Mujib and Shobak." data-img="../images-src/discover/petra-wide.jpg" data-w="3168" data-h="1344" data-alt="The Treasury (Al-Khazneh) at Petra, its columned façade carved into the rose sandstone cliff" data-pos="50% 45%">
                 <span class="tour-pick-name">Jordan Discovery Tour</span>
                 <span class="tour-pick-meta"><span>7 days</span> <span>From USD 1,120</span></span>
               </a></li>
             <li><a class="tour-pick" href="programs/grand-jordan.html" id="tour-pick-grand-jordan"
                    data-tour="grand-jordan" data-name="The Grand Jordan Tour" data-days="8" data-nights="7" data-price="USD 1,315"
-                   data-desc="Our most complete journey. The north comes first: Jerash, the castle of Ajloun and the basalt ruins of Umm Qais above the Sea of Galilee, then a day for Amman and the Umayyad Desert Castles." data-img="../assets/img/photos/hero-petra-treasury.jpg" data-w="2200" data-h="1467" data-alt="The Treasury of Petra, carved into a rose-red cliff face" data-pos="50% 42%">
+                   data-desc="Our most complete journey. The north comes first: Jerash, the castle of Ajloun and the basalt ruins of Umm Qais above the Sea of Galilee, then a day for Amman and the Umayyad Desert Castles." data-img="../images-src/photos/hero-petra-treasury.jpg" data-w="2200" data-h="1467" data-alt="The Treasury of Petra, carved into a rose-red cliff face" data-pos="50% 42%">
                 <span class="tour-pick-name">The Grand Jordan Tour</span>
                 <span class="tour-pick-meta"><span>8 days</span> <span>From USD 1,315</span></span>
               </a></li>
             <li><a class="tour-pick" href="programs/jordan-revealed.html" id="tour-pick-jordan-revealed"
                    data-tour="jordan-revealed" data-name="The Jordan Revealed Tour" data-days="8" data-nights="7" data-price="USD 1,290"
-                   data-desc="A journey that takes its time. It opens with a whole day in Amman, from a local breakfast to the Jordan Museum and Rainbow Street, then visits Madaba and Mount Nebo on the way to the Dead Sea." data-img="../assets/img/discover/amman.jpg" data-w="1772" data-h="1285" data-alt="Amman’s hills of pale stone houses, seen from the Citadel" data-pos="50% 25%">
+                   data-desc="A journey that takes its time. It opens with a whole day in Amman, from a local breakfast to the Jordan Museum and Rainbow Street, then visits Madaba and Mount Nebo on the way to the Dead Sea." data-img="../images-src/discover/amman.jpg" data-w="1772" data-h="1285" data-alt="Amman’s hills of pale stone houses, seen from the Citadel" data-pos="50% 25%">
                 <span class="tour-pick-name">The Jordan Revealed Tour</span>
                 <span class="tour-pick-meta"><span>8 days</span> <span>From USD 1,290</span></span>
               </a></li>
@@ -412,9 +411,9 @@
     <div class="container">
       <div class="footer-band">
         <a class="footer-brand" href="#top" aria-label="Jordan Odyssey — home">
-          <img class="footer-emblem" src="../assets/img/brand/logo.png" width="440" height="563" loading="lazy" alt="">
+          <img class="footer-emblem" src="../images-src/brand/logo.png" width="440" height="563" loading="lazy" alt="">
           <span class="footer-name">
-            <img class="footer-wordmark" src="../assets/img/brand/wordmark.png" width="408" height="132" loading="lazy" alt="">
+            <img class="footer-wordmark" src="../images-src/brand/wordmark.png" width="408" height="132" loading="lazy" alt="">
             <span class="footer-slogan">Every stone has a story</span>
           </span>
         </a>

@@ -1,0 +1,7441 @@
+{
+ "about/hero-siq-art.webp": {
+  "key": "v1:std:a18b5f1f1673f0981d5248e8b6efd81d3db8d9cc9a4ff429bd7c33c930b68b89",
+  "width": 1672,
+  "height": 470,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 135,
+     "file": "assets/img/about/hero-siq-art-480.5d31064f.avif",
+     "bytes": 5499
+    },
+    {
+     "w": 768,
+     "h": 216,
+     "file": "assets/img/about/hero-siq-art-768.21199216.avif",
+     "bytes": 12237
+    },
+    {
+     "w": 1200,
+     "h": 337,
+     "file": "assets/img/about/hero-siq-art-1200.5386d9f3.avif",
+     "bytes": 25272
+    },
+    {
+     "w": 1672,
+     "h": 470,
+     "file": "assets/img/about/hero-siq-art-1672.196c5cc3.avif",
+     "bytes": 47831
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 135,
+     "file": "assets/img/about/hero-siq-art-480.ed5dbc82.webp",
+     "bytes": 7198
+    },
+    {
+     "w": 768,
+     "h": 216,
+     "file": "assets/img/about/hero-siq-art-768.4e4f4d23.webp",
+     "bytes": 15728
+    },
+    {
+     "w": 1200,
+     "h": 337,
+     "file": "assets/img/about/hero-siq-art-1200.813dd1c3.webp",
+     "bytes": 31274
+    },
+    {
+     "w": 1672,
+     "h": 470,
+     "file": "assets/img/about/hero-siq-art-1672.93cd7f7c.webp",
+     "bytes": 59348
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 135,
+     "file": "assets/img/about/hero-siq-art-480.1d2c46af.jpg",
+     "bytes": 8611
+    },
+    {
+     "w": 768,
+     "h": 216,
+     "file": "assets/img/about/hero-siq-art-768.63c77c3e.jpg",
+     "bytes": 19076
+    },
+    {
+     "w": 1200,
+     "h": 337,
+     "file": "assets/img/about/hero-siq-art-1200.f2e41146.jpg",
+     "bytes": 41302
+    },
+    {
+     "w": 1672,
+     "h": 470,
+     "file": "assets/img/about/hero-siq-art-1672.52f848e2.jpg",
+     "bytes": 76760
+    }
+   ]
+  },
+  "files": [
+   "assets/img/about/hero-siq-art-480.5d31064f.avif",
+   "assets/img/about/hero-siq-art-768.21199216.avif",
+   "assets/img/about/hero-siq-art-1200.5386d9f3.avif",
+   "assets/img/about/hero-siq-art-1672.196c5cc3.avif",
+   "assets/img/about/hero-siq-art-480.ed5dbc82.webp",
+   "assets/img/about/hero-siq-art-768.4e4f4d23.webp",
+   "assets/img/about/hero-siq-art-1200.813dd1c3.webp",
+   "assets/img/about/hero-siq-art-1672.93cd7f7c.webp",
+   "assets/img/about/hero-siq-art-480.1d2c46af.jpg",
+   "assets/img/about/hero-siq-art-768.63c77c3e.jpg",
+   "assets/img/about/hero-siq-art-1200.f2e41146.jpg",
+   "assets/img/about/hero-siq-art-1672.52f848e2.jpg"
+  ]
+ },
+ "about/terraces-art.webp": {
+  "key": "v1:std:92403592b7b2e298bf5e0c0707aa6b5a9911bb1108b782274cf3de8cebf40270",
+  "width": 1672,
+  "height": 469,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 135,
+     "file": "assets/img/about/terraces-art-480.82645c8b.avif",
+     "bytes": 4499
+    },
+    {
+     "w": 768,
+     "h": 215,
+     "file": "assets/img/about/terraces-art-768.e9c848f1.avif",
+     "bytes": 10856
+    },
+    {
+     "w": 1200,
+     "h": 337,
+     "file": "assets/img/about/terraces-art-1200.8e35553f.avif",
+     "bytes": 24663
+    },
+    {
+     "w": 1672,
+     "h": 469,
+     "file": "assets/img/about/terraces-art-1672.17b9792d.avif",
+     "bytes": 49131
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 135,
+     "file": "assets/img/about/terraces-art-480.1600578d.webp",
+     "bytes": 5716
+    },
+    {
+     "w": 768,
+     "h": 215,
+     "file": "assets/img/about/terraces-art-768.6d2b00c2.webp",
+     "bytes": 12544
+    },
+    {
+     "w": 1200,
+     "h": 337,
+     "file": "assets/img/about/terraces-art-1200.3574193c.webp",
+     "bytes": 26606
+    },
+    {
+     "w": 1672,
+     "h": 469,
+     "file": "assets/img/about/terraces-art-1672.cb41ea86.webp",
+     "bytes": 57220
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 135,
+     "file": "assets/img/about/terraces-art-480.1a197b4b.jpg",
+     "bytes": 8703
+    },
+    {
+     "w": 768,
+     "h": 215,
+     "file": "assets/img/about/terraces-art-768.e68b8e75.jpg",
+     "bytes": 18673
+    },
+    {
+     "w": 1200,
+     "h": 337,
+     "file": "assets/img/about/terraces-art-1200.087b6302.jpg",
+     "bytes": 40402
+    },
+    {
+     "w": 1672,
+     "h": 469,
+     "file": "assets/img/about/terraces-art-1672.5ea83ff7.jpg",
+     "bytes": 75807
+    }
+   ]
+  },
+  "files": [
+   "assets/img/about/terraces-art-480.82645c8b.avif",
+   "assets/img/about/terraces-art-768.e9c848f1.avif",
+   "assets/img/about/terraces-art-1200.8e35553f.avif",
+   "assets/img/about/terraces-art-1672.17b9792d.avif",
+   "assets/img/about/terraces-art-480.1600578d.webp",
+   "assets/img/about/terraces-art-768.6d2b00c2.webp",
+   "assets/img/about/terraces-art-1200.3574193c.webp",
+   "assets/img/about/terraces-art-1672.cb41ea86.webp",
+   "assets/img/about/terraces-art-480.1a197b4b.jpg",
+   "assets/img/about/terraces-art-768.e68b8e75.jpg",
+   "assets/img/about/terraces-art-1200.087b6302.jpg",
+   "assets/img/about/terraces-art-1672.5ea83ff7.jpg"
+  ]
+ },
+ "brand/logo.png": {
+  "key": "v1:std:9823fa598fd2fef7cba1f990d9ebc339406cc8a973657e72babe65a3e0b111a5",
+  "width": 440,
+  "height": 563,
+  "alpha": true,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 154,
+     "file": "assets/img/brand/logo-120.7d0fc9c7.avif",
+     "bytes": 3251
+    },
+    {
+     "w": 240,
+     "h": 307,
+     "file": "assets/img/brand/logo-240.b247e9f8.avif",
+     "bytes": 8432
+    },
+    {
+     "w": 360,
+     "h": 461,
+     "file": "assets/img/brand/logo-360.e7e7a156.avif",
+     "bytes": 16075
+    },
+    {
+     "w": 440,
+     "h": 563,
+     "file": "assets/img/brand/logo-440.9baf3d87.avif",
+     "bytes": 20796
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 154,
+     "file": "assets/img/brand/logo-120.8f351a9f.webp",
+     "bytes": 6720
+    },
+    {
+     "w": 240,
+     "h": 307,
+     "file": "assets/img/brand/logo-240.fd6be8c7.webp",
+     "bytes": 16900
+    },
+    {
+     "w": 360,
+     "h": 461,
+     "file": "assets/img/brand/logo-360.1cbe1b0c.webp",
+     "bytes": 31560
+    },
+    {
+     "w": 440,
+     "h": 563,
+     "file": "assets/img/brand/logo-440.08b229fd.webp",
+     "bytes": 40802
+    }
+   ]
+  },
+  "files": [
+   "assets/img/brand/logo-120.7d0fc9c7.avif",
+   "assets/img/brand/logo-240.b247e9f8.avif",
+   "assets/img/brand/logo-360.e7e7a156.avif",
+   "assets/img/brand/logo-440.9baf3d87.avif",
+   "assets/img/brand/logo-120.8f351a9f.webp",
+   "assets/img/brand/logo-240.fd6be8c7.webp",
+   "assets/img/brand/logo-360.1cbe1b0c.webp",
+   "assets/img/brand/logo-440.08b229fd.webp"
+  ]
+ },
+ "brand/wordmark.png": {
+  "key": "v1:std:06097869aca5f63a84614417af429158fdf64a784aba39b824261de330f57af6",
+  "width": 408,
+  "height": 132,
+  "alpha": true,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 39,
+     "file": "assets/img/brand/wordmark-120.39a116e1.avif",
+     "bytes": 4231
+    },
+    {
+     "w": 240,
+     "h": 78,
+     "file": "assets/img/brand/wordmark-240.38e26358.avif",
+     "bytes": 7681
+    },
+    {
+     "w": 360,
+     "h": 116,
+     "file": "assets/img/brand/wordmark-360.995ee581.avif",
+     "bytes": 12315
+    },
+    {
+     "w": 408,
+     "h": 132,
+     "file": "assets/img/brand/wordmark-408.3622a5af.avif",
+     "bytes": 6384
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 39,
+     "file": "assets/img/brand/wordmark-120.5f1f0f22.webp",
+     "bytes": 4904
+    },
+    {
+     "w": 240,
+     "h": 78,
+     "file": "assets/img/brand/wordmark-240.3d41655b.webp",
+     "bytes": 12548
+    },
+    {
+     "w": 360,
+     "h": 116,
+     "file": "assets/img/brand/wordmark-360.7db7c031.webp",
+     "bytes": 21304
+    },
+    {
+     "w": 408,
+     "h": 132,
+     "file": "assets/img/brand/wordmark-408.896573bb.webp",
+     "bytes": 6902
+    }
+   ]
+  },
+  "files": [
+   "assets/img/brand/wordmark-120.39a116e1.avif",
+   "assets/img/brand/wordmark-240.38e26358.avif",
+   "assets/img/brand/wordmark-360.995ee581.avif",
+   "assets/img/brand/wordmark-408.3622a5af.avif",
+   "assets/img/brand/wordmark-120.5f1f0f22.webp",
+   "assets/img/brand/wordmark-240.3d41655b.webp",
+   "assets/img/brand/wordmark-360.7db7c031.webp",
+   "assets/img/brand/wordmark-408.896573bb.webp"
+  ]
+ },
+ "cine/s1-entrance.jpg": {
+  "key": "v1:std:a6e473bb70249a5c62b1884936a57c2a9b0c874f5df78ea4b439d32e6dc7b5f8",
+  "width": 2000,
+  "height": 1615,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 388,
+     "file": "assets/img/cine/s1-entrance-480.95c2c9e2.avif",
+     "bytes": 35820
+    },
+    {
+     "w": 768,
+     "h": 620,
+     "file": "assets/img/cine/s1-entrance-768.13a35da6.avif",
+     "bytes": 93145
+    },
+    {
+     "w": 1200,
+     "h": 969,
+     "file": "assets/img/cine/s1-entrance-1200.15d11f38.avif",
+     "bytes": 223393
+    },
+    {
+     "w": 1600,
+     "h": 1292,
+     "file": "assets/img/cine/s1-entrance-1600.f9a5f0c6.avif",
+     "bytes": 370069
+    },
+    {
+     "w": 2000,
+     "h": 1615,
+     "file": "assets/img/cine/s1-entrance-2000.931141fc.avif",
+     "bytes": 548276
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 388,
+     "file": "assets/img/cine/s1-entrance-480.de1beb59.webp",
+     "bytes": 47758
+    },
+    {
+     "w": 768,
+     "h": 620,
+     "file": "assets/img/cine/s1-entrance-768.f1d0f069.webp",
+     "bytes": 123044
+    },
+    {
+     "w": 1200,
+     "h": 969,
+     "file": "assets/img/cine/s1-entrance-1200.5c77940b.webp",
+     "bytes": 296316
+    },
+    {
+     "w": 1600,
+     "h": 1292,
+     "file": "assets/img/cine/s1-entrance-1600.30181c7f.webp",
+     "bytes": 502260
+    },
+    {
+     "w": 2000,
+     "h": 1615,
+     "file": "assets/img/cine/s1-entrance-2000.795c174a.webp",
+     "bytes": 730958
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 388,
+     "file": "assets/img/cine/s1-entrance-480.c79a52c5.jpg",
+     "bytes": 45846
+    },
+    {
+     "w": 768,
+     "h": 620,
+     "file": "assets/img/cine/s1-entrance-768.b7dcc95a.jpg",
+     "bytes": 114526
+    },
+    {
+     "w": 1200,
+     "h": 969,
+     "file": "assets/img/cine/s1-entrance-1200.b2d92b7c.jpg",
+     "bytes": 277078
+    },
+    {
+     "w": 1600,
+     "h": 1292,
+     "file": "assets/img/cine/s1-entrance-1600.ea91b8a1.jpg",
+     "bytes": 479998
+    },
+    {
+     "w": 2000,
+     "h": 1615,
+     "file": "assets/img/cine/s1-entrance-2000.b4517f24.jpg",
+     "bytes": 738436
+    }
+   ]
+  },
+  "files": [
+   "assets/img/cine/s1-entrance-480.95c2c9e2.avif",
+   "assets/img/cine/s1-entrance-768.13a35da6.avif",
+   "assets/img/cine/s1-entrance-1200.15d11f38.avif",
+   "assets/img/cine/s1-entrance-1600.f9a5f0c6.avif",
+   "assets/img/cine/s1-entrance-2000.931141fc.avif",
+   "assets/img/cine/s1-entrance-480.de1beb59.webp",
+   "assets/img/cine/s1-entrance-768.f1d0f069.webp",
+   "assets/img/cine/s1-entrance-1200.5c77940b.webp",
+   "assets/img/cine/s1-entrance-1600.30181c7f.webp",
+   "assets/img/cine/s1-entrance-2000.795c174a.webp",
+   "assets/img/cine/s1-entrance-480.c79a52c5.jpg",
+   "assets/img/cine/s1-entrance-768.b7dcc95a.jpg",
+   "assets/img/cine/s1-entrance-1200.b2d92b7c.jpg",
+   "assets/img/cine/s1-entrance-1600.ea91b8a1.jpg",
+   "assets/img/cine/s1-entrance-2000.b4517f24.jpg"
+  ]
+ },
+ "cine/s1-ridges-near.webp": {
+  "key": "v1:std:f86ecf9c55d4d39505fab383e4600cc440f9b0fcee7a8a58c98c9e36ada43e9d",
+  "width": 3200,
+  "height": 1112,
+  "alpha": true,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 167,
+     "file": "assets/img/cine/s1-ridges-near-480.b6ed90b5.avif",
+     "bytes": 9990
+    },
+    {
+     "w": 768,
+     "h": 267,
+     "file": "assets/img/cine/s1-ridges-near-768.46decb87.avif",
+     "bytes": 22300
+    },
+    {
+     "w": 1200,
+     "h": 417,
+     "file": "assets/img/cine/s1-ridges-near-1200.24dfe1b0.avif",
+     "bytes": 50532
+    },
+    {
+     "w": 1600,
+     "h": 556,
+     "file": "assets/img/cine/s1-ridges-near-1600.0a5cfdc7.avif",
+     "bytes": 92066
+    },
+    {
+     "w": 2000,
+     "h": 695,
+     "file": "assets/img/cine/s1-ridges-near-2000.d38afcb9.avif",
+     "bytes": 125902
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 167,
+     "file": "assets/img/cine/s1-ridges-near-480.4f30cbc4.webp",
+     "bytes": 13978
+    },
+    {
+     "w": 768,
+     "h": 267,
+     "file": "assets/img/cine/s1-ridges-near-768.ad910644.webp",
+     "bytes": 31448
+    },
+    {
+     "w": 1200,
+     "h": 417,
+     "file": "assets/img/cine/s1-ridges-near-1200.b011cd6a.webp",
+     "bytes": 72498
+    },
+    {
+     "w": 1600,
+     "h": 556,
+     "file": "assets/img/cine/s1-ridges-near-1600.2de4eaa4.webp",
+     "bytes": 124862
+    },
+    {
+     "w": 2000,
+     "h": 695,
+     "file": "assets/img/cine/s1-ridges-near-2000.4e0de890.webp",
+     "bytes": 180678
+    }
+   ]
+  },
+  "files": [
+   "assets/img/cine/s1-ridges-near-480.b6ed90b5.avif",
+   "assets/img/cine/s1-ridges-near-768.46decb87.avif",
+   "assets/img/cine/s1-ridges-near-1200.24dfe1b0.avif",
+   "assets/img/cine/s1-ridges-near-1600.0a5cfdc7.avif",
+   "assets/img/cine/s1-ridges-near-2000.d38afcb9.avif",
+   "assets/img/cine/s1-ridges-near-480.4f30cbc4.webp",
+   "assets/img/cine/s1-ridges-near-768.ad910644.webp",
+   "assets/img/cine/s1-ridges-near-1200.b011cd6a.webp",
+   "assets/img/cine/s1-ridges-near-1600.2de4eaa4.webp",
+   "assets/img/cine/s1-ridges-near-2000.4e0de890.webp"
+  ]
+ },
+ "cine/s1-ridges.jpg": {
+  "key": "v1:std:3e428b3c8734fe9690a8e49a2dbdb39cc1dcbd688f7d195f4042114d8bab1a27",
+  "width": 3200,
+  "height": 1112,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 167,
+     "file": "assets/img/cine/s1-ridges-480.d8928443.avif",
+     "bytes": 17077
+    },
+    {
+     "w": 768,
+     "h": 267,
+     "file": "assets/img/cine/s1-ridges-768.c3d99368.avif",
+     "bytes": 40631
+    },
+    {
+     "w": 1200,
+     "h": 417,
+     "file": "assets/img/cine/s1-ridges-1200.3ff261db.avif",
+     "bytes": 97849
+    },
+    {
+     "w": 1600,
+     "h": 556,
+     "file": "assets/img/cine/s1-ridges-1600.f0431865.avif",
+     "bytes": 171016
+    },
+    {
+     "w": 2000,
+     "h": 695,
+     "file": "assets/img/cine/s1-ridges-2000.81c96cf6.avif",
+     "bytes": 263899
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 167,
+     "file": "assets/img/cine/s1-ridges-480.06d523bd.webp",
+     "bytes": 22772
+    },
+    {
+     "w": 768,
+     "h": 267,
+     "file": "assets/img/cine/s1-ridges-768.49ae96d2.webp",
+     "bytes": 56212
+    },
+    {
+     "w": 1200,
+     "h": 417,
+     "file": "assets/img/cine/s1-ridges-1200.75633c57.webp",
+     "bytes": 134542
+    },
+    {
+     "w": 1600,
+     "h": 556,
+     "file": "assets/img/cine/s1-ridges-1600.41acc89e.webp",
+     "bytes": 236402
+    },
+    {
+     "w": 2000,
+     "h": 695,
+     "file": "assets/img/cine/s1-ridges-2000.e2276170.webp",
+     "bytes": 363884
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 167,
+     "file": "assets/img/cine/s1-ridges-480.74b3a8db.jpg",
+     "bytes": 21663
+    },
+    {
+     "w": 768,
+     "h": 267,
+     "file": "assets/img/cine/s1-ridges-768.e1198331.jpg",
+     "bytes": 54031
+    },
+    {
+     "w": 1200,
+     "h": 417,
+     "file": "assets/img/cine/s1-ridges-1200.ebde8b53.jpg",
+     "bytes": 128604
+    },
+    {
+     "w": 1600,
+     "h": 556,
+     "file": "assets/img/cine/s1-ridges-1600.a9fdaaf0.jpg",
+     "bytes": 224492
+    },
+    {
+     "w": 2000,
+     "h": 695,
+     "file": "assets/img/cine/s1-ridges-2000.1a21c87b.jpg",
+     "bytes": 342832
+    }
+   ]
+  },
+  "files": [
+   "assets/img/cine/s1-ridges-480.d8928443.avif",
+   "assets/img/cine/s1-ridges-768.c3d99368.avif",
+   "assets/img/cine/s1-ridges-1200.3ff261db.avif",
+   "assets/img/cine/s1-ridges-1600.f0431865.avif",
+   "assets/img/cine/s1-ridges-2000.81c96cf6.avif",
+   "assets/img/cine/s1-ridges-480.06d523bd.webp",
+   "assets/img/cine/s1-ridges-768.49ae96d2.webp",
+   "assets/img/cine/s1-ridges-1200.75633c57.webp",
+   "assets/img/cine/s1-ridges-1600.41acc89e.webp",
+   "assets/img/cine/s1-ridges-2000.e2276170.webp",
+   "assets/img/cine/s1-ridges-480.74b3a8db.jpg",
+   "assets/img/cine/s1-ridges-768.e1198331.jpg",
+   "assets/img/cine/s1-ridges-1200.ebde8b53.jpg",
+   "assets/img/cine/s1-ridges-1600.a9fdaaf0.jpg",
+   "assets/img/cine/s1-ridges-2000.1a21c87b.jpg"
+  ]
+ },
+ "cine/s2-siq.jpg": {
+  "key": "v1:std:225be94abf81c2997e708686da5f7d83542a9f63699c520f05a2837f65eed94b",
+  "width": 2600,
+  "height": 1741,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 321,
+     "file": "assets/img/cine/s2-siq-480.3960e934.avif",
+     "bytes": 19780
+    },
+    {
+     "w": 768,
+     "h": 514,
+     "file": "assets/img/cine/s2-siq-768.324965e4.avif",
+     "bytes": 49315
+    },
+    {
+     "w": 1200,
+     "h": 804,
+     "file": "assets/img/cine/s2-siq-1200.400945d3.avif",
+     "bytes": 117141
+    },
+    {
+     "w": 1600,
+     "h": 1071,
+     "file": "assets/img/cine/s2-siq-1600.82b53a10.avif",
+     "bytes": 195784
+    },
+    {
+     "w": 2000,
+     "h": 1339,
+     "file": "assets/img/cine/s2-siq-2000.df0247d8.avif",
+     "bytes": 285895
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 321,
+     "file": "assets/img/cine/s2-siq-480.02d5ac52.webp",
+     "bytes": 21822
+    },
+    {
+     "w": 768,
+     "h": 514,
+     "file": "assets/img/cine/s2-siq-768.a3c6e204.webp",
+     "bytes": 56714
+    },
+    {
+     "w": 1200,
+     "h": 804,
+     "file": "assets/img/cine/s2-siq-1200.f5ce2964.webp",
+     "bytes": 139328
+    },
+    {
+     "w": 1600,
+     "h": 1071,
+     "file": "assets/img/cine/s2-siq-1600.a30d148c.webp",
+     "bytes": 236894
+    },
+    {
+     "w": 2000,
+     "h": 1339,
+     "file": "assets/img/cine/s2-siq-2000.0da2defb.webp",
+     "bytes": 344024
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 321,
+     "file": "assets/img/cine/s2-siq-480.db62c39b.jpg",
+     "bytes": 24836
+    },
+    {
+     "w": 768,
+     "h": 514,
+     "file": "assets/img/cine/s2-siq-768.b1282c39.jpg",
+     "bytes": 60849
+    },
+    {
+     "w": 1200,
+     "h": 804,
+     "file": "assets/img/cine/s2-siq-1200.bc6a121b.jpg",
+     "bytes": 146466
+    },
+    {
+     "w": 1600,
+     "h": 1071,
+     "file": "assets/img/cine/s2-siq-1600.f861fd76.jpg",
+     "bytes": 251905
+    },
+    {
+     "w": 2000,
+     "h": 1339,
+     "file": "assets/img/cine/s2-siq-2000.140a7bc1.jpg",
+     "bytes": 380307
+    }
+   ]
+  },
+  "files": [
+   "assets/img/cine/s2-siq-480.3960e934.avif",
+   "assets/img/cine/s2-siq-768.324965e4.avif",
+   "assets/img/cine/s2-siq-1200.400945d3.avif",
+   "assets/img/cine/s2-siq-1600.82b53a10.avif",
+   "assets/img/cine/s2-siq-2000.df0247d8.avif",
+   "assets/img/cine/s2-siq-480.02d5ac52.webp",
+   "assets/img/cine/s2-siq-768.a3c6e204.webp",
+   "assets/img/cine/s2-siq-1200.f5ce2964.webp",
+   "assets/img/cine/s2-siq-1600.a30d148c.webp",
+   "assets/img/cine/s2-siq-2000.0da2defb.webp",
+   "assets/img/cine/s2-siq-480.db62c39b.jpg",
+   "assets/img/cine/s2-siq-768.b1282c39.jpg",
+   "assets/img/cine/s2-siq-1200.bc6a121b.jpg",
+   "assets/img/cine/s2-siq-1600.f861fd76.jpg",
+   "assets/img/cine/s2-siq-2000.140a7bc1.jpg"
+  ]
+ },
+ "cine/s2-wall-left.webp": {
+  "key": "v1:std:b4451e40df15d8c2e45b6978343228c45a8f9e8d2334dccbab428ecec3b852dc",
+  "width": 2600,
+  "height": 1741,
+  "alpha": true,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 321,
+     "file": "assets/img/cine/s2-wall-left-480.bb56d7f0.avif",
+     "bytes": 12712
+    },
+    {
+     "w": 768,
+     "h": 514,
+     "file": "assets/img/cine/s2-wall-left-768.658a31e5.avif",
+     "bytes": 28613
+    },
+    {
+     "w": 1200,
+     "h": 804,
+     "file": "assets/img/cine/s2-wall-left-1200.e9540488.avif",
+     "bytes": 61790
+    },
+    {
+     "w": 1600,
+     "h": 1071,
+     "file": "assets/img/cine/s2-wall-left-1600.020ee967.avif",
+     "bytes": 97203
+    },
+    {
+     "w": 2000,
+     "h": 1339,
+     "file": "assets/img/cine/s2-wall-left-2000.2a189482.avif",
+     "bytes": 128555
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 321,
+     "file": "assets/img/cine/s2-wall-left-480.29488e5e.webp",
+     "bytes": 13520
+    },
+    {
+     "w": 768,
+     "h": 514,
+     "file": "assets/img/cine/s2-wall-left-768.629a03b8.webp",
+     "bytes": 31512
+    },
+    {
+     "w": 1200,
+     "h": 804,
+     "file": "assets/img/cine/s2-wall-left-1200.008cbbf3.webp",
+     "bytes": 71920
+    },
+    {
+     "w": 1600,
+     "h": 1071,
+     "file": "assets/img/cine/s2-wall-left-1600.e2592ebc.webp",
+     "bytes": 115062
+    },
+    {
+     "w": 2000,
+     "h": 1339,
+     "file": "assets/img/cine/s2-wall-left-2000.cdfa296d.webp",
+     "bytes": 159956
+    }
+   ]
+  },
+  "files": [
+   "assets/img/cine/s2-wall-left-480.bb56d7f0.avif",
+   "assets/img/cine/s2-wall-left-768.658a31e5.avif",
+   "assets/img/cine/s2-wall-left-1200.e9540488.avif",
+   "assets/img/cine/s2-wall-left-1600.020ee967.avif",
+   "assets/img/cine/s2-wall-left-2000.2a189482.avif",
+   "assets/img/cine/s2-wall-left-480.29488e5e.webp",
+   "assets/img/cine/s2-wall-left-768.629a03b8.webp",
+   "assets/img/cine/s2-wall-left-1200.008cbbf3.webp",
+   "assets/img/cine/s2-wall-left-1600.e2592ebc.webp",
+   "assets/img/cine/s2-wall-left-2000.cdfa296d.webp"
+  ]
+ },
+ "cine/s2-wall-right.webp": {
+  "key": "v1:std:46eec71e2dc2e2961a0b5a1a476e390c5275393a8c7bc6b113caba88323026b5",
+  "width": 2600,
+  "height": 1741,
+  "alpha": true,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 321,
+     "file": "assets/img/cine/s2-wall-right-480.866bdca8.avif",
+     "bytes": 8496
+    },
+    {
+     "w": 768,
+     "h": 514,
+     "file": "assets/img/cine/s2-wall-right-768.417805e9.avif",
+     "bytes": 17671
+    },
+    {
+     "w": 1200,
+     "h": 804,
+     "file": "assets/img/cine/s2-wall-right-1200.3768d43e.avif",
+     "bytes": 34168
+    },
+    {
+     "w": 1600,
+     "h": 1071,
+     "file": "assets/img/cine/s2-wall-right-1600.363447a7.avif",
+     "bytes": 53390
+    },
+    {
+     "w": 2000,
+     "h": 1339,
+     "file": "assets/img/cine/s2-wall-right-2000.a9793be4.avif",
+     "bytes": 66789
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 321,
+     "file": "assets/img/cine/s2-wall-right-480.b8365463.webp",
+     "bytes": 8918
+    },
+    {
+     "w": 768,
+     "h": 514,
+     "file": "assets/img/cine/s2-wall-right-768.488f97da.webp",
+     "bytes": 18516
+    },
+    {
+     "w": 1200,
+     "h": 804,
+     "file": "assets/img/cine/s2-wall-right-1200.782ef1c7.webp",
+     "bytes": 38128
+    },
+    {
+     "w": 1600,
+     "h": 1071,
+     "file": "assets/img/cine/s2-wall-right-1600.bda9b198.webp",
+     "bytes": 59446
+    },
+    {
+     "w": 2000,
+     "h": 1339,
+     "file": "assets/img/cine/s2-wall-right-2000.1dff7fa8.webp",
+     "bytes": 79084
+    }
+   ]
+  },
+  "files": [
+   "assets/img/cine/s2-wall-right-480.866bdca8.avif",
+   "assets/img/cine/s2-wall-right-768.417805e9.avif",
+   "assets/img/cine/s2-wall-right-1200.3768d43e.avif",
+   "assets/img/cine/s2-wall-right-1600.363447a7.avif",
+   "assets/img/cine/s2-wall-right-2000.a9793be4.avif",
+   "assets/img/cine/s2-wall-right-480.b8365463.webp",
+   "assets/img/cine/s2-wall-right-768.488f97da.webp",
+   "assets/img/cine/s2-wall-right-1200.782ef1c7.webp",
+   "assets/img/cine/s2-wall-right-1600.bda9b198.webp",
+   "assets/img/cine/s2-wall-right-2000.1dff7fa8.webp"
+  ]
+ },
+ "cine/s3-column.jpg": {
+  "key": "v1:std:5fa50f490841ec832a1093f5d7efc59360aa0980ddb470c46373b72c23144818",
+  "width": 2600,
+  "height": 1950,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 360,
+     "file": "assets/img/cine/s3-column-480.f1dbff72.avif",
+     "bytes": 31370
+    },
+    {
+     "w": 768,
+     "h": 576,
+     "file": "assets/img/cine/s3-column-768.fb2477ea.avif",
+     "bytes": 81141
+    },
+    {
+     "w": 1200,
+     "h": 900,
+     "file": "assets/img/cine/s3-column-1200.27e3d2cb.avif",
+     "bytes": 205814
+    },
+    {
+     "w": 1600,
+     "h": 1200,
+     "file": "assets/img/cine/s3-column-1600.4c76a310.avif",
+     "bytes": 363617
+    },
+    {
+     "w": 2000,
+     "h": 1500,
+     "file": "assets/img/cine/s3-column-2000.86bfd77c.avif",
+     "bytes": 548430
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 360,
+     "file": "assets/img/cine/s3-column-480.c2c3f5f4.webp",
+     "bytes": 42944
+    },
+    {
+     "w": 768,
+     "h": 576,
+     "file": "assets/img/cine/s3-column-768.ce52376b.webp",
+     "bytes": 112064
+    },
+    {
+     "w": 1200,
+     "h": 900,
+     "file": "assets/img/cine/s3-column-1200.c2ff19c3.webp",
+     "bytes": 286792
+    },
+    {
+     "w": 1600,
+     "h": 1200,
+     "file": "assets/img/cine/s3-column-1600.9af926b9.webp",
+     "bytes": 511270
+    },
+    {
+     "w": 2000,
+     "h": 1500,
+     "file": "assets/img/cine/s3-column-2000.ef965d5d.webp",
+     "bytes": 777330
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 360,
+     "file": "assets/img/cine/s3-column-480.f843fb73.jpg",
+     "bytes": 41222
+    },
+    {
+     "w": 768,
+     "h": 576,
+     "file": "assets/img/cine/s3-column-768.fa0f009e.jpg",
+     "bytes": 104397
+    },
+    {
+     "w": 1200,
+     "h": 900,
+     "file": "assets/img/cine/s3-column-1200.6ed9a9aa.jpg",
+     "bytes": 260103
+    },
+    {
+     "w": 1600,
+     "h": 1200,
+     "file": "assets/img/cine/s3-column-1600.d2e88796.jpg",
+     "bytes": 462327
+    },
+    {
+     "w": 2000,
+     "h": 1500,
+     "file": "assets/img/cine/s3-column-2000.1a021f1a.jpg",
+     "bytes": 716231
+    }
+   ]
+  },
+  "files": [
+   "assets/img/cine/s3-column-480.f1dbff72.avif",
+   "assets/img/cine/s3-column-768.fb2477ea.avif",
+   "assets/img/cine/s3-column-1200.27e3d2cb.avif",
+   "assets/img/cine/s3-column-1600.4c76a310.avif",
+   "assets/img/cine/s3-column-2000.86bfd77c.avif",
+   "assets/img/cine/s3-column-480.c2c3f5f4.webp",
+   "assets/img/cine/s3-column-768.ce52376b.webp",
+   "assets/img/cine/s3-column-1200.c2ff19c3.webp",
+   "assets/img/cine/s3-column-1600.9af926b9.webp",
+   "assets/img/cine/s3-column-2000.ef965d5d.webp",
+   "assets/img/cine/s3-column-480.f843fb73.jpg",
+   "assets/img/cine/s3-column-768.fa0f009e.jpg",
+   "assets/img/cine/s3-column-1200.6ed9a9aa.jpg",
+   "assets/img/cine/s3-column-1600.d2e88796.jpg",
+   "assets/img/cine/s3-column-2000.1a021f1a.jpg"
+  ]
+ },
+ "cine/s3-wall-right.webp": {
+  "key": "v1:std:42abbaaaaa7f791b3d5d23dba4930ada29dfb1997e566562a354a08813150be0",
+  "width": 2600,
+  "height": 1950,
+  "alpha": true,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 360,
+     "file": "assets/img/cine/s3-wall-right-480.6764b959.avif",
+     "bytes": 10248
+    },
+    {
+     "w": 768,
+     "h": 576,
+     "file": "assets/img/cine/s3-wall-right-768.26e3f6a9.avif",
+     "bytes": 23212
+    },
+    {
+     "w": 1200,
+     "h": 900,
+     "file": "assets/img/cine/s3-wall-right-1200.03f02d77.avif",
+     "bytes": 51678
+    },
+    {
+     "w": 1600,
+     "h": 1200,
+     "file": "assets/img/cine/s3-wall-right-1600.318a3f19.avif",
+     "bytes": 84578
+    },
+    {
+     "w": 2000,
+     "h": 1500,
+     "file": "assets/img/cine/s3-wall-right-2000.92b17ad4.avif",
+     "bytes": 119281
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 360,
+     "file": "assets/img/cine/s3-wall-right-480.0467cf93.webp",
+     "bytes": 11892
+    },
+    {
+     "w": 768,
+     "h": 576,
+     "file": "assets/img/cine/s3-wall-right-768.8f669350.webp",
+     "bytes": 28194
+    },
+    {
+     "w": 1200,
+     "h": 900,
+     "file": "assets/img/cine/s3-wall-right-1200.1fd9b894.webp",
+     "bytes": 65968
+    },
+    {
+     "w": 1600,
+     "h": 1200,
+     "file": "assets/img/cine/s3-wall-right-1600.2d40f95e.webp",
+     "bytes": 108270
+    },
+    {
+     "w": 2000,
+     "h": 1500,
+     "file": "assets/img/cine/s3-wall-right-2000.e247240f.webp",
+     "bytes": 158082
+    }
+   ]
+  },
+  "files": [
+   "assets/img/cine/s3-wall-right-480.6764b959.avif",
+   "assets/img/cine/s3-wall-right-768.26e3f6a9.avif",
+   "assets/img/cine/s3-wall-right-1200.03f02d77.avif",
+   "assets/img/cine/s3-wall-right-1600.318a3f19.avif",
+   "assets/img/cine/s3-wall-right-2000.92b17ad4.avif",
+   "assets/img/cine/s3-wall-right-480.0467cf93.webp",
+   "assets/img/cine/s3-wall-right-768.8f669350.webp",
+   "assets/img/cine/s3-wall-right-1200.1fd9b894.webp",
+   "assets/img/cine/s3-wall-right-1600.2d40f95e.webp",
+   "assets/img/cine/s3-wall-right-2000.e247240f.webp"
+  ]
+ },
+ "cine/wipe-rock.webp": {
+  "key": "v1:std:937ac84040073e7fc1f52dad3d7c6d2b8f141db037beaccaeedcc6a9be2737b0",
+  "width": 1400,
+  "height": 820,
+  "alpha": true,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 281,
+     "file": "assets/img/cine/wipe-rock-480.8656859f.avif",
+     "bytes": 3565
+    },
+    {
+     "w": 768,
+     "h": 450,
+     "file": "assets/img/cine/wipe-rock-768.a0ceb369.avif",
+     "bytes": 7030
+    },
+    {
+     "w": 1200,
+     "h": 703,
+     "file": "assets/img/cine/wipe-rock-1200.71e5db3f.avif",
+     "bytes": 11263
+    },
+    {
+     "w": 1400,
+     "h": 820,
+     "file": "assets/img/cine/wipe-rock-1400.4fb5edc5.avif",
+     "bytes": 14668
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 281,
+     "file": "assets/img/cine/wipe-rock-480.09e7ae20.webp",
+     "bytes": 2680
+    },
+    {
+     "w": 768,
+     "h": 450,
+     "file": "assets/img/cine/wipe-rock-768.9d90910b.webp",
+     "bytes": 5602
+    },
+    {
+     "w": 1200,
+     "h": 703,
+     "file": "assets/img/cine/wipe-rock-1200.643d36db.webp",
+     "bytes": 10260
+    },
+    {
+     "w": 1400,
+     "h": 820,
+     "file": "assets/img/cine/wipe-rock-1400.4830ad7b.webp",
+     "bytes": 13412
+    }
+   ]
+  },
+  "files": [
+   "assets/img/cine/wipe-rock-480.8656859f.avif",
+   "assets/img/cine/wipe-rock-768.a0ceb369.avif",
+   "assets/img/cine/wipe-rock-1200.71e5db3f.avif",
+   "assets/img/cine/wipe-rock-1400.4fb5edc5.avif",
+   "assets/img/cine/wipe-rock-480.09e7ae20.webp",
+   "assets/img/cine/wipe-rock-768.9d90910b.webp",
+   "assets/img/cine/wipe-rock-1200.643d36db.webp",
+   "assets/img/cine/wipe-rock-1400.4830ad7b.webp"
+  ]
+ },
+ "discover/amman.jpg": {
+  "key": "v1:hero:37db4ea8cdee13b097f3371b314d1814764357a87250e56a1b4852f5482f556d",
+  "width": 1772,
+  "height": 1285,
+  "alpha": false,
+  "hero": true,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 348,
+     "file": "assets/img/discover/amman-480.85755850.avif",
+     "bytes": 27667
+    },
+    {
+     "w": 768,
+     "h": 557,
+     "file": "assets/img/discover/amman-768.9375ae4a.avif",
+     "bytes": 70239
+    },
+    {
+     "w": 1200,
+     "h": 870,
+     "file": "assets/img/discover/amman-1200.897c8fc5.avif",
+     "bytes": 172043
+    },
+    {
+     "w": 1600,
+     "h": 1160,
+     "file": "assets/img/discover/amman-1600.383cccc2.avif",
+     "bytes": 292272
+    },
+    {
+     "w": 1772,
+     "h": 1285,
+     "file": "assets/img/discover/amman-1772.37e519ee.avif",
+     "bytes": 364395
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 348,
+     "file": "assets/img/discover/amman-480.fb0ab3dd.webp",
+     "bytes": 31268
+    },
+    {
+     "w": 768,
+     "h": 557,
+     "file": "assets/img/discover/amman-768.3b067c38.webp",
+     "bytes": 79984
+    },
+    {
+     "w": 1200,
+     "h": 870,
+     "file": "assets/img/discover/amman-1200.b40f3b3c.webp",
+     "bytes": 197540
+    },
+    {
+     "w": 1600,
+     "h": 1160,
+     "file": "assets/img/discover/amman-1600.9ffc22c5.webp",
+     "bytes": 344340
+    },
+    {
+     "w": 1772,
+     "h": 1285,
+     "file": "assets/img/discover/amman-1772.ba51eae7.webp",
+     "bytes": 427206
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 348,
+     "file": "assets/img/discover/amman-480.18ac481d.jpg",
+     "bytes": 33176
+    },
+    {
+     "w": 768,
+     "h": 557,
+     "file": "assets/img/discover/amman-768.ea2e380e.jpg",
+     "bytes": 83212
+    },
+    {
+     "w": 1200,
+     "h": 870,
+     "file": "assets/img/discover/amman-1200.93d0f0c4.jpg",
+     "bytes": 202419
+    },
+    {
+     "w": 1600,
+     "h": 1160,
+     "file": "assets/img/discover/amman-1600.e71d9484.jpg",
+     "bytes": 352997
+    },
+    {
+     "w": 1772,
+     "h": 1285,
+     "file": "assets/img/discover/amman-1772.7deabd82.jpg",
+     "bytes": 444389
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/amman-480.85755850.avif",
+   "assets/img/discover/amman-768.9375ae4a.avif",
+   "assets/img/discover/amman-1200.897c8fc5.avif",
+   "assets/img/discover/amman-1600.383cccc2.avif",
+   "assets/img/discover/amman-1772.37e519ee.avif",
+   "assets/img/discover/amman-480.fb0ab3dd.webp",
+   "assets/img/discover/amman-768.3b067c38.webp",
+   "assets/img/discover/amman-1200.b40f3b3c.webp",
+   "assets/img/discover/amman-1600.9ffc22c5.webp",
+   "assets/img/discover/amman-1772.ba51eae7.webp",
+   "assets/img/discover/amman-480.18ac481d.jpg",
+   "assets/img/discover/amman-768.ea2e380e.jpg",
+   "assets/img/discover/amman-1200.93d0f0c4.jpg",
+   "assets/img/discover/amman-1600.e71d9484.jpg",
+   "assets/img/discover/amman-1772.7deabd82.jpg"
+  ]
+ },
+ "discover/aqaba.jpg": {
+  "key": "v1:hero:2a19d69adf3a687d8bc71f5de331938b250cea87842242b0de5d3633431a07eb",
+  "width": 2000,
+  "height": 1339,
+  "alpha": false,
+  "hero": true,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 321,
+     "file": "assets/img/discover/aqaba-480.d2f73ea1.avif",
+     "bytes": 14247
+    },
+    {
+     "w": 768,
+     "h": 514,
+     "file": "assets/img/discover/aqaba-768.f5bd0da6.avif",
+     "bytes": 33997
+    },
+    {
+     "w": 1200,
+     "h": 803,
+     "file": "assets/img/discover/aqaba-1200.57af2e9f.avif",
+     "bytes": 85984
+    },
+    {
+     "w": 1600,
+     "h": 1071,
+     "file": "assets/img/discover/aqaba-1600.016decc4.avif",
+     "bytes": 157906
+    },
+    {
+     "w": 2000,
+     "h": 1339,
+     "file": "assets/img/discover/aqaba-2000.580998b6.avif",
+     "bytes": 262502
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 321,
+     "file": "assets/img/discover/aqaba-480.5b7815a3.webp",
+     "bytes": 14560
+    },
+    {
+     "w": 768,
+     "h": 514,
+     "file": "assets/img/discover/aqaba-768.fc17cb81.webp",
+     "bytes": 35164
+    },
+    {
+     "w": 1200,
+     "h": 803,
+     "file": "assets/img/discover/aqaba-1200.b68f40ee.webp",
+     "bytes": 83376
+    },
+    {
+     "w": 1600,
+     "h": 1071,
+     "file": "assets/img/discover/aqaba-1600.c8b4d3d1.webp",
+     "bytes": 148528
+    },
+    {
+     "w": 2000,
+     "h": 1339,
+     "file": "assets/img/discover/aqaba-2000.1b4cc677.webp",
+     "bytes": 236058
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 321,
+     "file": "assets/img/discover/aqaba-480.b9c58f96.jpg",
+     "bytes": 19114
+    },
+    {
+     "w": 768,
+     "h": 514,
+     "file": "assets/img/discover/aqaba-768.e58aac58.jpg",
+     "bytes": 45769
+    },
+    {
+     "w": 1200,
+     "h": 803,
+     "file": "assets/img/discover/aqaba-1200.dbb301e1.jpg",
+     "bytes": 109123
+    },
+    {
+     "w": 1600,
+     "h": 1071,
+     "file": "assets/img/discover/aqaba-1600.69765970.jpg",
+     "bytes": 196592
+    },
+    {
+     "w": 2000,
+     "h": 1339,
+     "file": "assets/img/discover/aqaba-2000.68e2d6ea.jpg",
+     "bytes": 335373
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/aqaba-480.d2f73ea1.avif",
+   "assets/img/discover/aqaba-768.f5bd0da6.avif",
+   "assets/img/discover/aqaba-1200.57af2e9f.avif",
+   "assets/img/discover/aqaba-1600.016decc4.avif",
+   "assets/img/discover/aqaba-2000.580998b6.avif",
+   "assets/img/discover/aqaba-480.5b7815a3.webp",
+   "assets/img/discover/aqaba-768.fc17cb81.webp",
+   "assets/img/discover/aqaba-1200.b68f40ee.webp",
+   "assets/img/discover/aqaba-1600.c8b4d3d1.webp",
+   "assets/img/discover/aqaba-2000.1b4cc677.webp",
+   "assets/img/discover/aqaba-480.b9c58f96.jpg",
+   "assets/img/discover/aqaba-768.e58aac58.jpg",
+   "assets/img/discover/aqaba-1200.dbb301e1.jpg",
+   "assets/img/discover/aqaba-1600.69765970.jpg",
+   "assets/img/discover/aqaba-2000.68e2d6ea.jpg"
+  ]
+ },
+ "discover/dead-sea.jpg": {
+  "key": "v1:hero:4c7af3c0da42f612c387b611ad5f628319fb8c5780dc255ae4b7fb2db046582b",
+  "width": 2000,
+  "height": 960,
+  "alpha": false,
+  "hero": true,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 230,
+     "file": "assets/img/discover/dead-sea-480.59e44f62.avif",
+     "bytes": 7711
+    },
+    {
+     "w": 768,
+     "h": 369,
+     "file": "assets/img/discover/dead-sea-768.5287f293.avif",
+     "bytes": 19040
+    },
+    {
+     "w": 1200,
+     "h": 576,
+     "file": "assets/img/discover/dead-sea-1200.cb746469.avif",
+     "bytes": 43821
+    },
+    {
+     "w": 1600,
+     "h": 768,
+     "file": "assets/img/discover/dead-sea-1600.ac282623.avif",
+     "bytes": 70820
+    },
+    {
+     "w": 2000,
+     "h": 960,
+     "file": "assets/img/discover/dead-sea-2000.54eeae20.avif",
+     "bytes": 117366
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 230,
+     "file": "assets/img/discover/dead-sea-480.3aca90b9.webp",
+     "bytes": 7432
+    },
+    {
+     "w": 768,
+     "h": 369,
+     "file": "assets/img/discover/dead-sea-768.7816069f.webp",
+     "bytes": 18444
+    },
+    {
+     "w": 1200,
+     "h": 576,
+     "file": "assets/img/discover/dead-sea-1200.8a0d48d8.webp",
+     "bytes": 43936
+    },
+    {
+     "w": 1600,
+     "h": 768,
+     "file": "assets/img/discover/dead-sea-1600.9498ea7d.webp",
+     "bytes": 76838
+    },
+    {
+     "w": 2000,
+     "h": 960,
+     "file": "assets/img/discover/dead-sea-2000.961b1b26.webp",
+     "bytes": 116800
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 230,
+     "file": "assets/img/discover/dead-sea-480.329d596d.jpg",
+     "bytes": 10644
+    },
+    {
+     "w": 768,
+     "h": 369,
+     "file": "assets/img/discover/dead-sea-768.b14b65c7.jpg",
+     "bytes": 26454
+    },
+    {
+     "w": 1200,
+     "h": 576,
+     "file": "assets/img/discover/dead-sea-1200.aa42b28c.jpg",
+     "bytes": 61281
+    },
+    {
+     "w": 1600,
+     "h": 768,
+     "file": "assets/img/discover/dead-sea-1600.247258de.jpg",
+     "bytes": 107440
+    },
+    {
+     "w": 2000,
+     "h": 960,
+     "file": "assets/img/discover/dead-sea-2000.a1f3939f.jpg",
+     "bytes": 181899
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/dead-sea-480.59e44f62.avif",
+   "assets/img/discover/dead-sea-768.5287f293.avif",
+   "assets/img/discover/dead-sea-1200.cb746469.avif",
+   "assets/img/discover/dead-sea-1600.ac282623.avif",
+   "assets/img/discover/dead-sea-2000.54eeae20.avif",
+   "assets/img/discover/dead-sea-480.3aca90b9.webp",
+   "assets/img/discover/dead-sea-768.7816069f.webp",
+   "assets/img/discover/dead-sea-1200.8a0d48d8.webp",
+   "assets/img/discover/dead-sea-1600.9498ea7d.webp",
+   "assets/img/discover/dead-sea-2000.961b1b26.webp",
+   "assets/img/discover/dead-sea-480.329d596d.jpg",
+   "assets/img/discover/dead-sea-768.b14b65c7.jpg",
+   "assets/img/discover/dead-sea-1200.aa42b28c.jpg",
+   "assets/img/discover/dead-sea-1600.247258de.jpg",
+   "assets/img/discover/dead-sea-2000.a1f3939f.jpg"
+  ]
+ },
+ "discover/jerash.jpg": {
+  "key": "v1:hero:66e6e0c52d10a1ad1d76f8a5325def1fef17ab62534e657a1bb577b28ed81e81",
+  "width": 2000,
+  "height": 1333,
+  "alpha": false,
+  "hero": true,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/discover/jerash-480.88523197.avif",
+     "bytes": 34901
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/discover/jerash-768.46a8b4a5.avif",
+     "bytes": 87660
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/discover/jerash-1200.77ef3588.avif",
+     "bytes": 205068
+    },
+    {
+     "w": 1600,
+     "h": 1066,
+     "file": "assets/img/discover/jerash-1600.b6b7735a.avif",
+     "bytes": 339912
+    },
+    {
+     "w": 2000,
+     "h": 1333,
+     "file": "assets/img/discover/jerash-2000.c660abdd.avif",
+     "bytes": 479216
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/discover/jerash-480.e919bab7.webp",
+     "bytes": 40556
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/discover/jerash-768.bde53041.webp",
+     "bytes": 100490
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/discover/jerash-1200.626ff89a.webp",
+     "bytes": 233234
+    },
+    {
+     "w": 1600,
+     "h": 1066,
+     "file": "assets/img/discover/jerash-1600.30d3afc5.webp",
+     "bytes": 395476
+    },
+    {
+     "w": 2000,
+     "h": 1333,
+     "file": "assets/img/discover/jerash-2000.34d1c702.webp",
+     "bytes": 575806
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/discover/jerash-480.1a0ff327.jpg",
+     "bytes": 39978
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/discover/jerash-768.f0041344.jpg",
+     "bytes": 98946
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/discover/jerash-1200.c008cfc1.jpg",
+     "bytes": 231903
+    },
+    {
+     "w": 1600,
+     "h": 1066,
+     "file": "assets/img/discover/jerash-1600.1b161dc4.jpg",
+     "bytes": 397545
+    },
+    {
+     "w": 2000,
+     "h": 1333,
+     "file": "assets/img/discover/jerash-2000.4042e2fa.jpg",
+     "bytes": 599774
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/jerash-480.88523197.avif",
+   "assets/img/discover/jerash-768.46a8b4a5.avif",
+   "assets/img/discover/jerash-1200.77ef3588.avif",
+   "assets/img/discover/jerash-1600.b6b7735a.avif",
+   "assets/img/discover/jerash-2000.c660abdd.avif",
+   "assets/img/discover/jerash-480.e919bab7.webp",
+   "assets/img/discover/jerash-768.bde53041.webp",
+   "assets/img/discover/jerash-1200.626ff89a.webp",
+   "assets/img/discover/jerash-1600.30d3afc5.webp",
+   "assets/img/discover/jerash-2000.34d1c702.webp",
+   "assets/img/discover/jerash-480.1a0ff327.jpg",
+   "assets/img/discover/jerash-768.f0041344.jpg",
+   "assets/img/discover/jerash-1200.c008cfc1.jpg",
+   "assets/img/discover/jerash-1600.1b161dc4.jpg",
+   "assets/img/discover/jerash-2000.4042e2fa.jpg"
+  ]
+ },
+ "discover/petra-wide.jpg": {
+  "key": "v1:hero:f2351106bba37764a73a388b9c371e508222755183f097d819a5d826bc3b5a56",
+  "width": 3168,
+  "height": 1344,
+  "alpha": false,
+  "hero": true,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 204,
+     "file": "assets/img/discover/petra-wide-480.4fafd29e.avif",
+     "bytes": 26243
+    },
+    {
+     "w": 768,
+     "h": 326,
+     "file": "assets/img/discover/petra-wide-768.0f523fa3.avif",
+     "bytes": 60528
+    },
+    {
+     "w": 1200,
+     "h": 509,
+     "file": "assets/img/discover/petra-wide-1200.b3b7c386.avif",
+     "bytes": 135984
+    },
+    {
+     "w": 1600,
+     "h": 679,
+     "file": "assets/img/discover/petra-wide-1600.6e900950.avif",
+     "bytes": 228343
+    },
+    {
+     "w": 2000,
+     "h": 848,
+     "file": "assets/img/discover/petra-wide-2000.79f78b65.avif",
+     "bytes": 340993
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 204,
+     "file": "assets/img/discover/petra-wide-480.25f50b62.webp",
+     "bytes": 31406
+    },
+    {
+     "w": 768,
+     "h": 326,
+     "file": "assets/img/discover/petra-wide-768.c3e83fe9.webp",
+     "bytes": 72996
+    },
+    {
+     "w": 1200,
+     "h": 509,
+     "file": "assets/img/discover/petra-wide-1200.5c3ead25.webp",
+     "bytes": 156734
+    },
+    {
+     "w": 1600,
+     "h": 679,
+     "file": "assets/img/discover/petra-wide-1600.43806852.webp",
+     "bytes": 262854
+    },
+    {
+     "w": 2000,
+     "h": 848,
+     "file": "assets/img/discover/petra-wide-2000.16b508af.webp",
+     "bytes": 395514
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 204,
+     "file": "assets/img/discover/petra-wide-480.6065b8c2.jpg",
+     "bytes": 30940
+    },
+    {
+     "w": 768,
+     "h": 326,
+     "file": "assets/img/discover/petra-wide-768.8e3ee855.jpg",
+     "bytes": 72526
+    },
+    {
+     "w": 1200,
+     "h": 509,
+     "file": "assets/img/discover/petra-wide-1200.b87bc525.jpg",
+     "bytes": 161034
+    },
+    {
+     "w": 1600,
+     "h": 679,
+     "file": "assets/img/discover/petra-wide-1600.b0ba0d40.jpg",
+     "bytes": 268931
+    },
+    {
+     "w": 2000,
+     "h": 848,
+     "file": "assets/img/discover/petra-wide-2000.2b5919b1.jpg",
+     "bytes": 400661
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/petra-wide-480.4fafd29e.avif",
+   "assets/img/discover/petra-wide-768.0f523fa3.avif",
+   "assets/img/discover/petra-wide-1200.b3b7c386.avif",
+   "assets/img/discover/petra-wide-1600.6e900950.avif",
+   "assets/img/discover/petra-wide-2000.79f78b65.avif",
+   "assets/img/discover/petra-wide-480.25f50b62.webp",
+   "assets/img/discover/petra-wide-768.c3e83fe9.webp",
+   "assets/img/discover/petra-wide-1200.5c3ead25.webp",
+   "assets/img/discover/petra-wide-1600.43806852.webp",
+   "assets/img/discover/petra-wide-2000.16b508af.webp",
+   "assets/img/discover/petra-wide-480.6065b8c2.jpg",
+   "assets/img/discover/petra-wide-768.8e3ee855.jpg",
+   "assets/img/discover/petra-wide-1200.b87bc525.jpg",
+   "assets/img/discover/petra-wide-1600.b0ba0d40.jpg",
+   "assets/img/discover/petra-wide-2000.2b5919b1.jpg"
+  ]
+ },
+ "discover/petra.jpg": {
+  "key": "v1:std:f59ded00a4fefd9457358a5a69e473e0484425de5e34027b87c78900da4193b0",
+  "width": 1121,
+  "height": 1403,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 601,
+     "file": "assets/img/discover/petra-480.58ff8eae.avif",
+     "bytes": 44036
+    },
+    {
+     "w": 768,
+     "h": 961,
+     "file": "assets/img/discover/petra-768.5334a622.avif",
+     "bytes": 103740
+    },
+    {
+     "w": 1121,
+     "h": 1403,
+     "file": "assets/img/discover/petra-1121.65b900c6.avif",
+     "bytes": 205843
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 601,
+     "file": "assets/img/discover/petra-480.282719c8.webp",
+     "bytes": 55514
+    },
+    {
+     "w": 768,
+     "h": 961,
+     "file": "assets/img/discover/petra-768.5831143b.webp",
+     "bytes": 126536
+    },
+    {
+     "w": 1121,
+     "h": 1403,
+     "file": "assets/img/discover/petra-1121.a0fbf1ab.webp",
+     "bytes": 229672
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 601,
+     "file": "assets/img/discover/petra-480.03254024.jpg",
+     "bytes": 60099
+    },
+    {
+     "w": 768,
+     "h": 961,
+     "file": "assets/img/discover/petra-768.82b6e7d2.jpg",
+     "bytes": 141322
+    },
+    {
+     "w": 1121,
+     "h": 1403,
+     "file": "assets/img/discover/petra-1121.a7665a4f.jpg",
+     "bytes": 286858
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/petra-480.58ff8eae.avif",
+   "assets/img/discover/petra-768.5334a622.avif",
+   "assets/img/discover/petra-1121.65b900c6.avif",
+   "assets/img/discover/petra-480.282719c8.webp",
+   "assets/img/discover/petra-768.5831143b.webp",
+   "assets/img/discover/petra-1121.a0fbf1ab.webp",
+   "assets/img/discover/petra-480.03254024.jpg",
+   "assets/img/discover/petra-768.82b6e7d2.jpg",
+   "assets/img/discover/petra-1121.a7665a4f.jpg"
+  ]
+ },
+ "discover/wadi-rum.jpg": {
+  "key": "v1:hero:117143fe40b61c1ce8a3e9176843f42fcf9a62f665f0982eb5cb5cb6108c3774",
+  "width": 2000,
+  "height": 1500,
+  "alpha": false,
+  "hero": true,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 360,
+     "file": "assets/img/discover/wadi-rum-480.5afabe5f.avif",
+     "bytes": 31319
+    },
+    {
+     "w": 768,
+     "h": 576,
+     "file": "assets/img/discover/wadi-rum-768.465bc1d9.avif",
+     "bytes": 78722
+    },
+    {
+     "w": 1200,
+     "h": 900,
+     "file": "assets/img/discover/wadi-rum-1200.f1c5252a.avif",
+     "bytes": 192755
+    },
+    {
+     "w": 1600,
+     "h": 1200,
+     "file": "assets/img/discover/wadi-rum-1600.f7ecae50.avif",
+     "bytes": 322978
+    },
+    {
+     "w": 2000,
+     "h": 1500,
+     "file": "assets/img/discover/wadi-rum-2000.c0d6e37c.avif",
+     "bytes": 399038
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 360,
+     "file": "assets/img/discover/wadi-rum-480.53ffcf0e.webp",
+     "bytes": 36092
+    },
+    {
+     "w": 768,
+     "h": 576,
+     "file": "assets/img/discover/wadi-rum-768.65961612.webp",
+     "bytes": 86436
+    },
+    {
+     "w": 1200,
+     "h": 900,
+     "file": "assets/img/discover/wadi-rum-1200.6c5c8888.webp",
+     "bytes": 211868
+    },
+    {
+     "w": 1600,
+     "h": 1200,
+     "file": "assets/img/discover/wadi-rum-1600.525809fa.webp",
+     "bytes": 358612
+    },
+    {
+     "w": 2000,
+     "h": 1500,
+     "file": "assets/img/discover/wadi-rum-2000.c652a3bd.webp",
+     "bytes": 529750
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 360,
+     "file": "assets/img/discover/wadi-rum-480.cc463cf1.jpg",
+     "bytes": 37285
+    },
+    {
+     "w": 768,
+     "h": 576,
+     "file": "assets/img/discover/wadi-rum-768.98469a7e.jpg",
+     "bytes": 90794
+    },
+    {
+     "w": 1200,
+     "h": 900,
+     "file": "assets/img/discover/wadi-rum-1200.45b28bea.jpg",
+     "bytes": 218082
+    },
+    {
+     "w": 1600,
+     "h": 1200,
+     "file": "assets/img/discover/wadi-rum-1600.ee1404ce.jpg",
+     "bytes": 381702
+    },
+    {
+     "w": 2000,
+     "h": 1500,
+     "file": "assets/img/discover/wadi-rum-2000.ac3219df.jpg",
+     "bytes": 489816
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/wadi-rum-480.5afabe5f.avif",
+   "assets/img/discover/wadi-rum-768.465bc1d9.avif",
+   "assets/img/discover/wadi-rum-1200.f1c5252a.avif",
+   "assets/img/discover/wadi-rum-1600.f7ecae50.avif",
+   "assets/img/discover/wadi-rum-2000.c0d6e37c.avif",
+   "assets/img/discover/wadi-rum-480.53ffcf0e.webp",
+   "assets/img/discover/wadi-rum-768.65961612.webp",
+   "assets/img/discover/wadi-rum-1200.6c5c8888.webp",
+   "assets/img/discover/wadi-rum-1600.525809fa.webp",
+   "assets/img/discover/wadi-rum-2000.c652a3bd.webp",
+   "assets/img/discover/wadi-rum-480.cc463cf1.jpg",
+   "assets/img/discover/wadi-rum-768.98469a7e.jpg",
+   "assets/img/discover/wadi-rum-1200.45b28bea.jpg",
+   "assets/img/discover/wadi-rum-1600.ee1404ce.jpg",
+   "assets/img/discover/wadi-rum-2000.ac3219df.jpg"
+  ]
+ },
+ "guides/amman-citadel.jpg": {
+  "key": "v1:std:bdb051058cd4b71d7a8eb5a0414060162ae358c64fc20199ffb3b14b195dd802",
+  "width": 473,
+  "height": 193,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/amman-citadel-120.78d16bcb.avif",
+     "bytes": 1913
+    },
+    {
+     "w": 240,
+     "h": 98,
+     "file": "assets/img/guides/amman-citadel-240.d5bd4c49.avif",
+     "bytes": 5997
+    },
+    {
+     "w": 360,
+     "h": 147,
+     "file": "assets/img/guides/amman-citadel-360.ed275cdb.avif",
+     "bytes": 12034
+    },
+    {
+     "w": 473,
+     "h": 193,
+     "file": "assets/img/guides/amman-citadel-473.a89a3b0d.avif",
+     "bytes": 18123
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/amman-citadel-120.152f1f1b.webp",
+     "bytes": 2414
+    },
+    {
+     "w": 240,
+     "h": 98,
+     "file": "assets/img/guides/amman-citadel-240.c698cff3.webp",
+     "bytes": 7894
+    },
+    {
+     "w": 360,
+     "h": 147,
+     "file": "assets/img/guides/amman-citadel-360.9039a169.webp",
+     "bytes": 16026
+    },
+    {
+     "w": 473,
+     "h": 193,
+     "file": "assets/img/guides/amman-citadel-473.6317dc7c.webp",
+     "bytes": 24862
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/amman-citadel-120.0dda057e.jpg",
+     "bytes": 2584
+    },
+    {
+     "w": 240,
+     "h": 98,
+     "file": "assets/img/guides/amman-citadel-240.8dcdfc26.jpg",
+     "bytes": 8023
+    },
+    {
+     "w": 360,
+     "h": 147,
+     "file": "assets/img/guides/amman-citadel-360.39ea2506.jpg",
+     "bytes": 16435
+    },
+    {
+     "w": 473,
+     "h": 193,
+     "file": "assets/img/guides/amman-citadel-473.514770d6.jpg",
+     "bytes": 25961
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/amman-citadel-120.78d16bcb.avif",
+   "assets/img/guides/amman-citadel-240.d5bd4c49.avif",
+   "assets/img/guides/amman-citadel-360.ed275cdb.avif",
+   "assets/img/guides/amman-citadel-473.a89a3b0d.avif",
+   "assets/img/guides/amman-citadel-120.152f1f1b.webp",
+   "assets/img/guides/amman-citadel-240.c698cff3.webp",
+   "assets/img/guides/amman-citadel-360.9039a169.webp",
+   "assets/img/guides/amman-citadel-473.6317dc7c.webp",
+   "assets/img/guides/amman-citadel-120.0dda057e.jpg",
+   "assets/img/guides/amman-citadel-240.8dcdfc26.jpg",
+   "assets/img/guides/amman-citadel-360.39ea2506.jpg",
+   "assets/img/guides/amman-citadel-473.514770d6.jpg"
+  ]
+ },
+ "guides/amman-hejaz.jpg": {
+  "key": "v1:std:91493344bfc174dc22ca001c119a7a4d6a985b3a090367bddf5f701b60f71747",
+  "width": 286,
+  "height": 81,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 34,
+     "file": "assets/img/guides/amman-hejaz-120.7b4c7f78.avif",
+     "bytes": 1525
+    },
+    {
+     "w": 240,
+     "h": 68,
+     "file": "assets/img/guides/amman-hejaz-240.35e82e48.avif",
+     "bytes": 4407
+    },
+    {
+     "w": 286,
+     "h": 81,
+     "file": "assets/img/guides/amman-hejaz-286.eead9333.avif",
+     "bytes": 6078
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 34,
+     "file": "assets/img/guides/amman-hejaz-120.c748b5d8.webp",
+     "bytes": 1978
+    },
+    {
+     "w": 240,
+     "h": 68,
+     "file": "assets/img/guides/amman-hejaz-240.8e7ed419.webp",
+     "bytes": 6032
+    },
+    {
+     "w": 286,
+     "h": 81,
+     "file": "assets/img/guides/amman-hejaz-286.e2d9212e.webp",
+     "bytes": 8064
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 34,
+     "file": "assets/img/guides/amman-hejaz-120.1b08cbd8.jpg",
+     "bytes": 2106
+    },
+    {
+     "w": 240,
+     "h": 68,
+     "file": "assets/img/guides/amman-hejaz-240.ac9d8d5d.jpg",
+     "bytes": 6220
+    },
+    {
+     "w": 286,
+     "h": 81,
+     "file": "assets/img/guides/amman-hejaz-286.072154a6.jpg",
+     "bytes": 8303
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/amman-hejaz-120.7b4c7f78.avif",
+   "assets/img/guides/amman-hejaz-240.35e82e48.avif",
+   "assets/img/guides/amman-hejaz-286.eead9333.avif",
+   "assets/img/guides/amman-hejaz-120.c748b5d8.webp",
+   "assets/img/guides/amman-hejaz-240.8e7ed419.webp",
+   "assets/img/guides/amman-hejaz-286.e2d9212e.webp",
+   "assets/img/guides/amman-hejaz-120.1b08cbd8.jpg",
+   "assets/img/guides/amman-hejaz-240.ac9d8d5d.jpg",
+   "assets/img/guides/amman-hejaz-286.072154a6.jpg"
+  ]
+ },
+ "guides/amman-knafeh-coffee.jpg": {
+  "key": "v1:std:657c1448d857d7ab906c0d155c0fc15d024278618df8b1bba4a5fc40a05841bf",
+  "width": 357,
+  "height": 171,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 57,
+     "file": "assets/img/guides/amman-knafeh-coffee-120.ec3f7ae5.avif",
+     "bytes": 2017
+    },
+    {
+     "w": 240,
+     "h": 115,
+     "file": "assets/img/guides/amman-knafeh-coffee-240.bfdd7a5c.avif",
+     "bytes": 6212
+    },
+    {
+     "w": 357,
+     "h": 171,
+     "file": "assets/img/guides/amman-knafeh-coffee-357.609137b8.avif",
+     "bytes": 11407
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 57,
+     "file": "assets/img/guides/amman-knafeh-coffee-120.86db95d2.webp",
+     "bytes": 2768
+    },
+    {
+     "w": 240,
+     "h": 115,
+     "file": "assets/img/guides/amman-knafeh-coffee-240.8f173494.webp",
+     "bytes": 8812
+    },
+    {
+     "w": 357,
+     "h": 171,
+     "file": "assets/img/guides/amman-knafeh-coffee-357.640797c4.webp",
+     "bytes": 16826
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 57,
+     "file": "assets/img/guides/amman-knafeh-coffee-120.184a147c.jpg",
+     "bytes": 2837
+    },
+    {
+     "w": 240,
+     "h": 115,
+     "file": "assets/img/guides/amman-knafeh-coffee-240.718f4cb0.jpg",
+     "bytes": 8832
+    },
+    {
+     "w": 357,
+     "h": 171,
+     "file": "assets/img/guides/amman-knafeh-coffee-357.a509862b.jpg",
+     "bytes": 17205
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/amman-knafeh-coffee-120.ec3f7ae5.avif",
+   "assets/img/guides/amman-knafeh-coffee-240.bfdd7a5c.avif",
+   "assets/img/guides/amman-knafeh-coffee-357.609137b8.avif",
+   "assets/img/guides/amman-knafeh-coffee-120.86db95d2.webp",
+   "assets/img/guides/amman-knafeh-coffee-240.8f173494.webp",
+   "assets/img/guides/amman-knafeh-coffee-357.640797c4.webp",
+   "assets/img/guides/amman-knafeh-coffee-120.184a147c.jpg",
+   "assets/img/guides/amman-knafeh-coffee-240.718f4cb0.jpg",
+   "assets/img/guides/amman-knafeh-coffee-357.a509862b.jpg"
+  ]
+ },
+ "guides/amman-nymphaeum.jpg": {
+  "key": "v1:std:e2b643e375e3d0deb850f9a10dc7fa79741e6d7b008978dd7ebb1f3de4d83847",
+  "width": 473,
+  "height": 194,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/amman-nymphaeum-120.6e4461c7.avif",
+     "bytes": 2121
+    },
+    {
+     "w": 240,
+     "h": 98,
+     "file": "assets/img/guides/amman-nymphaeum-240.4570a72d.avif",
+     "bytes": 6997
+    },
+    {
+     "w": 360,
+     "h": 148,
+     "file": "assets/img/guides/amman-nymphaeum-360.22e230ce.avif",
+     "bytes": 13983
+    },
+    {
+     "w": 473,
+     "h": 194,
+     "file": "assets/img/guides/amman-nymphaeum-473.13b658de.avif",
+     "bytes": 21740
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/amman-nymphaeum-120.5cefd49a.webp",
+     "bytes": 2658
+    },
+    {
+     "w": 240,
+     "h": 98,
+     "file": "assets/img/guides/amman-nymphaeum-240.6cfbf4ed.webp",
+     "bytes": 9506
+    },
+    {
+     "w": 360,
+     "h": 148,
+     "file": "assets/img/guides/amman-nymphaeum-360.d61200a9.webp",
+     "bytes": 19722
+    },
+    {
+     "w": 473,
+     "h": 194,
+     "file": "assets/img/guides/amman-nymphaeum-473.91ede642.webp",
+     "bytes": 31902
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/amman-nymphaeum-120.135d6867.jpg",
+     "bytes": 2774
+    },
+    {
+     "w": 240,
+     "h": 98,
+     "file": "assets/img/guides/amman-nymphaeum-240.b8aa66d8.jpg",
+     "bytes": 9119
+    },
+    {
+     "w": 360,
+     "h": 148,
+     "file": "assets/img/guides/amman-nymphaeum-360.d6ca4828.jpg",
+     "bytes": 19012
+    },
+    {
+     "w": 473,
+     "h": 194,
+     "file": "assets/img/guides/amman-nymphaeum-473.e2277f00.jpg",
+     "bytes": 30832
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/amman-nymphaeum-120.6e4461c7.avif",
+   "assets/img/guides/amman-nymphaeum-240.4570a72d.avif",
+   "assets/img/guides/amman-nymphaeum-360.22e230ce.avif",
+   "assets/img/guides/amman-nymphaeum-473.13b658de.avif",
+   "assets/img/guides/amman-nymphaeum-120.5cefd49a.webp",
+   "assets/img/guides/amman-nymphaeum-240.6cfbf4ed.webp",
+   "assets/img/guides/amman-nymphaeum-360.d61200a9.webp",
+   "assets/img/guides/amman-nymphaeum-473.91ede642.webp",
+   "assets/img/guides/amman-nymphaeum-120.135d6867.jpg",
+   "assets/img/guides/amman-nymphaeum-240.b8aa66d8.jpg",
+   "assets/img/guides/amman-nymphaeum-360.d6ca4828.jpg",
+   "assets/img/guides/amman-nymphaeum-473.e2277f00.jpg"
+  ]
+ },
+ "guides/amman-souk.jpg": {
+  "key": "v1:std:0594da0ad7a539c7299707d5d9ad7697e639c89303d9d119bc2d93f1dfaf66fc",
+  "width": 568,
+  "height": 170,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 36,
+     "file": "assets/img/guides/amman-souk-120.f268668b.avif",
+     "bytes": 1927
+    },
+    {
+     "w": 240,
+     "h": 72,
+     "file": "assets/img/guides/amman-souk-240.99a77347.avif",
+     "bytes": 6364
+    },
+    {
+     "w": 360,
+     "h": 108,
+     "file": "assets/img/guides/amman-souk-360.d2a6f3a8.avif",
+     "bytes": 13412
+    },
+    {
+     "w": 568,
+     "h": 170,
+     "file": "assets/img/guides/amman-souk-568.e977bf70.avif",
+     "bytes": 27848
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 36,
+     "file": "assets/img/guides/amman-souk-120.d41309a0.webp",
+     "bytes": 2446
+    },
+    {
+     "w": 240,
+     "h": 72,
+     "file": "assets/img/guides/amman-souk-240.ed7d0528.webp",
+     "bytes": 8624
+    },
+    {
+     "w": 360,
+     "h": 108,
+     "file": "assets/img/guides/amman-souk-360.265f698e.webp",
+     "bytes": 17934
+    },
+    {
+     "w": 568,
+     "h": 170,
+     "file": "assets/img/guides/amman-souk-568.ae588b88.webp",
+     "bytes": 39314
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 36,
+     "file": "assets/img/guides/amman-souk-120.10629c4c.jpg",
+     "bytes": 2452
+    },
+    {
+     "w": 240,
+     "h": 72,
+     "file": "assets/img/guides/amman-souk-240.2b40101c.jpg",
+     "bytes": 7657
+    },
+    {
+     "w": 360,
+     "h": 108,
+     "file": "assets/img/guides/amman-souk-360.cb6e85b7.jpg",
+     "bytes": 16786
+    },
+    {
+     "w": 568,
+     "h": 170,
+     "file": "assets/img/guides/amman-souk-568.c9b813f3.jpg",
+     "bytes": 37555
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/amman-souk-120.f268668b.avif",
+   "assets/img/guides/amman-souk-240.99a77347.avif",
+   "assets/img/guides/amman-souk-360.d2a6f3a8.avif",
+   "assets/img/guides/amman-souk-568.e977bf70.avif",
+   "assets/img/guides/amman-souk-120.d41309a0.webp",
+   "assets/img/guides/amman-souk-240.ed7d0528.webp",
+   "assets/img/guides/amman-souk-360.265f698e.webp",
+   "assets/img/guides/amman-souk-568.ae588b88.webp",
+   "assets/img/guides/amman-souk-120.10629c4c.jpg",
+   "assets/img/guides/amman-souk-240.2b40101c.jpg",
+   "assets/img/guides/amman-souk-360.cb6e85b7.jpg",
+   "assets/img/guides/amman-souk-568.c9b813f3.jpg"
+  ]
+ },
+ "guides/amman-theatre.jpg": {
+  "key": "v1:std:f45be5537956f7e8e629893f506cf676cf8fec7eb5a07da41075cf85790cb70d",
+  "width": 472,
+  "height": 193,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/amman-theatre-120.de4cad4c.avif",
+     "bytes": 1816
+    },
+    {
+     "w": 240,
+     "h": 98,
+     "file": "assets/img/guides/amman-theatre-240.c1a5f81c.avif",
+     "bytes": 6616
+    },
+    {
+     "w": 360,
+     "h": 147,
+     "file": "assets/img/guides/amman-theatre-360.2e3f3dac.avif",
+     "bytes": 13711
+    },
+    {
+     "w": 472,
+     "h": 193,
+     "file": "assets/img/guides/amman-theatre-472.1a4d7b98.avif",
+     "bytes": 21267
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/amman-theatre-120.b9993a62.webp",
+     "bytes": 2308
+    },
+    {
+     "w": 240,
+     "h": 98,
+     "file": "assets/img/guides/amman-theatre-240.c112b903.webp",
+     "bytes": 9302
+    },
+    {
+     "w": 360,
+     "h": 147,
+     "file": "assets/img/guides/amman-theatre-360.bf62e070.webp",
+     "bytes": 20776
+    },
+    {
+     "w": 472,
+     "h": 193,
+     "file": "assets/img/guides/amman-theatre-472.90c103b5.webp",
+     "bytes": 34426
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/amman-theatre-120.c2d34891.jpg",
+     "bytes": 2387
+    },
+    {
+     "w": 240,
+     "h": 98,
+     "file": "assets/img/guides/amman-theatre-240.82872533.jpg",
+     "bytes": 8584
+    },
+    {
+     "w": 360,
+     "h": 147,
+     "file": "assets/img/guides/amman-theatre-360.062aff0d.jpg",
+     "bytes": 18615
+    },
+    {
+     "w": 472,
+     "h": 193,
+     "file": "assets/img/guides/amman-theatre-472.b4ca0000.jpg",
+     "bytes": 30440
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/amman-theatre-120.de4cad4c.avif",
+   "assets/img/guides/amman-theatre-240.c1a5f81c.avif",
+   "assets/img/guides/amman-theatre-360.2e3f3dac.avif",
+   "assets/img/guides/amman-theatre-472.1a4d7b98.avif",
+   "assets/img/guides/amman-theatre-120.b9993a62.webp",
+   "assets/img/guides/amman-theatre-240.c112b903.webp",
+   "assets/img/guides/amman-theatre-360.bf62e070.webp",
+   "assets/img/guides/amman-theatre-472.90c103b5.webp",
+   "assets/img/guides/amman-theatre-120.c2d34891.jpg",
+   "assets/img/guides/amman-theatre-240.82872533.jpg",
+   "assets/img/guides/amman-theatre-360.062aff0d.jpg",
+   "assets/img/guides/amman-theatre-472.b4ca0000.jpg"
+  ]
+ },
+ "guides/aqaba-ayla.jpg": {
+  "key": "v1:std:36cb90184e64f371f615d955a9fc212749b19f914abb4944812fccb45303371e",
+  "width": 473,
+  "height": 186,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/aqaba-ayla-120.3ca3d0fc.avif",
+     "bytes": 1612
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/aqaba-ayla-240.bf369cc0.avif",
+     "bytes": 5592
+    },
+    {
+     "w": 360,
+     "h": 142,
+     "file": "assets/img/guides/aqaba-ayla-360.21f2542a.avif",
+     "bytes": 12050
+    },
+    {
+     "w": 473,
+     "h": 186,
+     "file": "assets/img/guides/aqaba-ayla-473.70720b30.avif",
+     "bytes": 18841
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/aqaba-ayla-120.5d17312c.webp",
+     "bytes": 2112
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/aqaba-ayla-240.de1a2772.webp",
+     "bytes": 7622
+    },
+    {
+     "w": 360,
+     "h": 142,
+     "file": "assets/img/guides/aqaba-ayla-360.e69b221c.webp",
+     "bytes": 16060
+    },
+    {
+     "w": 473,
+     "h": 186,
+     "file": "assets/img/guides/aqaba-ayla-473.7b7a6cc3.webp",
+     "bytes": 26452
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/aqaba-ayla-120.10bcbe51.jpg",
+     "bytes": 2266
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/aqaba-ayla-240.b5b6ab30.jpg",
+     "bytes": 7531
+    },
+    {
+     "w": 360,
+     "h": 142,
+     "file": "assets/img/guides/aqaba-ayla-360.e74dc586.jpg",
+     "bytes": 15882
+    },
+    {
+     "w": 473,
+     "h": 186,
+     "file": "assets/img/guides/aqaba-ayla-473.b896fc88.jpg",
+     "bytes": 25995
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/aqaba-ayla-120.3ca3d0fc.avif",
+   "assets/img/guides/aqaba-ayla-240.bf369cc0.avif",
+   "assets/img/guides/aqaba-ayla-360.21f2542a.avif",
+   "assets/img/guides/aqaba-ayla-473.70720b30.avif",
+   "assets/img/guides/aqaba-ayla-120.5d17312c.webp",
+   "assets/img/guides/aqaba-ayla-240.de1a2772.webp",
+   "assets/img/guides/aqaba-ayla-360.e69b221c.webp",
+   "assets/img/guides/aqaba-ayla-473.7b7a6cc3.webp",
+   "assets/img/guides/aqaba-ayla-120.10bcbe51.jpg",
+   "assets/img/guides/aqaba-ayla-240.b5b6ab30.jpg",
+   "assets/img/guides/aqaba-ayla-360.e74dc586.jpg",
+   "assets/img/guides/aqaba-ayla-473.b896fc88.jpg"
+  ]
+ },
+ "guides/aqaba-diving.jpg": {
+  "key": "v1:std:5900cb1d4110139d5e2370969796f498f8238b58028bd460e50f79a619e7d12b",
+  "width": 473,
+  "height": 156,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 40,
+     "file": "assets/img/guides/aqaba-diving-120.534764b7.avif",
+     "bytes": 1376
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/aqaba-diving-240.eb333a24.avif",
+     "bytes": 4292
+    },
+    {
+     "w": 360,
+     "h": 119,
+     "file": "assets/img/guides/aqaba-diving-360.48b10c02.avif",
+     "bytes": 8606
+    },
+    {
+     "w": 473,
+     "h": 156,
+     "file": "assets/img/guides/aqaba-diving-473.d3af3a4c.avif",
+     "bytes": 13607
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 40,
+     "file": "assets/img/guides/aqaba-diving-120.c24c3ace.webp",
+     "bytes": 1532
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/aqaba-diving-240.a9e9d04c.webp",
+     "bytes": 4710
+    },
+    {
+     "w": 360,
+     "h": 119,
+     "file": "assets/img/guides/aqaba-diving-360.3e408a0c.webp",
+     "bytes": 10478
+    },
+    {
+     "w": 473,
+     "h": 156,
+     "file": "assets/img/guides/aqaba-diving-473.f4533f41.webp",
+     "bytes": 16672
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 40,
+     "file": "assets/img/guides/aqaba-diving-120.d22fcc9c.jpg",
+     "bytes": 1772
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/aqaba-diving-240.0eb4410b.jpg",
+     "bytes": 5214
+    },
+    {
+     "w": 360,
+     "h": 119,
+     "file": "assets/img/guides/aqaba-diving-360.3d75c7af.jpg",
+     "bytes": 10909
+    },
+    {
+     "w": 473,
+     "h": 156,
+     "file": "assets/img/guides/aqaba-diving-473.88de70ed.jpg",
+     "bytes": 17942
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/aqaba-diving-120.534764b7.avif",
+   "assets/img/guides/aqaba-diving-240.eb333a24.avif",
+   "assets/img/guides/aqaba-diving-360.48b10c02.avif",
+   "assets/img/guides/aqaba-diving-473.d3af3a4c.avif",
+   "assets/img/guides/aqaba-diving-120.c24c3ace.webp",
+   "assets/img/guides/aqaba-diving-240.a9e9d04c.webp",
+   "assets/img/guides/aqaba-diving-360.3e408a0c.webp",
+   "assets/img/guides/aqaba-diving-473.f4533f41.webp",
+   "assets/img/guides/aqaba-diving-120.d22fcc9c.jpg",
+   "assets/img/guides/aqaba-diving-240.0eb4410b.jpg",
+   "assets/img/guides/aqaba-diving-360.3d75c7af.jpg",
+   "assets/img/guides/aqaba-diving-473.88de70ed.jpg"
+  ]
+ },
+ "guides/aqaba-fort.jpg": {
+  "key": "v1:std:330dfb7f16ce10bc842d05081314c979cabab1bf1087b57012ed57ceab09b78b",
+  "width": 475,
+  "height": 186,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/aqaba-fort-120.4257185f.avif",
+     "bytes": 1720
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/aqaba-fort-240.3f716157.avif",
+     "bytes": 6017
+    },
+    {
+     "w": 360,
+     "h": 141,
+     "file": "assets/img/guides/aqaba-fort-360.fbc7d958.avif",
+     "bytes": 12453
+    },
+    {
+     "w": 475,
+     "h": 186,
+     "file": "assets/img/guides/aqaba-fort-475.87751300.avif",
+     "bytes": 19655
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/aqaba-fort-120.656d4cca.webp",
+     "bytes": 2172
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/aqaba-fort-240.4a6d21ec.webp",
+     "bytes": 7672
+    },
+    {
+     "w": 360,
+     "h": 141,
+     "file": "assets/img/guides/aqaba-fort-360.8929800e.webp",
+     "bytes": 16540
+    },
+    {
+     "w": 475,
+     "h": 186,
+     "file": "assets/img/guides/aqaba-fort-475.901f02d1.webp",
+     "bytes": 27408
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/aqaba-fort-120.3ade6cf4.jpg",
+     "bytes": 2320
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/aqaba-fort-240.9d0e65bf.jpg",
+     "bytes": 7599
+    },
+    {
+     "w": 360,
+     "h": 141,
+     "file": "assets/img/guides/aqaba-fort-360.ccbeb8db.jpg",
+     "bytes": 16288
+    },
+    {
+     "w": 475,
+     "h": 186,
+     "file": "assets/img/guides/aqaba-fort-475.73608e4a.jpg",
+     "bytes": 27116
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/aqaba-fort-120.4257185f.avif",
+   "assets/img/guides/aqaba-fort-240.3f716157.avif",
+   "assets/img/guides/aqaba-fort-360.fbc7d958.avif",
+   "assets/img/guides/aqaba-fort-475.87751300.avif",
+   "assets/img/guides/aqaba-fort-120.656d4cca.webp",
+   "assets/img/guides/aqaba-fort-240.4a6d21ec.webp",
+   "assets/img/guides/aqaba-fort-360.8929800e.webp",
+   "assets/img/guides/aqaba-fort-475.901f02d1.webp",
+   "assets/img/guides/aqaba-fort-120.3ade6cf4.jpg",
+   "assets/img/guides/aqaba-fort-240.9d0e65bf.jpg",
+   "assets/img/guides/aqaba-fort-360.ccbeb8db.jpg",
+   "assets/img/guides/aqaba-fort-475.73608e4a.jpg"
+  ]
+ },
+ "guides/aqaba-glass-boat.jpg": {
+  "key": "v1:std:ba97737e061bd5962778c027cde9f5927997ee8fb757187c6868fdf68bbd32a2",
+  "width": 474,
+  "height": 156,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 39,
+     "file": "assets/img/guides/aqaba-glass-boat-120.c2032330.avif",
+     "bytes": 1491
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/aqaba-glass-boat-240.73925732.avif",
+     "bytes": 4611
+    },
+    {
+     "w": 360,
+     "h": 118,
+     "file": "assets/img/guides/aqaba-glass-boat-360.2a0e04ac.avif",
+     "bytes": 8500
+    },
+    {
+     "w": 474,
+     "h": 156,
+     "file": "assets/img/guides/aqaba-glass-boat-474.7083ac69.avif",
+     "bytes": 13766
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 39,
+     "file": "assets/img/guides/aqaba-glass-boat-120.72de8019.webp",
+     "bytes": 2072
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/aqaba-glass-boat-240.1b05748a.webp",
+     "bytes": 6056
+    },
+    {
+     "w": 360,
+     "h": 118,
+     "file": "assets/img/guides/aqaba-glass-boat-360.403fd030.webp",
+     "bytes": 12094
+    },
+    {
+     "w": 474,
+     "h": 156,
+     "file": "assets/img/guides/aqaba-glass-boat-474.a5a2af98.webp",
+     "bytes": 19226
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 39,
+     "file": "assets/img/guides/aqaba-glass-boat-120.123d986c.jpg",
+     "bytes": 2217
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/aqaba-glass-boat-240.bb2ed687.jpg",
+     "bytes": 6409
+    },
+    {
+     "w": 360,
+     "h": 118,
+     "file": "assets/img/guides/aqaba-glass-boat-360.f4e9497a.jpg",
+     "bytes": 12962
+    },
+    {
+     "w": 474,
+     "h": 156,
+     "file": "assets/img/guides/aqaba-glass-boat-474.1794fd3c.jpg",
+     "bytes": 20707
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/aqaba-glass-boat-120.c2032330.avif",
+   "assets/img/guides/aqaba-glass-boat-240.73925732.avif",
+   "assets/img/guides/aqaba-glass-boat-360.2a0e04ac.avif",
+   "assets/img/guides/aqaba-glass-boat-474.7083ac69.avif",
+   "assets/img/guides/aqaba-glass-boat-120.72de8019.webp",
+   "assets/img/guides/aqaba-glass-boat-240.1b05748a.webp",
+   "assets/img/guides/aqaba-glass-boat-360.403fd030.webp",
+   "assets/img/guides/aqaba-glass-boat-474.a5a2af98.webp",
+   "assets/img/guides/aqaba-glass-boat-120.123d986c.jpg",
+   "assets/img/guides/aqaba-glass-boat-240.bb2ed687.jpg",
+   "assets/img/guides/aqaba-glass-boat-360.f4e9497a.jpg",
+   "assets/img/guides/aqaba-glass-boat-474.1794fd3c.jpg"
+  ]
+ },
+ "guides/aqaba-snorkel.jpg": {
+  "key": "v1:std:b4ef296a56bf5372179b0f8ef9bbda58a307d65382e2a11e2a185d0f0e825b84",
+  "width": 475,
+  "height": 156,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 39,
+     "file": "assets/img/guides/aqaba-snorkel-120.52942cd5.avif",
+     "bytes": 1692
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/aqaba-snorkel-240.71f861f4.avif",
+     "bytes": 5696
+    },
+    {
+     "w": 360,
+     "h": 118,
+     "file": "assets/img/guides/aqaba-snorkel-360.3690362a.avif",
+     "bytes": 11450
+    },
+    {
+     "w": 475,
+     "h": 156,
+     "file": "assets/img/guides/aqaba-snorkel-475.719970dc.avif",
+     "bytes": 17956
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 39,
+     "file": "assets/img/guides/aqaba-snorkel-120.d8c176bf.webp",
+     "bytes": 2362
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/aqaba-snorkel-240.0d3bb945.webp",
+     "bytes": 7538
+    },
+    {
+     "w": 360,
+     "h": 118,
+     "file": "assets/img/guides/aqaba-snorkel-360.cf466d9a.webp",
+     "bytes": 15798
+    },
+    {
+     "w": 475,
+     "h": 156,
+     "file": "assets/img/guides/aqaba-snorkel-475.90a8bcef.webp",
+     "bytes": 25150
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 39,
+     "file": "assets/img/guides/aqaba-snorkel-120.848da574.jpg",
+     "bytes": 2309
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/aqaba-snorkel-240.adf8ac1a.jpg",
+     "bytes": 7297
+    },
+    {
+     "w": 360,
+     "h": 118,
+     "file": "assets/img/guides/aqaba-snorkel-360.95a6a9ab.jpg",
+     "bytes": 15312
+    },
+    {
+     "w": 475,
+     "h": 156,
+     "file": "assets/img/guides/aqaba-snorkel-475.db1adda1.jpg",
+     "bytes": 24892
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/aqaba-snorkel-120.52942cd5.avif",
+   "assets/img/guides/aqaba-snorkel-240.71f861f4.avif",
+   "assets/img/guides/aqaba-snorkel-360.3690362a.avif",
+   "assets/img/guides/aqaba-snorkel-475.719970dc.avif",
+   "assets/img/guides/aqaba-snorkel-120.d8c176bf.webp",
+   "assets/img/guides/aqaba-snorkel-240.0d3bb945.webp",
+   "assets/img/guides/aqaba-snorkel-360.cf466d9a.webp",
+   "assets/img/guides/aqaba-snorkel-475.90a8bcef.webp",
+   "assets/img/guides/aqaba-snorkel-120.848da574.jpg",
+   "assets/img/guides/aqaba-snorkel-240.adf8ac1a.jpg",
+   "assets/img/guides/aqaba-snorkel-360.95a6a9ab.jpg",
+   "assets/img/guides/aqaba-snorkel-475.db1adda1.jpg"
+  ]
+ },
+ "guides/aqaba-south-beach.jpg": {
+  "key": "v1:std:24bc64af373369476eedd2ca74a7dbda73f3f02c29b8b4857beac6568a8baa82",
+  "width": 474,
+  "height": 186,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/aqaba-south-beach-120.64288b4d.avif",
+     "bytes": 1545
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/aqaba-south-beach-240.17ee7829.avif",
+     "bytes": 5675
+    },
+    {
+     "w": 360,
+     "h": 141,
+     "file": "assets/img/guides/aqaba-south-beach-360.17ecd3d9.avif",
+     "bytes": 11778
+    },
+    {
+     "w": 474,
+     "h": 186,
+     "file": "assets/img/guides/aqaba-south-beach-474.3f2c6839.avif",
+     "bytes": 19494
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/aqaba-south-beach-120.b85de537.webp",
+     "bytes": 1908
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/aqaba-south-beach-240.b2ea2b4d.webp",
+     "bytes": 7414
+    },
+    {
+     "w": 360,
+     "h": 141,
+     "file": "assets/img/guides/aqaba-south-beach-360.3fce2fbc.webp",
+     "bytes": 16162
+    },
+    {
+     "w": 474,
+     "h": 186,
+     "file": "assets/img/guides/aqaba-south-beach-474.360162ee.webp",
+     "bytes": 27572
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/aqaba-south-beach-120.6992f8e7.jpg",
+     "bytes": 2044
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/aqaba-south-beach-240.68c9275f.jpg",
+     "bytes": 7017
+    },
+    {
+     "w": 360,
+     "h": 141,
+     "file": "assets/img/guides/aqaba-south-beach-360.a71a7e7a.jpg",
+     "bytes": 15229
+    },
+    {
+     "w": 474,
+     "h": 186,
+     "file": "assets/img/guides/aqaba-south-beach-474.b7cd3205.jpg",
+     "bytes": 25759
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/aqaba-south-beach-120.64288b4d.avif",
+   "assets/img/guides/aqaba-south-beach-240.17ee7829.avif",
+   "assets/img/guides/aqaba-south-beach-360.17ecd3d9.avif",
+   "assets/img/guides/aqaba-south-beach-474.3f2c6839.avif",
+   "assets/img/guides/aqaba-south-beach-120.b85de537.webp",
+   "assets/img/guides/aqaba-south-beach-240.b2ea2b4d.webp",
+   "assets/img/guides/aqaba-south-beach-360.3fce2fbc.webp",
+   "assets/img/guides/aqaba-south-beach-474.360162ee.webp",
+   "assets/img/guides/aqaba-south-beach-120.6992f8e7.jpg",
+   "assets/img/guides/aqaba-south-beach-240.68c9275f.jpg",
+   "assets/img/guides/aqaba-south-beach-360.a71a7e7a.jpg",
+   "assets/img/guides/aqaba-south-beach-474.b7cd3205.jpg"
+  ]
+ },
+ "guides/card-amman.jpg": {
+  "key": "v1:std:b712042e61b4d44490379c5bd4c380c3287737a0c47b0158a7517a9e5945013b",
+  "width": 472,
+  "height": 223,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 57,
+     "file": "assets/img/guides/card-amman-120.3711178c.avif",
+     "bytes": 1999
+    },
+    {
+     "w": 240,
+     "h": 113,
+     "file": "assets/img/guides/card-amman-240.eb8de077.avif",
+     "bytes": 6555
+    },
+    {
+     "w": 360,
+     "h": 170,
+     "file": "assets/img/guides/card-amman-360.996a8610.avif",
+     "bytes": 12788
+    },
+    {
+     "w": 472,
+     "h": 223,
+     "file": "assets/img/guides/card-amman-472.11065e92.avif",
+     "bytes": 19105
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 57,
+     "file": "assets/img/guides/card-amman-120.f96df3a1.webp",
+     "bytes": 2558
+    },
+    {
+     "w": 240,
+     "h": 113,
+     "file": "assets/img/guides/card-amman-240.61a05310.webp",
+     "bytes": 8532
+    },
+    {
+     "w": 360,
+     "h": 170,
+     "file": "assets/img/guides/card-amman-360.8eb90d27.webp",
+     "bytes": 17600
+    },
+    {
+     "w": 472,
+     "h": 223,
+     "file": "assets/img/guides/card-amman-472.20ee6684.webp",
+     "bytes": 27438
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 57,
+     "file": "assets/img/guides/card-amman-120.54ed77aa.jpg",
+     "bytes": 2756
+    },
+    {
+     "w": 240,
+     "h": 113,
+     "file": "assets/img/guides/card-amman-240.26657f21.jpg",
+     "bytes": 8770
+    },
+    {
+     "w": 360,
+     "h": 170,
+     "file": "assets/img/guides/card-amman-360.1256b304.jpg",
+     "bytes": 17969
+    },
+    {
+     "w": 472,
+     "h": 223,
+     "file": "assets/img/guides/card-amman-472.d085903d.jpg",
+     "bytes": 28134
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/card-amman-120.3711178c.avif",
+   "assets/img/guides/card-amman-240.eb8de077.avif",
+   "assets/img/guides/card-amman-360.996a8610.avif",
+   "assets/img/guides/card-amman-472.11065e92.avif",
+   "assets/img/guides/card-amman-120.f96df3a1.webp",
+   "assets/img/guides/card-amman-240.61a05310.webp",
+   "assets/img/guides/card-amman-360.8eb90d27.webp",
+   "assets/img/guides/card-amman-472.20ee6684.webp",
+   "assets/img/guides/card-amman-120.54ed77aa.jpg",
+   "assets/img/guides/card-amman-240.26657f21.jpg",
+   "assets/img/guides/card-amman-360.1256b304.jpg",
+   "assets/img/guides/card-amman-472.d085903d.jpg"
+  ]
+ },
+ "guides/card-aqaba.jpg": {
+  "key": "v1:std:594f6151eeb9438b7fa696eae540f1a2fff9fb01a6db5dd232e67b5d3ba0e218",
+  "width": 474,
+  "height": 223,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 56,
+     "file": "assets/img/guides/card-aqaba-120.a86db2cb.avif",
+     "bytes": 1823
+    },
+    {
+     "w": 240,
+     "h": 113,
+     "file": "assets/img/guides/card-aqaba-240.a657ad24.avif",
+     "bytes": 6642
+    },
+    {
+     "w": 360,
+     "h": 169,
+     "file": "assets/img/guides/card-aqaba-360.8e48a6ca.avif",
+     "bytes": 13376
+    },
+    {
+     "w": 474,
+     "h": 223,
+     "file": "assets/img/guides/card-aqaba-474.c899c5f0.avif",
+     "bytes": 20568
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 56,
+     "file": "assets/img/guides/card-aqaba-120.f4f4fbb8.webp",
+     "bytes": 2614
+    },
+    {
+     "w": 240,
+     "h": 113,
+     "file": "assets/img/guides/card-aqaba-240.ab4fc98a.webp",
+     "bytes": 9040
+    },
+    {
+     "w": 360,
+     "h": 169,
+     "file": "assets/img/guides/card-aqaba-360.b6196d1e.webp",
+     "bytes": 18902
+    },
+    {
+     "w": 474,
+     "h": 223,
+     "file": "assets/img/guides/card-aqaba-474.1c90265b.webp",
+     "bytes": 30348
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 56,
+     "file": "assets/img/guides/card-aqaba-120.e51d1d59.jpg",
+     "bytes": 2639
+    },
+    {
+     "w": 240,
+     "h": 113,
+     "file": "assets/img/guides/card-aqaba-240.834a0af5.jpg",
+     "bytes": 9135
+    },
+    {
+     "w": 360,
+     "h": 169,
+     "file": "assets/img/guides/card-aqaba-360.e328f853.jpg",
+     "bytes": 18874
+    },
+    {
+     "w": 474,
+     "h": 223,
+     "file": "assets/img/guides/card-aqaba-474.b46fac9a.jpg",
+     "bytes": 30121
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/card-aqaba-120.a86db2cb.avif",
+   "assets/img/guides/card-aqaba-240.a657ad24.avif",
+   "assets/img/guides/card-aqaba-360.8e48a6ca.avif",
+   "assets/img/guides/card-aqaba-474.c899c5f0.avif",
+   "assets/img/guides/card-aqaba-120.f4f4fbb8.webp",
+   "assets/img/guides/card-aqaba-240.ab4fc98a.webp",
+   "assets/img/guides/card-aqaba-360.b6196d1e.webp",
+   "assets/img/guides/card-aqaba-474.1c90265b.webp",
+   "assets/img/guides/card-aqaba-120.e51d1d59.jpg",
+   "assets/img/guides/card-aqaba-240.834a0af5.jpg",
+   "assets/img/guides/card-aqaba-360.e328f853.jpg",
+   "assets/img/guides/card-aqaba-474.b46fac9a.jpg"
+  ]
+ },
+ "guides/card-dead-sea.jpg": {
+  "key": "v1:std:45528d6fa4b75f8044aaed3d916af12df78fa55fde035e63b298adfe7049c042",
+  "width": 474,
+  "height": 222,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 56,
+     "file": "assets/img/guides/card-dead-sea-120.11fa0319.avif",
+     "bytes": 1541
+    },
+    {
+     "w": 240,
+     "h": 112,
+     "file": "assets/img/guides/card-dead-sea-240.89b7f0eb.avif",
+     "bytes": 5369
+    },
+    {
+     "w": 360,
+     "h": 169,
+     "file": "assets/img/guides/card-dead-sea-360.b94acd36.avif",
+     "bytes": 11314
+    },
+    {
+     "w": 474,
+     "h": 222,
+     "file": "assets/img/guides/card-dead-sea-474.19571547.avif",
+     "bytes": 17513
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 56,
+     "file": "assets/img/guides/card-dead-sea-120.533327c4.webp",
+     "bytes": 2128
+    },
+    {
+     "w": 240,
+     "h": 112,
+     "file": "assets/img/guides/card-dead-sea-240.8eff4c1f.webp",
+     "bytes": 7028
+    },
+    {
+     "w": 360,
+     "h": 169,
+     "file": "assets/img/guides/card-dead-sea-360.6115bf5b.webp",
+     "bytes": 15170
+    },
+    {
+     "w": 474,
+     "h": 222,
+     "file": "assets/img/guides/card-dead-sea-474.77d106b1.webp",
+     "bytes": 24332
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 56,
+     "file": "assets/img/guides/card-dead-sea-120.5cda1153.jpg",
+     "bytes": 2325
+    },
+    {
+     "w": 240,
+     "h": 112,
+     "file": "assets/img/guides/card-dead-sea-240.b4fa4ab1.jpg",
+     "bytes": 7440
+    },
+    {
+     "w": 360,
+     "h": 169,
+     "file": "assets/img/guides/card-dead-sea-360.5da2ed49.jpg",
+     "bytes": 16031
+    },
+    {
+     "w": 474,
+     "h": 222,
+     "file": "assets/img/guides/card-dead-sea-474.b764e5fe.jpg",
+     "bytes": 25432
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/card-dead-sea-120.11fa0319.avif",
+   "assets/img/guides/card-dead-sea-240.89b7f0eb.avif",
+   "assets/img/guides/card-dead-sea-360.b94acd36.avif",
+   "assets/img/guides/card-dead-sea-474.19571547.avif",
+   "assets/img/guides/card-dead-sea-120.533327c4.webp",
+   "assets/img/guides/card-dead-sea-240.8eff4c1f.webp",
+   "assets/img/guides/card-dead-sea-360.6115bf5b.webp",
+   "assets/img/guides/card-dead-sea-474.77d106b1.webp",
+   "assets/img/guides/card-dead-sea-120.5cda1153.jpg",
+   "assets/img/guides/card-dead-sea-240.b4fa4ab1.jpg",
+   "assets/img/guides/card-dead-sea-360.5da2ed49.jpg",
+   "assets/img/guides/card-dead-sea-474.b764e5fe.jpg"
+  ]
+ },
+ "guides/card-jerash.jpg": {
+  "key": "v1:std:b4956dfd8b5ce06b5ef00ae090c8f66bef76df8a3e54d4678a085f75f63133ed",
+  "width": 474,
+  "height": 222,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 56,
+     "file": "assets/img/guides/card-jerash-120.db480966.avif",
+     "bytes": 1854
+    },
+    {
+     "w": 240,
+     "h": 112,
+     "file": "assets/img/guides/card-jerash-240.b6daa3b2.avif",
+     "bytes": 6065
+    },
+    {
+     "w": 360,
+     "h": 169,
+     "file": "assets/img/guides/card-jerash-360.35a09731.avif",
+     "bytes": 12567
+    },
+    {
+     "w": 474,
+     "h": 222,
+     "file": "assets/img/guides/card-jerash-474.dcc4ba64.avif",
+     "bytes": 19201
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 56,
+     "file": "assets/img/guides/card-jerash-120.fdc4bbb5.webp",
+     "bytes": 2614
+    },
+    {
+     "w": 240,
+     "h": 112,
+     "file": "assets/img/guides/card-jerash-240.dd1618a6.webp",
+     "bytes": 8530
+    },
+    {
+     "w": 360,
+     "h": 169,
+     "file": "assets/img/guides/card-jerash-360.2dfc472d.webp",
+     "bytes": 17776
+    },
+    {
+     "w": 474,
+     "h": 222,
+     "file": "assets/img/guides/card-jerash-474.10042f4e.webp",
+     "bytes": 28030
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 56,
+     "file": "assets/img/guides/card-jerash-120.c5f22158.jpg",
+     "bytes": 2663
+    },
+    {
+     "w": 240,
+     "h": 112,
+     "file": "assets/img/guides/card-jerash-240.b14d7784.jpg",
+     "bytes": 8463
+    },
+    {
+     "w": 360,
+     "h": 169,
+     "file": "assets/img/guides/card-jerash-360.1e7d3ec4.jpg",
+     "bytes": 18055
+    },
+    {
+     "w": 474,
+     "h": 222,
+     "file": "assets/img/guides/card-jerash-474.635f6d21.jpg",
+     "bytes": 28974
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/card-jerash-120.db480966.avif",
+   "assets/img/guides/card-jerash-240.b6daa3b2.avif",
+   "assets/img/guides/card-jerash-360.35a09731.avif",
+   "assets/img/guides/card-jerash-474.dcc4ba64.avif",
+   "assets/img/guides/card-jerash-120.fdc4bbb5.webp",
+   "assets/img/guides/card-jerash-240.dd1618a6.webp",
+   "assets/img/guides/card-jerash-360.2dfc472d.webp",
+   "assets/img/guides/card-jerash-474.10042f4e.webp",
+   "assets/img/guides/card-jerash-120.c5f22158.jpg",
+   "assets/img/guides/card-jerash-240.b14d7784.jpg",
+   "assets/img/guides/card-jerash-360.1e7d3ec4.jpg",
+   "assets/img/guides/card-jerash-474.635f6d21.jpg"
+  ]
+ },
+ "guides/card-petra.jpg": {
+  "key": "v1:std:3ccb0b4845e70d4e86dc2d3badde5527fe39443f1a1029a728780be079ef8862",
+  "width": 474,
+  "height": 222,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 56,
+     "file": "assets/img/guides/card-petra-120.da814404.avif",
+     "bytes": 1895
+    },
+    {
+     "w": 240,
+     "h": 112,
+     "file": "assets/img/guides/card-petra-240.8a08ce6b.avif",
+     "bytes": 6474
+    },
+    {
+     "w": 360,
+     "h": 169,
+     "file": "assets/img/guides/card-petra-360.e3c5736b.avif",
+     "bytes": 13598
+    },
+    {
+     "w": 474,
+     "h": 222,
+     "file": "assets/img/guides/card-petra-474.fdd01481.avif",
+     "bytes": 21250
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 56,
+     "file": "assets/img/guides/card-petra-120.7b7c3427.webp",
+     "bytes": 2812
+    },
+    {
+     "w": 240,
+     "h": 112,
+     "file": "assets/img/guides/card-petra-240.c9385200.webp",
+     "bytes": 9658
+    },
+    {
+     "w": 360,
+     "h": 169,
+     "file": "assets/img/guides/card-petra-360.a3081320.webp",
+     "bytes": 20128
+    },
+    {
+     "w": 474,
+     "h": 222,
+     "file": "assets/img/guides/card-petra-474.8320097f.webp",
+     "bytes": 32386
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 56,
+     "file": "assets/img/guides/card-petra-120.80efa587.jpg",
+     "bytes": 2665
+    },
+    {
+     "w": 240,
+     "h": 112,
+     "file": "assets/img/guides/card-petra-240.8dc2c761.jpg",
+     "bytes": 8844
+    },
+    {
+     "w": 360,
+     "h": 169,
+     "file": "assets/img/guides/card-petra-360.a372aeed.jpg",
+     "bytes": 19150
+    },
+    {
+     "w": 474,
+     "h": 222,
+     "file": "assets/img/guides/card-petra-474.5a3cc0fa.jpg",
+     "bytes": 31001
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/card-petra-120.da814404.avif",
+   "assets/img/guides/card-petra-240.8a08ce6b.avif",
+   "assets/img/guides/card-petra-360.e3c5736b.avif",
+   "assets/img/guides/card-petra-474.fdd01481.avif",
+   "assets/img/guides/card-petra-120.7b7c3427.webp",
+   "assets/img/guides/card-petra-240.c9385200.webp",
+   "assets/img/guides/card-petra-360.a3081320.webp",
+   "assets/img/guides/card-petra-474.8320097f.webp",
+   "assets/img/guides/card-petra-120.80efa587.jpg",
+   "assets/img/guides/card-petra-240.8dc2c761.jpg",
+   "assets/img/guides/card-petra-360.a372aeed.jpg",
+   "assets/img/guides/card-petra-474.5a3cc0fa.jpg"
+  ]
+ },
+ "guides/card-wadi-rum.jpg": {
+  "key": "v1:std:54d00c83a1d74d106e1295b05d9adb8df1b03c42db522db257c3c83073f1a6ca",
+  "width": 472,
+  "height": 223,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 57,
+     "file": "assets/img/guides/card-wadi-rum-120.da716bf8.avif",
+     "bytes": 1696
+    },
+    {
+     "w": 240,
+     "h": 113,
+     "file": "assets/img/guides/card-wadi-rum-240.b3fb9b05.avif",
+     "bytes": 5166
+    },
+    {
+     "w": 360,
+     "h": 170,
+     "file": "assets/img/guides/card-wadi-rum-360.e10354e0.avif",
+     "bytes": 10296
+    },
+    {
+     "w": 472,
+     "h": 223,
+     "file": "assets/img/guides/card-wadi-rum-472.ee50b6e1.avif",
+     "bytes": 15024
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 57,
+     "file": "assets/img/guides/card-wadi-rum-120.6eef2e24.webp",
+     "bytes": 2232
+    },
+    {
+     "w": 240,
+     "h": 113,
+     "file": "assets/img/guides/card-wadi-rum-240.63c0f5a4.webp",
+     "bytes": 7172
+    },
+    {
+     "w": 360,
+     "h": 170,
+     "file": "assets/img/guides/card-wadi-rum-360.a96f2eb1.webp",
+     "bytes": 14822
+    },
+    {
+     "w": 472,
+     "h": 223,
+     "file": "assets/img/guides/card-wadi-rum-472.b60e2f6c.webp",
+     "bytes": 23028
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 57,
+     "file": "assets/img/guides/card-wadi-rum-120.baf563e4.jpg",
+     "bytes": 2591
+    },
+    {
+     "w": 240,
+     "h": 113,
+     "file": "assets/img/guides/card-wadi-rum-240.9f4fba82.jpg",
+     "bytes": 7841
+    },
+    {
+     "w": 360,
+     "h": 170,
+     "file": "assets/img/guides/card-wadi-rum-360.bc1ba4da.jpg",
+     "bytes": 15867
+    },
+    {
+     "w": 472,
+     "h": 223,
+     "file": "assets/img/guides/card-wadi-rum-472.0a09aae7.jpg",
+     "bytes": 24924
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/card-wadi-rum-120.da716bf8.avif",
+   "assets/img/guides/card-wadi-rum-240.b3fb9b05.avif",
+   "assets/img/guides/card-wadi-rum-360.e10354e0.avif",
+   "assets/img/guides/card-wadi-rum-472.ee50b6e1.avif",
+   "assets/img/guides/card-wadi-rum-120.6eef2e24.webp",
+   "assets/img/guides/card-wadi-rum-240.63c0f5a4.webp",
+   "assets/img/guides/card-wadi-rum-360.a96f2eb1.webp",
+   "assets/img/guides/card-wadi-rum-472.b60e2f6c.webp",
+   "assets/img/guides/card-wadi-rum-120.baf563e4.jpg",
+   "assets/img/guides/card-wadi-rum-240.9f4fba82.jpg",
+   "assets/img/guides/card-wadi-rum-360.bc1ba4da.jpg",
+   "assets/img/guides/card-wadi-rum-472.0a09aae7.jpg"
+  ]
+ },
+ "guides/deadsea-bethany.jpg": {
+  "key": "v1:std:60c0f0f52aba440c496e0dd3ce9c2644fcf8b034878094ad5313d7d106db90c6",
+  "width": 319,
+  "height": 166,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 62,
+     "file": "assets/img/guides/deadsea-bethany-120.97a024b6.avif",
+     "bytes": 2488
+    },
+    {
+     "w": 240,
+     "h": 125,
+     "file": "assets/img/guides/deadsea-bethany-240.c97369ce.avif",
+     "bytes": 8074
+    },
+    {
+     "w": 319,
+     "h": 166,
+     "file": "assets/img/guides/deadsea-bethany-319.3c1b66cc.avif",
+     "bytes": 12593
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 62,
+     "file": "assets/img/guides/deadsea-bethany-120.12d27b73.webp",
+     "bytes": 3300
+    },
+    {
+     "w": 240,
+     "h": 125,
+     "file": "assets/img/guides/deadsea-bethany-240.f3b31048.webp",
+     "bytes": 11564
+    },
+    {
+     "w": 319,
+     "h": 166,
+     "file": "assets/img/guides/deadsea-bethany-319.418fb59f.webp",
+     "bytes": 18446
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 62,
+     "file": "assets/img/guides/deadsea-bethany-120.694878ae.jpg",
+     "bytes": 3170
+    },
+    {
+     "w": 240,
+     "h": 125,
+     "file": "assets/img/guides/deadsea-bethany-240.13bb473a.jpg",
+     "bytes": 10773
+    },
+    {
+     "w": 319,
+     "h": 166,
+     "file": "assets/img/guides/deadsea-bethany-319.ea4a1224.jpg",
+     "bytes": 17470
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/deadsea-bethany-120.97a024b6.avif",
+   "assets/img/guides/deadsea-bethany-240.c97369ce.avif",
+   "assets/img/guides/deadsea-bethany-319.3c1b66cc.avif",
+   "assets/img/guides/deadsea-bethany-120.12d27b73.webp",
+   "assets/img/guides/deadsea-bethany-240.f3b31048.webp",
+   "assets/img/guides/deadsea-bethany-319.418fb59f.webp",
+   "assets/img/guides/deadsea-bethany-120.694878ae.jpg",
+   "assets/img/guides/deadsea-bethany-240.13bb473a.jpg",
+   "assets/img/guides/deadsea-bethany-319.ea4a1224.jpg"
+  ]
+ },
+ "guides/deadsea-float.jpg": {
+  "key": "v1:std:5f76e334116d2e694754e2d73808a737335cba607c103386f235518def5994ac",
+  "width": 475,
+  "height": 207,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/deadsea-float-120.2d5e3667.avif",
+     "bytes": 1596
+    },
+    {
+     "w": 240,
+     "h": 105,
+     "file": "assets/img/guides/deadsea-float-240.2337f8d5.avif",
+     "bytes": 4119
+    },
+    {
+     "w": 360,
+     "h": 157,
+     "file": "assets/img/guides/deadsea-float-360.abed40e1.avif",
+     "bytes": 7053
+    },
+    {
+     "w": 475,
+     "h": 207,
+     "file": "assets/img/guides/deadsea-float-475.28a9d7e4.avif",
+     "bytes": 9765
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/deadsea-float-120.e74a4ebb.webp",
+     "bytes": 1768
+    },
+    {
+     "w": 240,
+     "h": 105,
+     "file": "assets/img/guides/deadsea-float-240.e3a35b99.webp",
+     "bytes": 4978
+    },
+    {
+     "w": 360,
+     "h": 157,
+     "file": "assets/img/guides/deadsea-float-360.dd8d7c61.webp",
+     "bytes": 9020
+    },
+    {
+     "w": 475,
+     "h": 207,
+     "file": "assets/img/guides/deadsea-float-475.b2c834dc.webp",
+     "bytes": 13466
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/deadsea-float-120.a14fe289.jpg",
+     "bytes": 2127
+    },
+    {
+     "w": 240,
+     "h": 105,
+     "file": "assets/img/guides/deadsea-float-240.3320e70e.jpg",
+     "bytes": 6078
+    },
+    {
+     "w": 360,
+     "h": 157,
+     "file": "assets/img/guides/deadsea-float-360.507a3aa0.jpg",
+     "bytes": 11573
+    },
+    {
+     "w": 475,
+     "h": 207,
+     "file": "assets/img/guides/deadsea-float-475.c959659a.jpg",
+     "bytes": 17813
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/deadsea-float-120.2d5e3667.avif",
+   "assets/img/guides/deadsea-float-240.2337f8d5.avif",
+   "assets/img/guides/deadsea-float-360.abed40e1.avif",
+   "assets/img/guides/deadsea-float-475.28a9d7e4.avif",
+   "assets/img/guides/deadsea-float-120.e74a4ebb.webp",
+   "assets/img/guides/deadsea-float-240.e3a35b99.webp",
+   "assets/img/guides/deadsea-float-360.dd8d7c61.webp",
+   "assets/img/guides/deadsea-float-475.b2c834dc.webp",
+   "assets/img/guides/deadsea-float-120.a14fe289.jpg",
+   "assets/img/guides/deadsea-float-240.3320e70e.jpg",
+   "assets/img/guides/deadsea-float-360.507a3aa0.jpg",
+   "assets/img/guides/deadsea-float-475.c959659a.jpg"
+  ]
+ },
+ "guides/deadsea-mud.jpg": {
+  "key": "v1:std:556c67450e3aecca3cf73d796771bbf61407b89bf2e19bfc4bff52a07b49b21d",
+  "width": 475,
+  "height": 207,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/deadsea-mud-120.11183809.avif",
+     "bytes": 1746
+    },
+    {
+     "w": 240,
+     "h": 105,
+     "file": "assets/img/guides/deadsea-mud-240.f0a917f6.avif",
+     "bytes": 5113
+    },
+    {
+     "w": 360,
+     "h": 157,
+     "file": "assets/img/guides/deadsea-mud-360.5cffa052.avif",
+     "bytes": 9454
+    },
+    {
+     "w": 475,
+     "h": 207,
+     "file": "assets/img/guides/deadsea-mud-475.80aa267e.avif",
+     "bytes": 14183
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/deadsea-mud-120.9f0723bd.webp",
+     "bytes": 2198
+    },
+    {
+     "w": 240,
+     "h": 105,
+     "file": "assets/img/guides/deadsea-mud-240.e391d976.webp",
+     "bytes": 6584
+    },
+    {
+     "w": 360,
+     "h": 157,
+     "file": "assets/img/guides/deadsea-mud-360.670da7e4.webp",
+     "bytes": 12114
+    },
+    {
+     "w": 475,
+     "h": 207,
+     "file": "assets/img/guides/deadsea-mud-475.6553dc37.webp",
+     "bytes": 18032
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/deadsea-mud-120.c6cc30e9.jpg",
+     "bytes": 2500
+    },
+    {
+     "w": 240,
+     "h": 105,
+     "file": "assets/img/guides/deadsea-mud-240.871ad6f4.jpg",
+     "bytes": 7130
+    },
+    {
+     "w": 360,
+     "h": 157,
+     "file": "assets/img/guides/deadsea-mud-360.d9b87983.jpg",
+     "bytes": 13459
+    },
+    {
+     "w": 475,
+     "h": 207,
+     "file": "assets/img/guides/deadsea-mud-475.a510fa96.jpg",
+     "bytes": 20915
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/deadsea-mud-120.11183809.avif",
+   "assets/img/guides/deadsea-mud-240.f0a917f6.avif",
+   "assets/img/guides/deadsea-mud-360.5cffa052.avif",
+   "assets/img/guides/deadsea-mud-475.80aa267e.avif",
+   "assets/img/guides/deadsea-mud-120.9f0723bd.webp",
+   "assets/img/guides/deadsea-mud-240.e391d976.webp",
+   "assets/img/guides/deadsea-mud-360.670da7e4.webp",
+   "assets/img/guides/deadsea-mud-475.6553dc37.webp",
+   "assets/img/guides/deadsea-mud-120.c6cc30e9.jpg",
+   "assets/img/guides/deadsea-mud-240.871ad6f4.jpg",
+   "assets/img/guides/deadsea-mud-360.d9b87983.jpg",
+   "assets/img/guides/deadsea-mud-475.a510fa96.jpg"
+  ]
+ },
+ "guides/deadsea-mujib.jpg": {
+  "key": "v1:std:dad4a4e75c71a3fa1845c0bf9352b5e4ef1c9ee3e4be790069614a40e52d7485",
+  "width": 319,
+  "height": 167,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 63,
+     "file": "assets/img/guides/deadsea-mujib-120.893a490b.avif",
+     "bytes": 2306
+    },
+    {
+     "w": 240,
+     "h": 126,
+     "file": "assets/img/guides/deadsea-mujib-240.dbac4386.avif",
+     "bytes": 7615
+    },
+    {
+     "w": 319,
+     "h": 167,
+     "file": "assets/img/guides/deadsea-mujib-319.2e96f5a8.avif",
+     "bytes": 12001
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 63,
+     "file": "assets/img/guides/deadsea-mujib-120.743e5cc3.webp",
+     "bytes": 3178
+    },
+    {
+     "w": 240,
+     "h": 126,
+     "file": "assets/img/guides/deadsea-mujib-240.5a63124a.webp",
+     "bytes": 10878
+    },
+    {
+     "w": 319,
+     "h": 167,
+     "file": "assets/img/guides/deadsea-mujib-319.85e60524.webp",
+     "bytes": 17790
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 63,
+     "file": "assets/img/guides/deadsea-mujib-120.2e2d28d0.jpg",
+     "bytes": 3055
+    },
+    {
+     "w": 240,
+     "h": 126,
+     "file": "assets/img/guides/deadsea-mujib-240.9a7f3948.jpg",
+     "bytes": 10139
+    },
+    {
+     "w": 319,
+     "h": 167,
+     "file": "assets/img/guides/deadsea-mujib-319.6d924ebc.jpg",
+     "bytes": 16630
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/deadsea-mujib-120.893a490b.avif",
+   "assets/img/guides/deadsea-mujib-240.dbac4386.avif",
+   "assets/img/guides/deadsea-mujib-319.2e96f5a8.avif",
+   "assets/img/guides/deadsea-mujib-120.743e5cc3.webp",
+   "assets/img/guides/deadsea-mujib-240.5a63124a.webp",
+   "assets/img/guides/deadsea-mujib-319.85e60524.webp",
+   "assets/img/guides/deadsea-mujib-120.2e2d28d0.jpg",
+   "assets/img/guides/deadsea-mujib-240.9a7f3948.jpg",
+   "assets/img/guides/deadsea-mujib-319.6d924ebc.jpg"
+  ]
+ },
+ "guides/deadsea-panorama.jpg": {
+  "key": "v1:std:cfc109678f24905e2c5c95105f508683ff8d0a7c2acf58b0ee508f12849de098",
+  "width": 475,
+  "height": 166,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 42,
+     "file": "assets/img/guides/deadsea-panorama-120.4144e1c9.avif",
+     "bytes": 1386
+    },
+    {
+     "w": 240,
+     "h": 84,
+     "file": "assets/img/guides/deadsea-panorama-240.ae29d318.avif",
+     "bytes": 4161
+    },
+    {
+     "w": 360,
+     "h": 126,
+     "file": "assets/img/guides/deadsea-panorama-360.7687cbcb.avif",
+     "bytes": 7711
+    },
+    {
+     "w": 475,
+     "h": 166,
+     "file": "assets/img/guides/deadsea-panorama-475.c363b34c.avif",
+     "bytes": 12494
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 42,
+     "file": "assets/img/guides/deadsea-panorama-120.4994c825.webp",
+     "bytes": 1686
+    },
+    {
+     "w": 240,
+     "h": 84,
+     "file": "assets/img/guides/deadsea-panorama-240.cdc3f640.webp",
+     "bytes": 5568
+    },
+    {
+     "w": 360,
+     "h": 126,
+     "file": "assets/img/guides/deadsea-panorama-360.9beec8cc.webp",
+     "bytes": 10620
+    },
+    {
+     "w": 475,
+     "h": 166,
+     "file": "assets/img/guides/deadsea-panorama-475.0ff25c45.webp",
+     "bytes": 17652
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 42,
+     "file": "assets/img/guides/deadsea-panorama-120.ace351de.jpg",
+     "bytes": 2019
+    },
+    {
+     "w": 240,
+     "h": 84,
+     "file": "assets/img/guides/deadsea-panorama-240.3e3a34c3.jpg",
+     "bytes": 6004
+    },
+    {
+     "w": 360,
+     "h": 126,
+     "file": "assets/img/guides/deadsea-panorama-360.8d61d534.jpg",
+     "bytes": 11672
+    },
+    {
+     "w": 475,
+     "h": 166,
+     "file": "assets/img/guides/deadsea-panorama-475.f27a92d2.jpg",
+     "bytes": 19007
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/deadsea-panorama-120.4144e1c9.avif",
+   "assets/img/guides/deadsea-panorama-240.ae29d318.avif",
+   "assets/img/guides/deadsea-panorama-360.7687cbcb.avif",
+   "assets/img/guides/deadsea-panorama-475.c363b34c.avif",
+   "assets/img/guides/deadsea-panorama-120.4994c825.webp",
+   "assets/img/guides/deadsea-panorama-240.cdc3f640.webp",
+   "assets/img/guides/deadsea-panorama-360.9beec8cc.webp",
+   "assets/img/guides/deadsea-panorama-475.0ff25c45.webp",
+   "assets/img/guides/deadsea-panorama-120.ace351de.jpg",
+   "assets/img/guides/deadsea-panorama-240.3e3a34c3.jpg",
+   "assets/img/guides/deadsea-panorama-360.8d61d534.jpg",
+   "assets/img/guides/deadsea-panorama-475.f27a92d2.jpg"
+  ]
+ },
+ "guides/deadsea-shore.jpg": {
+  "key": "v1:std:2c7fc3c7d09e75fdb9f2b4d1a31834ad193f4d48e0dac3a6346c74746befdcc4",
+  "width": 474,
+  "height": 207,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/deadsea-shore-120.def2b4ff.avif",
+     "bytes": 1696
+    },
+    {
+     "w": 240,
+     "h": 105,
+     "file": "assets/img/guides/deadsea-shore-240.f113f285.avif",
+     "bytes": 4987
+    },
+    {
+     "w": 360,
+     "h": 157,
+     "file": "assets/img/guides/deadsea-shore-360.ead7b447.avif",
+     "bytes": 9750
+    },
+    {
+     "w": 474,
+     "h": 207,
+     "file": "assets/img/guides/deadsea-shore-474.d9fa8789.avif",
+     "bytes": 14568
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/deadsea-shore-120.638ba1f1.webp",
+     "bytes": 2080
+    },
+    {
+     "w": 240,
+     "h": 105,
+     "file": "assets/img/guides/deadsea-shore-240.0947bd1a.webp",
+     "bytes": 6626
+    },
+    {
+     "w": 360,
+     "h": 157,
+     "file": "assets/img/guides/deadsea-shore-360.528344d1.webp",
+     "bytes": 13004
+    },
+    {
+     "w": 474,
+     "h": 207,
+     "file": "assets/img/guides/deadsea-shore-474.57c57508.webp",
+     "bytes": 20516
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/deadsea-shore-120.9ce218ab.jpg",
+     "bytes": 2410
+    },
+    {
+     "w": 240,
+     "h": 105,
+     "file": "assets/img/guides/deadsea-shore-240.c4d6ddfa.jpg",
+     "bytes": 7130
+    },
+    {
+     "w": 360,
+     "h": 157,
+     "file": "assets/img/guides/deadsea-shore-360.bcd5d123.jpg",
+     "bytes": 14214
+    },
+    {
+     "w": 474,
+     "h": 207,
+     "file": "assets/img/guides/deadsea-shore-474.159acc9b.jpg",
+     "bytes": 22407
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/deadsea-shore-120.def2b4ff.avif",
+   "assets/img/guides/deadsea-shore-240.f113f285.avif",
+   "assets/img/guides/deadsea-shore-360.ead7b447.avif",
+   "assets/img/guides/deadsea-shore-474.d9fa8789.avif",
+   "assets/img/guides/deadsea-shore-120.638ba1f1.webp",
+   "assets/img/guides/deadsea-shore-240.0947bd1a.webp",
+   "assets/img/guides/deadsea-shore-360.528344d1.webp",
+   "assets/img/guides/deadsea-shore-474.57c57508.webp",
+   "assets/img/guides/deadsea-shore-120.9ce218ab.jpg",
+   "assets/img/guides/deadsea-shore-240.c4d6ddfa.jpg",
+   "assets/img/guides/deadsea-shore-360.bcd5d123.jpg",
+   "assets/img/guides/deadsea-shore-474.159acc9b.jpg"
+  ]
+ },
+ "guides/hero-amman.jpg": {
+  "key": "v1:std:845d47c1ce4730072b267d66c82539be849ee5ffff72df45fbb8768350452dfe",
+  "width": 1114,
+  "height": 215,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 93,
+     "file": "assets/img/guides/hero-amman-480.4307603e.avif",
+     "bytes": 10574
+    },
+    {
+     "w": 768,
+     "h": 148,
+     "file": "assets/img/guides/hero-amman-768.88599c2a.avif",
+     "bytes": 24569
+    },
+    {
+     "w": 1114,
+     "h": 215,
+     "file": "assets/img/guides/hero-amman-1114.6c879ad8.avif",
+     "bytes": 42751
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 93,
+     "file": "assets/img/guides/hero-amman-480.ecafa0f7.webp",
+     "bytes": 14500
+    },
+    {
+     "w": 768,
+     "h": 148,
+     "file": "assets/img/guides/hero-amman-768.179cd7e3.webp",
+     "bytes": 33010
+    },
+    {
+     "w": 1114,
+     "h": 215,
+     "file": "assets/img/guides/hero-amman-1114.e037b023.webp",
+     "bytes": 61478
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 93,
+     "file": "assets/img/guides/hero-amman-480.4b19368b.jpg",
+     "bytes": 14078
+    },
+    {
+     "w": 768,
+     "h": 148,
+     "file": "assets/img/guides/hero-amman-768.6a929c32.jpg",
+     "bytes": 33227
+    },
+    {
+     "w": 1114,
+     "h": 215,
+     "file": "assets/img/guides/hero-amman-1114.ee9dffea.jpg",
+     "bytes": 62179
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/hero-amman-480.4307603e.avif",
+   "assets/img/guides/hero-amman-768.88599c2a.avif",
+   "assets/img/guides/hero-amman-1114.6c879ad8.avif",
+   "assets/img/guides/hero-amman-480.ecafa0f7.webp",
+   "assets/img/guides/hero-amman-768.179cd7e3.webp",
+   "assets/img/guides/hero-amman-1114.e037b023.webp",
+   "assets/img/guides/hero-amman-480.4b19368b.jpg",
+   "assets/img/guides/hero-amman-768.6a929c32.jpg",
+   "assets/img/guides/hero-amman-1114.ee9dffea.jpg"
+  ]
+ },
+ "guides/hero-aqaba.jpg": {
+  "key": "v1:std:ad89c8e99c98d7d6f279f723971a73e5c289f4df855dea4c279d5fcab0afb52e",
+  "width": 846,
+  "height": 218,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 124,
+     "file": "assets/img/guides/hero-aqaba-480.71b9af0d.avif",
+     "bytes": 15461
+    },
+    {
+     "w": 768,
+     "h": 198,
+     "file": "assets/img/guides/hero-aqaba-768.5f195f85.avif",
+     "bytes": 33230
+    },
+    {
+     "w": 846,
+     "h": 218,
+     "file": "assets/img/guides/hero-aqaba-846.6b51cf82.avif",
+     "bytes": 41103
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 124,
+     "file": "assets/img/guides/hero-aqaba-480.314aba37.webp",
+     "bytes": 21058
+    },
+    {
+     "w": 768,
+     "h": 198,
+     "file": "assets/img/guides/hero-aqaba-768.e3545423.webp",
+     "bytes": 49002
+    },
+    {
+     "w": 846,
+     "h": 218,
+     "file": "assets/img/guides/hero-aqaba-846.9df77aa0.webp",
+     "bytes": 59368
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 124,
+     "file": "assets/img/guides/hero-aqaba-480.84da9feb.jpg",
+     "bytes": 19770
+    },
+    {
+     "w": 768,
+     "h": 198,
+     "file": "assets/img/guides/hero-aqaba-768.c86faa7a.jpg",
+     "bytes": 46770
+    },
+    {
+     "w": 846,
+     "h": 218,
+     "file": "assets/img/guides/hero-aqaba-846.8cf1e4cc.jpg",
+     "bytes": 56871
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/hero-aqaba-480.71b9af0d.avif",
+   "assets/img/guides/hero-aqaba-768.5f195f85.avif",
+   "assets/img/guides/hero-aqaba-846.6b51cf82.avif",
+   "assets/img/guides/hero-aqaba-480.314aba37.webp",
+   "assets/img/guides/hero-aqaba-768.e3545423.webp",
+   "assets/img/guides/hero-aqaba-846.9df77aa0.webp",
+   "assets/img/guides/hero-aqaba-480.84da9feb.jpg",
+   "assets/img/guides/hero-aqaba-768.c86faa7a.jpg",
+   "assets/img/guides/hero-aqaba-846.8cf1e4cc.jpg"
+  ]
+ },
+ "guides/hero-dead-sea.jpg": {
+  "key": "v1:std:66ed58d908b1ff2da2089c9fbb0921b76a487095242af0974501e7d1aa39daba",
+  "width": 1058,
+  "height": 218,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 99,
+     "file": "assets/img/guides/hero-dead-sea-480.0960b597.avif",
+     "bytes": 7722
+    },
+    {
+     "w": 768,
+     "h": 158,
+     "file": "assets/img/guides/hero-dead-sea-768.dee48a67.avif",
+     "bytes": 16828
+    },
+    {
+     "w": 1058,
+     "h": 218,
+     "file": "assets/img/guides/hero-dead-sea-1058.d17469f5.avif",
+     "bytes": 28062
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 99,
+     "file": "assets/img/guides/hero-dead-sea-480.a4c26b9a.webp",
+     "bytes": 10410
+    },
+    {
+     "w": 768,
+     "h": 158,
+     "file": "assets/img/guides/hero-dead-sea-768.d9e9d7fe.webp",
+     "bytes": 22962
+    },
+    {
+     "w": 1058,
+     "h": 218,
+     "file": "assets/img/guides/hero-dead-sea-1058.61b9e578.webp",
+     "bytes": 40262
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 99,
+     "file": "assets/img/guides/hero-dead-sea-480.8343c0c0.jpg",
+     "bytes": 11114
+    },
+    {
+     "w": 768,
+     "h": 158,
+     "file": "assets/img/guides/hero-dead-sea-768.cdceeb20.jpg",
+     "bytes": 24847
+    },
+    {
+     "w": 1058,
+     "h": 218,
+     "file": "assets/img/guides/hero-dead-sea-1058.600ca41c.jpg",
+     "bytes": 44476
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/hero-dead-sea-480.0960b597.avif",
+   "assets/img/guides/hero-dead-sea-768.dee48a67.avif",
+   "assets/img/guides/hero-dead-sea-1058.d17469f5.avif",
+   "assets/img/guides/hero-dead-sea-480.a4c26b9a.webp",
+   "assets/img/guides/hero-dead-sea-768.d9e9d7fe.webp",
+   "assets/img/guides/hero-dead-sea-1058.61b9e578.webp",
+   "assets/img/guides/hero-dead-sea-480.8343c0c0.jpg",
+   "assets/img/guides/hero-dead-sea-768.cdceeb20.jpg",
+   "assets/img/guides/hero-dead-sea-1058.600ca41c.jpg"
+  ]
+ },
+ "guides/hero-jerash.jpg": {
+  "key": "v1:std:75d74a3d32eefd007f876403a7c1ee91f538ad6bc9b8d8ba9a3fcf0ce8169511",
+  "width": 1094,
+  "height": 218,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 96,
+     "file": "assets/img/guides/hero-jerash-480.2b75a480.avif",
+     "bytes": 12786
+    },
+    {
+     "w": 768,
+     "h": 153,
+     "file": "assets/img/guides/hero-jerash-768.7cd683d0.avif",
+     "bytes": 30113
+    },
+    {
+     "w": 1094,
+     "h": 218,
+     "file": "assets/img/guides/hero-jerash-1094.b98c77f1.avif",
+     "bytes": 52172
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 96,
+     "file": "assets/img/guides/hero-jerash-480.338273b4.webp",
+     "bytes": 16974
+    },
+    {
+     "w": 768,
+     "h": 153,
+     "file": "assets/img/guides/hero-jerash-768.f4625a18.webp",
+     "bytes": 40688
+    },
+    {
+     "w": 1094,
+     "h": 218,
+     "file": "assets/img/guides/hero-jerash-1094.bc693d78.webp",
+     "bytes": 75046
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 96,
+     "file": "assets/img/guides/hero-jerash-480.8136eaab.jpg",
+     "bytes": 15928
+    },
+    {
+     "w": 768,
+     "h": 153,
+     "file": "assets/img/guides/hero-jerash-768.b6ebb040.jpg",
+     "bytes": 38901
+    },
+    {
+     "w": 1094,
+     "h": 218,
+     "file": "assets/img/guides/hero-jerash-1094.0a3de263.jpg",
+     "bytes": 73175
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/hero-jerash-480.2b75a480.avif",
+   "assets/img/guides/hero-jerash-768.7cd683d0.avif",
+   "assets/img/guides/hero-jerash-1094.b98c77f1.avif",
+   "assets/img/guides/hero-jerash-480.338273b4.webp",
+   "assets/img/guides/hero-jerash-768.f4625a18.webp",
+   "assets/img/guides/hero-jerash-1094.bc693d78.webp",
+   "assets/img/guides/hero-jerash-480.8136eaab.jpg",
+   "assets/img/guides/hero-jerash-768.b6ebb040.jpg",
+   "assets/img/guides/hero-jerash-1094.0a3de263.jpg"
+  ]
+ },
+ "guides/hero-overview.jpg": {
+  "key": "v1:std:04b718a43c280c596c11195403b7ca675884c4c549d08c1678666134831de6d1",
+  "width": 1016,
+  "height": 197,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 93,
+     "file": "assets/img/guides/hero-overview-480.9757eac6.avif",
+     "bytes": 11230
+    },
+    {
+     "w": 768,
+     "h": 149,
+     "file": "assets/img/guides/hero-overview-768.e64838a3.avif",
+     "bytes": 25338
+    },
+    {
+     "w": 1016,
+     "h": 197,
+     "file": "assets/img/guides/hero-overview-1016.f8447dba.avif",
+     "bytes": 39334
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 93,
+     "file": "assets/img/guides/hero-overview-480.2809579f.webp",
+     "bytes": 15350
+    },
+    {
+     "w": 768,
+     "h": 149,
+     "file": "assets/img/guides/hero-overview-768.6b911734.webp",
+     "bytes": 36246
+    },
+    {
+     "w": 1016,
+     "h": 197,
+     "file": "assets/img/guides/hero-overview-1016.95974c80.webp",
+     "bytes": 59336
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 93,
+     "file": "assets/img/guides/hero-overview-480.af9d2d1a.jpg",
+     "bytes": 15112
+    },
+    {
+     "w": 768,
+     "h": 149,
+     "file": "assets/img/guides/hero-overview-768.4e6ecb23.jpg",
+     "bytes": 36006
+    },
+    {
+     "w": 1016,
+     "h": 197,
+     "file": "assets/img/guides/hero-overview-1016.3b246426.jpg",
+     "bytes": 58681
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/hero-overview-480.9757eac6.avif",
+   "assets/img/guides/hero-overview-768.e64838a3.avif",
+   "assets/img/guides/hero-overview-1016.f8447dba.avif",
+   "assets/img/guides/hero-overview-480.2809579f.webp",
+   "assets/img/guides/hero-overview-768.6b911734.webp",
+   "assets/img/guides/hero-overview-1016.95974c80.webp",
+   "assets/img/guides/hero-overview-480.af9d2d1a.jpg",
+   "assets/img/guides/hero-overview-768.4e6ecb23.jpg",
+   "assets/img/guides/hero-overview-1016.3b246426.jpg"
+  ]
+ },
+ "guides/hero-petra.jpg": {
+  "key": "v1:std:113463fcc8616aa30c168367553d5a0d70fccf7ba43c1216cc436eec6954acd6",
+  "width": 1031,
+  "height": 217,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 101,
+     "file": "assets/img/guides/hero-petra-480.36124589.avif",
+     "bytes": 12870
+    },
+    {
+     "w": 768,
+     "h": 162,
+     "file": "assets/img/guides/hero-petra-768.e47b2450.avif",
+     "bytes": 29893
+    },
+    {
+     "w": 1031,
+     "h": 217,
+     "file": "assets/img/guides/hero-petra-1031.3262b079.avif",
+     "bytes": 47940
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 101,
+     "file": "assets/img/guides/hero-petra-480.694d9cc6.webp",
+     "bytes": 18744
+    },
+    {
+     "w": 768,
+     "h": 162,
+     "file": "assets/img/guides/hero-petra-768.19e4333d.webp",
+     "bytes": 43316
+    },
+    {
+     "w": 1031,
+     "h": 217,
+     "file": "assets/img/guides/hero-petra-1031.567e6052.webp",
+     "bytes": 74010
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 101,
+     "file": "assets/img/guides/hero-petra-480.8dc0ca39.jpg",
+     "bytes": 16887
+    },
+    {
+     "w": 768,
+     "h": 162,
+     "file": "assets/img/guides/hero-petra-768.da37095b.jpg",
+     "bytes": 40871
+    },
+    {
+     "w": 1031,
+     "h": 217,
+     "file": "assets/img/guides/hero-petra-1031.9722d880.jpg",
+     "bytes": 68322
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/hero-petra-480.36124589.avif",
+   "assets/img/guides/hero-petra-768.e47b2450.avif",
+   "assets/img/guides/hero-petra-1031.3262b079.avif",
+   "assets/img/guides/hero-petra-480.694d9cc6.webp",
+   "assets/img/guides/hero-petra-768.19e4333d.webp",
+   "assets/img/guides/hero-petra-1031.567e6052.webp",
+   "assets/img/guides/hero-petra-480.8dc0ca39.jpg",
+   "assets/img/guides/hero-petra-768.da37095b.jpg",
+   "assets/img/guides/hero-petra-1031.9722d880.jpg"
+  ]
+ },
+ "guides/hero-wadi-rum.jpg": {
+  "key": "v1:std:1030a0fd26c4947c92a5d8392f80a53569298bc68c7fd32b3a3bd738effa08b0",
+  "width": 764,
+  "height": 217,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 136,
+     "file": "assets/img/guides/hero-wadi-rum-480.eb5eb32c.avif",
+     "bytes": 11124
+    },
+    {
+     "w": 764,
+     "h": 217,
+     "file": "assets/img/guides/hero-wadi-rum-764.3dfb09d2.avif",
+     "bytes": 24713
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 136,
+     "file": "assets/img/guides/hero-wadi-rum-480.cc73d579.webp",
+     "bytes": 15876
+    },
+    {
+     "w": 764,
+     "h": 217,
+     "file": "assets/img/guides/hero-wadi-rum-764.610b39a4.webp",
+     "bytes": 35374
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 136,
+     "file": "assets/img/guides/hero-wadi-rum-480.42e5935c.jpg",
+     "bytes": 16877
+    },
+    {
+     "w": 764,
+     "h": 217,
+     "file": "assets/img/guides/hero-wadi-rum-764.bbf66d39.jpg",
+     "bytes": 38527
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/hero-wadi-rum-480.eb5eb32c.avif",
+   "assets/img/guides/hero-wadi-rum-764.3dfb09d2.avif",
+   "assets/img/guides/hero-wadi-rum-480.cc73d579.webp",
+   "assets/img/guides/hero-wadi-rum-764.610b39a4.webp",
+   "assets/img/guides/hero-wadi-rum-480.42e5935c.jpg",
+   "assets/img/guides/hero-wadi-rum-764.bbf66d39.jpg"
+  ]
+ },
+ "guides/jerash-arch.jpg": {
+  "key": "v1:std:f4971e32c21ad43aa782456dd53ff398a173275c1d36675dfb925e73ee4f8934",
+  "width": 474,
+  "height": 205,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/jerash-arch-120.50fd58cf.avif",
+     "bytes": 1943
+    },
+    {
+     "w": 240,
+     "h": 104,
+     "file": "assets/img/guides/jerash-arch-240.008263ef.avif",
+     "bytes": 6032
+    },
+    {
+     "w": 360,
+     "h": 156,
+     "file": "assets/img/guides/jerash-arch-360.0528f746.avif",
+     "bytes": 11759
+    },
+    {
+     "w": 474,
+     "h": 205,
+     "file": "assets/img/guides/jerash-arch-474.636ca685.avif",
+     "bytes": 18290
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/jerash-arch-120.ec0db58b.webp",
+     "bytes": 2524
+    },
+    {
+     "w": 240,
+     "h": 104,
+     "file": "assets/img/guides/jerash-arch-240.639daffb.webp",
+     "bytes": 8048
+    },
+    {
+     "w": 360,
+     "h": 156,
+     "file": "assets/img/guides/jerash-arch-360.ceb5b743.webp",
+     "bytes": 15956
+    },
+    {
+     "w": 474,
+     "h": 205,
+     "file": "assets/img/guides/jerash-arch-474.e2ab16ad.webp",
+     "bytes": 24960
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/jerash-arch-120.e38d6137.jpg",
+     "bytes": 2824
+    },
+    {
+     "w": 240,
+     "h": 104,
+     "file": "assets/img/guides/jerash-arch-240.10de8b3e.jpg",
+     "bytes": 8146
+    },
+    {
+     "w": 360,
+     "h": 156,
+     "file": "assets/img/guides/jerash-arch-360.9ce536cc.jpg",
+     "bytes": 16936
+    },
+    {
+     "w": 474,
+     "h": 205,
+     "file": "assets/img/guides/jerash-arch-474.7a67abd1.jpg",
+     "bytes": 26976
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/jerash-arch-120.50fd58cf.avif",
+   "assets/img/guides/jerash-arch-240.008263ef.avif",
+   "assets/img/guides/jerash-arch-360.0528f746.avif",
+   "assets/img/guides/jerash-arch-474.636ca685.avif",
+   "assets/img/guides/jerash-arch-120.ec0db58b.webp",
+   "assets/img/guides/jerash-arch-240.639daffb.webp",
+   "assets/img/guides/jerash-arch-360.ceb5b743.webp",
+   "assets/img/guides/jerash-arch-474.e2ab16ad.webp",
+   "assets/img/guides/jerash-arch-120.e38d6137.jpg",
+   "assets/img/guides/jerash-arch-240.10de8b3e.jpg",
+   "assets/img/guides/jerash-arch-360.9ce536cc.jpg",
+   "assets/img/guides/jerash-arch-474.7a67abd1.jpg"
+  ]
+ },
+ "guides/jerash-artemis.jpg": {
+  "key": "v1:std:8739c5a176adb555034c093ef8910377e08a8bee86728ce32e01d7809405bed3",
+  "width": 473,
+  "height": 196,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 50,
+     "file": "assets/img/guides/jerash-artemis-120.8772122d.avif",
+     "bytes": 1618
+    },
+    {
+     "w": 240,
+     "h": 99,
+     "file": "assets/img/guides/jerash-artemis-240.90a08cd2.avif",
+     "bytes": 4843
+    },
+    {
+     "w": 360,
+     "h": 149,
+     "file": "assets/img/guides/jerash-artemis-360.487328d2.avif",
+     "bytes": 9243
+    },
+    {
+     "w": 473,
+     "h": 196,
+     "file": "assets/img/guides/jerash-artemis-473.05f15fb6.avif",
+     "bytes": 13904
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 50,
+     "file": "assets/img/guides/jerash-artemis-120.94b221a0.webp",
+     "bytes": 2098
+    },
+    {
+     "w": 240,
+     "h": 99,
+     "file": "assets/img/guides/jerash-artemis-240.5b93ce49.webp",
+     "bytes": 6210
+    },
+    {
+     "w": 360,
+     "h": 149,
+     "file": "assets/img/guides/jerash-artemis-360.8c649f27.webp",
+     "bytes": 12070
+    },
+    {
+     "w": 473,
+     "h": 196,
+     "file": "assets/img/guides/jerash-artemis-473.b1f6aaf7.webp",
+     "bytes": 18872
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 50,
+     "file": "assets/img/guides/jerash-artemis-120.8434ef1a.jpg",
+     "bytes": 2428
+    },
+    {
+     "w": 240,
+     "h": 99,
+     "file": "assets/img/guides/jerash-artemis-240.5f413685.jpg",
+     "bytes": 7001
+    },
+    {
+     "w": 360,
+     "h": 149,
+     "file": "assets/img/guides/jerash-artemis-360.25d95411.jpg",
+     "bytes": 13901
+    },
+    {
+     "w": 473,
+     "h": 196,
+     "file": "assets/img/guides/jerash-artemis-473.23d1280f.jpg",
+     "bytes": 21844
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/jerash-artemis-120.8772122d.avif",
+   "assets/img/guides/jerash-artemis-240.90a08cd2.avif",
+   "assets/img/guides/jerash-artemis-360.487328d2.avif",
+   "assets/img/guides/jerash-artemis-473.05f15fb6.avif",
+   "assets/img/guides/jerash-artemis-120.94b221a0.webp",
+   "assets/img/guides/jerash-artemis-240.5b93ce49.webp",
+   "assets/img/guides/jerash-artemis-360.8c649f27.webp",
+   "assets/img/guides/jerash-artemis-473.b1f6aaf7.webp",
+   "assets/img/guides/jerash-artemis-120.8434ef1a.jpg",
+   "assets/img/guides/jerash-artemis-240.5f413685.jpg",
+   "assets/img/guides/jerash-artemis-360.25d95411.jpg",
+   "assets/img/guides/jerash-artemis-473.23d1280f.jpg"
+  ]
+ },
+ "guides/jerash-cardo.jpg": {
+  "key": "v1:std:25368d141e62ad4ac94362b9930323be502a00d37c18d8bb1dccb52d7a9c520d",
+  "width": 475,
+  "height": 195,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/jerash-cardo-120.4d90ebda.avif",
+     "bytes": 1890
+    },
+    {
+     "w": 240,
+     "h": 99,
+     "file": "assets/img/guides/jerash-cardo-240.43ab7a17.avif",
+     "bytes": 6210
+    },
+    {
+     "w": 360,
+     "h": 148,
+     "file": "assets/img/guides/jerash-cardo-360.59e61810.avif",
+     "bytes": 12089
+    },
+    {
+     "w": 475,
+     "h": 195,
+     "file": "assets/img/guides/jerash-cardo-475.80692d62.avif",
+     "bytes": 18448
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/jerash-cardo-120.f88b9e51.webp",
+     "bytes": 2454
+    },
+    {
+     "w": 240,
+     "h": 99,
+     "file": "assets/img/guides/jerash-cardo-240.e76db6be.webp",
+     "bytes": 8190
+    },
+    {
+     "w": 360,
+     "h": 148,
+     "file": "assets/img/guides/jerash-cardo-360.a5329bf3.webp",
+     "bytes": 16560
+    },
+    {
+     "w": 475,
+     "h": 195,
+     "file": "assets/img/guides/jerash-cardo-475.1a277431.webp",
+     "bytes": 26368
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/jerash-cardo-120.8cefc7aa.jpg",
+     "bytes": 2671
+    },
+    {
+     "w": 240,
+     "h": 99,
+     "file": "assets/img/guides/jerash-cardo-240.0e40236e.jpg",
+     "bytes": 8418
+    },
+    {
+     "w": 360,
+     "h": 148,
+     "file": "assets/img/guides/jerash-cardo-360.f0a70500.jpg",
+     "bytes": 16964
+    },
+    {
+     "w": 475,
+     "h": 195,
+     "file": "assets/img/guides/jerash-cardo-475.cf90a1d7.jpg",
+     "bytes": 27478
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/jerash-cardo-120.4d90ebda.avif",
+   "assets/img/guides/jerash-cardo-240.43ab7a17.avif",
+   "assets/img/guides/jerash-cardo-360.59e61810.avif",
+   "assets/img/guides/jerash-cardo-475.80692d62.avif",
+   "assets/img/guides/jerash-cardo-120.f88b9e51.webp",
+   "assets/img/guides/jerash-cardo-240.e76db6be.webp",
+   "assets/img/guides/jerash-cardo-360.a5329bf3.webp",
+   "assets/img/guides/jerash-cardo-475.1a277431.webp",
+   "assets/img/guides/jerash-cardo-120.8cefc7aa.jpg",
+   "assets/img/guides/jerash-cardo-240.0e40236e.jpg",
+   "assets/img/guides/jerash-cardo-360.f0a70500.jpg",
+   "assets/img/guides/jerash-cardo-475.cf90a1d7.jpg"
+  ]
+ },
+ "guides/jerash-hippodrome.jpg": {
+  "key": "v1:std:162ecb70464ac6f5806d4d2a65c7d353006a5985692d1262651bfe3dff7c89fd",
+  "width": 475,
+  "height": 205,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/jerash-hippodrome-120.ad3e88aa.avif",
+     "bytes": 1825
+    },
+    {
+     "w": 240,
+     "h": 104,
+     "file": "assets/img/guides/jerash-hippodrome-240.ad65c38c.avif",
+     "bytes": 6336
+    },
+    {
+     "w": 360,
+     "h": 155,
+     "file": "assets/img/guides/jerash-hippodrome-360.752162c1.avif",
+     "bytes": 13188
+    },
+    {
+     "w": 475,
+     "h": 205,
+     "file": "assets/img/guides/jerash-hippodrome-475.a350dae0.avif",
+     "bytes": 20763
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/jerash-hippodrome-120.58c6bd49.webp",
+     "bytes": 2504
+    },
+    {
+     "w": 240,
+     "h": 104,
+     "file": "assets/img/guides/jerash-hippodrome-240.a870d5ff.webp",
+     "bytes": 8604
+    },
+    {
+     "w": 360,
+     "h": 155,
+     "file": "assets/img/guides/jerash-hippodrome-360.e8b20ac0.webp",
+     "bytes": 18126
+    },
+    {
+     "w": 475,
+     "h": 205,
+     "file": "assets/img/guides/jerash-hippodrome-475.4d9b6b8c.webp",
+     "bytes": 28998
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/jerash-hippodrome-120.ed4d4db1.jpg",
+     "bytes": 2615
+    },
+    {
+     "w": 240,
+     "h": 104,
+     "file": "assets/img/guides/jerash-hippodrome-240.46787bd8.jpg",
+     "bytes": 8161
+    },
+    {
+     "w": 360,
+     "h": 155,
+     "file": "assets/img/guides/jerash-hippodrome-360.cc76c329.jpg",
+     "bytes": 17318
+    },
+    {
+     "w": 475,
+     "h": 205,
+     "file": "assets/img/guides/jerash-hippodrome-475.79c6a598.jpg",
+     "bytes": 28049
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/jerash-hippodrome-120.ad3e88aa.avif",
+   "assets/img/guides/jerash-hippodrome-240.ad65c38c.avif",
+   "assets/img/guides/jerash-hippodrome-360.752162c1.avif",
+   "assets/img/guides/jerash-hippodrome-475.a350dae0.avif",
+   "assets/img/guides/jerash-hippodrome-120.58c6bd49.webp",
+   "assets/img/guides/jerash-hippodrome-240.a870d5ff.webp",
+   "assets/img/guides/jerash-hippodrome-360.e8b20ac0.webp",
+   "assets/img/guides/jerash-hippodrome-475.4d9b6b8c.webp",
+   "assets/img/guides/jerash-hippodrome-120.ed4d4db1.jpg",
+   "assets/img/guides/jerash-hippodrome-240.46787bd8.jpg",
+   "assets/img/guides/jerash-hippodrome-360.cc76c329.jpg",
+   "assets/img/guides/jerash-hippodrome-475.79c6a598.jpg"
+  ]
+ },
+ "guides/jerash-lunch.jpg": {
+  "key": "v1:std:ff7bfea8ea5f3b9542ad73e9b42a57ed4b840275d2d4c9c9eac8d086250ebb02",
+  "width": 323,
+  "height": 131,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/jerash-lunch-120.a5f41d25.avif",
+     "bytes": 2234
+    },
+    {
+     "w": 240,
+     "h": 97,
+     "file": "assets/img/guides/jerash-lunch-240.1ec4ab5d.avif",
+     "bytes": 6284
+    },
+    {
+     "w": 323,
+     "h": 131,
+     "file": "assets/img/guides/jerash-lunch-323.4f35354a.avif",
+     "bytes": 9281
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/jerash-lunch-120.02a636b0.webp",
+     "bytes": 2910
+    },
+    {
+     "w": 240,
+     "h": 97,
+     "file": "assets/img/guides/jerash-lunch-240.fbc1b2ac.webp",
+     "bytes": 8834
+    },
+    {
+     "w": 323,
+     "h": 131,
+     "file": "assets/img/guides/jerash-lunch-323.7325c6d9.webp",
+     "bytes": 13982
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/jerash-lunch-120.fd85a621.jpg",
+     "bytes": 2951
+    },
+    {
+     "w": 240,
+     "h": 97,
+     "file": "assets/img/guides/jerash-lunch-240.1faa0b87.jpg",
+     "bytes": 8843
+    },
+    {
+     "w": 323,
+     "h": 131,
+     "file": "assets/img/guides/jerash-lunch-323.b3290d58.jpg",
+     "bytes": 14410
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/jerash-lunch-120.a5f41d25.avif",
+   "assets/img/guides/jerash-lunch-240.1ec4ab5d.avif",
+   "assets/img/guides/jerash-lunch-323.4f35354a.avif",
+   "assets/img/guides/jerash-lunch-120.02a636b0.webp",
+   "assets/img/guides/jerash-lunch-240.fbc1b2ac.webp",
+   "assets/img/guides/jerash-lunch-323.7325c6d9.webp",
+   "assets/img/guides/jerash-lunch-120.fd85a621.jpg",
+   "assets/img/guides/jerash-lunch-240.1faa0b87.jpg",
+   "assets/img/guides/jerash-lunch-323.b3290d58.jpg"
+  ]
+ },
+ "guides/jerash-oval-plaza.jpg": {
+  "key": "v1:std:7be32be5b7affba81923c3460cd4557dd0bbe6f8e9e6afbdbb799f91a65c8c85",
+  "width": 473,
+  "height": 205,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/jerash-oval-plaza-120.1c98a2fd.avif",
+     "bytes": 1615
+    },
+    {
+     "w": 240,
+     "h": 104,
+     "file": "assets/img/guides/jerash-oval-plaza-240.26fb48f0.avif",
+     "bytes": 5709
+    },
+    {
+     "w": 360,
+     "h": 156,
+     "file": "assets/img/guides/jerash-oval-plaza-360.61ce0204.avif",
+     "bytes": 11716
+    },
+    {
+     "w": 473,
+     "h": 205,
+     "file": "assets/img/guides/jerash-oval-plaza-473.350ffc9a.avif",
+     "bytes": 18518
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/jerash-oval-plaza-120.a4de34ad.webp",
+     "bytes": 2196
+    },
+    {
+     "w": 240,
+     "h": 104,
+     "file": "assets/img/guides/jerash-oval-plaza-240.42e6a29c.webp",
+     "bytes": 7556
+    },
+    {
+     "w": 360,
+     "h": 156,
+     "file": "assets/img/guides/jerash-oval-plaza-360.70ceb88a.webp",
+     "bytes": 15672
+    },
+    {
+     "w": 473,
+     "h": 205,
+     "file": "assets/img/guides/jerash-oval-plaza-473.cdc46b45.webp",
+     "bytes": 25020
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 52,
+     "file": "assets/img/guides/jerash-oval-plaza-120.80bcfcea.jpg",
+     "bytes": 2334
+    },
+    {
+     "w": 240,
+     "h": 104,
+     "file": "assets/img/guides/jerash-oval-plaza-240.8414bb56.jpg",
+     "bytes": 7541
+    },
+    {
+     "w": 360,
+     "h": 156,
+     "file": "assets/img/guides/jerash-oval-plaza-360.a6dc0a13.jpg",
+     "bytes": 16139
+    },
+    {
+     "w": 473,
+     "h": 205,
+     "file": "assets/img/guides/jerash-oval-plaza-473.43e964ad.jpg",
+     "bytes": 26015
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/jerash-oval-plaza-120.1c98a2fd.avif",
+   "assets/img/guides/jerash-oval-plaza-240.26fb48f0.avif",
+   "assets/img/guides/jerash-oval-plaza-360.61ce0204.avif",
+   "assets/img/guides/jerash-oval-plaza-473.350ffc9a.avif",
+   "assets/img/guides/jerash-oval-plaza-120.a4de34ad.webp",
+   "assets/img/guides/jerash-oval-plaza-240.42e6a29c.webp",
+   "assets/img/guides/jerash-oval-plaza-360.70ceb88a.webp",
+   "assets/img/guides/jerash-oval-plaza-473.cdc46b45.webp",
+   "assets/img/guides/jerash-oval-plaza-120.80bcfcea.jpg",
+   "assets/img/guides/jerash-oval-plaza-240.8414bb56.jpg",
+   "assets/img/guides/jerash-oval-plaza-360.a6dc0a13.jpg",
+   "assets/img/guides/jerash-oval-plaza-473.43e964ad.jpg"
+  ]
+ },
+ "guides/jerash-roman-road.jpg": {
+  "key": "v1:std:a17ffe697e6a19fac9e960e27326fa470e1591d5a1515e27946521dee555d51a",
+  "width": 322,
+  "height": 131,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/jerash-roman-road-120.b36754dc.avif",
+     "bytes": 2055
+    },
+    {
+     "w": 240,
+     "h": 98,
+     "file": "assets/img/guides/jerash-roman-road-240.c794ce9a.avif",
+     "bytes": 6543
+    },
+    {
+     "w": 322,
+     "h": 131,
+     "file": "assets/img/guides/jerash-roman-road-322.2669ae53.avif",
+     "bytes": 9828
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/jerash-roman-road-120.a3193154.webp",
+     "bytes": 2684
+    },
+    {
+     "w": 240,
+     "h": 98,
+     "file": "assets/img/guides/jerash-roman-road-240.593e27e6.webp",
+     "bytes": 9216
+    },
+    {
+     "w": 322,
+     "h": 131,
+     "file": "assets/img/guides/jerash-roman-road-322.0ae162f3.webp",
+     "bytes": 14726
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/jerash-roman-road-120.546f8490.jpg",
+     "bytes": 2728
+    },
+    {
+     "w": 240,
+     "h": 98,
+     "file": "assets/img/guides/jerash-roman-road-240.71aeb2eb.jpg",
+     "bytes": 8922
+    },
+    {
+     "w": 322,
+     "h": 131,
+     "file": "assets/img/guides/jerash-roman-road-322.abb2828f.jpg",
+     "bytes": 14445
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/jerash-roman-road-120.b36754dc.avif",
+   "assets/img/guides/jerash-roman-road-240.c794ce9a.avif",
+   "assets/img/guides/jerash-roman-road-322.2669ae53.avif",
+   "assets/img/guides/jerash-roman-road-120.a3193154.webp",
+   "assets/img/guides/jerash-roman-road-240.593e27e6.webp",
+   "assets/img/guides/jerash-roman-road-322.0ae162f3.webp",
+   "assets/img/guides/jerash-roman-road-120.546f8490.jpg",
+   "assets/img/guides/jerash-roman-road-240.71aeb2eb.jpg",
+   "assets/img/guides/jerash-roman-road-322.abb2828f.jpg"
+  ]
+ },
+ "guides/jerash-south-theatre.jpg": {
+  "key": "v1:std:a1206fe6a0e1de1d101dba1ae9a0265d47e1c5f815563824564551446a58e3ac",
+  "width": 474,
+  "height": 195,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/jerash-south-theatre-120.aad3b43f.avif",
+     "bytes": 2028
+    },
+    {
+     "w": 240,
+     "h": 99,
+     "file": "assets/img/guides/jerash-south-theatre-240.5b026bf2.avif",
+     "bytes": 7616
+    },
+    {
+     "w": 360,
+     "h": 148,
+     "file": "assets/img/guides/jerash-south-theatre-360.68c17c0b.avif",
+     "bytes": 14881
+    },
+    {
+     "w": 474,
+     "h": 195,
+     "file": "assets/img/guides/jerash-south-theatre-474.942333e7.avif",
+     "bytes": 22704
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/jerash-south-theatre-120.185a4268.webp",
+     "bytes": 2730
+    },
+    {
+     "w": 240,
+     "h": 99,
+     "file": "assets/img/guides/jerash-south-theatre-240.e6481f73.webp",
+     "bytes": 10448
+    },
+    {
+     "w": 360,
+     "h": 148,
+     "file": "assets/img/guides/jerash-south-theatre-360.5690a96a.webp",
+     "bytes": 21332
+    },
+    {
+     "w": 474,
+     "h": 195,
+     "file": "assets/img/guides/jerash-south-theatre-474.c7e40344.webp",
+     "bytes": 34692
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/jerash-south-theatre-120.2081604e.jpg",
+     "bytes": 2727
+    },
+    {
+     "w": 240,
+     "h": 99,
+     "file": "assets/img/guides/jerash-south-theatre-240.0f60bbcc.jpg",
+     "bytes": 9454
+    },
+    {
+     "w": 360,
+     "h": 148,
+     "file": "assets/img/guides/jerash-south-theatre-360.df108db8.jpg",
+     "bytes": 19529
+    },
+    {
+     "w": 474,
+     "h": 195,
+     "file": "assets/img/guides/jerash-south-theatre-474.ed267a23.jpg",
+     "bytes": 32176
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/jerash-south-theatre-120.aad3b43f.avif",
+   "assets/img/guides/jerash-south-theatre-240.5b026bf2.avif",
+   "assets/img/guides/jerash-south-theatre-360.68c17c0b.avif",
+   "assets/img/guides/jerash-south-theatre-474.942333e7.avif",
+   "assets/img/guides/jerash-south-theatre-120.185a4268.webp",
+   "assets/img/guides/jerash-south-theatre-240.e6481f73.webp",
+   "assets/img/guides/jerash-south-theatre-360.5690a96a.webp",
+   "assets/img/guides/jerash-south-theatre-474.c7e40344.webp",
+   "assets/img/guides/jerash-south-theatre-120.2081604e.jpg",
+   "assets/img/guides/jerash-south-theatre-240.0f60bbcc.jpg",
+   "assets/img/guides/jerash-south-theatre-360.df108db8.jpg",
+   "assets/img/guides/jerash-south-theatre-474.ed267a23.jpg"
+  ]
+ },
+ "guides/jerash-theatre-view.jpg": {
+  "key": "v1:std:7aafbeab060de576da77290643516430e72eb5deed4ac6176bfecdff7c288ec3",
+  "width": 323,
+  "height": 131,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/jerash-theatre-view-120.16337c45.avif",
+     "bytes": 1945
+    },
+    {
+     "w": 240,
+     "h": 97,
+     "file": "assets/img/guides/jerash-theatre-view-240.09fd79ba.avif",
+     "bytes": 6545
+    },
+    {
+     "w": 323,
+     "h": 131,
+     "file": "assets/img/guides/jerash-theatre-view-323.28a43925.avif",
+     "bytes": 9640
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/jerash-theatre-view-120.8f64d8a9.webp",
+     "bytes": 2536
+    },
+    {
+     "w": 240,
+     "h": 97,
+     "file": "assets/img/guides/jerash-theatre-view-240.12a06270.webp",
+     "bytes": 8528
+    },
+    {
+     "w": 323,
+     "h": 131,
+     "file": "assets/img/guides/jerash-theatre-view-323.21b4070a.webp",
+     "bytes": 14090
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 49,
+     "file": "assets/img/guides/jerash-theatre-view-120.88e6f65d.jpg",
+     "bytes": 2652
+    },
+    {
+     "w": 240,
+     "h": 97,
+     "file": "assets/img/guides/jerash-theatre-view-240.e35764c6.jpg",
+     "bytes": 8434
+    },
+    {
+     "w": 323,
+     "h": 131,
+     "file": "assets/img/guides/jerash-theatre-view-323.1eb1a799.jpg",
+     "bytes": 14023
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/jerash-theatre-view-120.16337c45.avif",
+   "assets/img/guides/jerash-theatre-view-240.09fd79ba.avif",
+   "assets/img/guides/jerash-theatre-view-323.28a43925.avif",
+   "assets/img/guides/jerash-theatre-view-120.8f64d8a9.webp",
+   "assets/img/guides/jerash-theatre-view-240.12a06270.webp",
+   "assets/img/guides/jerash-theatre-view-323.21b4070a.webp",
+   "assets/img/guides/jerash-theatre-view-120.88e6f65d.jpg",
+   "assets/img/guides/jerash-theatre-view-240.e35764c6.jpg",
+   "assets/img/guides/jerash-theatre-view-323.1eb1a799.jpg"
+  ]
+ },
+ "guides/petra-camel.jpg": {
+  "key": "v1:std:e5c5fd993cb09b6eafa21095d9222163292cf91e32169a9702093c4e62eed20d",
+  "width": 474,
+  "height": 156,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 39,
+     "file": "assets/img/guides/petra-camel-120.bd7e80d6.avif",
+     "bytes": 1594
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/petra-camel-240.202e8a5b.avif",
+     "bytes": 5232
+    },
+    {
+     "w": 360,
+     "h": 118,
+     "file": "assets/img/guides/petra-camel-360.7afee0b0.avif",
+     "bytes": 10439
+    },
+    {
+     "w": 474,
+     "h": 156,
+     "file": "assets/img/guides/petra-camel-474.9629e0cd.avif",
+     "bytes": 16461
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 39,
+     "file": "assets/img/guides/petra-camel-120.071774fd.webp",
+     "bytes": 2172
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/petra-camel-240.66cff7fe.webp",
+     "bytes": 7406
+    },
+    {
+     "w": 360,
+     "h": 118,
+     "file": "assets/img/guides/petra-camel-360.8bd1fdb5.webp",
+     "bytes": 15126
+    },
+    {
+     "w": 474,
+     "h": 156,
+     "file": "assets/img/guides/petra-camel-474.94b97392.webp",
+     "bytes": 24448
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 39,
+     "file": "assets/img/guides/petra-camel-120.56ca28fd.jpg",
+     "bytes": 2106
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/petra-camel-240.dfc2dd8c.jpg",
+     "bytes": 6845
+    },
+    {
+     "w": 360,
+     "h": 118,
+     "file": "assets/img/guides/petra-camel-360.4c90f111.jpg",
+     "bytes": 14371
+    },
+    {
+     "w": 474,
+     "h": 156,
+     "file": "assets/img/guides/petra-camel-474.d91d1dff.jpg",
+     "bytes": 23123
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/petra-camel-120.bd7e80d6.avif",
+   "assets/img/guides/petra-camel-240.202e8a5b.avif",
+   "assets/img/guides/petra-camel-360.7afee0b0.avif",
+   "assets/img/guides/petra-camel-474.9629e0cd.avif",
+   "assets/img/guides/petra-camel-120.071774fd.webp",
+   "assets/img/guides/petra-camel-240.66cff7fe.webp",
+   "assets/img/guides/petra-camel-360.8bd1fdb5.webp",
+   "assets/img/guides/petra-camel-474.94b97392.webp",
+   "assets/img/guides/petra-camel-120.56ca28fd.jpg",
+   "assets/img/guides/petra-camel-240.dfc2dd8c.jpg",
+   "assets/img/guides/petra-camel-360.4c90f111.jpg",
+   "assets/img/guides/petra-camel-474.d91d1dff.jpg"
+  ]
+ },
+ "guides/petra-monastery-hike.jpg": {
+  "key": "v1:std:7c68827c4b64110966830b701de06f538dec9b50598c874684b7c81f707148bd",
+  "width": 473,
+  "height": 156,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 40,
+     "file": "assets/img/guides/petra-monastery-hike-120.9bdf0c32.avif",
+     "bytes": 1628
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/petra-monastery-hike-240.3712dad9.avif",
+     "bytes": 5747
+    },
+    {
+     "w": 360,
+     "h": 119,
+     "file": "assets/img/guides/petra-monastery-hike-360.15460917.avif",
+     "bytes": 11358
+    },
+    {
+     "w": 473,
+     "h": 156,
+     "file": "assets/img/guides/petra-monastery-hike-473.8018a9a8.avif",
+     "bytes": 17664
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 40,
+     "file": "assets/img/guides/petra-monastery-hike-120.90f411f6.webp",
+     "bytes": 2258
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/petra-monastery-hike-240.578f034c.webp",
+     "bytes": 7866
+    },
+    {
+     "w": 360,
+     "h": 119,
+     "file": "assets/img/guides/petra-monastery-hike-360.59713cde.webp",
+     "bytes": 16558
+    },
+    {
+     "w": 473,
+     "h": 156,
+     "file": "assets/img/guides/petra-monastery-hike-473.36a068da.webp",
+     "bytes": 26758
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 40,
+     "file": "assets/img/guides/petra-monastery-hike-120.804817ea.jpg",
+     "bytes": 2216
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/petra-monastery-hike-240.378d8d2f.jpg",
+     "bytes": 7188
+    },
+    {
+     "w": 360,
+     "h": 119,
+     "file": "assets/img/guides/petra-monastery-hike-360.a9568359.jpg",
+     "bytes": 15327
+    },
+    {
+     "w": 473,
+     "h": 156,
+     "file": "assets/img/guides/petra-monastery-hike-473.8b4abca9.jpg",
+     "bytes": 24932
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/petra-monastery-hike-120.9bdf0c32.avif",
+   "assets/img/guides/petra-monastery-hike-240.3712dad9.avif",
+   "assets/img/guides/petra-monastery-hike-360.15460917.avif",
+   "assets/img/guides/petra-monastery-hike-473.8018a9a8.avif",
+   "assets/img/guides/petra-monastery-hike-120.90f411f6.webp",
+   "assets/img/guides/petra-monastery-hike-240.578f034c.webp",
+   "assets/img/guides/petra-monastery-hike-360.59713cde.webp",
+   "assets/img/guides/petra-monastery-hike-473.36a068da.webp",
+   "assets/img/guides/petra-monastery-hike-120.804817ea.jpg",
+   "assets/img/guides/petra-monastery-hike-240.378d8d2f.jpg",
+   "assets/img/guides/petra-monastery-hike-360.a9568359.jpg",
+   "assets/img/guides/petra-monastery-hike-473.8b4abca9.jpg"
+  ]
+ },
+ "guides/petra-monastery.jpg": {
+  "key": "v1:std:2838e0485b1623e0ea71e5d04a322c72fba29a699e346497d3a50a417e735d33",
+  "width": 474,
+  "height": 188,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 48,
+     "file": "assets/img/guides/petra-monastery-120.a29d1cef.avif",
+     "bytes": 1773
+    },
+    {
+     "w": 240,
+     "h": 95,
+     "file": "assets/img/guides/petra-monastery-240.847297e7.avif",
+     "bytes": 5862
+    },
+    {
+     "w": 360,
+     "h": 143,
+     "file": "assets/img/guides/petra-monastery-360.f50c5652.avif",
+     "bytes": 11519
+    },
+    {
+     "w": 474,
+     "h": 188,
+     "file": "assets/img/guides/petra-monastery-474.327ad472.avif",
+     "bytes": 17419
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 48,
+     "file": "assets/img/guides/petra-monastery-120.4a2d7edc.webp",
+     "bytes": 2364
+    },
+    {
+     "w": 240,
+     "h": 95,
+     "file": "assets/img/guides/petra-monastery-240.e1b6f899.webp",
+     "bytes": 7990
+    },
+    {
+     "w": 360,
+     "h": 143,
+     "file": "assets/img/guides/petra-monastery-360.663d052a.webp",
+     "bytes": 16074
+    },
+    {
+     "w": 474,
+     "h": 188,
+     "file": "assets/img/guides/petra-monastery-474.27278862.webp",
+     "bytes": 25394
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 48,
+     "file": "assets/img/guides/petra-monastery-120.33ba538c.jpg",
+     "bytes": 2443
+    },
+    {
+     "w": 240,
+     "h": 95,
+     "file": "assets/img/guides/petra-monastery-240.2f6ad925.jpg",
+     "bytes": 7709
+    },
+    {
+     "w": 360,
+     "h": 143,
+     "file": "assets/img/guides/petra-monastery-360.bb8e09f0.jpg",
+     "bytes": 16087
+    },
+    {
+     "w": 474,
+     "h": 188,
+     "file": "assets/img/guides/petra-monastery-474.807460b4.jpg",
+     "bytes": 26132
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/petra-monastery-120.a29d1cef.avif",
+   "assets/img/guides/petra-monastery-240.847297e7.avif",
+   "assets/img/guides/petra-monastery-360.f50c5652.avif",
+   "assets/img/guides/petra-monastery-474.327ad472.avif",
+   "assets/img/guides/petra-monastery-120.4a2d7edc.webp",
+   "assets/img/guides/petra-monastery-240.e1b6f899.webp",
+   "assets/img/guides/petra-monastery-360.663d052a.webp",
+   "assets/img/guides/petra-monastery-474.27278862.webp",
+   "assets/img/guides/petra-monastery-120.33ba538c.jpg",
+   "assets/img/guides/petra-monastery-240.2f6ad925.jpg",
+   "assets/img/guides/petra-monastery-360.bb8e09f0.jpg",
+   "assets/img/guides/petra-monastery-474.807460b4.jpg"
+  ]
+ },
+ "guides/petra-royal-tombs.jpg": {
+  "key": "v1:std:d51ca3f02fe71293c5287aae69d23f43ccb831614098d628875fc14582ccbcbe",
+  "width": 474,
+  "height": 188,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 48,
+     "file": "assets/img/guides/petra-royal-tombs-120.5feb1b93.avif",
+     "bytes": 1840
+    },
+    {
+     "w": 240,
+     "h": 95,
+     "file": "assets/img/guides/petra-royal-tombs-240.f8b01c8b.avif",
+     "bytes": 6398
+    },
+    {
+     "w": 360,
+     "h": 143,
+     "file": "assets/img/guides/petra-royal-tombs-360.da420911.avif",
+     "bytes": 13010
+    },
+    {
+     "w": 474,
+     "h": 188,
+     "file": "assets/img/guides/petra-royal-tombs-474.f4377c41.avif",
+     "bytes": 20397
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 48,
+     "file": "assets/img/guides/petra-royal-tombs-120.e14d605d.webp",
+     "bytes": 2492
+    },
+    {
+     "w": 240,
+     "h": 95,
+     "file": "assets/img/guides/petra-royal-tombs-240.af2dc2cc.webp",
+     "bytes": 9418
+    },
+    {
+     "w": 360,
+     "h": 143,
+     "file": "assets/img/guides/petra-royal-tombs-360.0ffd1e94.webp",
+     "bytes": 19632
+    },
+    {
+     "w": 474,
+     "h": 188,
+     "file": "assets/img/guides/petra-royal-tombs-474.b5f7cba1.webp",
+     "bytes": 31946
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 48,
+     "file": "assets/img/guides/petra-royal-tombs-120.44dea381.jpg",
+     "bytes": 2449
+    },
+    {
+     "w": 240,
+     "h": 95,
+     "file": "assets/img/guides/petra-royal-tombs-240.59108999.jpg",
+     "bytes": 8468
+    },
+    {
+     "w": 360,
+     "h": 143,
+     "file": "assets/img/guides/petra-royal-tombs-360.30246e86.jpg",
+     "bytes": 17890
+    },
+    {
+     "w": 474,
+     "h": 188,
+     "file": "assets/img/guides/petra-royal-tombs-474.1735e422.jpg",
+     "bytes": 29476
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/petra-royal-tombs-120.5feb1b93.avif",
+   "assets/img/guides/petra-royal-tombs-240.f8b01c8b.avif",
+   "assets/img/guides/petra-royal-tombs-360.da420911.avif",
+   "assets/img/guides/petra-royal-tombs-474.f4377c41.avif",
+   "assets/img/guides/petra-royal-tombs-120.e14d605d.webp",
+   "assets/img/guides/petra-royal-tombs-240.af2dc2cc.webp",
+   "assets/img/guides/petra-royal-tombs-360.0ffd1e94.webp",
+   "assets/img/guides/petra-royal-tombs-474.b5f7cba1.webp",
+   "assets/img/guides/petra-royal-tombs-120.44dea381.jpg",
+   "assets/img/guides/petra-royal-tombs-240.59108999.jpg",
+   "assets/img/guides/petra-royal-tombs-360.30246e86.jpg",
+   "assets/img/guides/petra-royal-tombs-474.1735e422.jpg"
+  ]
+ },
+ "guides/petra-siq.jpg": {
+  "key": "v1:std:c1faba7458d872b217f4a622bcacc28e81d20de83467f4e6ab52bdfd8b9736eb",
+  "width": 474,
+  "height": 156,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 39,
+     "file": "assets/img/guides/petra-siq-120.708c3ca7.avif",
+     "bytes": 1393
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/petra-siq-240.51336e39.avif",
+     "bytes": 4452
+    },
+    {
+     "w": 360,
+     "h": 118,
+     "file": "assets/img/guides/petra-siq-360.111bd1c0.avif",
+     "bytes": 8877
+    },
+    {
+     "w": 474,
+     "h": 156,
+     "file": "assets/img/guides/petra-siq-474.61c0a27a.avif",
+     "bytes": 14486
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 39,
+     "file": "assets/img/guides/petra-siq-120.535cef6a.webp",
+     "bytes": 1706
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/petra-siq-240.6ae552ce.webp",
+     "bytes": 5844
+    },
+    {
+     "w": 360,
+     "h": 118,
+     "file": "assets/img/guides/petra-siq-360.9a3d24d0.webp",
+     "bytes": 11880
+    },
+    {
+     "w": 474,
+     "h": 156,
+     "file": "assets/img/guides/petra-siq-474.77e4d9cd.webp",
+     "bytes": 19130
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 39,
+     "file": "assets/img/guides/petra-siq-120.03cd71c2.jpg",
+     "bytes": 1836
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/petra-siq-240.746f491f.jpg",
+     "bytes": 5606
+    },
+    {
+     "w": 360,
+     "h": 118,
+     "file": "assets/img/guides/petra-siq-360.e4448c24.jpg",
+     "bytes": 11687
+    },
+    {
+     "w": 474,
+     "h": 156,
+     "file": "assets/img/guides/petra-siq-474.01f2369c.jpg",
+     "bytes": 18938
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/petra-siq-120.708c3ca7.avif",
+   "assets/img/guides/petra-siq-240.51336e39.avif",
+   "assets/img/guides/petra-siq-360.111bd1c0.avif",
+   "assets/img/guides/petra-siq-474.61c0a27a.avif",
+   "assets/img/guides/petra-siq-120.535cef6a.webp",
+   "assets/img/guides/petra-siq-240.6ae552ce.webp",
+   "assets/img/guides/petra-siq-360.9a3d24d0.webp",
+   "assets/img/guides/petra-siq-474.77e4d9cd.webp",
+   "assets/img/guides/petra-siq-120.03cd71c2.jpg",
+   "assets/img/guides/petra-siq-240.746f491f.jpg",
+   "assets/img/guides/petra-siq-360.e4448c24.jpg",
+   "assets/img/guides/petra-siq-474.01f2369c.jpg"
+  ]
+ },
+ "guides/petra-treasury.jpg": {
+  "key": "v1:std:c0412153751e3f4447fd9e171f8dead4eabff73e00331423424193c21b975169",
+  "width": 474,
+  "height": 188,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 48,
+     "file": "assets/img/guides/petra-treasury-120.d5f65ee2.avif",
+     "bytes": 1703
+    },
+    {
+     "w": 240,
+     "h": 95,
+     "file": "assets/img/guides/petra-treasury-240.089f97f3.avif",
+     "bytes": 5944
+    },
+    {
+     "w": 360,
+     "h": 143,
+     "file": "assets/img/guides/petra-treasury-360.3bae6e3a.avif",
+     "bytes": 12224
+    },
+    {
+     "w": 474,
+     "h": 188,
+     "file": "assets/img/guides/petra-treasury-474.36dc1b11.avif",
+     "bytes": 18561
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 48,
+     "file": "assets/img/guides/petra-treasury-120.d476bd24.webp",
+     "bytes": 2376
+    },
+    {
+     "w": 240,
+     "h": 95,
+     "file": "assets/img/guides/petra-treasury-240.e3ea046a.webp",
+     "bytes": 8640
+    },
+    {
+     "w": 360,
+     "h": 143,
+     "file": "assets/img/guides/petra-treasury-360.1145d1b9.webp",
+     "bytes": 17878
+    },
+    {
+     "w": 474,
+     "h": 188,
+     "file": "assets/img/guides/petra-treasury-474.97f6a48c.webp",
+     "bytes": 29020
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 48,
+     "file": "assets/img/guides/petra-treasury-120.7f9ee048.jpg",
+     "bytes": 2342
+    },
+    {
+     "w": 240,
+     "h": 95,
+     "file": "assets/img/guides/petra-treasury-240.81a714f1.jpg",
+     "bytes": 7905
+    },
+    {
+     "w": 360,
+     "h": 143,
+     "file": "assets/img/guides/petra-treasury-360.c4d7ed82.jpg",
+     "bytes": 16731
+    },
+    {
+     "w": 474,
+     "h": 188,
+     "file": "assets/img/guides/petra-treasury-474.1da42c72.jpg",
+     "bytes": 27721
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/petra-treasury-120.d5f65ee2.avif",
+   "assets/img/guides/petra-treasury-240.089f97f3.avif",
+   "assets/img/guides/petra-treasury-360.3bae6e3a.avif",
+   "assets/img/guides/petra-treasury-474.36dc1b11.avif",
+   "assets/img/guides/petra-treasury-120.d476bd24.webp",
+   "assets/img/guides/petra-treasury-240.e3ea046a.webp",
+   "assets/img/guides/petra-treasury-360.1145d1b9.webp",
+   "assets/img/guides/petra-treasury-474.97f6a48c.webp",
+   "assets/img/guides/petra-treasury-120.7f9ee048.jpg",
+   "assets/img/guides/petra-treasury-240.81a714f1.jpg",
+   "assets/img/guides/petra-treasury-360.c4d7ed82.jpg",
+   "assets/img/guides/petra-treasury-474.1da42c72.jpg"
+  ]
+ },
+ "guides/rum-bedouin-camp.jpg": {
+  "key": "v1:std:44e7e07c9c0986b849028eadb3b5cd6ed5d34288fc5f9b9724516a3e0ae4e8b1",
+  "width": 474,
+  "height": 157,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 40,
+     "file": "assets/img/guides/rum-bedouin-camp-120.72ab1b73.avif",
+     "bytes": 1483
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/rum-bedouin-camp-240.f9339ef3.avif",
+     "bytes": 4448
+    },
+    {
+     "w": 360,
+     "h": 119,
+     "file": "assets/img/guides/rum-bedouin-camp-360.d3bd5f55.avif",
+     "bytes": 8552
+    },
+    {
+     "w": 474,
+     "h": 157,
+     "file": "assets/img/guides/rum-bedouin-camp-474.afbe8a42.avif",
+     "bytes": 13615
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 40,
+     "file": "assets/img/guides/rum-bedouin-camp-120.e338aae1.webp",
+     "bytes": 2038
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/rum-bedouin-camp-240.f72305db.webp",
+     "bytes": 6390
+    },
+    {
+     "w": 360,
+     "h": 119,
+     "file": "assets/img/guides/rum-bedouin-camp-360.5e712d1a.webp",
+     "bytes": 12872
+    },
+    {
+     "w": 474,
+     "h": 157,
+     "file": "assets/img/guides/rum-bedouin-camp-474.32660508.webp",
+     "bytes": 19442
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 40,
+     "file": "assets/img/guides/rum-bedouin-camp-120.375b1304.jpg",
+     "bytes": 2144
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/rum-bedouin-camp-240.865e9b2c.jpg",
+     "bytes": 6428
+    },
+    {
+     "w": 360,
+     "h": 119,
+     "file": "assets/img/guides/rum-bedouin-camp-360.3dbede1a.jpg",
+     "bytes": 13041
+    },
+    {
+     "w": 474,
+     "h": 157,
+     "file": "assets/img/guides/rum-bedouin-camp-474.ab22509e.jpg",
+     "bytes": 20878
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/rum-bedouin-camp-120.72ab1b73.avif",
+   "assets/img/guides/rum-bedouin-camp-240.f9339ef3.avif",
+   "assets/img/guides/rum-bedouin-camp-360.d3bd5f55.avif",
+   "assets/img/guides/rum-bedouin-camp-474.afbe8a42.avif",
+   "assets/img/guides/rum-bedouin-camp-120.e338aae1.webp",
+   "assets/img/guides/rum-bedouin-camp-240.f72305db.webp",
+   "assets/img/guides/rum-bedouin-camp-360.5e712d1a.webp",
+   "assets/img/guides/rum-bedouin-camp-474.32660508.webp",
+   "assets/img/guides/rum-bedouin-camp-120.375b1304.jpg",
+   "assets/img/guides/rum-bedouin-camp-240.865e9b2c.jpg",
+   "assets/img/guides/rum-bedouin-camp-360.3dbede1a.jpg",
+   "assets/img/guides/rum-bedouin-camp-474.ab22509e.jpg"
+  ]
+ },
+ "guides/rum-dinner-stars.jpg": {
+  "key": "v1:std:536a9ce7e2a0225d7b41e8cfc05ae813fc21149952e3fafcc7bb02eef51afdd6",
+  "width": 474,
+  "height": 157,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 40,
+     "file": "assets/img/guides/rum-dinner-stars-120.d87016cc.avif",
+     "bytes": 1202
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/rum-dinner-stars-240.318841c7.avif",
+     "bytes": 4080
+    },
+    {
+     "w": 360,
+     "h": 119,
+     "file": "assets/img/guides/rum-dinner-stars-360.b48e075d.avif",
+     "bytes": 7869
+    },
+    {
+     "w": 474,
+     "h": 157,
+     "file": "assets/img/guides/rum-dinner-stars-474.de6b08f2.avif",
+     "bytes": 13767
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 40,
+     "file": "assets/img/guides/rum-dinner-stars-120.f9528a23.webp",
+     "bytes": 1454
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/rum-dinner-stars-240.e9d25f2b.webp",
+     "bytes": 4532
+    },
+    {
+     "w": 360,
+     "h": 119,
+     "file": "assets/img/guides/rum-dinner-stars-360.f6200502.webp",
+     "bytes": 10304
+    },
+    {
+     "w": 474,
+     "h": 157,
+     "file": "assets/img/guides/rum-dinner-stars-474.a48ba936.webp",
+     "bytes": 16574
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 40,
+     "file": "assets/img/guides/rum-dinner-stars-120.9c043d95.jpg",
+     "bytes": 1707
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/rum-dinner-stars-240.f31dfe73.jpg",
+     "bytes": 4967
+    },
+    {
+     "w": 360,
+     "h": 119,
+     "file": "assets/img/guides/rum-dinner-stars-360.28e17f99.jpg",
+     "bytes": 10413
+    },
+    {
+     "w": 474,
+     "h": 157,
+     "file": "assets/img/guides/rum-dinner-stars-474.9f363fb2.jpg",
+     "bytes": 17377
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/rum-dinner-stars-120.d87016cc.avif",
+   "assets/img/guides/rum-dinner-stars-240.318841c7.avif",
+   "assets/img/guides/rum-dinner-stars-360.b48e075d.avif",
+   "assets/img/guides/rum-dinner-stars-474.de6b08f2.avif",
+   "assets/img/guides/rum-dinner-stars-120.f9528a23.webp",
+   "assets/img/guides/rum-dinner-stars-240.e9d25f2b.webp",
+   "assets/img/guides/rum-dinner-stars-360.f6200502.webp",
+   "assets/img/guides/rum-dinner-stars-474.a48ba936.webp",
+   "assets/img/guides/rum-dinner-stars-120.9c043d95.jpg",
+   "assets/img/guides/rum-dinner-stars-240.f31dfe73.jpg",
+   "assets/img/guides/rum-dinner-stars-360.28e17f99.jpg",
+   "assets/img/guides/rum-dinner-stars-474.9f363fb2.jpg"
+  ]
+ },
+ "guides/rum-khazali.jpg": {
+  "key": "v1:std:bb0c2c0fa866a2b4927f76c575cb50c984adb5c5ab332503f4b91ae2f06b9ff2",
+  "width": 475,
+  "height": 186,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/rum-khazali-120.fbf86b0e.avif",
+     "bytes": 1678
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/rum-khazali-240.87f608fa.avif",
+     "bytes": 5757
+    },
+    {
+     "w": 360,
+     "h": 141,
+     "file": "assets/img/guides/rum-khazali-360.a9577f49.avif",
+     "bytes": 11690
+    },
+    {
+     "w": 475,
+     "h": 186,
+     "file": "assets/img/guides/rum-khazali-475.98ddc63b.avif",
+     "bytes": 19076
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/rum-khazali-120.77a114af.webp",
+     "bytes": 2094
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/rum-khazali-240.5927659e.webp",
+     "bytes": 7720
+    },
+    {
+     "w": 360,
+     "h": 141,
+     "file": "assets/img/guides/rum-khazali-360.5752248e.webp",
+     "bytes": 16250
+    },
+    {
+     "w": 475,
+     "h": 186,
+     "file": "assets/img/guides/rum-khazali-475.99a15078.webp",
+     "bytes": 26806
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/rum-khazali-120.2d90852a.jpg",
+     "bytes": 2117
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/rum-khazali-240.40557c9d.jpg",
+     "bytes": 7146
+    },
+    {
+     "w": 360,
+     "h": 141,
+     "file": "assets/img/guides/rum-khazali-360.755c499c.jpg",
+     "bytes": 15253
+    },
+    {
+     "w": 475,
+     "h": 186,
+     "file": "assets/img/guides/rum-khazali-475.1662015c.jpg",
+     "bytes": 25235
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/rum-khazali-120.fbf86b0e.avif",
+   "assets/img/guides/rum-khazali-240.87f608fa.avif",
+   "assets/img/guides/rum-khazali-360.a9577f49.avif",
+   "assets/img/guides/rum-khazali-475.98ddc63b.avif",
+   "assets/img/guides/rum-khazali-120.77a114af.webp",
+   "assets/img/guides/rum-khazali-240.5927659e.webp",
+   "assets/img/guides/rum-khazali-360.5752248e.webp",
+   "assets/img/guides/rum-khazali-475.99a15078.webp",
+   "assets/img/guides/rum-khazali-120.2d90852a.jpg",
+   "assets/img/guides/rum-khazali-240.40557c9d.jpg",
+   "assets/img/guides/rum-khazali-360.755c499c.jpg",
+   "assets/img/guides/rum-khazali-475.1662015c.jpg"
+  ]
+ },
+ "guides/rum-lawrence-spring.jpg": {
+  "key": "v1:std:9eb6ef703e89d0a4a7ffe8acc09ce0c48d90f17380dc9f46738386b8113f20cc",
+  "width": 474,
+  "height": 186,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/rum-lawrence-spring-120.6cca2d3c.avif",
+     "bytes": 1831
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/rum-lawrence-spring-240.27554885.avif",
+     "bytes": 6701
+    },
+    {
+     "w": 360,
+     "h": 141,
+     "file": "assets/img/guides/rum-lawrence-spring-360.fd9f94aa.avif",
+     "bytes": 13948
+    },
+    {
+     "w": 474,
+     "h": 186,
+     "file": "assets/img/guides/rum-lawrence-spring-474.f8c083a4.avif",
+     "bytes": 22398
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/rum-lawrence-spring-120.f4894ff9.webp",
+     "bytes": 2452
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/rum-lawrence-spring-240.6411adf5.webp",
+     "bytes": 9440
+    },
+    {
+     "w": 360,
+     "h": 141,
+     "file": "assets/img/guides/rum-lawrence-spring-360.46f8bc5a.webp",
+     "bytes": 20502
+    },
+    {
+     "w": 474,
+     "h": 186,
+     "file": "assets/img/guides/rum-lawrence-spring-474.93b721e3.webp",
+     "bytes": 34178
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/rum-lawrence-spring-120.87f9a70f.jpg",
+     "bytes": 2395
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/rum-lawrence-spring-240.3ec7eb8a.jpg",
+     "bytes": 8393
+    },
+    {
+     "w": 360,
+     "h": 141,
+     "file": "assets/img/guides/rum-lawrence-spring-360.44adc357.jpg",
+     "bytes": 18213
+    },
+    {
+     "w": 474,
+     "h": 186,
+     "file": "assets/img/guides/rum-lawrence-spring-474.0f60ff0e.jpg",
+     "bytes": 30390
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/rum-lawrence-spring-120.6cca2d3c.avif",
+   "assets/img/guides/rum-lawrence-spring-240.27554885.avif",
+   "assets/img/guides/rum-lawrence-spring-360.fd9f94aa.avif",
+   "assets/img/guides/rum-lawrence-spring-474.f8c083a4.avif",
+   "assets/img/guides/rum-lawrence-spring-120.f4894ff9.webp",
+   "assets/img/guides/rum-lawrence-spring-240.6411adf5.webp",
+   "assets/img/guides/rum-lawrence-spring-360.46f8bc5a.webp",
+   "assets/img/guides/rum-lawrence-spring-474.93b721e3.webp",
+   "assets/img/guides/rum-lawrence-spring-120.87f9a70f.jpg",
+   "assets/img/guides/rum-lawrence-spring-240.3ec7eb8a.jpg",
+   "assets/img/guides/rum-lawrence-spring-360.44adc357.jpg",
+   "assets/img/guides/rum-lawrence-spring-474.0f60ff0e.jpg"
+  ]
+ },
+ "guides/rum-sunset-4x4.jpg": {
+  "key": "v1:std:aecf187b524e08578d4416284cfad70da95046e371335ef5d953f1abb7836f97",
+  "width": 475,
+  "height": 157,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 40,
+     "file": "assets/img/guides/rum-sunset-4x4-120.da1af87d.avif",
+     "bytes": 1158
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/rum-sunset-4x4-240.89c2e07a.avif",
+     "bytes": 2950
+    },
+    {
+     "w": 360,
+     "h": 119,
+     "file": "assets/img/guides/rum-sunset-4x4-360.e15c240c.avif",
+     "bytes": 5511
+    },
+    {
+     "w": 475,
+     "h": 157,
+     "file": "assets/img/guides/rum-sunset-4x4-475.de2aaacc.avif",
+     "bytes": 8927
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 40,
+     "file": "assets/img/guides/rum-sunset-4x4-120.ba92dc2b.webp",
+     "bytes": 1274
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/rum-sunset-4x4-240.95207ffa.webp",
+     "bytes": 3602
+    },
+    {
+     "w": 360,
+     "h": 119,
+     "file": "assets/img/guides/rum-sunset-4x4-360.00770995.webp",
+     "bytes": 7158
+    },
+    {
+     "w": 475,
+     "h": 157,
+     "file": "assets/img/guides/rum-sunset-4x4-475.e525cbdc.webp",
+     "bytes": 11070
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 40,
+     "file": "assets/img/guides/rum-sunset-4x4-120.754599bd.jpg",
+     "bytes": 1574
+    },
+    {
+     "w": 240,
+     "h": 79,
+     "file": "assets/img/guides/rum-sunset-4x4-240.379f85e9.jpg",
+     "bytes": 4326
+    },
+    {
+     "w": 360,
+     "h": 119,
+     "file": "assets/img/guides/rum-sunset-4x4-360.a89d2470.jpg",
+     "bytes": 8439
+    },
+    {
+     "w": 475,
+     "h": 157,
+     "file": "assets/img/guides/rum-sunset-4x4-475.b966f4f1.jpg",
+     "bytes": 13512
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/rum-sunset-4x4-120.da1af87d.avif",
+   "assets/img/guides/rum-sunset-4x4-240.89c2e07a.avif",
+   "assets/img/guides/rum-sunset-4x4-360.e15c240c.avif",
+   "assets/img/guides/rum-sunset-4x4-475.de2aaacc.avif",
+   "assets/img/guides/rum-sunset-4x4-120.ba92dc2b.webp",
+   "assets/img/guides/rum-sunset-4x4-240.95207ffa.webp",
+   "assets/img/guides/rum-sunset-4x4-360.00770995.webp",
+   "assets/img/guides/rum-sunset-4x4-475.e525cbdc.webp",
+   "assets/img/guides/rum-sunset-4x4-120.754599bd.jpg",
+   "assets/img/guides/rum-sunset-4x4-240.379f85e9.jpg",
+   "assets/img/guides/rum-sunset-4x4-360.a89d2470.jpg",
+   "assets/img/guides/rum-sunset-4x4-475.b966f4f1.jpg"
+  ]
+ },
+ "guides/rum-temple.jpg": {
+  "key": "v1:std:8b0def3d405124750f851fa66910baebf5c1237cb448b7208183efdacff1f9b4",
+  "width": 473,
+  "height": 186,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/rum-temple-120.c55586d8.avif",
+     "bytes": 1731
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/rum-temple-240.29dd43a0.avif",
+     "bytes": 5579
+    },
+    {
+     "w": 360,
+     "h": 142,
+     "file": "assets/img/guides/rum-temple-360.c82b0e04.avif",
+     "bytes": 11335
+    },
+    {
+     "w": 473,
+     "h": 186,
+     "file": "assets/img/guides/rum-temple-473.8897ef9b.avif",
+     "bytes": 17297
+    }
+   ],
+   "webp": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/rum-temple-120.164f4a80.webp",
+     "bytes": 2266
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/rum-temple-240.0bd613ad.webp",
+     "bytes": 7588
+    },
+    {
+     "w": 360,
+     "h": 142,
+     "file": "assets/img/guides/rum-temple-360.31cdb9fd.webp",
+     "bytes": 15718
+    },
+    {
+     "w": 473,
+     "h": 186,
+     "file": "assets/img/guides/rum-temple-473.07da3ff0.webp",
+     "bytes": 25140
+    }
+   ],
+   "jpg": [
+    {
+     "w": 120,
+     "h": 47,
+     "file": "assets/img/guides/rum-temple-120.3db3222a.jpg",
+     "bytes": 2391
+    },
+    {
+     "w": 240,
+     "h": 94,
+     "file": "assets/img/guides/rum-temple-240.342b040f.jpg",
+     "bytes": 7709
+    },
+    {
+     "w": 360,
+     "h": 142,
+     "file": "assets/img/guides/rum-temple-360.6cd382ce.jpg",
+     "bytes": 15984
+    },
+    {
+     "w": 473,
+     "h": 186,
+     "file": "assets/img/guides/rum-temple-473.a62a3abc.jpg",
+     "bytes": 25794
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/rum-temple-120.c55586d8.avif",
+   "assets/img/guides/rum-temple-240.29dd43a0.avif",
+   "assets/img/guides/rum-temple-360.c82b0e04.avif",
+   "assets/img/guides/rum-temple-473.8897ef9b.avif",
+   "assets/img/guides/rum-temple-120.164f4a80.webp",
+   "assets/img/guides/rum-temple-240.0bd613ad.webp",
+   "assets/img/guides/rum-temple-360.31cdb9fd.webp",
+   "assets/img/guides/rum-temple-473.07da3ff0.webp",
+   "assets/img/guides/rum-temple-120.3db3222a.jpg",
+   "assets/img/guides/rum-temple-240.342b040f.jpg",
+   "assets/img/guides/rum-temple-360.6cd382ce.jpg",
+   "assets/img/guides/rum-temple-473.a62a3abc.jpg"
+  ]
+ },
+ "photos/enquire-wadi-rum-night.jpg": {
+  "key": "v1:std:9c97071b885e2f5afac0b59bd0bedb15eb7958cd01bec072238fa90b847c8e0d",
+  "width": 720,
+  "height": 813,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 542,
+     "file": "assets/img/photos/enquire-wadi-rum-night-480.5e0d68df.avif",
+     "bytes": 26781
+    },
+    {
+     "w": 720,
+     "h": 813,
+     "file": "assets/img/photos/enquire-wadi-rum-night-720.73c1e9a3.avif",
+     "bytes": 56474
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 542,
+     "file": "assets/img/photos/enquire-wadi-rum-night-480.51d763bc.webp",
+     "bytes": 30522
+    },
+    {
+     "w": 720,
+     "h": 813,
+     "file": "assets/img/photos/enquire-wadi-rum-night-720.5c1e18c3.webp",
+     "bytes": 59994
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 542,
+     "file": "assets/img/photos/enquire-wadi-rum-night-480.36097007.jpg",
+     "bytes": 37317
+    },
+    {
+     "w": 720,
+     "h": 813,
+     "file": "assets/img/photos/enquire-wadi-rum-night-720.a331c726.jpg",
+     "bytes": 77373
+    }
+   ]
+  },
+  "files": [
+   "assets/img/photos/enquire-wadi-rum-night-480.5e0d68df.avif",
+   "assets/img/photos/enquire-wadi-rum-night-720.73c1e9a3.avif",
+   "assets/img/photos/enquire-wadi-rum-night-480.51d763bc.webp",
+   "assets/img/photos/enquire-wadi-rum-night-720.5c1e18c3.webp",
+   "assets/img/photos/enquire-wadi-rum-night-480.36097007.jpg",
+   "assets/img/photos/enquire-wadi-rum-night-720.a331c726.jpg"
+  ]
+ },
+ "photos/greeting-carving.jpg": {
+  "key": "v1:std:b3f0879fb1175267371426a7751a8d374c70ca50ca726641a371585ea6817ae4",
+  "width": 1983,
+  "height": 793,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 192,
+     "file": "assets/img/photos/greeting-carving-480.7061f3c3.avif",
+     "bytes": 11654
+    },
+    {
+     "w": 768,
+     "h": 307,
+     "file": "assets/img/photos/greeting-carving-768.66de6af3.avif",
+     "bytes": 30683
+    },
+    {
+     "w": 1200,
+     "h": 480,
+     "file": "assets/img/photos/greeting-carving-1200.cf9b60ba.avif",
+     "bytes": 75875
+    },
+    {
+     "w": 1600,
+     "h": 640,
+     "file": "assets/img/photos/greeting-carving-1600.c8385f19.avif",
+     "bytes": 124593
+    },
+    {
+     "w": 1983,
+     "h": 793,
+     "file": "assets/img/photos/greeting-carving-1983.9ffc9e95.avif",
+     "bytes": 185035
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 192,
+     "file": "assets/img/photos/greeting-carving-480.f88b9869.webp",
+     "bytes": 15504
+    },
+    {
+     "w": 768,
+     "h": 307,
+     "file": "assets/img/photos/greeting-carving-768.48b63819.webp",
+     "bytes": 39430
+    },
+    {
+     "w": 1200,
+     "h": 480,
+     "file": "assets/img/photos/greeting-carving-1200.3d941f31.webp",
+     "bytes": 90674
+    },
+    {
+     "w": 1600,
+     "h": 640,
+     "file": "assets/img/photos/greeting-carving-1600.b40f65f4.webp",
+     "bytes": 145976
+    },
+    {
+     "w": 1983,
+     "h": 793,
+     "file": "assets/img/photos/greeting-carving-1983.367a560e.webp",
+     "bytes": 203254
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 192,
+     "file": "assets/img/photos/greeting-carving-480.9608f2c4.jpg",
+     "bytes": 16483
+    },
+    {
+     "w": 768,
+     "h": 307,
+     "file": "assets/img/photos/greeting-carving-768.4dfc91d3.jpg",
+     "bytes": 40988
+    },
+    {
+     "w": 1200,
+     "h": 480,
+     "file": "assets/img/photos/greeting-carving-1200.00a2a1d1.jpg",
+     "bytes": 96174
+    },
+    {
+     "w": 1600,
+     "h": 640,
+     "file": "assets/img/photos/greeting-carving-1600.223a8c2d.jpg",
+     "bytes": 164455
+    },
+    {
+     "w": 1983,
+     "h": 793,
+     "file": "assets/img/photos/greeting-carving-1983.66f096fe.jpg",
+     "bytes": 253682
+    }
+   ]
+  },
+  "files": [
+   "assets/img/photos/greeting-carving-480.7061f3c3.avif",
+   "assets/img/photos/greeting-carving-768.66de6af3.avif",
+   "assets/img/photos/greeting-carving-1200.cf9b60ba.avif",
+   "assets/img/photos/greeting-carving-1600.c8385f19.avif",
+   "assets/img/photos/greeting-carving-1983.9ffc9e95.avif",
+   "assets/img/photos/greeting-carving-480.f88b9869.webp",
+   "assets/img/photos/greeting-carving-768.48b63819.webp",
+   "assets/img/photos/greeting-carving-1200.3d941f31.webp",
+   "assets/img/photos/greeting-carving-1600.b40f65f4.webp",
+   "assets/img/photos/greeting-carving-1983.367a560e.webp",
+   "assets/img/photos/greeting-carving-480.9608f2c4.jpg",
+   "assets/img/photos/greeting-carving-768.4dfc91d3.jpg",
+   "assets/img/photos/greeting-carving-1200.00a2a1d1.jpg",
+   "assets/img/photos/greeting-carving-1600.223a8c2d.jpg",
+   "assets/img/photos/greeting-carving-1983.66f096fe.jpg"
+  ]
+ },
+ "photos/heritage-mobile.jpg": {
+  "key": "v1:std:863c072f685b9cad51ab1e50d30b2092b3634418788ce6f0302b6157762b9204",
+  "width": 900,
+  "height": 2300,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 1227,
+     "file": "assets/img/photos/heritage-mobile-480.70e88304.avif",
+     "bytes": 58604
+    },
+    {
+     "w": 768,
+     "h": 1963,
+     "file": "assets/img/photos/heritage-mobile-768.46e7efa7.avif",
+     "bytes": 131937
+    },
+    {
+     "w": 900,
+     "h": 2300,
+     "file": "assets/img/photos/heritage-mobile-900.f12630b9.avif",
+     "bytes": 182464
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 1227,
+     "file": "assets/img/photos/heritage-mobile-480.86b51e3e.webp",
+     "bytes": 63130
+    },
+    {
+     "w": 768,
+     "h": 1963,
+     "file": "assets/img/photos/heritage-mobile-768.ec7994e3.webp",
+     "bytes": 138498
+    },
+    {
+     "w": 900,
+     "h": 2300,
+     "file": "assets/img/photos/heritage-mobile-900.ba6338f7.webp",
+     "bytes": 180034
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 1227,
+     "file": "assets/img/photos/heritage-mobile-480.063bf8bb.jpg",
+     "bytes": 74163
+    },
+    {
+     "w": 768,
+     "h": 1963,
+     "file": "assets/img/photos/heritage-mobile-768.250ebb95.jpg",
+     "bytes": 181545
+    },
+    {
+     "w": 900,
+     "h": 2300,
+     "file": "assets/img/photos/heritage-mobile-900.578c2abf.jpg",
+     "bytes": 243727
+    }
+   ]
+  },
+  "files": [
+   "assets/img/photos/heritage-mobile-480.70e88304.avif",
+   "assets/img/photos/heritage-mobile-768.46e7efa7.avif",
+   "assets/img/photos/heritage-mobile-900.f12630b9.avif",
+   "assets/img/photos/heritage-mobile-480.86b51e3e.webp",
+   "assets/img/photos/heritage-mobile-768.ec7994e3.webp",
+   "assets/img/photos/heritage-mobile-900.ba6338f7.webp",
+   "assets/img/photos/heritage-mobile-480.063bf8bb.jpg",
+   "assets/img/photos/heritage-mobile-768.250ebb95.jpg",
+   "assets/img/photos/heritage-mobile-900.578c2abf.jpg"
+  ]
+ },
+ "photos/hero-petra-treasury.jpg": {
+  "key": "v1:hero:e9a29f07e6d978271421c3afd19392e46e8c61939f9c1f077293be29b1724988",
+  "width": 2200,
+  "height": 1467,
+  "alpha": false,
+  "hero": true,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/photos/hero-petra-treasury-480.31772165.avif",
+     "bytes": 38936
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/photos/hero-petra-treasury-768.72154ede.avif",
+     "bytes": 99729
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/photos/hero-petra-treasury-1200.7e3761de.avif",
+     "bytes": 244279
+    },
+    {
+     "w": 1600,
+     "h": 1067,
+     "file": "assets/img/photos/hero-petra-treasury-1600.b99b7bea.avif",
+     "bytes": 426110
+    },
+    {
+     "w": 2000,
+     "h": 1334,
+     "file": "assets/img/photos/hero-petra-treasury-2000.97771e7a.avif",
+     "bytes": 625059
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/photos/hero-petra-treasury-480.7b9964d3.webp",
+     "bytes": 46198
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/photos/hero-petra-treasury-768.0ff421bb.webp",
+     "bytes": 118620
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/photos/hero-petra-treasury-1200.dbf89b43.webp",
+     "bytes": 289798
+    },
+    {
+     "w": 1600,
+     "h": 1067,
+     "file": "assets/img/photos/hero-petra-treasury-1600.ed1d6c3b.webp",
+     "bytes": 511058
+    },
+    {
+     "w": 2000,
+     "h": 1334,
+     "file": "assets/img/photos/hero-petra-treasury-2000.caa0253e.webp",
+     "bytes": 761686
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/photos/hero-petra-treasury-480.8b1339d8.jpg",
+     "bytes": 43832
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/photos/hero-petra-treasury-768.faf918df.jpg",
+     "bytes": 109621
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/photos/hero-petra-treasury-1200.9004bb54.jpg",
+     "bytes": 265740
+    },
+    {
+     "w": 1600,
+     "h": 1067,
+     "file": "assets/img/photos/hero-petra-treasury-1600.b7f82f5a.jpg",
+     "bytes": 471771
+    },
+    {
+     "w": 2000,
+     "h": 1334,
+     "file": "assets/img/photos/hero-petra-treasury-2000.c083bf73.jpg",
+     "bytes": 720643
+    }
+   ]
+  },
+  "files": [
+   "assets/img/photos/hero-petra-treasury-480.31772165.avif",
+   "assets/img/photos/hero-petra-treasury-768.72154ede.avif",
+   "assets/img/photos/hero-petra-treasury-1200.7e3761de.avif",
+   "assets/img/photos/hero-petra-treasury-1600.b99b7bea.avif",
+   "assets/img/photos/hero-petra-treasury-2000.97771e7a.avif",
+   "assets/img/photos/hero-petra-treasury-480.7b9964d3.webp",
+   "assets/img/photos/hero-petra-treasury-768.0ff421bb.webp",
+   "assets/img/photos/hero-petra-treasury-1200.dbf89b43.webp",
+   "assets/img/photos/hero-petra-treasury-1600.ed1d6c3b.webp",
+   "assets/img/photos/hero-petra-treasury-2000.caa0253e.webp",
+   "assets/img/photos/hero-petra-treasury-480.8b1339d8.jpg",
+   "assets/img/photos/hero-petra-treasury-768.faf918df.jpg",
+   "assets/img/photos/hero-petra-treasury-1200.9004bb54.jpg",
+   "assets/img/photos/hero-petra-treasury-1600.b7f82f5a.jpg",
+   "assets/img/photos/hero-petra-treasury-2000.c083bf73.jpg"
+  ]
+ },
+ "photos/hero-petra-treasury.jpg#portrait": {
+  "key": "v1:crop:{\"name\":\"portrait\",\"aspect\":0.8,\"x\":0.5,\"widths\":[480,768],\"q\":{\"avif\":64,\"webp\":78,\"jpg\":80}}:e9a29f07e6d978271421c3afd19392e46e8c61939f9c1f077293be29b1724988",
+  "width": 1174,
+  "height": 1467,
+  "alpha": false,
+  "crop": {
+   "left": 513,
+   "top": 0,
+   "width": 1174,
+   "height": 1467
+  },
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 600,
+     "file": "assets/img/photos/hero-petra-treasury-portrait-480.0f1a161e.avif",
+     "bytes": 58629
+    },
+    {
+     "w": 768,
+     "h": 960,
+     "file": "assets/img/photos/hero-petra-treasury-portrait-768.c3f4fcd5.avif",
+     "bytes": 149117
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 600,
+     "file": "assets/img/photos/hero-petra-treasury-portrait-480.b488518d.webp",
+     "bytes": 65748
+    },
+    {
+     "w": 768,
+     "h": 960,
+     "file": "assets/img/photos/hero-petra-treasury-portrait-768.33ec7fb9.webp",
+     "bytes": 171724
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 600,
+     "file": "assets/img/photos/hero-petra-treasury-portrait-480.b9d6f7d9.jpg",
+     "bytes": 62372
+    },
+    {
+     "w": 768,
+     "h": 960,
+     "file": "assets/img/photos/hero-petra-treasury-portrait-768.203499c7.jpg",
+     "bytes": 159101
+    }
+   ]
+  },
+  "files": [
+   "assets/img/photos/hero-petra-treasury-portrait-480.0f1a161e.avif",
+   "assets/img/photos/hero-petra-treasury-portrait-768.c3f4fcd5.avif",
+   "assets/img/photos/hero-petra-treasury-portrait-480.b488518d.webp",
+   "assets/img/photos/hero-petra-treasury-portrait-768.33ec7fb9.webp",
+   "assets/img/photos/hero-petra-treasury-portrait-480.b9d6f7d9.jpg",
+   "assets/img/photos/hero-petra-treasury-portrait-768.203499c7.jpg"
+  ]
+ }
+}

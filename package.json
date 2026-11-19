@@ -1,0 +1,19 @@
+{
+  "name": "jordanodyssey",
+  "private": true,
+  "description": "Jordan Odyssey static site: build tools only (the site itself has no runtime dependencies).",
+  "scripts": {
+    "images": "node scripts/build-images.mjs",
+    "build": "node scripts/build-images.mjs && node scripts/build-head.mjs && node scripts/build-sitemap.mjs && node scripts/build-dist.mjs",
+    "preview": "npm run build && python -m http.server 8080 --bind 127.0.0.1 --directory dist",
+    "dev": "node scripts/dev.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "beasties": "0.5.5",
+    "esbuild": "0.28.2",
+    "sharp": "0.35.5"
+  }
+}

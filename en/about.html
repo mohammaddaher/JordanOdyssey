@@ -108,7 +108,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Amiri:wght@400&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Nunito+Sans:wght@400;600&family=Playfair+Display:ital,wght@1,700&display=swap">
-  <link rel="preload" as="image" imagesrcset="../assets/img/about/hero-siq-treasury-800.jpg 800w, ../assets/img/about/hero-siq-treasury-1600.jpg 1600w" imagesizes="(min-width: 768px) 54vw, 100vw">
   <link rel="stylesheet" href="../assets/css/styles.css">
   <link rel="stylesheet" href="../assets/css/about.css">
   <script>document.documentElement.classList.add('js');</script>
@@ -123,8 +122,8 @@
   <header class="site-header site-header--solid" data-header>
     <div class="container header-inner">
       <a class="brand" href="/en/" aria-label="Jordan Odyssey — home">
-        <img class="brand-emblem" src="../assets/img/brand/logo.png" width="440" height="563" alt="">
-        <img class="brand-wordmark" src="../assets/img/brand/wordmark.png" width="408" height="132" alt="Jordan Odyssey">
+        <img class="brand-emblem" src="../images-src/brand/logo.png" width="440" height="563" alt="">
+        <img class="brand-wordmark" src="../images-src/brand/wordmark.png" width="408" height="132" alt="Jordan Odyssey">
       </a>
 
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu" data-menu-toggle>
@@ -149,8 +148,9 @@
   <main id="main" class="about-page" data-breadcrumb="About">
     <!-- ============ Hero ============ -->
     <section class="ab-hero" aria-labelledby="about-title">
+      <!-- The approved artwork: the Treasury doorway through the curved walls of the Siq, with the plum fade built in -->
       <div class="ab-hero-photo">
-        <img src="../assets/img/about/hero-siq-treasury-1600.jpg" srcset="../assets/img/about/hero-siq-treasury-800.jpg 800w, ../assets/img/about/hero-siq-treasury-1600.jpg 1600w" sizes="(min-width: 768px) 54vw, 100vw" width="1600" height="900" alt="The Treasury at Petra, glimpsed through the narrow sandstone walls of the Siq" fetchpriority="high">
+        <img src="../images-src/about/hero-siq-art.webp" sizes="(max-width: 800px) 1040px, 100vw" width="1672" height="470" alt="The Treasury at Petra, seen through the narrow, curving sandstone walls of the Siq" fetchpriority="high">
       </div>
       <div class="ab-wrap ab-hero-inner">
         <nav class="ab-crumbs" aria-label="Breadcrumb">
@@ -230,7 +230,7 @@
       <section class="ab-how" aria-labelledby="how-title">
         <h2 class="ab-h2 ab-h2--xl ab-how-title" id="how-title">How it works</h2>
         <div class="ab-terraces">
-          <img class="ab-terraces-img" src="../assets/img/about/terraces-2048.webp" srcset="../assets/img/about/terraces-1024.webp 1024w, ../assets/img/about/terraces-2048.webp 2048w" sizes="100vw" width="2048" height="640" alt="" loading="lazy" decoding="async">
+          <img class="ab-terraces-img" src="../images-src/about/terraces-art.webp" sizes="min(100vw, 1350px)" width="1672" height="469" alt="" loading="lazy" decoding="async">
           <ol class="ab-steps">
             <li class="ab-step">
               <span class="ab-step-num" aria-hidden="true">1</span>
@@ -284,9 +284,9 @@
     <div class="container">
       <div class="footer-band">
         <a class="footer-brand" href="/en/" aria-label="Jordan Odyssey — home">
-          <img class="footer-emblem" src="../assets/img/brand/logo.png" width="440" height="563" loading="lazy" alt="">
+          <img class="footer-emblem" src="../images-src/brand/logo.png" width="440" height="563" loading="lazy" alt="">
           <span class="footer-name">
-            <img class="footer-wordmark" src="../assets/img/brand/wordmark.png" width="408" height="132" loading="lazy" alt="">
+            <img class="footer-wordmark" src="../images-src/brand/wordmark.png" width="408" height="132" loading="lazy" alt="">
             <span class="footer-slogan">Every stone has a story</span>
           </span>
         </a>

@@ -1,2 +1,6 @@
 # Built on every deploy by scripts/build-sitemap.mjs
 /sitemap.xml
+# Built on every deploy by npm run build (Vercel serves this folder)
+/dist/
+# Build tools (npm install)
+/node_modules/

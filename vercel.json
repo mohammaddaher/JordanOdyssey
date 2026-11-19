@@ -1,6 +1,6 @@
 {
-  "buildCommand": "node scripts/build-head.mjs && node scripts/build-sitemap.mjs",
-  "outputDirectory": ".",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "redirects": [
     { "source": "/", "destination": "/en/", "statusCode": 301 },
     { "source": "/index.html", "destination": "/en/", "statusCode": 301 },
@@ -10,6 +10,14 @@
     {
       "source": "/sitemap.xml",
       "headers": [{ "key": "Content-Type", "value": "application/xml; charset=utf-8" }]
+    },
+    {
+      "source": "/assets/:dir(css|js|fonts)/:file*",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/assets/img/:path*/:file([^/]+\\.[0-9a-f]{8}\\.(?:avif|webp|jpg|png))",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
     }
   ]
 }

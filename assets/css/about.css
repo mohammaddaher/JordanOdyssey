@@ -1,65 +1,67 @@
 /* About page (en/about.html) only. The shared header and footer come from styles.css.
-   Sizes follow the approved 1024px-wide mockup: X vw here = X% of the mockup's width. */
+   Proportions, spacing and type sizes follow the approved reference (jordan-odyssey-about.html).
+   Its artwork lives in images-src/about/: hero-siq-art.webp (the plum fade is part of the picture)
+   and terraces-art.webp (the cream around the stone is part of the picture). */
 
 .about-page {
-  --ab-plum: #31022e;
-  --ab-ink: #2c0530;
-  --ab-text: #2a1a1f;
-  --ab-cream: #fcf2e6;
-  --ab-ivory: #fff8ef;
-  --ab-copper: #f25a0c;
-  --ab-copper-soft: rgba(226, 132, 78, 0.45);
+  --ab-plum: #31022a;          /* the plum painted into the hero artwork */
+  --ab-ink: #30052d;
+  --ab-cream: #fef3e4;         /* the cream painted around the terraces, so the joins disappear */
+  --ab-ivory: #fff5e4;
+  --ab-copper: #c65013;
   --ab-sans: "Nunito Sans", "Segoe UI", system-ui, sans-serif;
   --ab-head: "Montserrat", "Segoe UI", system-ui, sans-serif;
   --ab-serif: "Playfair Display", Georgia, serif;
-  --ab-wrap: min(100% - 2 * clamp(16px, 6.8vw, 120px), 1320px);
+  --ab-wrap: min(87%, 1120px);
   padding-block-start: var(--header-h);
   background: var(--ab-cream);
-  color: var(--ab-text);
-  font-family: var(--ab-sans);
+  color: var(--ab-ink);
+  font: 1rem/1.45 var(--ab-sans);
   overflow-x: clip;
 }
-.about-page :focus-visible { outline: 2px solid var(--ab-copper); outline-offset: 3px; }
+.about-page :focus-visible { outline: 2px solid #e58130; outline-offset: 4px; }
+.about-page a { color: inherit; text-underline-offset: 0.25em; }
 .ab-wrap { width: var(--ab-wrap); margin-inline: auto; }
 
 /* ---------- Hero: plum on the left, the Treasury through the Siq on the right ---------- */
 .ab-hero {
   position: relative;
-  min-height: clamp(300px, 28.5vw, 560px);
+  isolation: isolate;
+  min-height: clamp(280px, 28vw, 367px);
   background: var(--ab-plum);
   color: var(--ab-ivory);
-  isolation: isolate;
 }
-.ab-hero-photo {
-  position: absolute;
-  inset: 0 0 0 46%;
-  z-index: -1;
-  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 26%);
-          mask-image: linear-gradient(90deg, transparent 0%, #000 26%);
+.ab-hero-photo { position: absolute; inset: 0; z-index: -1; overflow: hidden; }
+/* Wider than the artwork: it fills the width and loses a little sky and sand, never the doorway */
+.ab-hero-photo img {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: 100% 62%;
 }
-.ab-hero-photo img { width: 100%; height: 100%; max-width: none; object-fit: cover; object-position: 50% 92%; }
-.ab-hero-inner { padding-block: clamp(10px, 1.2vw, 20px) clamp(70px, 9vw, 150px); }
+.ab-hero-inner { padding: 16px 0 86px; }
 
 .ab-crumbs ol {
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 9px;
   margin: 0;
-  padding: 0 0 clamp(7px, 0.9vw, 12px);
+  padding: 0 0 8px;
   list-style: none;
-  font-size: clamp(0.875rem, 1.27vw, 1.125rem);
-  position: relative;
+  font-size: 0.83rem;
 }
 .ab-crumbs ol::after {
   content: "";
   position: absolute;
   inset-inline-start: 0;
   bottom: 0;
-  width: clamp(48px, 5.7vw, 84px);
+  width: 50px;
   height: 2px;
-  background: var(--ab-copper);
+  background: #ff882f;
 }
-.ab-crumbs li { display: flex; align-items: center; gap: 8px; }
+.ab-crumbs li { display: flex; align-items: center; gap: 9px; }
 .ab-crumbs li + li::before {
   content: "";
   width: 5px;
@@ -70,274 +72,226 @@
   opacity: 0.75;
 }
 [dir="rtl"] .ab-crumbs li + li::before { transform: rotate(-45deg); }
-.ab-crumbs a { display: inline-flex; padding: 2px; border-radius: 3px; color: inherit; }
+.ab-crumbs a { display: inline-flex; border-radius: 3px; }
 .ab-crumbs a:hover { color: #ffd8b8; }
-.ab-crumbs svg { width: 1.15em; height: 1.15em; }
+.ab-crumbs svg { width: 15px; height: 15px; }
 
 .ab-title {
-  max-width: 9.6em;
-  margin: clamp(10px, 1.4vw, 22px) 0 0;
-  font-family: var(--ab-serif);
-  font-style: italic;
-  font-weight: 700;
-  font-size: clamp(2.375rem, 5.3vw, 5.25rem);
-  line-height: 0.95;
-  letter-spacing: 0.005em;
+  max-width: 10em;
+  margin: 14px 0 0;
+  font: italic 700 clamp(2.65rem, 5.15vw, 4.5rem) / 0.94 var(--ab-serif);
   text-wrap: balance;
   animation: ab-arrive 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) backwards;
 }
 
-/* The cream sweeps up from the bottom-left, dips under the photo and climbs again at the right edge */
+/* The cream sweeps up from the bottom-left, dips under the Siq and climbs again at the right edge */
 .ab-wave {
   position: absolute;
-  inset: auto 0 -1px;
+  bottom: -1px;
+  left: 0;
   width: 100%;
-  height: clamp(60px, 10.5vw, 200px);
+  height: clamp(57px, 8vw, 105px);
   color: var(--ab-cream);
   pointer-events: none;
 }
 
-/* Thin topographic lines along the right edge, from the hero's bottom into "Our story" */
+/* ---------- Body ---------- */
+.ab-body { position: relative; padding-top: 4px; }
 .ab-contours {
   position: absolute;
-  top: clamp(-160px, -9vw, -60px);
+  top: 0;
   inset-inline-end: 0;
-  width: clamp(90px, 11vw, 210px);
-  height: clamp(260px, 34vw, 640px);
-  color: var(--ab-copper-soft);
+  width: 10%;
+  height: 280px;
+  color: #e7975f;
+  opacity: 0.47;
   pointer-events: none;
 }
-
-/* ---------- Body ---------- */
-.ab-body { position: relative; }
-.ab-accent { position: relative; padding-inline-start: clamp(16px, 2.6vw, 38px); }
-.ab-accent::before {
-  content: "";
-  position: absolute;
-  inset-block: 0.15em 0.1em;
-  inset-inline-start: 0;
-  width: 3px;
-  background: var(--ab-copper);
-}
-.ab-lead {
-  max-width: 45em;
-  margin: clamp(4px, 0.4vw, 8px) 0 0;
-  font-size: clamp(1.0625rem, 1.66vw, 1.5rem);
-  line-height: 1.38;
-  color: var(--ab-text);
-}
+.ab-accent { padding-inline-start: clamp(15px, 2.35vw, 28px); border-inline-start: 2px solid var(--ab-copper); }
+.ab-lead { max-width: 46em; margin: 0; font-size: clamp(1rem, 1.6vw, 1.15rem); }
 
 .ab-h2 {
-  margin: 0;
+  margin: 0 0 5px;
   font-family: var(--ab-head);
   font-weight: 800;
-  font-size: clamp(1.75rem, 3.7vw, 3.4rem);
-  line-height: 1.04;
-  letter-spacing: -0.012em;
-  color: var(--ab-ink);
+  font-size: clamp(1.85rem, 3.75vw, 3.1rem);
+  line-height: 1.03;
+  letter-spacing: -0.03em;
 }
-.ab-h2--xl { font-size: clamp(2rem, 4.4vw, 4rem); }
-.ab-why .ab-h2--xl { font-size: clamp(2rem, 4.15vw, 3.8rem); letter-spacing: -0.02em; }
 
-.ab-story { margin-block-start: clamp(24px, 2.6vw, 40px); }
-.ab-story p {
-  max-width: 54em;
-  margin: clamp(2px, 0.3vw, 6px) 0 0;
-  font-size: clamp(1rem, 1.5vw, 1.375rem);
-  line-height: 1.32;
-}
+.ab-story { margin-top: 25px; text-align: justify;}
+/* the reference's line lengths, measured in this page's wider body font */
+.ab-story p, .ab-promise p { max-width: 51.5em; margin: 0; }
 
 /* Why travel: the heading on the left, a copper rule, then the five reasons */
 .ab-why {
   display: grid;
-  grid-template-columns: 31.5% 1fr;
+  grid-template-columns: 32% 1fr;
   align-items: center;
-  column-gap: clamp(16px, 2.2vw, 32px);
-  margin-block-start: clamp(24px, 2.5vw, 40px);
+  gap: 16px;
+  margin-top: 26px;
 }
-.ab-why .ab-h2 { padding-inline-start: clamp(0px, 1.2vw, 18px); }
+.ab-why .ab-h2 { font-size: clamp(2rem, 4.55vw, 3.65rem); }
 .ab-reasons {
+  display: grid;
+  gap: 9px;
   margin: 0;
-  padding: clamp(2px, 0.4vw, 6px) 0 clamp(2px, 0.4vw, 6px) clamp(18px, 2.4vw, 36px);
-  border-inline-start: 2px solid var(--ab-copper);
+  padding-inline: 22px 0;
+  border-inline-start: 1px solid var(--ab-copper);
   list-style: none;
 }
-.ab-reason { display: grid; grid-template-columns: auto 1fr; column-gap: clamp(12px, 1.8vw, 26px); align-items: start; }
-.ab-reason + .ab-reason { margin-block-start: clamp(8px, 0.9vw, 14px); }
-.ab-reason svg { width: clamp(20px, 2.4vw, 34px); height: auto; margin-block-start: 0.1em; color: var(--ab-copper); }
-.ab-reason h3 {
+.ab-reason { display: grid; grid-template-columns: 27px 1fr; gap: 13px; }
+.ab-reason svg { width: 25px; height: auto; color: var(--ab-copper); }
+.ab-reason h3, .ab-step h3 {
   margin: 0;
   font-family: var(--ab-head);
-  font-weight: 800;
-  font-size: clamp(1.1875rem, 1.95vw, 1.75rem);
+  font-weight: 700;
+  font-size: clamp(1.05rem, 2vw, 1.55rem);
   line-height: 1.12;
   letter-spacing: -0.01em;
-  color: var(--ab-ink);
 }
-.ab-reason p { max-width: 38em; margin: 2px 0 0; font-size: clamp(0.875rem, 1.32vw, 1.1875rem); line-height: 1.3; }
+.ab-reason p, .ab-step p { margin: 2px 0 0; font-size: 0.94rem; line-height: 1.35; }
 
 /* ---------- How it works: three carved sandstone terraces ---------- */
-.ab-how { position: relative; margin-block-start: clamp(28px, 2vw, 36px); }
-.ab-how-title { position: relative; z-index: 1; }
-.ab-terraces { position: relative; }
+.ab-how { position: relative; margin-top: 15px; }
+.ab-how-title { position: relative; z-index: 1; width: var(--ab-wrap); margin: 0 auto; }
+.ab-terraces {
+  position: relative;
+  width: min(100%, 1350px);
+  /* past 1350 px the stone stays against the right edge, where the artwork runs off the page */
+  margin: 6px 0 0 auto;
+}
 .ab-terraces-img { display: none; }
-.ab-steps { margin: 0; padding: 0; list-style: none; }
-
-.ab-step { color: var(--ab-ivory); }
+.ab-steps {
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(3, minmax(84px, 1fr));
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.ab-step {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 14px 5% 14px 0;
+  color: #fff;
+  /* the words sit straight on the stone: a soft dark halo keeps them readable on the bright treads */
+  text-shadow: 0 1px 2px rgba(60, 16, 3, 0.75), 0 0 10px rgba(70, 20, 4, 0.5);
+}
+.ab-step:nth-child(1) { margin-inline-start: 45%; }
+.ab-step:nth-child(2) { margin-inline-start: 29%; }
+.ab-step:nth-child(3) { margin-inline-start: 13%; }
 .ab-step-num {
   display: grid;
   place-items: center;
-  flex: none;
-  border: 2px solid currentColor;
+  flex: 0 0 2em;
+  height: 2em;
+  border: 2px solid;
   border-radius: 50%;
   font-family: var(--ab-head);
   font-weight: 600;
+  font-size: clamp(1rem, 2.15vw, 1.5rem);
   line-height: 1;
 }
-.ab-step-text { border-inline-start: 2px solid rgba(255, 196, 150, 0.85); }
-.ab-step h3 {
-  margin: 0;
-  font-family: var(--ab-head);
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: -0.005em;
-  color: #fff;
+/* no panel behind the text: a thin copper rule divides it from the number, as in the mockup */
+.ab-step-text {
+  padding: 2px 0 2px 14px;
+  border-inline-start: 2px solid #f4a46a;
+  background: transparent;
+  box-shadow: none;
 }
-.ab-step p { margin: 0.25em 0 0; line-height: 1.3; color: #fff4ea; }
-.ab-step h3, .ab-step p, .ab-step-num { text-shadow: 0 1px 2px rgba(60, 18, 4, 0.55), 0 0 14px rgba(70, 22, 6, 0.45); }
+.ab-step p { color: #fff8f0; }
 
-/* Desktop and wide tablets: the stepped arrangement over one terrace picture (2048 x 640).
-   Step positions are percentages of that picture, set by scripts/make-about-terraces.py. */
-@media (min-width: 1024px) {
-  .ab-how { margin-block-start: clamp(4px, 0.6vw, 10px); }
-  .ab-how-title { position: absolute; top: 2.2vw; inset-inline-start: calc((100% - var(--ab-wrap)) / 2); }
-  .ab-terraces { aspect-ratio: 2048 / 640; }
-  .ab-terraces-img { display: block; position: absolute; inset: 0; width: 100%; height: 100%; }
-  .ab-step {
+@media (min-width: 801px) {
+  .ab-how-title { margin-bottom: -0.75em; }
+  .ab-terraces-img {
+    display: block;
     position: absolute;
-    display: flex;
-    align-items: center;
-    transform: translateY(-50%);
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: fill;
   }
-  .ab-step:nth-child(1) { inset-inline-start: 42.3%; top: 25.6%; width: 53%; }
-  .ab-step:nth-child(2) { inset-inline-start: 29.1%; top: 56%; width: 57%; }
-  .ab-step:nth-child(3) { inset-inline-start: 17.2%; top: 84.4%; width: 70%; }
-  .ab-step-num { width: 4.5vw; height: 4.5vw; font-size: 2.55vw; border-width: max(2px, 0.2vw); }
-  .ab-step-text { margin-inline-start: 2.1vw; padding-inline-start: 2.4vw; border-inline-start-width: max(2px, 0.2vw); }
-  .ab-step h3 { font-size: 2.45vw; }
-  .ab-step p { font-size: 1.42vw; line-height: 1.22; }
   [dir="rtl"] .ab-terraces-img { transform: scaleX(-1); }
-}
-
-/* Phones and tablets: the same stone, as three slabs stacked in reading order */
-@media (max-width: 1023px) {
-  .ab-how-title { width: var(--ab-wrap); margin-inline: auto; }
-  .ab-terraces { width: var(--ab-wrap); margin: clamp(16px, 3vw, 26px) auto 0; }
-  .ab-steps { display: grid; gap: 0; }
-  .ab-step {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: clamp(12px, 3vw, 22px);
-    padding: clamp(22px, 4vw, 30px) clamp(16px, 4vw, 28px) clamp(18px, 3.4vw, 26px);
-    border-radius: clamp(26px, 6vw, 44px) 14px 6px clamp(26px, 6vw, 44px);
-    background:
-      linear-gradient(180deg, rgba(255, 214, 172, 0.5) 0, rgba(255, 214, 172, 0.22) 12px, rgba(255, 214, 172, 0) 13px),
-      linear-gradient(180deg, rgba(84, 28, 8, 0.5), rgba(62, 18, 4, 0.66)),
-      url("../img/about/stone-1200.jpg") center / cover,
-      #b4552a;
-    box-shadow: inset 0 1px 0 rgba(255, 226, 196, 0.7), inset 0 -10px 18px -10px rgba(40, 10, 2, 0.55), 0 14px 20px -14px rgba(90, 32, 8, 0.7);
-  }
-  .ab-step:nth-child(2) { background-position: 0 0, 0 0, 30% 60%, 0 0; }
-  .ab-step:nth-child(3) { background-position: 0 0, 0 0, 75% 30%, 0 0; }
-  .ab-step + .ab-step { margin-block-start: -6px; }
-  .ab-step:nth-child(1) { margin-inline-start: 7%; z-index: 0; }
-  .ab-step:nth-child(2) { margin-inline-start: 3.5%; z-index: 1; }
-  .ab-step:nth-child(3) { z-index: 2; }
-  .ab-step-num { width: clamp(40px, 9vw, 52px); height: clamp(40px, 9vw, 52px); font-size: clamp(1.25rem, 4.6vw, 1.625rem); }
-  .ab-step-text { padding-inline-start: clamp(12px, 3vw, 20px); }
-  .ab-step h3 { font-size: clamp(1.125rem, 4.6vw, 1.5rem); }
-  .ab-step p { font-size: clamp(0.9375rem, 3.9vw, 1.0625rem); }
+  .ab-steps { grid-template-rows: repeat(3, minmax(83px, 1fr)) 0.8fr; min-height: clamp(310px, 32vw, 395px); }
 }
 
 /* ---------- Our promise and the closing call to action ---------- */
-.ab-promise { margin-block-start: clamp(28px, 1.2vw, 24px); }
-.ab-promise .ab-h2 { font-size: clamp(1.625rem, 3vw, 2.75rem); }
-.ab-promise p { margin: clamp(2px, 0.3vw, 6px) 0 0; font-size: clamp(1rem, 1.5vw, 1.375rem); line-height: 1.32; }
+.ab-promise { margin-top: 26px; }
+.ab-promise .ab-h2 { font-size: clamp(1.65rem, 3vw, 2.5rem); }
 
-.ab-cta { padding-block: clamp(32px, 3.2vw, 52px) clamp(28px, 1.6vw, 30px); text-align: center; }
-.ab-cta .ab-h2 { text-wrap: balance; }
-.ab-cta-text { margin: clamp(8px, 1vw, 14px) auto 0; font-size: clamp(1.0625rem, 1.66vw, 1.5rem); line-height: 1.35; }
-.ab-cta-actions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 16px clamp(28px, 5vw, 80px);
-  margin-block-start: clamp(16px, 2vw, 28px);
-}
-.ab-btn {
+.ab-cta { padding: 35px 0 39px; text-align: center; }
+.ab-cta .ab-h2 { font-size: clamp(1.85rem, 3.65vw, 2.9rem); text-wrap: balance; }
+.ab-cta-text { margin: 9px auto 18px; }
+.ab-cta-actions { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 16px 32px; }
+.about-page .ab-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: min(100%, clamp(220px, 26.9vw, 380px));
-  min-height: clamp(50px, 4.9vw, 70px);
-  padding: 0 28px;
-  border-radius: 6px;
-  background: linear-gradient(180deg, #f39a4f 0%, #e57d31 100%);
-  box-shadow: 0 6px 14px -6px rgba(170, 70, 15, 0.7), inset 0 1px 0 rgba(255, 220, 180, 0.6);
+  min-height: 48px;
+  padding: 13px 24px;
+  border-radius: 5px;
+  background: linear-gradient(#f8a45b, #e8792c);
   font-family: var(--ab-head);
-  font-weight: 700;
-  font-size: clamp(1rem, 1.75vw, 1.5rem);
-  letter-spacing: 0.14em;
+  font-weight: 800;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--ab-ink);
+  color: #280d09;
   transition: filter 0.2s, transform 0.2s;
 }
-.ab-btn:hover { filter: brightness(1.06); transform: translateY(-1px); }
+.about-page .ab-btn:hover { filter: brightness(1.06); transform: translateY(-1px); }
 .ab-link {
   display: inline-flex;
   align-items: center;
-  gap: clamp(10px, 1.4vw, 18px);
+  gap: 8px;
+  min-height: 44px;
   font-family: var(--ab-head);
   font-weight: 700;
-  font-size: clamp(1.125rem, 2.05vw, 1.875rem);
-  color: var(--ab-ink);
-  text-decoration: none;
 }
-.ab-link span { padding-block-end: 4px; border-block-end: 3px solid var(--ab-copper); }
-.ab-link svg { width: 1.2em; height: 1.2em; color: var(--ab-copper); transition: transform 0.2s; }
+.ab-link svg { width: 20px; height: 20px; color: var(--ab-copper); transition: transform 0.2s; }
 .ab-link:hover svg { transform: translateX(4px); }
 [dir="rtl"] .ab-link svg { transform: scaleX(-1); }
 [dir="rtl"] .ab-link:hover svg { transform: scaleX(-1) translateX(4px); }
 
-/* ---------- Narrow screens ---------- */
-@media (max-width: 899px) {
-  .ab-why { grid-template-columns: 1fr; row-gap: 18px; }
-  .ab-why .ab-h2 { padding-inline-start: 0; }
-  .ab-why .ab-h2 br { display: none; }
-}
-@media (max-width: 767px) {
+/* ---------- Phones and small tablets ---------- */
+@media (max-width: 800px) {
   .ab-hero { min-height: 0; }
-  .ab-hero-photo {
-    position: relative;
-    inset: auto;
-    height: clamp(210px, 62vw, 360px);
-    -webkit-mask-image: linear-gradient(180deg, #000 70%, transparent 100%);
-            mask-image: linear-gradient(180deg, #000 70%, transparent 100%);
-  }
-  .ab-hero-photo img { object-position: 50% 70%; }
-  .ab-hero-inner { padding-block: 0 clamp(64px, 18vw, 96px); margin-top: clamp(-70px, -12vw, -40px); position: relative; }
-  .ab-title { max-width: none; margin-top: 0; }
-  .ab-wave { height: clamp(44px, 14vw, 80px); }
+  /* the artwork fills the hero's height, framed on the Treasury, and sits back behind the heading */
+  .ab-hero-photo img { object-position: 86% 50%; opacity: 0.72; }
+  .ab-title { font-size: clamp(2.35rem, 7vw, 3.5rem); text-shadow: 0 1px 3px var(--ab-plum); }
+  .ab-why { grid-template-columns: 1fr; gap: 14px; }
+  .ab-why br { display: none; }
+  .ab-reasons { padding-inline-start: 13px; }
   .ab-contours { display: none; }
+
+  /* the stone becomes three slabs in reading order, each cut from the same artwork */
+  .ab-terraces { width: var(--ab-wrap); margin: 14px auto 0; }
+  .ab-steps { gap: 5px; }
+  .ab-step:nth-child(n) {
+    margin-inline-start: 0;
+    padding: 14px 14px 14px 12px;
+    border-radius: 16px 5px 5px 16px;
+    background:
+      linear-gradient(rgba(70, 20, 4, 0.46), rgba(70, 20, 4, 0.6)),
+      url("../../images-src/about/terraces-art.webp") 58% 36% / auto 320%,
+      #b8541f;
+    box-shadow: inset 0 1px 0 rgba(255, 220, 180, 0.55);
+  }
+  .ab-step:nth-child(2) { background-position: 0 0, 50% 70%, 0 0; }
+  .ab-step:nth-child(3) { background-position: 0 0, 42% 80%, 0 0; }
+  .ab-step-text { padding-inline-start: 12px; }
+  .ab-step h3 { font-size: 1.15rem; }
+  .ab-step p { font-size: 0.97rem; }
+}
+@media (max-width: 480px) {
   .ab-cta-actions { flex-direction: column; }
-  .ab-reason p { font-size: 1rem; }
 }
 
 @keyframes ab-arrive { from { opacity: 0; transform: translateY(14px); } }
 @media (prefers-reduced-motion: reduce) {
   .ab-title { animation: none; }
-  .ab-btn, .ab-link svg { transition: none; }
+  .about-page .ab-btn, .ab-link svg { transition: none; }
 }
