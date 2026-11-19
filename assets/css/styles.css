@@ -1575,6 +1575,14 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
   .dg-visit-tags li + li { padding-inline-start: 50px; border-inline-start: 1.5px solid var(--dg-copper); }
 }
 
+/* ----- Common questions (destination pages); the FAQPage schema is read from this markup ----- */
+.dg-faq { padding-block: 0 clamp(36px, 4vw, 56px); }
+.dg-faq-list { display: grid; grid-template-columns: 1fr; gap: 18px 40px; padding-inline: 4px; }
+@media (min-width: 800px) { .dg-faq-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.dg-faq-item { padding-block-start: 14px; border-block-start: 1px solid rgba(196, 113, 109, 0.75); }
+.dg-faq-q { margin: 0 0 6px; font-family: var(--dg-serif); font-weight: 700; font-size: 1.3rem; line-height: 1.25; color: var(--dg-ink); }
+.dg-faq-a { margin: 0; font-size: 1rem; line-height: 1.5; color: var(--dg-text); }
+
 /* Previous / next stop: "All destinations" sits in the middle */
 .place-pager-all { white-space: nowrap; }
 @media (min-width: 700px) {

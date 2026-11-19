@@ -61,6 +61,18 @@ function readPage(html) {
   return { title, description, h1, crumbName, crumbs };
 }
 
+// Questions shown on the page (destination pages): <div class="dg-faq-item"><h3 class="dg-faq-q">…</h3><p class="dg-faq-a">…</p></div>
+// The FAQPage schema is built from this visible text, so it always matches the page and its translation.
+function readFaq(html) {
+  const items = [];
+  for (const item of html.match(/<div class="dg-faq-item"[^>]*>[\s\S]*?<\/div>/gi) || []) {
+    const q = text(first(item, /class="dg-faq-q"[^>]*>([\s\S]*?)<\/h3>/i));
+    const a = text(first(item, /class="dg-faq-a"[^>]*>([\s\S]*?)<\/p>/i));
+    if (q && a) items.push({ q, a });
+  }
+  return items;
+}
+
 function readProgram(html) {
   const priceText = text(first(html, /class="program-facts-price"[^>]*>([\s\S]*?)<\/span>/i)) ||
     text(first(html, /class="program-hero-price"[^>]*>([\s\S]*?)<\/p>/i));
@@ -177,6 +189,15 @@ function structuredData(lang, rel, kind, page, url, img, html) {
       };
     }
     graph.push(trip);
+  }
+  const faq = readFaq(html);
+  if (faq.length) {
+    graph.push({
+      '@type': 'FAQPage',
+      url,
+      inLanguage: lang,
+      mainEntity: faq.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } }))
+    });
   }
   // "</" can't appear inside a <script>
   return JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }, null, 2).replace(/</g, '\\u003c');

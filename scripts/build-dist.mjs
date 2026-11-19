@@ -345,6 +345,8 @@ async function buildPage(srcPath, beasties) {
   const marked = html.replace(/<html lang="([^"]+)" dir="([^"]+)">/, '<html lang="$1" dir="$2" class="js">');
   let out = await beasties.process(marked);
   out = out.replace(/<html lang="([^"]+)" dir="([^"]+)" class="js">/, '<html lang="$1" dir="$2">');
+  // Beasties writes an empty alt="" as a bare `alt`; valid HTML, but crawlers (Bing) report it as missing
+  out = out.replace(/<img\b[^>]*>/g, (t) => t.replace(/(\s)alt(?=[\s>\/])/, '$1alt=""'));
 
   if (/images-src\//.test(out)) throw new Error(`${file}: an images-src reference was not replaced`);
   if (/fonts\.googleapis\.com|fonts\.gstatic\.com/.test(out)) throw new Error(`${file}: Google Fonts reference left`);
