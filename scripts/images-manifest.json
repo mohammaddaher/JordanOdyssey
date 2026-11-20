@@ -1364,6 +1364,91 @@
    "assets/img/discover/amman-1772.7deabd82.jpg"
   ]
  },
+ "discover/amman.jpg#phone": {
+  "key": "v1:crop:{\"name\":\"phone\",\"aspect\":1.25,\"x\":0.46,\"y\":0.5,\"widths\":[480,768,1080],\"q\":{\"avif\":50,\"webp\":72,\"jpg\":78}}:37db4ea8cdee13b097f3371b314d1814764357a87250e56a1b4852f5482f556d",
+  "width": 1606,
+  "height": 1285,
+  "alpha": false,
+  "crop": {
+   "left": 76,
+   "top": 0,
+   "width": 1606,
+   "height": 1285
+  },
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/amman-phone-480.7e00e4b7.avif",
+     "bytes": 15217
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/discover/amman-phone-768.5e6bc3ab.avif",
+     "bytes": 39372
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/amman-phone-1080.8d384c5c.avif",
+     "bytes": 78248
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/amman-phone-480.c1847c16.webp",
+     "bytes": 24296
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/discover/amman-phone-768.f28f0ec4.webp",
+     "bytes": 63386
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/amman-phone-1080.902ae9c7.webp",
+     "bytes": 127648
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/amman-phone-480.e407ae39.jpg",
+     "bytes": 27470
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/discover/amman-phone-768.ab83e0d1.jpg",
+     "bytes": 69338
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/amman-phone-1080.cd2a4e17.jpg",
+     "bytes": 138057
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/amman-phone-480.7e00e4b7.avif",
+   "assets/img/discover/amman-phone-768.5e6bc3ab.avif",
+   "assets/img/discover/amman-phone-1080.8d384c5c.avif",
+   "assets/img/discover/amman-phone-480.c1847c16.webp",
+   "assets/img/discover/amman-phone-768.f28f0ec4.webp",
+   "assets/img/discover/amman-phone-1080.902ae9c7.webp",
+   "assets/img/discover/amman-phone-480.e407ae39.jpg",
+   "assets/img/discover/amman-phone-768.ab83e0d1.jpg",
+   "assets/img/discover/amman-phone-1080.cd2a4e17.jpg"
+  ]
+ },
  "discover/aqaba.jpg": {
   "key": "v1:hero:2a19d69adf3a687d8bc71f5de331938b250cea87842242b0de5d3633431a07eb",
   "width": 2000,
@@ -1484,6 +1569,91 @@
    "assets/img/discover/aqaba-1200.dbb301e1.jpg",
    "assets/img/discover/aqaba-1600.69765970.jpg",
    "assets/img/discover/aqaba-2000.68e2d6ea.jpg"
+  ]
+ },
+ "discover/aqaba.jpg#phone": {
+  "key": "v1:crop:{\"name\":\"phone\",\"aspect\":1.25,\"x\":0.4,\"y\":0.5,\"widths\":[480,768,1080],\"q\":{\"avif\":50,\"webp\":72,\"jpg\":78}}:2a19d69adf3a687d8bc71f5de331938b250cea87842242b0de5d3633431a07eb",
+  "width": 1674,
+  "height": 1339,
+  "alpha": false,
+  "crop": {
+   "left": 130,
+   "top": 0,
+   "width": 1674,
+   "height": 1339
+  },
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/aqaba-phone-480.207d829d.avif",
+     "bytes": 8580
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/discover/aqaba-phone-768.8ad97219.avif",
+     "bytes": 18695
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/aqaba-phone-1080.9dc1ae47.avif",
+     "bytes": 31470
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/aqaba-phone-480.d714df73.webp",
+     "bytes": 10390
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/discover/aqaba-phone-768.35f16c04.webp",
+     "bytes": 24036
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/aqaba-phone-1080.5a70e10e.webp",
+     "bytes": 43724
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/aqaba-phone-480.b198fca1.jpg",
+     "bytes": 15234
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/discover/aqaba-phone-768.b50bed24.jpg",
+     "bytes": 36373
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/aqaba-phone-1080.f3759e65.jpg",
+     "bytes": 69759
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/aqaba-phone-480.207d829d.avif",
+   "assets/img/discover/aqaba-phone-768.8ad97219.avif",
+   "assets/img/discover/aqaba-phone-1080.9dc1ae47.avif",
+   "assets/img/discover/aqaba-phone-480.d714df73.webp",
+   "assets/img/discover/aqaba-phone-768.35f16c04.webp",
+   "assets/img/discover/aqaba-phone-1080.5a70e10e.webp",
+   "assets/img/discover/aqaba-phone-480.b198fca1.jpg",
+   "assets/img/discover/aqaba-phone-768.b50bed24.jpg",
+   "assets/img/discover/aqaba-phone-1080.f3759e65.jpg"
   ]
  },
  "discover/dead-sea.jpg": {
@@ -1608,6 +1778,91 @@
    "assets/img/discover/dead-sea-2000.a1f3939f.jpg"
   ]
  },
+ "discover/dead-sea.jpg#phone": {
+  "key": "v1:crop:{\"name\":\"phone\",\"aspect\":1.25,\"x\":0.74,\"y\":0.5,\"widths\":[480,768,1080],\"q\":{\"avif\":50,\"webp\":72,\"jpg\":78}}:4c7af3c0da42f612c387b611ad5f628319fb8c5780dc255ae4b7fb2db046582b",
+  "width": 1200,
+  "height": 960,
+  "alpha": false,
+  "crop": {
+   "left": 592,
+   "top": 0,
+   "width": 1200,
+   "height": 960
+  },
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/dead-sea-phone-480.20133dfe.avif",
+     "bytes": 6081
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/discover/dead-sea-phone-768.f6a64028.avif",
+     "bytes": 15162
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/dead-sea-phone-1080.7afb6335.avif",
+     "bytes": 26448
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/dead-sea-phone-480.afeada7b.webp",
+     "bytes": 6910
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/discover/dead-sea-phone-768.c12cfced.webp",
+     "bytes": 18208
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/dead-sea-phone-1080.140c060f.webp",
+     "bytes": 33878
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/dead-sea-phone-480.2798db59.jpg",
+     "bytes": 11659
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/discover/dead-sea-phone-768.604e442c.jpg",
+     "bytes": 28613
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/dead-sea-phone-1080.9fedab6e.jpg",
+     "bytes": 55355
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/dead-sea-phone-480.20133dfe.avif",
+   "assets/img/discover/dead-sea-phone-768.f6a64028.avif",
+   "assets/img/discover/dead-sea-phone-1080.7afb6335.avif",
+   "assets/img/discover/dead-sea-phone-480.afeada7b.webp",
+   "assets/img/discover/dead-sea-phone-768.c12cfced.webp",
+   "assets/img/discover/dead-sea-phone-1080.140c060f.webp",
+   "assets/img/discover/dead-sea-phone-480.2798db59.jpg",
+   "assets/img/discover/dead-sea-phone-768.604e442c.jpg",
+   "assets/img/discover/dead-sea-phone-1080.9fedab6e.jpg"
+  ]
+ },
  "discover/jerash.jpg": {
   "key": "v1:hero:66e6e0c52d10a1ad1d76f8a5325def1fef17ab62534e657a1bb577b28ed81e81",
   "width": 2000,
@@ -1728,6 +1983,91 @@
    "assets/img/discover/jerash-1200.c008cfc1.jpg",
    "assets/img/discover/jerash-1600.1b161dc4.jpg",
    "assets/img/discover/jerash-2000.4042e2fa.jpg"
+  ]
+ },
+ "discover/jerash.jpg#phone": {
+  "key": "v1:crop:{\"name\":\"phone\",\"aspect\":1.25,\"x\":0.3,\"y\":0.5,\"widths\":[480,768,1080],\"q\":{\"avif\":50,\"webp\":72,\"jpg\":78}}:66e6e0c52d10a1ad1d76f8a5325def1fef17ab62534e657a1bb577b28ed81e81",
+  "width": 1666,
+  "height": 1333,
+  "alpha": false,
+  "crop": {
+   "left": 100,
+   "top": 0,
+   "width": 1666,
+   "height": 1333
+  },
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/jerash-phone-480.006e6712.avif",
+     "bytes": 20639
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/discover/jerash-phone-768.5e452d0c.avif",
+     "bytes": 49758
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/jerash-phone-1080.6859908c.avif",
+     "bytes": 94528
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/jerash-phone-480.6bf5f269.webp",
+     "bytes": 32966
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/discover/jerash-phone-768.8fcfc299.webp",
+     "bytes": 80904
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/jerash-phone-1080.936e413a.webp",
+     "bytes": 154554
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/jerash-phone-480.400d9de1.jpg",
+     "bytes": 35936
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/discover/jerash-phone-768.931029da.jpg",
+     "bytes": 88806
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/jerash-phone-1080.baa0be90.jpg",
+     "bytes": 169751
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/jerash-phone-480.006e6712.avif",
+   "assets/img/discover/jerash-phone-768.5e452d0c.avif",
+   "assets/img/discover/jerash-phone-1080.6859908c.avif",
+   "assets/img/discover/jerash-phone-480.6bf5f269.webp",
+   "assets/img/discover/jerash-phone-768.8fcfc299.webp",
+   "assets/img/discover/jerash-phone-1080.936e413a.webp",
+   "assets/img/discover/jerash-phone-480.400d9de1.jpg",
+   "assets/img/discover/jerash-phone-768.931029da.jpg",
+   "assets/img/discover/jerash-phone-1080.baa0be90.jpg"
   ]
  },
  "discover/petra-wide.jpg": {
@@ -1932,6 +2272,91 @@
    "assets/img/discover/petra-1121.a7665a4f.jpg"
   ]
  },
+ "discover/petra.jpg#phone": {
+  "key": "v1:crop:{\"name\":\"phone\",\"aspect\":1.25,\"x\":0.47,\"y\":0.5,\"widths\":[480,768,1080],\"q\":{\"avif\":50,\"webp\":72,\"jpg\":78}}:f59ded00a4fefd9457358a5a69e473e0484425de5e34027b87c78900da4193b0",
+  "width": 1121,
+  "height": 897,
+  "alpha": false,
+  "crop": {
+   "left": 0,
+   "top": 253,
+   "width": 1121,
+   "height": 897
+  },
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/petra-phone-480.40cff0df.avif",
+     "bytes": 18856
+    },
+    {
+     "w": 768,
+     "h": 615,
+     "file": "assets/img/discover/petra-phone-768.d682591b.avif",
+     "bytes": 44927
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/petra-phone-1080.6ef2092c.avif",
+     "bytes": 78304
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/petra-phone-480.06cda69a.webp",
+     "bytes": 29052
+    },
+    {
+     "w": 768,
+     "h": 615,
+     "file": "assets/img/discover/petra-phone-768.79f8b5c1.webp",
+     "bytes": 64846
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/petra-phone-1080.d52ad7ac.webp",
+     "bytes": 107230
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/petra-phone-480.a80a78d9.jpg",
+     "bytes": 35249
+    },
+    {
+     "w": 768,
+     "h": 615,
+     "file": "assets/img/discover/petra-phone-768.4de9f040.jpg",
+     "bytes": 82176
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/petra-phone-1080.9283dbc0.jpg",
+     "bytes": 146387
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/petra-phone-480.40cff0df.avif",
+   "assets/img/discover/petra-phone-768.d682591b.avif",
+   "assets/img/discover/petra-phone-1080.6ef2092c.avif",
+   "assets/img/discover/petra-phone-480.06cda69a.webp",
+   "assets/img/discover/petra-phone-768.79f8b5c1.webp",
+   "assets/img/discover/petra-phone-1080.d52ad7ac.webp",
+   "assets/img/discover/petra-phone-480.a80a78d9.jpg",
+   "assets/img/discover/petra-phone-768.4de9f040.jpg",
+   "assets/img/discover/petra-phone-1080.9283dbc0.jpg"
+  ]
+ },
  "discover/wadi-rum.jpg": {
   "key": "v1:hero:117143fe40b61c1ce8a3e9176843f42fcf9a62f665f0982eb5cb5cb6108c3774",
   "width": 2000,
@@ -2052,6 +2477,91 @@
    "assets/img/discover/wadi-rum-1200.45b28bea.jpg",
    "assets/img/discover/wadi-rum-1600.ee1404ce.jpg",
    "assets/img/discover/wadi-rum-2000.ac3219df.jpg"
+  ]
+ },
+ "discover/wadi-rum.jpg#phone": {
+  "key": "v1:crop:{\"name\":\"phone\",\"aspect\":1.25,\"x\":0.44,\"y\":0.5,\"widths\":[480,768,1080],\"q\":{\"avif\":50,\"webp\":72,\"jpg\":78}}:117143fe40b61c1ce8a3e9176843f42fcf9a62f665f0982eb5cb5cb6108c3774",
+  "width": 1875,
+  "height": 1500,
+  "alpha": false,
+  "crop": {
+   "left": 55,
+   "top": 0,
+   "width": 1875,
+   "height": 1500
+  },
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/wadi-rum-phone-480.e2f9d767.avif",
+     "bytes": 16781
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/discover/wadi-rum-phone-768.51467b04.avif",
+     "bytes": 40704
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/wadi-rum-phone-1080.7f5c3e38.avif",
+     "bytes": 79320
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/wadi-rum-phone-480.9e0d7f73.webp",
+     "bytes": 24660
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/discover/wadi-rum-phone-768.9f3ee140.webp",
+     "bytes": 60042
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/wadi-rum-phone-1080.7d9eaa45.webp",
+     "bytes": 116666
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/discover/wadi-rum-phone-480.f5c6e6f2.jpg",
+     "bytes": 29327
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/discover/wadi-rum-phone-768.213b084e.jpg",
+     "bytes": 71088
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/discover/wadi-rum-phone-1080.46995f73.jpg",
+     "bytes": 136777
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/wadi-rum-phone-480.e2f9d767.avif",
+   "assets/img/discover/wadi-rum-phone-768.51467b04.avif",
+   "assets/img/discover/wadi-rum-phone-1080.7f5c3e38.avif",
+   "assets/img/discover/wadi-rum-phone-480.9e0d7f73.webp",
+   "assets/img/discover/wadi-rum-phone-768.9f3ee140.webp",
+   "assets/img/discover/wadi-rum-phone-1080.7d9eaa45.webp",
+   "assets/img/discover/wadi-rum-phone-480.f5c6e6f2.jpg",
+   "assets/img/discover/wadi-rum-phone-768.213b084e.jpg",
+   "assets/img/discover/wadi-rum-phone-1080.46995f73.jpg"
   ]
  },
  "guides/amman-citadel.jpg": {
@@ -4474,6 +4984,49 @@
    "assets/img/guides/hero-amman-1114.ee9dffea.jpg"
   ]
  },
+ "guides/hero-amman.jpg#phone": {
+  "key": "v1:crop:{\"name\":\"phone\",\"aspect\":2.0833333333333335,\"x\":0.8,\"y\":0.5,\"widths\":[480],\"q\":{\"avif\":62,\"webp\":80,\"jpg\":82}}:845d47c1ce4730072b267d66c82539be849ee5ffff72df45fbb8768350452dfe",
+  "width": 448,
+  "height": 215,
+  "alpha": false,
+  "crop": {
+   "left": 533,
+   "top": 0,
+   "width": 448,
+   "height": 215
+  },
+  "variants": {
+   "avif": [
+    {
+     "w": 448,
+     "h": 215,
+     "file": "assets/img/guides/hero-amman-phone-448.2a703de8.avif",
+     "bytes": 19916
+    }
+   ],
+   "webp": [
+    {
+     "w": 448,
+     "h": 215,
+     "file": "assets/img/guides/hero-amman-phone-448.2b19f808.webp",
+     "bytes": 27382
+    }
+   ],
+   "jpg": [
+    {
+     "w": 448,
+     "h": 215,
+     "file": "assets/img/guides/hero-amman-phone-448.8352a12b.jpg",
+     "bytes": 27344
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/hero-amman-phone-448.2a703de8.avif",
+   "assets/img/guides/hero-amman-phone-448.2b19f808.webp",
+   "assets/img/guides/hero-amman-phone-448.8352a12b.jpg"
+  ]
+ },
  "guides/hero-aqaba.jpg": {
   "key": "v1:std:ad89c8e99c98d7d6f279f723971a73e5c289f4df855dea4c279d5fcab0afb52e",
   "width": 846,
@@ -4552,6 +5105,49 @@
    "assets/img/guides/hero-aqaba-480.84da9feb.jpg",
    "assets/img/guides/hero-aqaba-768.c86faa7a.jpg",
    "assets/img/guides/hero-aqaba-846.8cf1e4cc.jpg"
+  ]
+ },
+ "guides/hero-aqaba.jpg#phone": {
+  "key": "v1:crop:{\"name\":\"phone\",\"aspect\":2.0833333333333335,\"x\":0.64,\"y\":0.5,\"widths\":[480],\"q\":{\"avif\":62,\"webp\":80,\"jpg\":82}}:ad89c8e99c98d7d6f279f723971a73e5c289f4df855dea4c279d5fcab0afb52e",
+  "width": 454,
+  "height": 218,
+  "alpha": false,
+  "crop": {
+   "left": 251,
+   "top": 0,
+   "width": 454,
+   "height": 218
+  },
+  "variants": {
+   "avif": [
+    {
+     "w": 454,
+     "h": 218,
+     "file": "assets/img/guides/hero-aqaba-phone-454.39861b85.avif",
+     "bytes": 23976
+    }
+   ],
+   "webp": [
+    {
+     "w": 454,
+     "h": 218,
+     "file": "assets/img/guides/hero-aqaba-phone-454.0f3846b9.webp",
+     "bytes": 32492
+    }
+   ],
+   "jpg": [
+    {
+     "w": 454,
+     "h": 218,
+     "file": "assets/img/guides/hero-aqaba-phone-454.be86cc3e.jpg",
+     "bytes": 31097
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/hero-aqaba-phone-454.39861b85.avif",
+   "assets/img/guides/hero-aqaba-phone-454.0f3846b9.webp",
+   "assets/img/guides/hero-aqaba-phone-454.be86cc3e.jpg"
   ]
  },
  "guides/hero-dead-sea.jpg": {
@@ -4634,6 +5230,49 @@
    "assets/img/guides/hero-dead-sea-1058.600ca41c.jpg"
   ]
  },
+ "guides/hero-dead-sea.jpg#phone": {
+  "key": "v1:crop:{\"name\":\"phone\",\"aspect\":2.0833333333333335,\"x\":0.66,\"y\":0.5,\"widths\":[480],\"q\":{\"avif\":62,\"webp\":80,\"jpg\":82}}:66ed58d908b1ff2da2089c9fbb0921b76a487095242af0974501e7d1aa39daba",
+  "width": 454,
+  "height": 218,
+  "alpha": false,
+  "crop": {
+   "left": 399,
+   "top": 0,
+   "width": 454,
+   "height": 218
+  },
+  "variants": {
+   "avif": [
+    {
+     "w": 454,
+     "h": 218,
+     "file": "assets/img/guides/hero-dead-sea-phone-454.04fa323f.avif",
+     "bytes": 12604
+    }
+   ],
+   "webp": [
+    {
+     "w": 454,
+     "h": 218,
+     "file": "assets/img/guides/hero-dead-sea-phone-454.3642281d.webp",
+     "bytes": 15776
+    }
+   ],
+   "jpg": [
+    {
+     "w": 454,
+     "h": 218,
+     "file": "assets/img/guides/hero-dead-sea-phone-454.120751d2.jpg",
+     "bytes": 18351
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/hero-dead-sea-phone-454.04fa323f.avif",
+   "assets/img/guides/hero-dead-sea-phone-454.3642281d.webp",
+   "assets/img/guides/hero-dead-sea-phone-454.120751d2.jpg"
+  ]
+ },
  "guides/hero-jerash.jpg": {
   "key": "v1:std:75d74a3d32eefd007f876403a7c1ee91f538ad6bc9b8d8ba9a3fcf0ce8169511",
   "width": 1094,
@@ -4712,6 +5351,49 @@
    "assets/img/guides/hero-jerash-480.8136eaab.jpg",
    "assets/img/guides/hero-jerash-768.b6ebb040.jpg",
    "assets/img/guides/hero-jerash-1094.0a3de263.jpg"
+  ]
+ },
+ "guides/hero-jerash.jpg#phone": {
+  "key": "v1:crop:{\"name\":\"phone\",\"aspect\":2.0833333333333335,\"x\":0.62,\"y\":0.5,\"widths\":[480],\"q\":{\"avif\":62,\"webp\":80,\"jpg\":82}}:75d74a3d32eefd007f876403a7c1ee91f538ad6bc9b8d8ba9a3fcf0ce8169511",
+  "width": 454,
+  "height": 218,
+  "alpha": false,
+  "crop": {
+   "left": 397,
+   "top": 0,
+   "width": 454,
+   "height": 218
+  },
+  "variants": {
+   "avif": [
+    {
+     "w": 454,
+     "h": 218,
+     "file": "assets/img/guides/hero-jerash-phone-454.2f9cf008.avif",
+     "bytes": 23035
+    }
+   ],
+   "webp": [
+    {
+     "w": 454,
+     "h": 218,
+     "file": "assets/img/guides/hero-jerash-phone-454.25a082b8.webp",
+     "bytes": 31752
+    }
+   ],
+   "jpg": [
+    {
+     "w": 454,
+     "h": 218,
+     "file": "assets/img/guides/hero-jerash-phone-454.d79af4e2.jpg",
+     "bytes": 30830
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/hero-jerash-phone-454.2f9cf008.avif",
+   "assets/img/guides/hero-jerash-phone-454.25a082b8.webp",
+   "assets/img/guides/hero-jerash-phone-454.d79af4e2.jpg"
   ]
  },
  "guides/hero-overview.jpg": {
@@ -4794,6 +5476,49 @@
    "assets/img/guides/hero-overview-1016.3b246426.jpg"
   ]
  },
+ "guides/hero-overview.jpg#phone": {
+  "key": "v1:crop:{\"name\":\"phone\",\"aspect\":2.0833333333333335,\"x\":0.4,\"y\":0.5,\"widths\":[480],\"q\":{\"avif\":62,\"webp\":80,\"jpg\":82}}:04b718a43c280c596c11195403b7ca675884c4c549d08c1678666134831de6d1",
+  "width": 410,
+  "height": 197,
+  "alpha": false,
+  "crop": {
+   "left": 242,
+   "top": 0,
+   "width": 410,
+   "height": 197
+  },
+  "variants": {
+   "avif": [
+    {
+     "w": 410,
+     "h": 197,
+     "file": "assets/img/guides/hero-overview-phone-410.dbcdf2f2.avif",
+     "bytes": 17885
+    }
+   ],
+   "webp": [
+    {
+     "w": 410,
+     "h": 197,
+     "file": "assets/img/guides/hero-overview-phone-410.91f249a6.webp",
+     "bytes": 24468
+    }
+   ],
+   "jpg": [
+    {
+     "w": 410,
+     "h": 197,
+     "file": "assets/img/guides/hero-overview-phone-410.4bb5e80b.jpg",
+     "bytes": 24650
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/hero-overview-phone-410.dbcdf2f2.avif",
+   "assets/img/guides/hero-overview-phone-410.91f249a6.webp",
+   "assets/img/guides/hero-overview-phone-410.4bb5e80b.jpg"
+  ]
+ },
  "guides/hero-petra.jpg": {
   "key": "v1:std:113463fcc8616aa30c168367553d5a0d70fccf7ba43c1216cc436eec6954acd6",
   "width": 1031,
@@ -4874,6 +5599,49 @@
    "assets/img/guides/hero-petra-1031.9722d880.jpg"
   ]
  },
+ "guides/hero-petra.jpg#phone": {
+  "key": "v1:crop:{\"name\":\"phone\",\"aspect\":2.0833333333333335,\"x\":0.44,\"y\":0.5,\"widths\":[480],\"q\":{\"avif\":62,\"webp\":80,\"jpg\":82}}:113463fcc8616aa30c168367553d5a0d70fccf7ba43c1216cc436eec6954acd6",
+  "width": 452,
+  "height": 217,
+  "alpha": false,
+  "crop": {
+   "left": 255,
+   "top": 0,
+   "width": 452,
+   "height": 217
+  },
+  "variants": {
+   "avif": [
+    {
+     "w": 452,
+     "h": 217,
+     "file": "assets/img/guides/hero-petra-phone-452.6572e82f.avif",
+     "bytes": 21007
+    }
+   ],
+   "webp": [
+    {
+     "w": 452,
+     "h": 217,
+     "file": "assets/img/guides/hero-petra-phone-452.5e244737.webp",
+     "bytes": 30328
+    }
+   ],
+   "jpg": [
+    {
+     "w": 452,
+     "h": 217,
+     "file": "assets/img/guides/hero-petra-phone-452.6ea3bf5a.jpg",
+     "bytes": 29394
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/hero-petra-phone-452.6572e82f.avif",
+   "assets/img/guides/hero-petra-phone-452.5e244737.webp",
+   "assets/img/guides/hero-petra-phone-452.6ea3bf5a.jpg"
+  ]
+ },
  "guides/hero-wadi-rum.jpg": {
   "key": "v1:std:1030a0fd26c4947c92a5d8392f80a53569298bc68c7fd32b3a3bd738effa08b0",
   "width": 764,
@@ -4931,6 +5699,49 @@
    "assets/img/guides/hero-wadi-rum-764.610b39a4.webp",
    "assets/img/guides/hero-wadi-rum-480.42e5935c.jpg",
    "assets/img/guides/hero-wadi-rum-764.bbf66d39.jpg"
+  ]
+ },
+ "guides/hero-wadi-rum.jpg#phone": {
+  "key": "v1:crop:{\"name\":\"phone\",\"aspect\":2.0833333333333335,\"x\":0.52,\"y\":0.5,\"widths\":[480],\"q\":{\"avif\":62,\"webp\":80,\"jpg\":82}}:1030a0fd26c4947c92a5d8392f80a53569298bc68c7fd32b3a3bd738effa08b0",
+  "width": 452,
+  "height": 217,
+  "alpha": false,
+  "crop": {
+   "left": 162,
+   "top": 0,
+   "width": 452,
+   "height": 217
+  },
+  "variants": {
+   "avif": [
+    {
+     "w": 452,
+     "h": 217,
+     "file": "assets/img/guides/hero-wadi-rum-phone-452.8cbc288a.avif",
+     "bytes": 18278
+    }
+   ],
+   "webp": [
+    {
+     "w": 452,
+     "h": 217,
+     "file": "assets/img/guides/hero-wadi-rum-phone-452.5407de0a.webp",
+     "bytes": 25056
+    }
+   ],
+   "jpg": [
+    {
+     "w": 452,
+     "h": 217,
+     "file": "assets/img/guides/hero-wadi-rum-phone-452.ab57d6b4.jpg",
+     "bytes": 26574
+    }
+   ]
+  },
+  "files": [
+   "assets/img/guides/hero-wadi-rum-phone-452.8cbc288a.avif",
+   "assets/img/guides/hero-wadi-rum-phone-452.5407de0a.webp",
+   "assets/img/guides/hero-wadi-rum-phone-452.ab57d6b4.jpg"
   ]
  },
  "guides/jerash-arch.jpg": {
@@ -7436,6 +8247,91 @@
    "assets/img/photos/hero-petra-treasury-portrait-768.33ec7fb9.webp",
    "assets/img/photos/hero-petra-treasury-portrait-480.b9d6f7d9.jpg",
    "assets/img/photos/hero-petra-treasury-portrait-768.203499c7.jpg"
+  ]
+ },
+ "photos/hero-petra-treasury.jpg#phone": {
+  "key": "v1:crop:{\"name\":\"phone\",\"aspect\":1.25,\"x\":0.5,\"y\":0.5,\"widths\":[480,768,1080],\"q\":{\"avif\":50,\"webp\":72,\"jpg\":78}}:e9a29f07e6d978271421c3afd19392e46e8c61939f9c1f077293be29b1724988",
+  "width": 1834,
+  "height": 1467,
+  "alpha": false,
+  "crop": {
+   "left": 183,
+   "top": 0,
+   "width": 1834,
+   "height": 1467
+  },
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/photos/hero-petra-treasury-phone-480.e21757e9.avif",
+     "bytes": 22206
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/photos/hero-petra-treasury-phone-768.7a9a702d.avif",
+     "bytes": 57497
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/photos/hero-petra-treasury-phone-1080.a99e123e.avif",
+     "bytes": 113727
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/photos/hero-petra-treasury-phone-480.8b8a1761.webp",
+     "bytes": 38610
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/photos/hero-petra-treasury-phone-768.4ad6b5d1.webp",
+     "bytes": 99938
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/photos/hero-petra-treasury-phone-1080.75193ad0.webp",
+     "bytes": 199572
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/photos/hero-petra-treasury-phone-480.fbc301c5.jpg",
+     "bytes": 39588
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/photos/hero-petra-treasury-phone-768.2931e845.jpg",
+     "bytes": 99590
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/photos/hero-petra-treasury-phone-1080.a6de909b.jpg",
+     "bytes": 197451
+    }
+   ]
+  },
+  "files": [
+   "assets/img/photos/hero-petra-treasury-phone-480.e21757e9.avif",
+   "assets/img/photos/hero-petra-treasury-phone-768.7a9a702d.avif",
+   "assets/img/photos/hero-petra-treasury-phone-1080.a99e123e.avif",
+   "assets/img/photos/hero-petra-treasury-phone-480.8b8a1761.webp",
+   "assets/img/photos/hero-petra-treasury-phone-768.4ad6b5d1.webp",
+   "assets/img/photos/hero-petra-treasury-phone-1080.75193ad0.webp",
+   "assets/img/photos/hero-petra-treasury-phone-480.fbc301c5.jpg",
+   "assets/img/photos/hero-petra-treasury-phone-768.2931e845.jpg",
+   "assets/img/photos/hero-petra-treasury-phone-1080.a6de909b.jpg"
   ]
  }
 }

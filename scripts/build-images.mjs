@@ -29,12 +29,34 @@ const HERO = new Set([
   'discover/aqaba.jpg', 'discover/jerash.jpg', 'discover/dead-sea.jpg', 'discover/wadi-rum.jpg',
   'discover/amman.jpg', 'discover/petra-wide.jpg'
 ]);
-// Phone crops for full-screen heroes. On a portrait phone the homepage hero fills the screen height and only
-// a centred vertical slice of the photo is visible, so phones get just that slice: full height, `aspect` wide,
-// placed by the same horizontal object-position (`x`) the page uses, so the framing is identical.
-// scripts/build-dist.mjs serves it through a <source media="..."> on the image with the matching class.
+// Phone crops for heroes. On a phone only part of a hero photo is visible, so phones get just that part,
+// cut where the page's own object-position puts it (`x`, `y`), so the framing is identical:
+//   portrait  the homepage hero fills a portrait phone's height: a centred vertical slice
+//   phone     program heroes sit in a 100vw x 80vw box (aspect 1.25) on portrait phones (styles.css .program-hero);
+//             destination banners in a 100vw x 48vw box (aspect 25/12, styles.css .dg-hero-photo)
+// scripts/build-dist.mjs serves each through a <source media="..."> on images with the matching class.
+const PHONE_Q = { avif: 50, webp: 72, jpg: 78 };   // seen at 1.75-3x density: q50 AVIF looks the same as q60 at 2/3 of the size
+const phone = (x, y = 0.5) => ({ name: 'phone', aspect: 1.25, x, y, widths: [480, 768, 1080], q: PHONE_Q });
+// the banners are only 217 px tall, so the slice is narrower than 480 px: it keeps its own width (and quality)
+const banner = (x) => ({ name: 'phone', aspect: 25 / 12, x, y: 0.5, widths: [480], q: { avif: 62, webp: 80, jpg: 82 } });
 export const CROPS = {
-  'photos/hero-petra-treasury.jpg': { name: 'portrait', aspect: 0.8, x: 0.5, widths: [480, 768], q: { avif: 64, webp: 78, jpg: 80 } }
+  'guides/hero-overview.jpg': [banner(0.4)],
+  'guides/hero-amman.jpg': [banner(0.8)],
+  'guides/hero-aqaba.jpg': [banner(0.64)],
+  'guides/hero-dead-sea.jpg': [banner(0.66)],
+  'guides/hero-jerash.jpg': [banner(0.62)],
+  'guides/hero-petra.jpg': [banner(0.44)],
+  'guides/hero-wadi-rum.jpg': [banner(0.52)],
+  'photos/hero-petra-treasury.jpg': [
+    { name: 'portrait', aspect: 0.8, x: 0.5, widths: [480, 768], q: { avif: 64, webp: 78, jpg: 80 } },
+    phone(0.5)                        // The Grand Jordan Tour
+  ],
+  'discover/aqaba.jpg': [phone(0.4)],     // Best of Jordan
+  'discover/jerash.jpg': [phone(0.3)],    // Jordan Delights 1
+  'discover/dead-sea.jpg': [phone(0.74)], // Jordan Delights 2
+  'discover/petra.jpg': [phone(0.47)],    // Jordan Discovery (portrait photo: the crop is a horizontal band)
+  'discover/wadi-rum.jpg': [phone(0.44)], // Jordan Explorer
+  'discover/amman.jpg': [phone(0.46)]     // Jordan Revealed
 };
 const LADDER = [480, 768, 1200, 1600, 2000];
 const SMALL_LADDER = [120, 240, 360];   // logos and other small images
@@ -78,16 +100,22 @@ async function encodeCrop(rel, crop, entryOld) {
   if (entryOld && entryOld.key === key && entryOld.files.every((f) => existsSync(join(ROOT, f)))) return { entry: entryOld, encoded: 0 };
   const meta = await sharp(buf).rotate().metadata();
   const W = meta.autoOrient?.width || meta.width, H = meta.autoOrient?.height || meta.height;
-  const cw = Math.round(crop.aspect * H);
-  const left = Math.round(crop.x * (W - cw));
+  // narrower than the photo: full height, a vertical slice at x; wider: full width, a band at y
+  const tall = crop.aspect < W / H;
+  const cw = tall ? Math.round(crop.aspect * H) : W;
+  const ch = tall ? H : Math.round(W / crop.aspect);
+  const left = Math.round((crop.x ?? 0.5) * (W - cw));
+  const top = Math.round((crop.y ?? 0.5) * (H - ch));
   const base = rel.replace(extname(rel), '') + '-' + crop.name;
-  const entry = { key, width: cw, height: H, alpha: false, crop: { left, top: 0, width: cw, height: H }, variants: {}, files: [] };
+  const entry = { key, width: cw, height: ch, alpha: false, crop: { left, top, width: cw, height: ch }, variants: {}, files: [] };
   let encoded = 0;
   for (const fmt of ['avif', 'webp', 'jpg']) {
     entry.variants[fmt] = [];
-    for (const w of crop.widths) {
-      const h = Math.round((H * w) / cw);
-      let img = sharp(buf).rotate().extract({ left, top: 0, width: cw, height: H }).resize(w, h, { kernel: 'lanczos3' });
+    // the widths that fit, or the crop's own width when none does
+    const widths = crop.widths.filter((x) => x <= cw);
+    for (const w of widths.length ? widths : [cw]) {
+      const h = Math.round((ch * w) / cw);
+      let img = sharp(buf).rotate().extract({ left, top, width: cw, height: ch }).resize(w, h, { kernel: 'lanczos3' });
       if (fmt === 'avif') img = img.avif({ quality: crop.q.avif, effort: 5 });
       if (fmt === 'webp') img = img.webp({ quality: crop.q.webp, effort: 5 });
       if (fmt === 'jpg') img = img.jpeg({ quality: crop.q.jpg, mozjpeg: true, progressive: true });
@@ -157,9 +185,9 @@ if (isMain) {
     manifest[rel] = entry;
     total += encoded;
     if (encoded) console.log(`images: ${rel} → ${encoded} files`);
-    if (CROPS[rel]) {
-      const key = `${rel}#${CROPS[rel].name}`;
-      const c = await encodeCrop(rel, CROPS[rel], old[key]);
+    for (const crop of CROPS[rel] || []) {
+      const key = `${rel}#${crop.name}`;
+      const c = await encodeCrop(rel, crop, old[key]);
       manifest[key] = c.entry;
       total += c.encoded;
       if (c.encoded) console.log(`images: ${key} → ${c.encoded} files`);

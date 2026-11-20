@@ -7,12 +7,25 @@
   var nav = document.querySelector('[data-nav]');
   var mobileQuery = window.matchMedia('(max-width: 899px)');
 
-  /* Header turns solid once the page scrolls past the top of the hero */
+  /* Header turns solid once the page scrolls past the top of the hero (40px).
+     An observer on a 41px marker at the top of the page tells us, so nothing reads the scroll
+     position or layout while the page loads (that forced a full style and layout pass early). */
+  var pastTop = false;
   function updateHeader() {
-    header.classList.toggle('is-solid', window.scrollY > 40 || document.body.classList.contains('menu-open'));
+    header.classList.toggle('is-solid', pastTop || document.body.classList.contains('menu-open'));
   }
-  window.addEventListener('scroll', updateHeader, { passive: true });
-  updateHeader();
+  if ('IntersectionObserver' in window) {
+    var marker = document.createElement('div');
+    marker.setAttribute('aria-hidden', 'true');
+    marker.style.cssText = 'position:absolute;top:0;left:0;width:1px;height:41px;pointer-events:none;visibility:hidden';
+    document.body.appendChild(marker);
+    new IntersectionObserver(function (entries) {
+      pastTop = !entries[entries.length - 1].isIntersecting;
+      updateHeader();
+    }).observe(marker);
+  } else {
+    window.addEventListener('scroll', function () { pastTop = window.scrollY > 40; updateHeader(); }, { passive: true });
+  }
 
   /* Arriving from another page at a section (e.g. index.html#programs): the browser
      aims before the web fonts settle, and the text reflow can leave the section off by

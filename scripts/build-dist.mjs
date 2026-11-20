@@ -42,18 +42,28 @@ const CSS_WIDTH = { 'photos/greeting-carving.jpg': 1600, 'photos/heritage-mobile
 const FONT_PRELOAD = [
   [/^en\/about\.html$/, ['playfair-display-italic-700-latin.']],
   [/^en\/enquire\.html$/, []],
-  [/^en\/destinations\//, ['eb-garamond-normal-400-latin.']],
+  [/^en\/destinations\//, ['eb-garamond-normal-400-latin-core.']],
+  // program heroes: the title in Cinzel, the opening line and the price in EB Garamond
+  [/^en\/programs\//, ['cinzel-normal-500-latin-core.', 'eb-garamond-normal-400-latin-core.']],
   // the homepage hero sets its heading and its opening line in two fonts; both are on the first screen
-  [/^en\/index\.html$/, ['cinzel-normal-500-latin.', 'eb-garamond-normal-400-latin.']],
-  [/./, ['cinzel-normal-500-latin.']]
+  [/^en\/index\.html$/, ['cinzel-normal-500-latin-core.', 'eb-garamond-normal-400-latin-core.']],
+  [/./, ['cinzel-normal-500-latin-core.']]
 ];
 // Phone crops (scripts/build-images.mjs CROPS) used by images with this class, and when
 const ART = {
-  'hero-still': { suffix: '#portrait', media: '(max-width: 899px) and (max-aspect-ratio: 3/4)', notMedia: '(min-width: 900px), (min-aspect-ratio: 3/4)', sizes: '80vh' }
+  'hero-still': { suffix: '#portrait', media: '(max-width: 899px) and (max-aspect-ratio: 3/4)', notMedia: '(min-width: 900px), (min-aspect-ratio: 3/4)', sizes: '80vh' },
+  // program heroes on portrait phones show a 100vw x 80vw slice
+  'place-hero-photo': { suffix: '#phone', media: '(max-width: 599px) and (orientation: portrait)', notMedia: '(min-width: 600px), (orientation: landscape)', sizes: '100vw' },
+  // destination banners on portrait phones show a 100vw x 48vw slice
+  'dg-hero-img': { suffix: '#phone', media: '(max-width: 599px) and (orientation: portrait)', notMedia: '(min-width: 600px), (orientation: landscape)', sizes: '100vw' }
 };
+const artFor = (cls, rel) => (cls || '').split(/\s+/).map((c) => ART[c]).find((x) => x && MANIFEST[rel + x.suffix]);
+const artSourcesFor = (rel, art) => sources(rel + art.suffix, art.sizes, art.media) +
+  `<source type="image/jpeg" media="${art.media}" srcset="${srcset(rel + art.suffix, 'jpg')}" sizes="${art.sizes}">`;
 // A hero that is only above the fold on wide screens is preloaded only there; on phones it loads lazily
 const PRELOAD_MEDIA = { 'en/enquire.html': '(min-width: 960px)' };
 let currentFile = '';
+let pageHasHero = false;   // the page has a photo marked fetchpriority="high": it, not the wordmark, gets high priority
 
 const hash = (buf) => createHash('sha256').update(buf).digest('hex').slice(0, 8);
 const posixRel = (p) => relative(ROOT, p).split('\\').join('/');
@@ -113,7 +123,7 @@ function imgAttrs(a, rel, { inHeader }) {
   else if (hero) { set(a, 'loading', 'eager'); }
   else if (!inHeader && !has(a, 'loading')) set(a, 'loading', 'lazy');
   // the header wordmark is the largest thing on screen on pages whose hero is text only
-  if (inHeader && (get(a, 'class') || '').split(/\s+/).includes('brand-wordmark')) set(a, 'fetchpriority', 'high');
+  if (inHeader && !pageHasHero && (get(a, 'class') || '').split(/\s+/).includes('brand-wordmark')) set(a, 'fetchpriority', 'high');
   if (!has(a, 'decoding')) set(a, 'decoding', 'async');
   // keep src/srcset/sizes first, as browsers read them in order
   const order = ['src', 'srcset', 'sizes'];
@@ -141,17 +151,26 @@ function processImages(html, file) {
     if (!/images-src\//.test(inner)) return whole;
     let out = '';
     let imgRel = null, imgA = null;
+    const media = [];
     for (const m of inner.matchAll(/<(source|img)\b([^>]*?)\/?>/g)) {
       const a = parseAttrs(m[2]);
       if (m[1] === 'source') {
         const rel = original(get(a, 'srcset'), file);
         const extra = has(a, 'width') ? ` width="${get(a, 'width')}" height="${get(a, 'height')}"` : '';
         out += sources(rel, get(a, 'sizes') || '100vw', get(a, 'media'), extra);
+        if (get(a, 'media')) media.push({ rel, sizes: get(a, 'sizes') || '100vw', media: get(a, 'media') });
       } else { imgRel = original(get(a, 'src'), file); imgA = a; }
     }
     const info = imgAttrs(imgA, imgRel, { inHeader: header(offset) });
+    // a phone crop of the fallback photo goes first: the first <source> that matches wins
+    const art = artFor(get(parseAttrs(pAttrs), 'class'), imgRel);
+    if (art) {
+      out = artSourcesFor(imgRel, art) + out;
+      media.unshift({ rel: imgRel + art.suffix, sizes: art.sizes, media: art.media });
+    }
     out += sources(imgRel, info.sizes) + tag('img', imgA);
-    if (info.hero) heroes.push({ rel: imgRel, sizes: info.sizes });
+    // preload what each screen shows: the sources with a media query; the fallback only when there are none
+    if (info.hero) heroes.push({ list: media.length ? media : [{ rel: imgRel, sizes: info.sizes, media: PRELOAD_MEDIA[file] }] });
     if (/\bdata-defer\b/.test(pAttrs)) out = defer(out);
     return `<picture${pAttrs}>${out}</picture>`;
   });
@@ -189,14 +208,14 @@ function processImages(html, file) {
       return has(a, 'data-defer') ? defer(html) : html;
     }
     const info = imgAttrs(a, rel, { inHeader: header(offset) });
-    const art = (get(a, 'class') || '').split(/\s+/).map((c) => ART[c]).find((x) => x && MANIFEST[rel + x.suffix]);
-    let artSources = '';
-    if (art) {
-      const crop = rel + art.suffix;
-      artSources = sources(crop, art.sizes, art.media) +
-        `<source type="image/jpeg" media="${art.media}" srcset="${srcset(crop, 'jpg')}" sizes="${art.sizes}">`;
+    const art = artFor(get(a, 'class'), rel);
+    const artSources = art ? artSourcesFor(rel, art) : '';
+    if (info.hero) {
+      heroes.push({ list: art
+        // the phone crop on phones, the full photo elsewhere: never both
+        ? [{ rel: rel + art.suffix, sizes: art.sizes, media: art.media }, { rel, sizes: info.sizes, media: art.notMedia }]
+        : [{ rel, sizes: info.sizes, media: PRELOAD_MEDIA[file] }] });
     }
-    if (info.hero) heroes.push({ rel, sizes: info.sizes, art });
     // Resized files round their height to whole pixels; keep the original's exact proportions for
     // images sized by one dimension (logos), so nothing moves by a pixel
     if (!art) {
@@ -204,7 +223,12 @@ function processImages(html, file) {
       const style = get(a, 'style');
       set(a, 'style', style ? `${style.replace(/;?\s*$/, '')}; ${ratio}` : ratio);
     }
-    return `<picture>${artSources}${sources(rel, info.sizes)}${tag('img', a)}</picture>`;
+    const out = `<picture>${artSources}${sources(rel, info.sizes)}${tag('img', a)}</picture>`;
+    if (has(a, 'data-defer')) {
+      if (info.hero) throw new Error(`${file}: the hero photo can't wait for data-defer`);
+      return defer(out);
+    }
+    return out;
   });
 
   // 3. SVG <image> layers of the hero sequence: main.js sets href after the page loads (desktop only)
@@ -303,6 +327,8 @@ async function buildPage(srcPath, beasties) {
   const file = posixRel(srcPath);                        // en/index.html
   currentFile = file;
   let html = readFileSync(srcPath, 'utf8');
+  // (not when the hero is preloaded on wide screens only: on phones the wordmark is still the largest thing)
+  pageHasHero = /<img\b[^>]*\bfetchpriority="high"/.test(html) && !PRELOAD_MEDIA[file];
 
   // Images
   const { html: h1, heroes } = processImages(html, file);
@@ -328,14 +354,8 @@ async function buildPage(srcPath, beasties) {
   // Hero preload (one per page) and font preloads, straight after the viewport tag
   const preloads = [];
   if (heroes.length) {
-    const { rel, sizes, art } = heroes[0];
-    const pre = (r, s, media) => `<link rel="preload" as="image" type="image/avif" imagesrcset="${srcset(r, 'avif')}" imagesizes="${s}" fetchpriority="high"${media ? ` media="${media}"` : ''}>`;
-    if (art) {
-      // the phone crop on phones, the full photo elsewhere: never both
-      preloads.push(pre(rel + art.suffix, art.sizes, art.media), pre(rel, sizes, art.notMedia));
-    } else {
-      preloads.push(pre(rel, sizes, PRELOAD_MEDIA[file]));
-    }
+    const pre = ({ rel, sizes, media }) => `<link rel="preload" as="image" type="image/avif" imagesrcset="${srcset(rel, 'avif')}" imagesizes="${sizes}" fetchpriority="high"${media ? ` media="${media}"` : ''}>`;
+    preloads.push(...heroes[0].list.map(pre));
   }
   preloads.push(...f.preload);
   html = html.replace(/(<meta name="viewport"[^>]*>\n)/, (m) => m + preloads.map((p) => '  ' + p + '\n').join(''));
