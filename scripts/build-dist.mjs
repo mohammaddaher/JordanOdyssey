@@ -22,7 +22,6 @@ import { ROOT } from './site.mjs';
 const DIST = join(ROOT, 'dist');
 const MANIFEST = JSON.parse(readFileSync(join(ROOT, 'scripts', 'images-manifest.json'), 'utf8'));
 const FONTS = JSON.parse(readFileSync(join(ROOT, 'assets', 'fonts', 'fonts.json'), 'utf8'));
-const ARABIC_UI = JSON.parse(readFileSync(join(ROOT, 'assets', 'fonts', 'arabic-ui.json'), 'utf8'));
 const NOINDEX_ALLOWED = new Set(['404.html', 'thank-you.html']);
 
 // Display widths when a page gives no sizes attribute (header and footer logos); everything else is full width
@@ -35,20 +34,32 @@ const SIZES_BY_CLASS = {
 };
 // CSS backgrounds have no srcset: the width to use for each
 const CSS_WIDTH = { 'photos/greeting-carving.jpg': 1600, 'photos/heritage-mobile.jpg': 768, 'about/stone.jpg': 768 };
-// The one or two fonts above the fold (file-name prefixes in assets/fonts/)
-// Only the main heading's font: the @font-face rules are inline, so the others are found straight away
-// anyway, and a preload would compete with the hero photo. The enquiry page's heading font is 122 KB, more
-// than its first screen is worth, so it isn't preloaded.
+// The one or two fonts of the first screen (file-name prefixes in assets/fonts/). Only the small "core"
+// files (18 and 32 KB): measured with Lighthouse (mobile, 21 Nov 2026), preloading them brings the first
+// paint forward (program page: 0.90 s with, 1.35 s without) and leaves the largest paint, the hero photo,
+// where it was. Fonts that aren't preloaded show in a size-adjusted local font (assets/fonts/fallbacks.json)
+// until they arrive (font-display: swap). The enquiry page's heading font is 122 KB, more than its first
+// screen is worth, so it isn't preloaded.
 const FONT_PRELOAD = [
   [/^en\/about\.html$/, ['playfair-display-italic-700-latin.']],
   [/^en\/enquire\.html$/, []],
   [/^en\/destinations\//, ['eb-garamond-normal-400-latin-core.']],
   // program heroes: the title in Cinzel, the opening line and the price in EB Garamond
   [/^en\/programs\//, ['cinzel-normal-500-latin-core.', 'eb-garamond-normal-400-latin-core.']],
-  // the homepage hero sets its heading and its opening line in two fonts; both are on the first screen
+  // the homepage's largest element is its heading, in Cinzel; the opening line below it is in EB Garamond
   [/^en\/index\.html$/, ['cinzel-normal-500-latin-core.', 'eb-garamond-normal-400-latin-core.']],
   [/./, ['cinzel-normal-500-latin-core.']]
 ];
+// Fonts that only text below the first screen uses, loaded after the page (see fontsFor). On program pages
+// EB Garamond italic sets just the note under the price; deferring it brings the first paint forward
+// (Lighthouse mobile: 0.90 -> 0.75 s, largest paint 2.25 -> 2.11 s).
+const LATE_FONTS = [
+  [/^en\/programs\//, (r) => r.family === 'EB Garamond' && /font-style:\s*italic/.test(r.css)]
+];
+// Size-adjusted local fallbacks for the Latin web fonts (scripts/font-fallbacks.py)
+const FALLBACKS = JSON.parse(readFileSync(join(ROOT, 'assets', 'fonts', 'fallbacks.json'), 'utf8'));
+// The origins Google Tag Manager loads from: its script, then the Google Analytics hits
+const PRECONNECT = ['https://www.googletagmanager.com', 'https://www.google-analytics.com'];
 // Phone crops (scripts/build-images.mjs CROPS) used by images with this class, and when
 const ART = {
   'hero-still': { suffix: '#portrait', media: '(max-width: 899px) and (max-aspect-ratio: 3/4)', notMedia: '(min-width: 900px), (min-aspect-ratio: 3/4)', sizes: '80vh' },
@@ -298,28 +309,27 @@ function fontsFor(html, file) {
     if (!list) throw new Error(`${file}: no self-hosted fonts for ${href} (run scripts/fetch-fonts.mjs)`);
     for (const r of list) if (!rules.some((x) => x.css === r.css)) rules.push({ ...r });
   }
-  // English pages show Arabic only in the language switch: a tiny Amiri subset instead of the full Arabic font
   if (file.startsWith('en/')) {
-    // Amiri and Noto Sans Nabataean only set Arabic and Nabataean letters here; their Latin files would be
-    // fetched just for the spaces between words, which the fallback font draws identically
     for (let i = rules.length - 1; i >= 0; i--) {
       const r = rules[i];
-      if ((r.family === 'Amiri' || r.family === 'Noto Sans Nabataean') && /^latin/.test(r.subset)) rules.splice(i, 1);
-    }
-    const used = new Set(html.match(/[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]/g) || []);
-    const missing = [...used].filter((c) => !ARABIC_UI.chars.includes(c));
-    if (missing.length) throw new Error(`${file}: Arabic letters ${missing.join('')} are not in the Arabic UI font subset (run python scripts/subset-arabic-ui.py)`);
-    for (const r of rules) {
-      if (r.family === 'Amiri' && r.subset === 'arabic') {
-        r.css = r.css.replace(/url\(\/assets\/fonts\/[^)]+\)/, `url(/assets/fonts/${ARABIC_UI.file})`);
-        r.file = ARABIC_UI.file;
-      }
+      // English pages show Arabic only in the language switch, which the device's own Arabic font draws:
+      // no Amiri at all, so an English page never downloads an Arabic font
+      // Noto Sans Nabataean only sets Nabataean letters here; its Latin files would be fetched just for the
+      // spaces between words, which the fallback font draws identically
+      if (r.family === 'Amiri' || (r.family === 'Noto Sans Nabataean' && /^latin/.test(r.subset))) rules.splice(i, 1);
     }
   }
+  const fallbacks = [...new Set(rules.map((r) => r.family))].map((fam) => FALLBACKS[fam] || '').join('');
+  // Fonts only text further down the page uses: their rules go in a stylesheet that main.js switches on
+  // once the page has loaded (without JavaScript, the <noscript> copy applies straight away)
+  const lateTest = LATE_FONTS.find(([re]) => re.test(file))?.[1];
+  const late = lateTest ? rules.filter(lateTest) : [];
+  const minify = (list) => list.map((r) => r.css.replace(/\s*([{};:,])\s*/g, '$1')).join('');
+  const lateStyle = late.length ? `<style id="late-fonts" media="print">${minify(late)}</style><noscript><style>${minify(late)}</style></noscript>` : '';
   const prefixes = FONT_PRELOAD.find(([re]) => re.test(file))[1];
   const preload = prefixes.map((p) => rules.find((r) => r.file.startsWith(p))).filter(Boolean)
     .map((r) => `<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/${r.file}" crossorigin>`);
-  const style = `<style>${rules.map((r) => r.css.replace(/\s*([{};:,])\s*/g, '$1')).join('')}</style>`;
+  const style = `<style>${minify(rules.filter((r) => !late.includes(r)))}${fallbacks}</style>${lateStyle}`;
   return { links, style, preload };
 }
 
@@ -351,13 +361,14 @@ async function buildPage(srcPath, beasties) {
     return `<script src="${built[rel]}"${mode || ' defer'}></script>`;
   });
 
-  // Hero preload (one per page) and font preloads, straight after the viewport tag
+  // Hero preload (one per page), font preloads and the tag manager's connections, straight after the viewport tag
   const preloads = [];
   if (heroes.length) {
     const pre = ({ rel, sizes, media }) => `<link rel="preload" as="image" type="image/avif" imagesrcset="${srcset(rel, 'avif')}" imagesizes="${sizes}" fetchpriority="high"${media ? ` media="${media}"` : ''}>`;
     preloads.push(...heroes[0].list.map(pre));
   }
   preloads.push(...f.preload);
+  if (html.includes('googletagmanager.com/gtm.js')) preloads.push(...PRECONNECT.map((o) => `<link rel="preconnect" href="${o}">`));
   html = html.replace(/(<meta name="viewport"[^>]*>\n)/, (m) => m + preloads.map((p) => '  ' + p + '\n').join(''));
 
   // Critical CSS inline, the rest loaded without blocking. Selectors that need html.js are matched by

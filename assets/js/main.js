@@ -7,6 +7,14 @@
   var nav = document.querySelector('[data-nav]');
   var mobileQuery = window.matchMedia('(max-width: 899px)');
 
+  /* Fonts that only text further down the page uses (scripts/build-dist.mjs LATE_FONTS) are switched on
+     once the page has loaded, so they don't compete with the first screen */
+  var lateFonts = document.getElementById('late-fonts');
+  if (lateFonts) {
+    var fontsOn = function () { lateFonts.media = 'all'; };
+    if (document.readyState === 'complete') fontsOn(); else window.addEventListener('load', fontsOn, { once: true });
+  }
+
   /* Header turns solid once the page scrolls past the top of the hero (40px).
      An observer on a 41px marker at the top of the page tells us, so nothing reads the scroll
      position or layout while the page loads (that forced a full style and layout pass early). */

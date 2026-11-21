@@ -25,9 +25,11 @@
   --line-dark: rgba(241, 223, 195, 0.16);
 
   /* Type */
-  --font-display: "Cinzel", "Times New Roman", serif;
-  --font-body: "EB Garamond", Georgia, serif;
-  --font-ui: "Cinzel", Georgia, serif;
+  --font-display: "Cinzel", "Cinzel Fallback", "Cinzel Fallback Android", "Times New Roman", serif;
+  --font-body: "EB Garamond", "EB Garamond Fallback", "EB Garamond Fallback Android", Georgia, serif;
+  --font-ui: "Cinzel", "Cinzel Fallback", "Cinzel Fallback Android", Georgia, serif;
+  /* Cinzel for text set in capitals: the same font, with a fallback sized for capitals while it loads */
+  --font-caps: "Cinzel", "Cinzel Caps Fallback", "Cinzel Caps Fallback Android", Georgia, serif;
 
   /* Layout */
   --container: 1240px;
@@ -42,6 +44,7 @@
   --font-display: "Amiri", "Noto Naskh Arabic", serif;
   --font-body: "Noto Naskh Arabic", "Amiri", serif;
   --font-ui: "Noto Naskh Arabic", "Amiri", serif;
+  --font-caps: "Noto Naskh Arabic", "Amiri", serif;
 }
 
 *,
@@ -105,7 +108,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: 0.22em;
@@ -158,7 +161,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   padding: 14px 28px;
   border: 1px solid transparent;
   border-radius: var(--radius);
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.875rem;
   font-weight: 600;
   letter-spacing: 0.16em;
@@ -249,7 +252,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .nav-link {
   position: relative;
   padding-block: 8px;
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: 0.2em;
@@ -298,7 +301,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   cursor: default;
 }
 .lang-switch small {
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.625rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -471,7 +474,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   border-radius: 999px;
   background: rgba(18, 12, 10, 0.55);
   color: var(--cream);
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.6875rem;
   font-weight: 600;
   letter-spacing: 0.16em;
@@ -512,7 +515,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   align-items: center;
   gap: 14px;
   margin-block-end: 22px;
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: 0.24em;
@@ -560,7 +563,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; }
 .text-link {
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: 0.18em;
@@ -577,7 +580,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   position: absolute;
   inset-inline-start: var(--gutter);
   inset-block-end: 22px;
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.6875rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -784,7 +787,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .discover-map-hint {
   justify-self: center;
   margin: 0;
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: 0.16em;
@@ -867,7 +870,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   padding: 3px 9px;
   border-radius: 999px;
   background: rgba(18, 11, 8, 0.84);
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -919,7 +922,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   border: 1px solid rgba(241, 223, 195, 0.4);
   border-radius: 999px;
   background: rgba(18, 11, 8, 0.4);
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -979,7 +982,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   padding: 10px 20px;
   border-radius: 999px;
   background: var(--atlas-accent);
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.16em;
@@ -1075,7 +1078,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
     border: 1px solid rgba(241, 223, 195, 0.3);
     border-radius: 999px;
     background: rgba(241, 223, 195, 0.06);
-    font-family: var(--font-ui);
+    font-family: var(--font-caps);
     font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 0.08em;
@@ -1152,7 +1155,7 @@ picture > source { display: none; }
   flex-wrap: wrap;
   gap: 6px 10px;
   margin-block-end: 26px;
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.6875rem;
   font-weight: 600;
   letter-spacing: 0.18em;
@@ -1205,7 +1208,7 @@ picture > source { display: none; }
 .place-facts div + div { padding-block-start: 18px; border-block-start: 1px solid var(--line-light); }
 .place-facts dt {
   margin-block-end: 4px;
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.6875rem;
   font-weight: 600;
   letter-spacing: 0.2em;
@@ -1257,7 +1260,7 @@ picture > source { display: none; }
 }
 .program-more {
   align-self: flex-start;
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.16em;
@@ -1280,7 +1283,7 @@ picture > source { display: none; }
 .place-pager-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px 32px; }
 .place-pager a.place-pager-stop { display: grid; gap: 4px; text-decoration: none; }
 .place-pager-stop small {
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.6875rem;
   font-weight: 600;
   letter-spacing: 0.2em;
@@ -1322,7 +1325,9 @@ picture > source { display: none; }
   --dg-ink: #3b1019;
   --dg-text: #2c201b;
   --dg-copper: #cf5a28;
-  --dg-serif: "Source Serif 4", Georgia, serif;
+  --dg-serif: "Source Serif 4", "Source Serif 4 Fallback", "Source Serif 4 Fallback Android", Georgia, serif;
+  /* the same font for headings, with a fallback sized for headings while it loads */
+  --dg-serif-head: "Source Serif 4", "Source Serif 4 Head Fallback", "Source Serif 4 Head Fallback Android", Georgia, serif;
   padding-block-start: var(--header-h);
   background: var(--dg-bg);
   font-family: var(--dg-serif);
@@ -1438,7 +1443,7 @@ picture > source { display: none; }
 .dg-section-title {
   margin: 0 0 clamp(12px, 1vw, 16px);
   padding-inline-start: 4px;
-  font-family: var(--dg-serif);
+  font-family: var(--dg-serif-head);
   font-weight: 700;
   font-size: clamp(1.9rem, 3vw, 2.875rem);
   line-height: 1.1;
@@ -1478,7 +1483,7 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
 .dg-card-body { display: flex; align-items: center; gap: 0; padding: 7px 8px 9px 29px; }
 .dg-card-num { flex: none; width: 50px; font-weight: 600; font-size: 1.625rem; line-height: 1.2; color: var(--dg-copper); margin-inline-start: -4px; }
 .dg-card-copy { flex: 1; min-width: 0; padding-inline-start: 20px; position: relative; }
-.dg-card-title { position: relative; margin: 0; font-family: var(--dg-serif); font-weight: 700; font-size: 1.375rem; line-height: 1.25; color: var(--dg-ink); }
+.dg-card-title { position: relative; margin: 0; font-family: var(--dg-serif-head); font-weight: 700; font-size: 1.375rem; line-height: 1.25; color: var(--dg-ink); }
 .dg-card-title::before {
   content: "";
   position: absolute;
@@ -1537,7 +1542,7 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
   padding-block-start: 10px;
   border-block-start: 1px solid var(--dg-card-line);
 }
-.dg-more-label { margin: 0; font-family: var(--dg-serif); font-weight: 700; font-size: 1.75rem; line-height: 1.2; color: var(--dg-ink); }
+.dg-more-label { margin: 0; font-family: var(--dg-serif-head); font-weight: 700; font-size: 1.75rem; line-height: 1.2; color: var(--dg-ink); }
 .dg-more-photo { margin: 0; border-radius: 7px; overflow: hidden; aspect-ratio: 292 / 87; max-width: 420px; }
 .dg-more-photo img { width: 100%; height: 100%; object-fit: cover; }
 .dg-more .dg-card-title { font-size: 1.75rem; }
@@ -1580,7 +1585,7 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
 .dg-faq-list { display: grid; grid-template-columns: 1fr; gap: 18px 40px; padding-inline: 4px; }
 @media (min-width: 800px) { .dg-faq-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .dg-faq-item { padding-block-start: 14px; border-block-start: 1px solid rgba(196, 113, 109, 0.75); }
-.dg-faq-q { margin: 0 0 6px; font-family: var(--dg-serif); font-weight: 700; font-size: 1.3rem; line-height: 1.25; color: var(--dg-ink); }
+.dg-faq-q { margin: 0 0 6px; font-family: var(--dg-serif-head); font-weight: 700; font-size: 1.3rem; line-height: 1.25; color: var(--dg-ink); }
 .dg-faq-a { margin: 0; font-size: 1rem; line-height: 1.5; color: var(--dg-text); }
 
 /* Previous / next stop: "All destinations" sits in the middle */
@@ -1703,7 +1708,7 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
   color: #f3c79c;
 }
 .program-duration span {
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.2em;
@@ -1723,7 +1728,7 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
   flex-wrap: wrap;
   align-items: center;
   gap: 4px 0;
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -1813,7 +1818,7 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
   border-block-start: 3px solid var(--copper);
 }
 .tour-feature-name {
-  font-family: var(--font-display);
+  font-family: var(--font-caps);
   font-size: 1.9375rem;
   font-weight: 500;
   line-height: 1.12;
@@ -1832,7 +1837,7 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
 }
 .tour-feature-facts dt {
   margin-block-end: 4px;
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.6875rem;
   font-weight: 600;
   letter-spacing: 0.2em;
@@ -1847,7 +1852,7 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
 .tour-feature-actions .btn svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; }
 .tour-feature-actions .btn:hover svg { transform: translateX(3px); }
 .tour-feature-enquire {
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.16em;
@@ -1889,7 +1894,7 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
   display: flex;
   flex-wrap: wrap;
   gap: 2px 10px;
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.6875rem;
   font-weight: 600;
   letter-spacing: 0.1em;
@@ -1990,7 +1995,7 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
 .program-stays span {
   display: inline-block;
   min-width: 5.6em;
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.6875rem;
   font-weight: 600;
   letter-spacing: 0.14em;
@@ -2054,7 +2059,7 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
 .itinerary-num span {
   display: block;
   margin-block-end: 2px;
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.5625rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
@@ -2077,7 +2082,7 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
 }
 .itinerary-stay svg { width: 16px; height: 16px; flex: none; fill: none; stroke: var(--copper); stroke-width: 1.8; }
 .itinerary-stay-label {
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: 0.2em;
@@ -2086,7 +2091,7 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
 }
 .itinerary-stay b { font-family: var(--font-display); font-size: 1.125rem; font-weight: 600; color: var(--maroon); }
 .itinerary-meta {
-  font-family: var(--font-ui);
+  font-family: var(--font-caps);
   font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: 0.18em;
@@ -2151,7 +2156,7 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
 .footer-name { display: grid; justify-items: start; gap: 3px; }
 .footer-wordmark { width: 104px; height: auto; }
 .footer-slogan {
-  font-family: var(--font-display);
+  font-family: var(--font-caps);
   font-size: 0.5625rem;
   font-weight: 600;
   letter-spacing: 0.16em;
