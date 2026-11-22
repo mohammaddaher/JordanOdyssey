@@ -150,7 +150,8 @@ function structuredData(lang, rel, kind, page, url, img, html) {
   if (kind === 'destination') {
     graph.push({
       '@type': 'TouristDestination',
-      name: page.h1,
+      // the place's own name (<main data-breadcrumb="Petra">) when the heading is a longer line
+      name: page.crumbName || page.h1,
       description: page.description,
       url,
       ...(img ? { image: img.url } : {}),

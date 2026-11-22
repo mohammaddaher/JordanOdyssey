@@ -536,6 +536,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 }
 
 .hero-title {
+  margin: 0;
   font-family: var(--font-display);
   font-weight: 500;
   font-size: clamp(2.75rem, 7vw, 5.5rem);
@@ -552,6 +553,19 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   background-clip: text;
   color: transparent;
 }
+/* Homepage: the page's heading, set small under the tagline */
+.hero-headline {
+  margin-block-start: 22px;
+  font-family: var(--font-caps);
+  font-size: clamp(0.875rem, 1.1vw, 1rem);
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--copper-light);
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);
+}
+.hero-headline + .hero-lede { margin-block-start: 14px; }
 
 .hero-lede {
   margin-block: 24px 36px;
@@ -1384,6 +1398,18 @@ picture > source { display: none; }
   text-transform: uppercase;
 }
 .dg-hero-title--plain { text-transform: none; }
+/* The heading reads as one line ("Visiting Petra, Jordan’s Rose-Red City"); the place's name stays the
+   large word and the words around it are set smaller, on their own lines */
+.dg-hero-pre, .dg-hero-sub {
+  display: block;
+  font-weight: 500;
+  font-size: 0.46em;
+  line-height: 1.15;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.dg-hero-pre { margin-block-end: 0.3em; }
+.dg-hero-sub { margin-block-start: 0.35em; }
 .dg-hero-title::after {
   content: "";
   display: block;
@@ -1581,6 +1607,24 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
 }
 
 /* ----- Common questions (destination pages); the FAQPage schema is read from this markup ----- */
+/* How many days, getting there, best time: three short sections side by side on wide screens */
+.dg-guide { padding-block: 0 clamp(28px, 3vw, 44px); }
+.dg-guide-list { display: grid; grid-template-columns: 1fr; gap: 22px 40px; padding-inline: 4px; }
+@media (min-width: 1024px) { .dg-guide-list { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.dg-guide-item { padding-block-start: 14px; border-block-start: 1px solid rgba(196, 113, 109, 0.75); }
+.dg-guide-title { margin: 0 0 8px; font-family: var(--dg-serif-head); font-weight: 700; font-size: 1.5rem; line-height: 1.2; color: var(--dg-ink); }
+.dg-guide-text { margin: 0; font-size: 1rem; line-height: 1.55; color: var(--dg-text); }
+.dg-guide-text + .dg-guide-text { margin-block-start: 10px; }
+
+/* Tours that include this place (written by scripts/build-tours.mjs) */
+.dg-tours { padding-block: 0 clamp(28px, 3vw, 44px); }
+.dg-tours-list { display: grid; grid-template-columns: 1fr; gap: 0 40px; margin: 0; padding: 0 4px; list-style: none; }
+@media (min-width: 800px) { .dg-tours-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.dg-tours-item { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 2px 16px; padding-block: 11px; border-block-end: 1px solid var(--dg-card-line); }
+.dg-tours-name { font-family: var(--dg-serif-head); font-weight: 700; font-size: 1.1875rem; color: var(--dg-ink); text-decoration: underline; text-decoration-color: var(--dg-copper); text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.dg-tours-name:hover { color: var(--dg-copper); }
+.dg-tours-meta { font-size: 0.9375rem; color: var(--dg-text); }
+
 .dg-faq { padding-block: 0 clamp(36px, 4vw, 56px); }
 .dg-faq-list { display: grid; grid-template-columns: 1fr; gap: 18px 40px; padding-inline: 4px; }
 @media (min-width: 800px) { .dg-faq-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
@@ -1951,7 +1995,8 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
 .program-hero { min-height: clamp(480px, 62svh, 600px); }
 .program-hero .place-hero-inner { padding-block: calc(var(--header-h) + 24px) 36px; }
 .program-hero .place-crumbs ol { margin-block-end: 16px; }
-.program-hero .hero-kicker { margin-block-end: 10px; }
+/* the length of the tour, straight under its name */
+.program-hero .hero-kicker { margin-block: 12px 0; }
 .program-hero .place-hero-copy { max-width: 880px; }
 .program-hero .hero-title { font-size: clamp(2.25rem, 3.8vw, 3.625rem); }
 .program-hero .hero-lede { max-width: 36em; margin-block: 14px 10px; font-size: clamp(1.0625rem, 1.3vw, 1.25rem); }
@@ -2099,6 +2144,9 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
   color: var(--ink-mute);
 }
 .itinerary-text { margin-block-start: 12px; color: var(--ink-soft); text-align: justify; font-size: 1.25rem; }
+/* a place with its own guide page, linked where the plan first mentions it */
+.itinerary-text a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--copper); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.itinerary-text a:hover { color: var(--rust); }
 @media (max-width: 599px) {
   .itinerary-day { grid-template-columns: 54px minmax(0, 1fr); gap: 0 16px; padding-block-end: 36px; }
   .itinerary-day:not(:last-child)::before { inset-inline-start: 26px; inset-block-start: 62px; }
