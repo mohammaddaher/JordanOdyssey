@@ -30,6 +30,9 @@ SHARE = {
 
     'about.html': ('discover/wadi-rum.jpg', (50, 58), 'Sandstone mountains rising from the warm red sand of Wadi Rum', 'about'),
 
+    # travel guide articles
+    'travel-guide/best-time-to-visit-jordan.html': ('sights/petra-monastery.jpg', (50, 40), 'The Monastery (Ad Deir) in Petra under a clear blue sky, for a guide to the best time to visit Jordan', 'guide-best-time-to-visit-jordan'),
+
     # program pages: the same photo and focus point as the page's hero
     'programs/best-of-jordan.html': ('discover/aqaba.jpg', (50, 62), 'The Gulf of Aqaba at dusk, with the city’s tall flagpole and the mountains behind', 'program-best-of-jordan'),
     'programs/grand-jordan.html': ('photos/hero-petra-treasury.jpg', (50, 58), 'The Treasury of Petra, carved into a rose-red cliff face', 'program-grand-jordan'),

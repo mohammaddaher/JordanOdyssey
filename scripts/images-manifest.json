@@ -8333,5 +8333,191 @@
    "assets/img/photos/hero-petra-treasury-phone-768.2931e845.jpg",
    "assets/img/photos/hero-petra-treasury-phone-1080.a6de909b.jpg"
   ]
+ },
+ "sights/petra-monastery.jpg": {
+  "key": "v1:std:1275db7e0fed4df21684cd963534cdaa98911d94305e9e979bf7b21d77418c30",
+  "width": 1500,
+  "height": 1000,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/sights/petra-monastery-480.e43e116b.avif",
+     "bytes": 26856
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/sights/petra-monastery-768.030d5890.avif",
+     "bytes": 67380
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/sights/petra-monastery-1200.3b948b56.avif",
+     "bytes": 163227
+    },
+    {
+     "w": 1500,
+     "h": 1000,
+     "file": "assets/img/sights/petra-monastery-1500.4d671ff4.avif",
+     "bytes": 263968
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/sights/petra-monastery-480.1d9266c9.webp",
+     "bytes": 36440
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/sights/petra-monastery-768.0b4fc419.webp",
+     "bytes": 92480
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/sights/petra-monastery-1200.8bcc7346.webp",
+     "bytes": 222088
+    },
+    {
+     "w": 1500,
+     "h": 1000,
+     "file": "assets/img/sights/petra-monastery-1500.40647507.webp",
+     "bytes": 351298
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/sights/petra-monastery-480.309a8ba9.jpg",
+     "bytes": 36033
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/sights/petra-monastery-768.b6159865.jpg",
+     "bytes": 89099
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/sights/petra-monastery-1200.c03cb9f4.jpg",
+     "bytes": 213162
+    },
+    {
+     "w": 1500,
+     "h": 1000,
+     "file": "assets/img/sights/petra-monastery-1500.2c16ece6.jpg",
+     "bytes": 350344
+    }
+   ]
+  },
+  "files": [
+   "assets/img/sights/petra-monastery-480.e43e116b.avif",
+   "assets/img/sights/petra-monastery-768.030d5890.avif",
+   "assets/img/sights/petra-monastery-1200.3b948b56.avif",
+   "assets/img/sights/petra-monastery-1500.4d671ff4.avif",
+   "assets/img/sights/petra-monastery-480.1d9266c9.webp",
+   "assets/img/sights/petra-monastery-768.0b4fc419.webp",
+   "assets/img/sights/petra-monastery-1200.8bcc7346.webp",
+   "assets/img/sights/petra-monastery-1500.40647507.webp",
+   "assets/img/sights/petra-monastery-480.309a8ba9.jpg",
+   "assets/img/sights/petra-monastery-768.b6159865.jpg",
+   "assets/img/sights/petra-monastery-1200.c03cb9f4.jpg",
+   "assets/img/sights/petra-monastery-1500.2c16ece6.jpg"
+  ]
+ },
+ "sights/petra-monastery.jpg#phone": {
+  "key": "v1:crop:{\"name\":\"phone\",\"aspect\":1.25,\"x\":0.5,\"y\":0.5,\"widths\":[480,768,1080],\"q\":{\"avif\":50,\"webp\":72,\"jpg\":78}}:1275db7e0fed4df21684cd963534cdaa98911d94305e9e979bf7b21d77418c30",
+  "width": 1250,
+  "height": 1000,
+  "alpha": false,
+  "crop": {
+   "left": 125,
+   "top": 0,
+   "width": 1250,
+   "height": 1000
+  },
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/sights/petra-monastery-phone-480.744e88d8.avif",
+     "bytes": 21061
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/sights/petra-monastery-phone-768.81eb82fe.avif",
+     "bytes": 51920
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/sights/petra-monastery-phone-1080.50a17aec.avif",
+     "bytes": 100778
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/sights/petra-monastery-phone-480.a2dcca56.webp",
+     "bytes": 34148
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/sights/petra-monastery-phone-768.2ff82dd2.webp",
+     "bytes": 86594
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/sights/petra-monastery-phone-1080.1f6dc3a5.webp",
+     "bytes": 169678
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 384,
+     "file": "assets/img/sights/petra-monastery-phone-480.ad0f776c.jpg",
+     "bytes": 37295
+    },
+    {
+     "w": 768,
+     "h": 614,
+     "file": "assets/img/sights/petra-monastery-phone-768.3e5cf026.jpg",
+     "bytes": 91274
+    },
+    {
+     "w": 1080,
+     "h": 864,
+     "file": "assets/img/sights/petra-monastery-phone-1080.a0acd066.jpg",
+     "bytes": 176381
+    }
+   ]
+  },
+  "files": [
+   "assets/img/sights/petra-monastery-phone-480.744e88d8.avif",
+   "assets/img/sights/petra-monastery-phone-768.81eb82fe.avif",
+   "assets/img/sights/petra-monastery-phone-1080.50a17aec.avif",
+   "assets/img/sights/petra-monastery-phone-480.a2dcca56.webp",
+   "assets/img/sights/petra-monastery-phone-768.2ff82dd2.webp",
+   "assets/img/sights/petra-monastery-phone-1080.1f6dc3a5.webp",
+   "assets/img/sights/petra-monastery-phone-480.ad0f776c.jpg",
+   "assets/img/sights/petra-monastery-phone-768.3e5cf026.jpg",
+   "assets/img/sights/petra-monastery-phone-1080.a0acd066.jpg"
+  ]
  }
 }

@@ -46,6 +46,8 @@ const FONT_PRELOAD = [
   [/^en\/destinations\//, ['eb-garamond-normal-400-latin-core.']],
   // program heroes: the title in Cinzel, the opening line and the price in EB Garamond
   [/^en\/programs\//, ['cinzel-normal-500-latin-core.', 'eb-garamond-normal-400-latin-core.']],
+  // travel guide: the same hero as the program pages, with EB Garamond text in the first view
+  [/^en\/travel-guide\//, ['cinzel-normal-500-latin-core.', 'eb-garamond-normal-400-latin-core.']],
   // the homepage's largest element is its heading, in Cinzel; the opening line below it is in EB Garamond
   [/^en\/index\.html$/, ['cinzel-normal-500-latin-core.', 'eb-garamond-normal-400-latin-core.']],
   [/./, ['cinzel-normal-500-latin-core.']]

@@ -56,7 +56,8 @@ export const CROPS = {
   'discover/dead-sea.jpg': [phone(0.74)], // Jordan Delights 2
   'discover/petra.jpg': [phone(0.47)],    // Jordan Discovery (portrait photo: the crop is a horizontal band)
   'discover/wadi-rum.jpg': [phone(0.44)], // Jordan Explorer
-  'discover/amman.jpg': [phone(0.46)]     // Jordan Revealed
+  'discover/amman.jpg': [phone(0.46)],    // Jordan Revealed
+  'sights/petra-monastery.jpg': [phone(0.5)]   // travel guide: best time to visit Jordan
 };
 const LADDER = [480, 768, 1200, 1600, 2000];
 const SMALL_LADDER = [120, 240, 360];   // logos and other small images

@@ -96,6 +96,7 @@ function kindOf(rel) {
   if (rel === 'destinations/index.html') return 'destinations';
   if (rel.startsWith('destinations/')) return 'destination';
   if (rel.startsWith('programs/')) return 'program';
+  if (rel.startsWith('travel-guide/') && rel !== 'travel-guide/index.html') return 'guide';
   return 'page';
 }
 
@@ -190,6 +191,24 @@ function structuredData(lang, rel, kind, page, url, img, html) {
       };
     }
     graph.push(trip);
+  }
+  if (kind === 'guide') {
+    // Travel guide articles: <main data-published="2026-11-23"> and the visible "Last updated" <time datetime="…">
+    const published = first(html, /<main\b[^>]*\bdata-published="([^"]+)"/i);
+    const modified = first(html, /<time\b[^>]*\bdatetime="([^"]+)"/i) || published;
+    graph.push({
+      '@type': 'Article',
+      headline: page.h1,
+      description: page.description,
+      url,
+      mainEntityOfPage: url,
+      inLanguage: lang,
+      ...(img ? { image: { '@type': 'ImageObject', url: img.url, width: img.width, height: img.height } } : {}),
+      ...(published ? { datePublished: published } : {}),
+      ...(modified ? { dateModified: modified } : {}),
+      author: { '@id': ORG_ID },
+      publisher: { '@id': ORG_ID }
+    });
   }
   const faq = readFaq(html);
   if (faq.length) {
