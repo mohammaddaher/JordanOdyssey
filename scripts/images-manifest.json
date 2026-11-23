@@ -3735,609 +3735,306 @@
   ]
  },
  "guides/card-amman.jpg": {
-  "key": "v1:std:b712042e61b4d44490379c5bd4c380c3287737a0c47b0158a7517a9e5945013b",
+  "key": "v1:hero:b712042e61b4d44490379c5bd4c380c3287737a0c47b0158a7517a9e5945013b",
   "width": 472,
   "height": 223,
   "alpha": false,
-  "hero": false,
+  "hero": true,
   "variants": {
    "avif": [
     {
      "w": 120,
      "h": 57,
-     "file": "assets/img/guides/card-amman-120.3711178c.avif",
-     "bytes": 1999
+     "file": "assets/img/guides/card-amman-120.39283ac6.avif",
+     "bytes": 2517
     },
     {
      "w": 240,
      "h": 113,
-     "file": "assets/img/guides/card-amman-240.eb8de077.avif",
-     "bytes": 6555
+     "file": "assets/img/guides/card-amman-240.7fa4bcf8.avif",
+     "bytes": 8338
     },
     {
      "w": 360,
      "h": 170,
-     "file": "assets/img/guides/card-amman-360.996a8610.avif",
-     "bytes": 12788
+     "file": "assets/img/guides/card-amman-360.9b01288f.avif",
+     "bytes": 16670
     },
     {
      "w": 472,
      "h": 223,
-     "file": "assets/img/guides/card-amman-472.11065e92.avif",
-     "bytes": 19105
+     "file": "assets/img/guides/card-amman-472.8f2b0667.avif",
+     "bytes": 25386
     }
    ],
    "webp": [
     {
      "w": 120,
      "h": 57,
-     "file": "assets/img/guides/card-amman-120.f96df3a1.webp",
-     "bytes": 2558
+     "file": "assets/img/guides/card-amman-120.49b2cba6.webp",
+     "bytes": 2902
     },
     {
      "w": 240,
      "h": 113,
-     "file": "assets/img/guides/card-amman-240.61a05310.webp",
-     "bytes": 8532
+     "file": "assets/img/guides/card-amman-240.81394f3a.webp",
+     "bytes": 9682
     },
     {
      "w": 360,
      "h": 170,
-     "file": "assets/img/guides/card-amman-360.8eb90d27.webp",
-     "bytes": 17600
+     "file": "assets/img/guides/card-amman-360.c6b28a8d.webp",
+     "bytes": 20160
     },
     {
      "w": 472,
      "h": 223,
-     "file": "assets/img/guides/card-amman-472.20ee6684.webp",
-     "bytes": 27438
+     "file": "assets/img/guides/card-amman-472.ecf2a19f.webp",
+     "bytes": 31528
     }
    ],
    "jpg": [
     {
      "w": 120,
      "h": 57,
-     "file": "assets/img/guides/card-amman-120.54ed77aa.jpg",
-     "bytes": 2756
+     "file": "assets/img/guides/card-amman-120.c5e9cfe9.jpg",
+     "bytes": 3100
     },
     {
      "w": 240,
      "h": 113,
-     "file": "assets/img/guides/card-amman-240.26657f21.jpg",
-     "bytes": 8770
+     "file": "assets/img/guides/card-amman-240.e022f97c.jpg",
+     "bytes": 10032
     },
     {
      "w": 360,
      "h": 170,
-     "file": "assets/img/guides/card-amman-360.1256b304.jpg",
-     "bytes": 17969
+     "file": "assets/img/guides/card-amman-360.9078ba44.jpg",
+     "bytes": 20513
     },
     {
      "w": 472,
      "h": 223,
-     "file": "assets/img/guides/card-amman-472.d085903d.jpg",
-     "bytes": 28134
+     "file": "assets/img/guides/card-amman-472.e3a05233.jpg",
+     "bytes": 32077
     }
    ]
   },
   "files": [
-   "assets/img/guides/card-amman-120.3711178c.avif",
-   "assets/img/guides/card-amman-240.eb8de077.avif",
-   "assets/img/guides/card-amman-360.996a8610.avif",
-   "assets/img/guides/card-amman-472.11065e92.avif",
-   "assets/img/guides/card-amman-120.f96df3a1.webp",
-   "assets/img/guides/card-amman-240.61a05310.webp",
-   "assets/img/guides/card-amman-360.8eb90d27.webp",
-   "assets/img/guides/card-amman-472.20ee6684.webp",
-   "assets/img/guides/card-amman-120.54ed77aa.jpg",
-   "assets/img/guides/card-amman-240.26657f21.jpg",
-   "assets/img/guides/card-amman-360.1256b304.jpg",
-   "assets/img/guides/card-amman-472.d085903d.jpg"
-  ]
- },
- "guides/card-aqaba.jpg": {
-  "key": "v1:std:594f6151eeb9438b7fa696eae540f1a2fff9fb01a6db5dd232e67b5d3ba0e218",
-  "width": 474,
-  "height": 223,
-  "alpha": false,
-  "hero": false,
-  "variants": {
-   "avif": [
-    {
-     "w": 120,
-     "h": 56,
-     "file": "assets/img/guides/card-aqaba-120.a86db2cb.avif",
-     "bytes": 1823
-    },
-    {
-     "w": 240,
-     "h": 113,
-     "file": "assets/img/guides/card-aqaba-240.a657ad24.avif",
-     "bytes": 6642
-    },
-    {
-     "w": 360,
-     "h": 169,
-     "file": "assets/img/guides/card-aqaba-360.8e48a6ca.avif",
-     "bytes": 13376
-    },
-    {
-     "w": 474,
-     "h": 223,
-     "file": "assets/img/guides/card-aqaba-474.c899c5f0.avif",
-     "bytes": 20568
-    }
-   ],
-   "webp": [
-    {
-     "w": 120,
-     "h": 56,
-     "file": "assets/img/guides/card-aqaba-120.f4f4fbb8.webp",
-     "bytes": 2614
-    },
-    {
-     "w": 240,
-     "h": 113,
-     "file": "assets/img/guides/card-aqaba-240.ab4fc98a.webp",
-     "bytes": 9040
-    },
-    {
-     "w": 360,
-     "h": 169,
-     "file": "assets/img/guides/card-aqaba-360.b6196d1e.webp",
-     "bytes": 18902
-    },
-    {
-     "w": 474,
-     "h": 223,
-     "file": "assets/img/guides/card-aqaba-474.1c90265b.webp",
-     "bytes": 30348
-    }
-   ],
-   "jpg": [
-    {
-     "w": 120,
-     "h": 56,
-     "file": "assets/img/guides/card-aqaba-120.e51d1d59.jpg",
-     "bytes": 2639
-    },
-    {
-     "w": 240,
-     "h": 113,
-     "file": "assets/img/guides/card-aqaba-240.834a0af5.jpg",
-     "bytes": 9135
-    },
-    {
-     "w": 360,
-     "h": 169,
-     "file": "assets/img/guides/card-aqaba-360.e328f853.jpg",
-     "bytes": 18874
-    },
-    {
-     "w": 474,
-     "h": 223,
-     "file": "assets/img/guides/card-aqaba-474.b46fac9a.jpg",
-     "bytes": 30121
-    }
-   ]
-  },
-  "files": [
-   "assets/img/guides/card-aqaba-120.a86db2cb.avif",
-   "assets/img/guides/card-aqaba-240.a657ad24.avif",
-   "assets/img/guides/card-aqaba-360.8e48a6ca.avif",
-   "assets/img/guides/card-aqaba-474.c899c5f0.avif",
-   "assets/img/guides/card-aqaba-120.f4f4fbb8.webp",
-   "assets/img/guides/card-aqaba-240.ab4fc98a.webp",
-   "assets/img/guides/card-aqaba-360.b6196d1e.webp",
-   "assets/img/guides/card-aqaba-474.1c90265b.webp",
-   "assets/img/guides/card-aqaba-120.e51d1d59.jpg",
-   "assets/img/guides/card-aqaba-240.834a0af5.jpg",
-   "assets/img/guides/card-aqaba-360.e328f853.jpg",
-   "assets/img/guides/card-aqaba-474.b46fac9a.jpg"
-  ]
- },
- "guides/card-dead-sea.jpg": {
-  "key": "v1:std:45528d6fa4b75f8044aaed3d916af12df78fa55fde035e63b298adfe7049c042",
-  "width": 474,
-  "height": 222,
-  "alpha": false,
-  "hero": false,
-  "variants": {
-   "avif": [
-    {
-     "w": 120,
-     "h": 56,
-     "file": "assets/img/guides/card-dead-sea-120.11fa0319.avif",
-     "bytes": 1541
-    },
-    {
-     "w": 240,
-     "h": 112,
-     "file": "assets/img/guides/card-dead-sea-240.89b7f0eb.avif",
-     "bytes": 5369
-    },
-    {
-     "w": 360,
-     "h": 169,
-     "file": "assets/img/guides/card-dead-sea-360.b94acd36.avif",
-     "bytes": 11314
-    },
-    {
-     "w": 474,
-     "h": 222,
-     "file": "assets/img/guides/card-dead-sea-474.19571547.avif",
-     "bytes": 17513
-    }
-   ],
-   "webp": [
-    {
-     "w": 120,
-     "h": 56,
-     "file": "assets/img/guides/card-dead-sea-120.533327c4.webp",
-     "bytes": 2128
-    },
-    {
-     "w": 240,
-     "h": 112,
-     "file": "assets/img/guides/card-dead-sea-240.8eff4c1f.webp",
-     "bytes": 7028
-    },
-    {
-     "w": 360,
-     "h": 169,
-     "file": "assets/img/guides/card-dead-sea-360.6115bf5b.webp",
-     "bytes": 15170
-    },
-    {
-     "w": 474,
-     "h": 222,
-     "file": "assets/img/guides/card-dead-sea-474.77d106b1.webp",
-     "bytes": 24332
-    }
-   ],
-   "jpg": [
-    {
-     "w": 120,
-     "h": 56,
-     "file": "assets/img/guides/card-dead-sea-120.5cda1153.jpg",
-     "bytes": 2325
-    },
-    {
-     "w": 240,
-     "h": 112,
-     "file": "assets/img/guides/card-dead-sea-240.b4fa4ab1.jpg",
-     "bytes": 7440
-    },
-    {
-     "w": 360,
-     "h": 169,
-     "file": "assets/img/guides/card-dead-sea-360.5da2ed49.jpg",
-     "bytes": 16031
-    },
-    {
-     "w": 474,
-     "h": 222,
-     "file": "assets/img/guides/card-dead-sea-474.b764e5fe.jpg",
-     "bytes": 25432
-    }
-   ]
-  },
-  "files": [
-   "assets/img/guides/card-dead-sea-120.11fa0319.avif",
-   "assets/img/guides/card-dead-sea-240.89b7f0eb.avif",
-   "assets/img/guides/card-dead-sea-360.b94acd36.avif",
-   "assets/img/guides/card-dead-sea-474.19571547.avif",
-   "assets/img/guides/card-dead-sea-120.533327c4.webp",
-   "assets/img/guides/card-dead-sea-240.8eff4c1f.webp",
-   "assets/img/guides/card-dead-sea-360.6115bf5b.webp",
-   "assets/img/guides/card-dead-sea-474.77d106b1.webp",
-   "assets/img/guides/card-dead-sea-120.5cda1153.jpg",
-   "assets/img/guides/card-dead-sea-240.b4fa4ab1.jpg",
-   "assets/img/guides/card-dead-sea-360.5da2ed49.jpg",
-   "assets/img/guides/card-dead-sea-474.b764e5fe.jpg"
+   "assets/img/guides/card-amman-120.39283ac6.avif",
+   "assets/img/guides/card-amman-240.7fa4bcf8.avif",
+   "assets/img/guides/card-amman-360.9b01288f.avif",
+   "assets/img/guides/card-amman-472.8f2b0667.avif",
+   "assets/img/guides/card-amman-120.49b2cba6.webp",
+   "assets/img/guides/card-amman-240.81394f3a.webp",
+   "assets/img/guides/card-amman-360.c6b28a8d.webp",
+   "assets/img/guides/card-amman-472.ecf2a19f.webp",
+   "assets/img/guides/card-amman-120.c5e9cfe9.jpg",
+   "assets/img/guides/card-amman-240.e022f97c.jpg",
+   "assets/img/guides/card-amman-360.9078ba44.jpg",
+   "assets/img/guides/card-amman-472.e3a05233.jpg"
   ]
  },
  "guides/card-jerash.jpg": {
-  "key": "v1:std:b4956dfd8b5ce06b5ef00ae090c8f66bef76df8a3e54d4678a085f75f63133ed",
+  "key": "v1:hero:b4956dfd8b5ce06b5ef00ae090c8f66bef76df8a3e54d4678a085f75f63133ed",
   "width": 474,
   "height": 222,
   "alpha": false,
-  "hero": false,
+  "hero": true,
   "variants": {
    "avif": [
     {
      "w": 120,
      "h": 56,
-     "file": "assets/img/guides/card-jerash-120.db480966.avif",
-     "bytes": 1854
+     "file": "assets/img/guides/card-jerash-120.716da2cf.avif",
+     "bytes": 2412
     },
     {
      "w": 240,
      "h": 112,
-     "file": "assets/img/guides/card-jerash-240.b6daa3b2.avif",
-     "bytes": 6065
+     "file": "assets/img/guides/card-jerash-240.25631716.avif",
+     "bytes": 7959
     },
     {
      "w": 360,
      "h": 169,
-     "file": "assets/img/guides/card-jerash-360.35a09731.avif",
-     "bytes": 12567
+     "file": "assets/img/guides/card-jerash-360.3ebf8f14.avif",
+     "bytes": 16323
     },
     {
      "w": 474,
      "h": 222,
-     "file": "assets/img/guides/card-jerash-474.dcc4ba64.avif",
-     "bytes": 19201
+     "file": "assets/img/guides/card-jerash-474.5468b10d.avif",
+     "bytes": 25819
     }
    ],
    "webp": [
     {
      "w": 120,
      "h": 56,
-     "file": "assets/img/guides/card-jerash-120.fdc4bbb5.webp",
-     "bytes": 2614
+     "file": "assets/img/guides/card-jerash-120.e7ce4118.webp",
+     "bytes": 2962
     },
     {
      "w": 240,
      "h": 112,
-     "file": "assets/img/guides/card-jerash-240.dd1618a6.webp",
-     "bytes": 8530
+     "file": "assets/img/guides/card-jerash-240.043b7bf1.webp",
+     "bytes": 9832
     },
     {
      "w": 360,
      "h": 169,
-     "file": "assets/img/guides/card-jerash-360.2dfc472d.webp",
-     "bytes": 17776
+     "file": "assets/img/guides/card-jerash-360.212302c8.webp",
+     "bytes": 20510
     },
     {
      "w": 474,
      "h": 222,
-     "file": "assets/img/guides/card-jerash-474.10042f4e.webp",
-     "bytes": 28030
+     "file": "assets/img/guides/card-jerash-474.7dd30294.webp",
+     "bytes": 32672
     }
    ],
    "jpg": [
     {
      "w": 120,
      "h": 56,
-     "file": "assets/img/guides/card-jerash-120.c5f22158.jpg",
-     "bytes": 2663
+     "file": "assets/img/guides/card-jerash-120.a5a0e807.jpg",
+     "bytes": 3002
     },
     {
      "w": 240,
      "h": 112,
-     "file": "assets/img/guides/card-jerash-240.b14d7784.jpg",
-     "bytes": 8463
+     "file": "assets/img/guides/card-jerash-240.84929045.jpg",
+     "bytes": 9761
     },
     {
      "w": 360,
      "h": 169,
-     "file": "assets/img/guides/card-jerash-360.1e7d3ec4.jpg",
-     "bytes": 18055
+     "file": "assets/img/guides/card-jerash-360.d67e38e6.jpg",
+     "bytes": 20838
     },
     {
      "w": 474,
      "h": 222,
-     "file": "assets/img/guides/card-jerash-474.635f6d21.jpg",
-     "bytes": 28974
+     "file": "assets/img/guides/card-jerash-474.3e251f0a.jpg",
+     "bytes": 33178
     }
    ]
   },
   "files": [
-   "assets/img/guides/card-jerash-120.db480966.avif",
-   "assets/img/guides/card-jerash-240.b6daa3b2.avif",
-   "assets/img/guides/card-jerash-360.35a09731.avif",
-   "assets/img/guides/card-jerash-474.dcc4ba64.avif",
-   "assets/img/guides/card-jerash-120.fdc4bbb5.webp",
-   "assets/img/guides/card-jerash-240.dd1618a6.webp",
-   "assets/img/guides/card-jerash-360.2dfc472d.webp",
-   "assets/img/guides/card-jerash-474.10042f4e.webp",
-   "assets/img/guides/card-jerash-120.c5f22158.jpg",
-   "assets/img/guides/card-jerash-240.b14d7784.jpg",
-   "assets/img/guides/card-jerash-360.1e7d3ec4.jpg",
-   "assets/img/guides/card-jerash-474.635f6d21.jpg"
+   "assets/img/guides/card-jerash-120.716da2cf.avif",
+   "assets/img/guides/card-jerash-240.25631716.avif",
+   "assets/img/guides/card-jerash-360.3ebf8f14.avif",
+   "assets/img/guides/card-jerash-474.5468b10d.avif",
+   "assets/img/guides/card-jerash-120.e7ce4118.webp",
+   "assets/img/guides/card-jerash-240.043b7bf1.webp",
+   "assets/img/guides/card-jerash-360.212302c8.webp",
+   "assets/img/guides/card-jerash-474.7dd30294.webp",
+   "assets/img/guides/card-jerash-120.a5a0e807.jpg",
+   "assets/img/guides/card-jerash-240.84929045.jpg",
+   "assets/img/guides/card-jerash-360.d67e38e6.jpg",
+   "assets/img/guides/card-jerash-474.3e251f0a.jpg"
   ]
  },
  "guides/card-petra.jpg": {
-  "key": "v1:std:3ccb0b4845e70d4e86dc2d3badde5527fe39443f1a1029a728780be079ef8862",
+  "key": "v1:hero:3ccb0b4845e70d4e86dc2d3badde5527fe39443f1a1029a728780be079ef8862",
   "width": 474,
   "height": 222,
   "alpha": false,
-  "hero": false,
+  "hero": true,
   "variants": {
    "avif": [
     {
      "w": 120,
      "h": 56,
-     "file": "assets/img/guides/card-petra-120.da814404.avif",
-     "bytes": 1895
+     "file": "assets/img/guides/card-petra-120.12f9d543.avif",
+     "bytes": 2474
     },
     {
      "w": 240,
      "h": 112,
-     "file": "assets/img/guides/card-petra-240.8a08ce6b.avif",
-     "bytes": 6474
+     "file": "assets/img/guides/card-petra-240.526b10e8.avif",
+     "bytes": 8662
     },
     {
      "w": 360,
      "h": 169,
-     "file": "assets/img/guides/card-petra-360.e3c5736b.avif",
-     "bytes": 13598
+     "file": "assets/img/guides/card-petra-360.e1a56291.avif",
+     "bytes": 18052
     },
     {
      "w": 474,
      "h": 222,
-     "file": "assets/img/guides/card-petra-474.fdd01481.avif",
-     "bytes": 21250
+     "file": "assets/img/guides/card-petra-474.1ed255fe.avif",
+     "bytes": 29104
     }
    ],
    "webp": [
     {
      "w": 120,
      "h": 56,
-     "file": "assets/img/guides/card-petra-120.7b7c3427.webp",
-     "bytes": 2812
+     "file": "assets/img/guides/card-petra-120.83a4e3f6.webp",
+     "bytes": 3180
     },
     {
      "w": 240,
      "h": 112,
-     "file": "assets/img/guides/card-petra-240.c9385200.webp",
-     "bytes": 9658
+     "file": "assets/img/guides/card-petra-240.937c8166.webp",
+     "bytes": 10908
     },
     {
      "w": 360,
      "h": 169,
-     "file": "assets/img/guides/card-petra-360.a3081320.webp",
-     "bytes": 20128
+     "file": "assets/img/guides/card-petra-360.45f8b254.webp",
+     "bytes": 23328
     },
     {
      "w": 474,
      "h": 222,
-     "file": "assets/img/guides/card-petra-474.8320097f.webp",
-     "bytes": 32386
+     "file": "assets/img/guides/card-petra-474.75607861.webp",
+     "bytes": 37918
     }
    ],
    "jpg": [
     {
      "w": 120,
      "h": 56,
-     "file": "assets/img/guides/card-petra-120.80efa587.jpg",
-     "bytes": 2665
+     "file": "assets/img/guides/card-petra-120.b3e754ee.jpg",
+     "bytes": 3018
     },
     {
      "w": 240,
      "h": 112,
-     "file": "assets/img/guides/card-petra-240.8dc2c761.jpg",
-     "bytes": 8844
+     "file": "assets/img/guides/card-petra-240.4800bb47.jpg",
+     "bytes": 10262
     },
     {
      "w": 360,
      "h": 169,
-     "file": "assets/img/guides/card-petra-360.a372aeed.jpg",
-     "bytes": 19150
+     "file": "assets/img/guides/card-petra-360.8693fb49.jpg",
+     "bytes": 22078
     },
     {
      "w": 474,
      "h": 222,
-     "file": "assets/img/guides/card-petra-474.5a3cc0fa.jpg",
-     "bytes": 31001
+     "file": "assets/img/guides/card-petra-474.8850c21e.jpg",
+     "bytes": 35538
     }
    ]
   },
   "files": [
-   "assets/img/guides/card-petra-120.da814404.avif",
-   "assets/img/guides/card-petra-240.8a08ce6b.avif",
-   "assets/img/guides/card-petra-360.e3c5736b.avif",
-   "assets/img/guides/card-petra-474.fdd01481.avif",
-   "assets/img/guides/card-petra-120.7b7c3427.webp",
-   "assets/img/guides/card-petra-240.c9385200.webp",
-   "assets/img/guides/card-petra-360.a3081320.webp",
-   "assets/img/guides/card-petra-474.8320097f.webp",
-   "assets/img/guides/card-petra-120.80efa587.jpg",
-   "assets/img/guides/card-petra-240.8dc2c761.jpg",
-   "assets/img/guides/card-petra-360.a372aeed.jpg",
-   "assets/img/guides/card-petra-474.5a3cc0fa.jpg"
-  ]
- },
- "guides/card-wadi-rum.jpg": {
-  "key": "v1:std:54d00c83a1d74d106e1295b05d9adb8df1b03c42db522db257c3c83073f1a6ca",
-  "width": 472,
-  "height": 223,
-  "alpha": false,
-  "hero": false,
-  "variants": {
-   "avif": [
-    {
-     "w": 120,
-     "h": 57,
-     "file": "assets/img/guides/card-wadi-rum-120.da716bf8.avif",
-     "bytes": 1696
-    },
-    {
-     "w": 240,
-     "h": 113,
-     "file": "assets/img/guides/card-wadi-rum-240.b3fb9b05.avif",
-     "bytes": 5166
-    },
-    {
-     "w": 360,
-     "h": 170,
-     "file": "assets/img/guides/card-wadi-rum-360.e10354e0.avif",
-     "bytes": 10296
-    },
-    {
-     "w": 472,
-     "h": 223,
-     "file": "assets/img/guides/card-wadi-rum-472.ee50b6e1.avif",
-     "bytes": 15024
-    }
-   ],
-   "webp": [
-    {
-     "w": 120,
-     "h": 57,
-     "file": "assets/img/guides/card-wadi-rum-120.6eef2e24.webp",
-     "bytes": 2232
-    },
-    {
-     "w": 240,
-     "h": 113,
-     "file": "assets/img/guides/card-wadi-rum-240.63c0f5a4.webp",
-     "bytes": 7172
-    },
-    {
-     "w": 360,
-     "h": 170,
-     "file": "assets/img/guides/card-wadi-rum-360.a96f2eb1.webp",
-     "bytes": 14822
-    },
-    {
-     "w": 472,
-     "h": 223,
-     "file": "assets/img/guides/card-wadi-rum-472.b60e2f6c.webp",
-     "bytes": 23028
-    }
-   ],
-   "jpg": [
-    {
-     "w": 120,
-     "h": 57,
-     "file": "assets/img/guides/card-wadi-rum-120.baf563e4.jpg",
-     "bytes": 2591
-    },
-    {
-     "w": 240,
-     "h": 113,
-     "file": "assets/img/guides/card-wadi-rum-240.9f4fba82.jpg",
-     "bytes": 7841
-    },
-    {
-     "w": 360,
-     "h": 170,
-     "file": "assets/img/guides/card-wadi-rum-360.bc1ba4da.jpg",
-     "bytes": 15867
-    },
-    {
-     "w": 472,
-     "h": 223,
-     "file": "assets/img/guides/card-wadi-rum-472.0a09aae7.jpg",
-     "bytes": 24924
-    }
-   ]
-  },
-  "files": [
-   "assets/img/guides/card-wadi-rum-120.da716bf8.avif",
-   "assets/img/guides/card-wadi-rum-240.b3fb9b05.avif",
-   "assets/img/guides/card-wadi-rum-360.e10354e0.avif",
-   "assets/img/guides/card-wadi-rum-472.ee50b6e1.avif",
-   "assets/img/guides/card-wadi-rum-120.6eef2e24.webp",
-   "assets/img/guides/card-wadi-rum-240.63c0f5a4.webp",
-   "assets/img/guides/card-wadi-rum-360.a96f2eb1.webp",
-   "assets/img/guides/card-wadi-rum-472.b60e2f6c.webp",
-   "assets/img/guides/card-wadi-rum-120.baf563e4.jpg",
-   "assets/img/guides/card-wadi-rum-240.9f4fba82.jpg",
-   "assets/img/guides/card-wadi-rum-360.bc1ba4da.jpg",
-   "assets/img/guides/card-wadi-rum-472.0a09aae7.jpg"
+   "assets/img/guides/card-petra-120.12f9d543.avif",
+   "assets/img/guides/card-petra-240.526b10e8.avif",
+   "assets/img/guides/card-petra-360.e1a56291.avif",
+   "assets/img/guides/card-petra-474.1ed255fe.avif",
+   "assets/img/guides/card-petra-120.83a4e3f6.webp",
+   "assets/img/guides/card-petra-240.937c8166.webp",
+   "assets/img/guides/card-petra-360.45f8b254.webp",
+   "assets/img/guides/card-petra-474.75607861.webp",
+   "assets/img/guides/card-petra-120.b3e754ee.jpg",
+   "assets/img/guides/card-petra-240.4800bb47.jpg",
+   "assets/img/guides/card-petra-360.8693fb49.jpg",
+   "assets/img/guides/card-petra-474.8850c21e.jpg"
   ]
  },
  "guides/deadsea-bethany.jpg": {
@@ -5394,129 +5091,6 @@
    "assets/img/guides/hero-jerash-phone-454.2f9cf008.avif",
    "assets/img/guides/hero-jerash-phone-454.25a082b8.webp",
    "assets/img/guides/hero-jerash-phone-454.d79af4e2.jpg"
-  ]
- },
- "guides/hero-overview.jpg": {
-  "key": "v1:std:04b718a43c280c596c11195403b7ca675884c4c549d08c1678666134831de6d1",
-  "width": 1016,
-  "height": 197,
-  "alpha": false,
-  "hero": false,
-  "variants": {
-   "avif": [
-    {
-     "w": 480,
-     "h": 93,
-     "file": "assets/img/guides/hero-overview-480.9757eac6.avif",
-     "bytes": 11230
-    },
-    {
-     "w": 768,
-     "h": 149,
-     "file": "assets/img/guides/hero-overview-768.e64838a3.avif",
-     "bytes": 25338
-    },
-    {
-     "w": 1016,
-     "h": 197,
-     "file": "assets/img/guides/hero-overview-1016.f8447dba.avif",
-     "bytes": 39334
-    }
-   ],
-   "webp": [
-    {
-     "w": 480,
-     "h": 93,
-     "file": "assets/img/guides/hero-overview-480.2809579f.webp",
-     "bytes": 15350
-    },
-    {
-     "w": 768,
-     "h": 149,
-     "file": "assets/img/guides/hero-overview-768.6b911734.webp",
-     "bytes": 36246
-    },
-    {
-     "w": 1016,
-     "h": 197,
-     "file": "assets/img/guides/hero-overview-1016.95974c80.webp",
-     "bytes": 59336
-    }
-   ],
-   "jpg": [
-    {
-     "w": 480,
-     "h": 93,
-     "file": "assets/img/guides/hero-overview-480.af9d2d1a.jpg",
-     "bytes": 15112
-    },
-    {
-     "w": 768,
-     "h": 149,
-     "file": "assets/img/guides/hero-overview-768.4e6ecb23.jpg",
-     "bytes": 36006
-    },
-    {
-     "w": 1016,
-     "h": 197,
-     "file": "assets/img/guides/hero-overview-1016.3b246426.jpg",
-     "bytes": 58681
-    }
-   ]
-  },
-  "files": [
-   "assets/img/guides/hero-overview-480.9757eac6.avif",
-   "assets/img/guides/hero-overview-768.e64838a3.avif",
-   "assets/img/guides/hero-overview-1016.f8447dba.avif",
-   "assets/img/guides/hero-overview-480.2809579f.webp",
-   "assets/img/guides/hero-overview-768.6b911734.webp",
-   "assets/img/guides/hero-overview-1016.95974c80.webp",
-   "assets/img/guides/hero-overview-480.af9d2d1a.jpg",
-   "assets/img/guides/hero-overview-768.4e6ecb23.jpg",
-   "assets/img/guides/hero-overview-1016.3b246426.jpg"
-  ]
- },
- "guides/hero-overview.jpg#phone": {
-  "key": "v1:crop:{\"name\":\"phone\",\"aspect\":2.0833333333333335,\"x\":0.4,\"y\":0.5,\"widths\":[480],\"q\":{\"avif\":62,\"webp\":80,\"jpg\":82}}:04b718a43c280c596c11195403b7ca675884c4c549d08c1678666134831de6d1",
-  "width": 410,
-  "height": 197,
-  "alpha": false,
-  "crop": {
-   "left": 242,
-   "top": 0,
-   "width": 410,
-   "height": 197
-  },
-  "variants": {
-   "avif": [
-    {
-     "w": 410,
-     "h": 197,
-     "file": "assets/img/guides/hero-overview-phone-410.dbcdf2f2.avif",
-     "bytes": 17885
-    }
-   ],
-   "webp": [
-    {
-     "w": 410,
-     "h": 197,
-     "file": "assets/img/guides/hero-overview-phone-410.91f249a6.webp",
-     "bytes": 24468
-    }
-   ],
-   "jpg": [
-    {
-     "w": 410,
-     "h": 197,
-     "file": "assets/img/guides/hero-overview-phone-410.4bb5e80b.jpg",
-     "bytes": 24650
-    }
-   ]
-  },
-  "files": [
-   "assets/img/guides/hero-overview-phone-410.dbcdf2f2.avif",
-   "assets/img/guides/hero-overview-phone-410.91f249a6.webp",
-   "assets/img/guides/hero-overview-phone-410.4bb5e80b.jpg"
   ]
  },
  "guides/hero-petra.jpg": {

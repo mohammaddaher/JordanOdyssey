@@ -48,8 +48,18 @@ for (const dir of WATCH) {
   });
 }
 
+// The fixed-address redirects from vercel.json, so they can be tried here before a deploy
+function redirectFor(path) {
+  try {
+    const { redirects = [] } = JSON.parse(readFileSync(join(ROOT, 'vercel.json'), 'utf8'));
+    return redirects.find((r) => r.source === path && !/[:(*]/.test(r.source));
+  } catch { return null; }
+}
+
 createServer((req, res) => {
   let path = decodeURIComponent(new URL(req.url, 'http://x').pathname);
+  const r = redirectFor(path);
+  if (r) { res.writeHead(r.statusCode || (r.permanent === false ? 307 : 308), { Location: r.destination }).end(); return; }
   let file = normalize(join(DIST, path));
   if (!file.startsWith(DIST)) { res.writeHead(403).end(); return; }
   if (existsSync(file) && statSync(file).isDirectory()) {

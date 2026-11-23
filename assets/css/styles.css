@@ -756,24 +756,9 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 }
 /* Framing for each photo: the subject sits in the open space between the map and the details */
 .discover-bg[data-place-bg="jerash"] { --pos: 50% 60%; }
-.discover-bg[data-place-bg="amman"] { --pos: 50% 0%; }
+.discover-bg[data-place-bg="amman"] { --pos: 0% 50%; }
 .discover-bg[data-place-bg="dead-sea"] { --pos: 70% 50%; }
-/* Petra on desktop: the Treasury photo extended left and right with matching cliff (petra-wide.jpg),
-   so the whole façade stays sharp at full height in the open space between the map and the details
-   (the two columns sit the same distance from the centre). Phones use the original portrait photo. */
-.discover-bg--wide { display: block; overflow: hidden; }
-.discover-bg--wide img {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 20px);
-  height: 100%;
-  width: auto;
-  min-width: 100%;
-  max-width: none;
-  object-fit: cover;
-  /* the façade's centre is 49.7% across the wide image */
-  transform: translateX(-49.7%);
-}
+.discover-bg[data-place-bg="petra"] { --pos: 100% 50%; }
 .discover-bg[data-place-bg="wadi-rum"] { --pos: 50% 55%; }
 .discover-bg[data-place-bg="aqaba"] { --pos: 50% 62%; }
 .discover-bg.is-active { z-index: 2; opacity: 1; transition: opacity 0.4s ease; }
@@ -1047,16 +1032,9 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   }
   .discover-backdrop::after { background: none; }
   .discover-bg[data-place-bg="jerash"] { --pos: 30% 50%; }
-  .discover-bg[data-place-bg="amman"] { --pos: 46% 50%; }
+  .discover-bg[data-place-bg="amman"] { --pos: 17% 50%; }
   .discover-bg[data-place-bg="dead-sea"] { --pos: 74% 50%; }
-  /* on a phone the original portrait photo simply fills the screen */
-  .discover-bg--wide img {
-    left: 0;
-    width: 100%;
-    object-fit: cover;
-    object-position: 47% 50%;
-    transform: none;
-  }
+  .discover-bg[data-place-bg="petra"] { --pos: 56% 50%; }
   .discover-bg[data-place-bg="wadi-rum"] { --pos: 44% 50%; }
   .discover-bg[data-place-bg="aqaba"] { --pos: 40% 50%; }
 
@@ -1434,6 +1412,14 @@ picture > source { display: none; }
 .dg-hero-lede { margin: 0; font-family: var(--font-body); font-size: clamp(1.25rem, 2.1vw, 2.05rem); line-height: 1.2; }
 .dg-hero--light .dg-hero-lede { color: #3b2620; }
 .dg-hero--dark .dg-hero-title, .dg-hero--dark .dg-hero-lede { text-shadow: 0 1px 10px rgba(0, 0, 0, 0.3); }
+/* Breadcrumb above the place's name (Home / Discover / Place), in the hero's own text colour */
+.dg-crumbs { text-shadow: none; }
+.dg-hero--dark .dg-crumbs { text-shadow: 0 1px 10px rgba(0, 0, 0, 0.45); }
+.dg-crumbs ol { margin-block-end: clamp(10px, 1vw, 16px); color: inherit; }
+.dg-crumbs a { opacity: 0.8; }
+.dg-crumbs a:hover { color: inherit; opacity: 1; text-decoration: underline; }
+.dg-crumbs li:not(:last-child)::after { color: inherit; opacity: 0.45; }
+.dg-crumbs [aria-current] { color: inherit; }
 
 /* Phones and tablets: the clean photo on top at full width, the name and line underneath */
 @media (max-width: 1023px) {

@@ -27,7 +27,9 @@ const Q_HERO = { avif: 70, webp: 84, jpg: 86 };
 const HERO = new Set([
   'photos/hero-petra-treasury.jpg',
   'discover/aqaba.jpg', 'discover/jerash.jpg', 'discover/dead-sea.jpg', 'discover/wadi-rum.jpg',
-  'discover/amman.jpg', 'discover/petra-wide.jpg'
+  'discover/amman.jpg', 'discover/petra-wide.jpg',
+  // the Discover backgrounds for Jerash, Amman and Petra: small photos shown large, so keep every detail
+  'guides/card-jerash.jpg', 'guides/card-amman.jpg', 'guides/card-petra.jpg'
 ]);
 // Phone crops for heroes. On a phone only part of a hero photo is visible, so phones get just that part,
 // cut where the page's own object-position puts it (`x`, `y`), so the framing is identical:

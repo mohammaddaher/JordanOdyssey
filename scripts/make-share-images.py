@@ -20,7 +20,6 @@ MAX_BYTES = 300 * 1024
 SHARE = {
     '*': ('photos/hero-petra-treasury.jpg', (50, 52), 'The Treasury of Petra, carved into a rose-red cliff face', 'default'),
 
-    'destinations/index.html': ('discover/petra-theatre-wide.jpg', (50, 50), 'The theatre and carved tombs of Petra in rose-red sandstone', 'destinations'),
     'destinations/amman.html': ('sights/amman-citadel.jpg', (50, 50), 'The Temple of Hercules on Amman Citadel, above the white houses of the city’s hills', 'destination-amman'),
     'destinations/aqaba.html': ('sights/aqaba-beach.jpg', (50, 55), 'A sandy beach on the turquoise Red Sea coast near Aqaba', 'destination-aqaba'),
     'destinations/dead-sea.html': ('discover/dead-sea-sunset.jpg', (50, 50), 'The sun setting over the Dead Sea, with beach umbrellas on the shore', 'destination-dead-sea'),

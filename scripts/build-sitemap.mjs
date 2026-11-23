@@ -6,7 +6,7 @@
 //   tag or an instant meta-refresh redirect.
 // - Addresses come from scripts/site.mjs, the same place each page's canonical tag comes from:
 //   a language's homepage (/en/index.html) is listed as /en/, other pages keep the address the
-//   site links to (for example /en/destinations/index.html).
+//   site links to (for example /en/travel-guide/index.html).
 // - <lastmod> is the date of the page's last git commit; without git history, the file's modified date.
 // - When the same page exists in /en/ and /ar/, both entries get hreflang alternates
 //   (en, ar, and x-default pointing to the English page).

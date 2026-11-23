@@ -93,7 +93,6 @@ function readProgram(html) {
 
 function kindOf(rel) {
   if (rel === 'index.html') return 'home';
-  if (rel === 'destinations/index.html') return 'destinations';
   if (rel.startsWith('destinations/')) return 'destination';
   if (rel.startsWith('programs/')) return 'program';
   if (rel.startsWith('travel-guide/') && rel !== 'travel-guide/index.html') return 'guide';
@@ -110,16 +109,15 @@ function breadcrumb(lang, rel, page, url) {
   const home = urlFor(lang, 'index.html');
   let items;
   if (page.crumbs.length >= 2) {
-    // the breadcrumb the visitor sees; the last item is this page
-    items = page.crumbs.map((c, i) => ({
-      name: c.name,
-      url: i === page.crumbs.length - 1 ? url : new URL(c.href || '', url).href
-    }));
+    // the breadcrumb the visitor sees; the last item is this page. On destination pages the
+    // visible "Discover" step links to a section of the homepage (/en/#discover); it is left out
+    // of the schema, which lists whole pages only (Home > Place).
+    const last = page.crumbs.length - 1;
+    items = page.crumbs
+      .map((c, i) => ({ name: c.name, url: i === last ? url : new URL(c.href || '', url).href }))
+      .filter((it, i) => i === last || !(rel.startsWith('destinations/') && new URL(it.url).hash));
   } else {
     items = [{ name: 'Home', url: home }];
-    if (rel.startsWith('destinations/') && rel !== 'destinations/index.html') {
-      items.push({ name: 'Destinations', url: urlFor(lang, 'destinations/index.html') });
-    }
     items.push({ name: page.crumbName || page.h1 || page.title.replace(/\s*\|.*$/, ''), url });
   }
   return {
