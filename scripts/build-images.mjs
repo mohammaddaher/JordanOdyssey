@@ -27,10 +27,18 @@ const Q_HERO = { avif: 70, webp: 84, jpg: 86 };
 const HERO = new Set([
   'photos/hero-petra-treasury.jpg',
   'discover/aqaba.jpg', 'discover/jerash.jpg', 'discover/dead-sea.jpg', 'discover/wadi-rum.jpg',
-  'discover/amman.jpg', 'discover/petra-wide.jpg',
-  // the Discover backgrounds for Jerash, Amman and Petra: small photos shown large, so keep every detail
-  'guides/card-jerash.jpg', 'guides/card-amman.jpg', 'guides/card-petra.jpg'
+  'discover/amman.jpg', 'discover/petra-wide.jpg'
 ]);
+// Full-width Discover backgrounds (homepage map) from the owner-supplied originals: a wider ladder up to
+// 2560 px, capped at the photo's own width, and a little more quality, so large screens stay sharp
+const BACKDROP = new Set([
+  'discover/petra-treasury-siq.png', 'discover/jerash-ruins-hills.webp',
+  'discover/amman-citadel-hercules.webp', 'discover/aqaba-bay-flagpole.webp',
+  // the Best time to visit Jordan hero artwork (2169 px wide)
+  'guides/best-time-hero.png'
+]);
+const Q_BACKDROP = { avif: 70, webp: 85, jpg: 85 };
+const BACKDROP_LADDER = [768, 1280, 1600, 2000, 2560];
 // Phone crops for heroes. On a phone only part of a hero photo is visible, so phones get just that part,
 // cut where the page's own object-position puts it (`x`, `y`), so the framing is identical:
 //   portrait  the homepage hero fills a portrait phone's height: a centred vertical slice
@@ -90,7 +98,8 @@ export function usedOriginals() {
 }
 
 /* ---------- Encoding ---------- */
-function widthsFor(w) {
+function widthsFor(w, rel) {
+  if (BACKDROP.has(rel)) return [...BACKDROP_LADDER.filter((x) => x < w * 0.95), w];
   if (w <= 640) return [...SMALL_LADDER.filter((x) => x < w * 0.9), w];
   const list = LADDER.filter((x) => x < w * 0.95);
   list.push(Math.min(w, 2000));
@@ -138,13 +147,14 @@ async function encode(rel, entryOld) {
   const file = join(SRC, rel);
   const buf = readFileSync(file);
   const hero = HERO.has(rel);
-  const key = `${SETTINGS}:${hero ? 'hero' : 'std'}:${sha(buf)}`;
+  const backdrop = BACKDROP.has(rel);
+  const key = `${SETTINGS}:${backdrop ? 'backdrop' : hero ? 'hero' : 'std'}:${sha(buf)}`;
   if (entryOld && entryOld.key === key && entryOld.files.every((f) => existsSync(join(ROOT, f)))) return { entry: entryOld, encoded: 0 };
 
   const meta = await sharp(buf).rotate().metadata();
   const W = meta.autoOrient?.width || meta.width, H = meta.autoOrient?.height || meta.height;
   const alpha = !!meta.hasAlpha && (await sharp(buf).stats()).isOpaque === false;
-  const q = hero ? Q_HERO : Q;
+  const q = backdrop ? Q_BACKDROP : hero ? Q_HERO : Q;
   const formats = alpha ? ['avif', 'webp'] : ['avif', 'webp', 'jpg'];
   const base = rel.replace(extname(rel), '');
   mkdirSync(dirname(join(OUT, rel)), { recursive: true });
@@ -153,7 +163,7 @@ async function encode(rel, entryOld) {
   let encoded = 0;
   for (const fmt of formats) {
     entry.variants[fmt] = [];
-    for (const w of widthsFor(W)) {
+    for (const w of widthsFor(W, rel)) {
       const h = Math.round((H * w) / W);
       let img = sharp(buf).rotate().resize(w, h, { kernel: 'lanczos3' });
       if (fmt === 'avif') img = img.avif({ quality: q.avif, effort: 5, chromaSubsampling: '4:2:0' });

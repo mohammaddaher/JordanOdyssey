@@ -46,6 +46,9 @@ const FONT_PRELOAD = [
   [/^en\/destinations\//, ['eb-garamond-normal-400-latin-core.']],
   // program heroes: the title in Cinzel, the opening line and the price in EB Garamond
   [/^en\/programs\//, ['cinzel-normal-500-latin-core.', 'eb-garamond-normal-400-latin-core.']],
+  // best time to visit Jordan: its own design; only the menu's Cinzel is worth preloading (the title's
+  // Source Serif 4 swaps in from a size-matched fallback; EB Garamond isn't in the first view)
+  [/^en\/travel-guide\/best-time-to-visit-jordan\.html$/, ['cinzel-normal-500-latin-core.']],
   // travel guide: the same hero as the program pages, with EB Garamond text in the first view
   [/^en\/travel-guide\//, ['cinzel-normal-500-latin-core.', 'eb-garamond-normal-400-latin-core.']],
   // the homepage's largest element is its heading, in Cinzel; the opening line below it is in EB Garamond
@@ -184,7 +187,9 @@ function processImages(html, file) {
     out += sources(imgRel, info.sizes) + tag('img', imgA);
     // preload what each screen shows: the sources with a media query; the fallback only when there are none
     if (info.hero) heroes.push({ list: media.length ? media : [{ rel: imgRel, sizes: info.sizes, media: PRELOAD_MEDIA[file] }] });
-    if (/\bdata-defer\b/.test(pAttrs)) out = defer(out);
+    // data-defer: released after the page loads (main.js); data-ondemand: only when a script asks
+    // for it (the Discover backgrounds load when their place is chosen)
+    if (/\bdata-(defer|ondemand)\b/.test(pAttrs)) out = defer(out);
     return `<picture${pAttrs}>${out}</picture>`;
   });
 

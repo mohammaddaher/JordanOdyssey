@@ -754,13 +754,23 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   opacity: 0;
   transition: none;
 }
+/* A <picture> background: the photo fills it, framed by the same --pos */
+picture.discover-bg { display: block; }
+picture.discover-bg > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: var(--pos, 50% 50%);
+}
 /* Framing for each photo: the subject sits in the open space between the map and the details */
-.discover-bg[data-place-bg="jerash"] { --pos: 50% 60%; }
-.discover-bg[data-place-bg="amman"] { --pos: 0% 50%; }
+.discover-bg[data-place-bg="jerash"] { --pos: 50% 50%; }
+.discover-bg[data-place-bg="amman"] { --pos: 50% 55%; }
 .discover-bg[data-place-bg="dead-sea"] { --pos: 70% 50%; }
-.discover-bg[data-place-bg="petra"] { --pos: 100% 50%; }
+.discover-bg[data-place-bg="petra"] { --pos: 50% 60%; }
 .discover-bg[data-place-bg="wadi-rum"] { --pos: 50% 55%; }
-.discover-bg[data-place-bg="aqaba"] { --pos: 50% 62%; }
+.discover-bg[data-place-bg="aqaba"] { --pos: 50% 50%; }
 .discover-bg.is-active { z-index: 2; opacity: 1; transition: opacity 0.4s ease; }
 .discover-bg.is-leaving { z-index: 1; opacity: 1; }
 /* Light shade only behind the details on the right, so the photo stays bright elsewhere */
@@ -979,6 +989,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   text-shadow: 0 2px 24px rgba(0, 0, 0, 0.55);
 }
 .discover-why {
+  text-align: justify;
   max-width: 30em;
   font-size: clamp(1.125rem, 1.5vw, 1.3125rem);
   line-height: 1.5;
@@ -1031,12 +1042,12 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
     height: calc(100svh - var(--header-h));
   }
   .discover-backdrop::after { background: none; }
-  .discover-bg[data-place-bg="jerash"] { --pos: 30% 50%; }
-  .discover-bg[data-place-bg="amman"] { --pos: 17% 50%; }
+  .discover-bg[data-place-bg="jerash"] { --pos: 72% 50%; }
+  .discover-bg[data-place-bg="amman"] { --pos: 4% 50%; }
   .discover-bg[data-place-bg="dead-sea"] { --pos: 74% 50%; }
-  .discover-bg[data-place-bg="petra"] { --pos: 56% 50%; }
+  .discover-bg[data-place-bg="petra"] { --pos: 52% 50%; }
   .discover-bg[data-place-bg="wadi-rum"] { --pos: 44% 50%; }
-  .discover-bg[data-place-bg="aqaba"] { --pos: 40% 50%; }
+  .discover-bg[data-place-bg="aqaba"] { --pos: 36% 50%; }
 
   /* Details: leave the top of the photo clear, then a soft dark card for the text */
   .discover-stories {
@@ -1594,7 +1605,7 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
 .dg-visit-tags svg { flex: none; width: 34px; height: 34px; color: var(--dg-copper); }
 .dg-visit-facts { display: grid; grid-template-columns: 1fr; gap: 14px 40px; margin: 18px 0 0; padding-inline: 4px; }
 .dg-visit-facts dt { font-weight: 700; font-size: 1.0625rem; color: var(--dg-ink); }
-.dg-visit-facts dd { margin: 2px 0 0; font-size: 1rem; line-height: 1.5; color: var(--dg-text); }
+.dg-visit-facts dd {text-align: justify; margin: 2px 0 0; font-size: 1rem; line-height: 1.5; color: var(--dg-text); }
 .dg-visit-note { margin: 14px 4px 0; font-size: 0.9375rem; color: var(--ink-mute); }
 @media (min-width: 700px) { .dg-visit-facts { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (min-width: 1200px) {
@@ -1629,7 +1640,7 @@ a.dg-card-photo:hover img { transform: scale(1.03); }
 @media (min-width: 800px) { .dg-faq-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .dg-faq-item { padding-block-start: 14px; border-block-start: 1px solid rgba(196, 113, 109, 0.75); }
 .dg-faq-q { margin: 0 0 6px; font-family: var(--dg-serif-head); font-weight: 700; font-size: 1.3rem; line-height: 1.25; color: var(--dg-ink); }
-.dg-faq-a { margin: 0; font-size: 1rem; line-height: 1.5; color: var(--dg-text); }
+.dg-faq-a { text-align: justify; margin: 0; font-size: 1rem; line-height: 1.5; color: var(--dg-text); }
 
 /* Previous / next stop: "All destinations" sits in the middle */
 .place-pager-all { white-space: nowrap; }

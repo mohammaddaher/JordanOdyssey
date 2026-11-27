@@ -165,7 +165,7 @@
             "name": "How many days do you need in Jordan?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Five to eight days covers the highlights. Five days fits Amman, Petra, Wadi Rum and the Dead Sea; six or seven add Jerash or a slower pace; eight let you see it all without rushing. See our 5-day Jordan Explorer , 6-day Jordan Delights Tour 1 , 7-day Jordan Discovery Tour and 8-day Grand Jordan Tour ."
+              "text": "Five to eight days covers the highlights. Five days fits Amman, Petra, Wadi Rum and the Dead Sea; six or seven add Jerash or a slower pace; eight let you see it all without rushing. See our 5-day Jordan Explorer, 6-day Jordan Delights Tour 1, 7-day Jordan Discovery Tour and 8-day Grand Jordan Tour."
             }
           }
         ]
@@ -183,6 +183,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Amiri:wght@400&display=swap">
   <link rel="stylesheet" href="../../assets/css/styles.css">
+  <!-- the title's display font (a small subset of Source Serif 4), needed in the first view -->
+  <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/odyssey-hero-serif-600.b029c7f8.woff2" crossorigin>
+  <!-- Source Serif 4 SemiBold at display size (SIL Open Font License), cut to basic Latin and renamed as the
+       licence requires; while it loads, Times New Roman Bold scaled to the same widths keeps the title's line breaks -->
+  <style>@font-face {font-family: "Odyssey Hero Serif"; src: url("/assets/fonts/odyssey-hero-serif-600.b029c7f8.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; unicode-range: U+0020-007E, U+00A0, U+2013-2014, U+2018-2019;} @font-face {font-family: "Odyssey Hero Serif Fallback"; src: local("Times New Roman Bold"), local("TimesNewRomanPS-BoldMT"), local("Liberation Serif Bold"), local("Tinos Bold"); font-weight: 600; size-adjust: 95.12%; ascent-override: 108.91%; descent-override: 35.22%; line-gap-override: 0%;}</style>
+  <link rel="stylesheet" href="../../assets/css/best-time.css">
+  <!-- Without scripts: every month's panel is shown, and the month buttons (which need scripts) are not -->
+  <noscript><style>
+    .bt-page .bt-month-panel[hidden] { display: grid; margin-top: 10px; }
+    .bt-page .bt-tabs { display: none; }
+    @media (max-width: 899px) { .bt-page .bt-month-panel[hidden] { display: block; } }
+  </style></noscript>
   <script>document.documentElement.classList.add('js');</script>
 </head>
 <body id="top">
@@ -217,217 +229,415 @@
     </div>
   </header>
 
-  <main id="main" class="tg-page" data-breadcrumb="Best Time to Visit Jordan" data-published="2026-11-23">
-    <!-- ============ Photo and title ============ -->
-    <section class="place-hero program-hero tg-hero" aria-labelledby="article-title">
-      <img class="place-hero-photo" style="--pos: 50% 26%; --pos-m: 50% 50%" src="../../images-src/sights/petra-monastery.jpg" width="1500" height="1000" alt="The Monastery (Ad Deir) in Petra under a clear blue sky: spring and autumn are the best time to visit Jordan" fetchpriority="high" loading="eager">
-      <div class="container place-hero-inner">
-        <div class="place-hero-copy">
-          <nav class="place-crumbs" aria-label="Breadcrumb">
-            <ol>
-              <li><a href="/en/">Home</a></li>
-              <li><a href="index.html">Travel Guide</a></li>
-              <li><span aria-current="page">Best Time to Visit Jordan</span></li>
-            </ol>
-          </nav>
-          <h1 class="hero-title" id="article-title">Best Time to Visit Jordan</h1>
-          <p class="hero-kicker">Last updated: <time class="tg-updated" datetime="2026-11-23">November 2026</time></p>
-        </div>
+  <main id="main" class="bt-page" data-breadcrumb="Best Time to Visit Jordan" data-published="2026-11-23">
+    <svg class="bt-sprite" aria-hidden="true" focusable="false">
+      <symbol id="bt-i-sun" viewBox="0 0 32 32"><circle cx="16" cy="16" r="6"/><path d="M16 2v4m0 20v4M2 16h4m20 0h4M6 6l3 3m14 14 3 3M6 26l3-3M23 9l3-3"/></symbol>
+      <symbol id="bt-i-mountains" viewBox="0 0 32 32"><path d="m2 27 10-18 7 11 5-7 7 14M8 16l4 3 4-3M21 18l3 2 2-2"/></symbol>
+      <symbol id="bt-i-layers" viewBox="0 0 32 32"><path d="m3 10 13-7 13 7-13 7zM3 16l13 7 13-7M3 22l13 7 13-7"/></symbol>
+      <symbol id="bt-i-leaf" viewBox="0 0 32 32"><path d="M5 27C3 9 13 3 27 4c2 16-7 23-22 23ZM6 26 23 9M12 20v-8m0 8h8"/></symbol>
+      <symbol id="bt-i-snow" viewBox="0 0 32 32"><path d="M16 2v28M4 9l24 14M4 23 28 9M12 5l4 4 4-4M12 27l4-4 4 4M4 14l6-1-1-6M28 18l-6 1 1 6M4 18l6 1-1 6M28 14l-6-1 1-6"/></symbol>
+      <symbol id="bt-i-petra" viewBox="0 0 32 32"><path d="M5 29V10m22 19V10M3 10l13-8 13 8ZM9 29V15h5v14m4 0V15h5v14M2 29h28M8 11h16"/></symbol>
+      <symbol id="bt-i-waves" viewBox="0 0 32 32"><path d="M1 8c6-7 10 7 16 0s10 7 15 0M1 16c6-7 10 7 16 0s10 7 15 0M1 24c6-7 10 7 16 0s10 7 15 0"/></symbol>
+      <symbol id="bt-i-fish" viewBox="0 0 32 32"><path d="M6 16c7-10 17-10 23 0-6 10-16 10-23 0ZM6 16l-5-6v12ZM17 8l5-5v7m-5 14 5 5v-7"/><circle cx="24" cy="14" r="1"/></symbol>
+      <symbol id="bt-i-city" viewBox="0 0 32 32"><path d="M3 29V13h8v16m4 0V3h8v26m4 0V18h4v11M1 29h30M6 18h2m-2 5h2m10-15h2m-2 6h2m-2 6h2"/></symbol>
+      <symbol id="bt-i-chevron" viewBox="0 0 32 32"><path d="m6 12 10 10 10-10"/></symbol>
+      <symbol id="bt-i-arrow" viewBox="0 0 32 32"><path d="M3 16h25m-8-8 8 8-8 8"/></symbol>
+      <symbol id="bt-i-shirt" viewBox="0 0 32 32"><path d="m10 4-8 6 5 7 4-4v16h10V13l4 4 5-7-8-6M10 4c1 7 11 7 12 0"/></symbol>
+      <symbol id="bt-i-hat" viewBox="0 0 32 32"><path d="M8 20c0-17 16-17 16 0M8 17c5 3 11 3 16 0M2 22c0-7 28-7 28 0 0 7-28 7-28 0Z"/></symbol>
+    </svg>
+    <div class="bt-wrap">
+
+    <!-- ============ Title and artwork ============ -->
+    <section class="bt-hero" aria-labelledby="article-title">
+      <div class="bt-collage">
+        <!-- the hero artwork: Jerash, Petra and Wadi Rum in curved frames with the "A year across Jordan" ribbon;
+             the blank cream area on the left holds the title -->
+        <img class="bt-collage-img" src="../../images-src/guides/best-time-hero.png" width="2169" height="725" sizes="(min-width: 1440px) 1440px, 100vw" fetchpriority="high" alt="Roman columns of Jerash among spring flowers, the Treasury carved into the rose-red cliff in Petra, and camels crossing the desert of Wadi Rum at sunset, above a copper ribbon reading A year across Jordan">
+      </div>
+      <div class="bt-hero-copy">
+        <nav class="bt-crumbs" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="/en/">Home</a></li>
+            <li><a href="index.html">Travel Guide</a></li>
+            <li><span aria-current="page">Best Time to Visit Jordan</span></li>
+          </ol>
+        </nav>
+        <h1 class="bt-h1" id="article-title">Best Time to Visit Jordan</h1>
+        <p class="bt-hero-heading">Find your <br>season in <br>Jordan</p>
+        <p class="bt-hero-intro">Choose when to travel, <br>then explore what each <br>season offers.</p>
       </div>
     </section>
 
-    <!-- ============ The article (build-head reads the FAQPage schema from the questions below) ============ -->
-    <div class="tg-body">
-      <div class="container tg-layout">
-        <nav class="tg-toc" aria-labelledby="toc-title">
-          <p class="tg-toc-title" id="toc-title">On this page</p>
-          <ol>
-            <li><a href="#seasons">The seasons at a glance</a></li>
-            <li><a href="#by-month">Jordan weather by month</a></li>
-            <li><a href="#destinations">Petra, Wadi Rum and more</a></li>
-            <li><a href="#from-the-uae">Visiting from the UAE</a></li>
-            <li><a href="#ramadan">Ramadan and Eid</a></li>
-            <li><a href="#packing">What to pack</a></li>
-            <li><a href="#questions">Questions</a></li>
-          </ol>
-        </nav>
+    <div class="bt-content">
 
-        <article class="tg-article">
-          <div class="tg-answer">
-            <p>The best time to visit Jordan is spring (March to May) and autumn (late September to November): warm days, cool evenings and ideal conditions for Petra and Wadi Rum. Winter suits the Dead Sea and Aqaba; summer is very hot inland, so plan early starts.</p>
+      <!-- ============ The short answer ============ -->
+      <section class="bt-intro" aria-label="The short answer">
+        <p class="bt-answer">The best time to visit Jordan is spring (March to May) and autumn (late September to November): warm days, cool evenings and ideal conditions for Petra and Wadi Rum. Winter suits the Dead Sea and Aqaba; summer is very hot inland, so plan early starts.</p>
+      </section>
+
+      <!-- ============ Month by month: one tab per month; every month's text is in the page ============ -->
+      <section class="bt-months" id="by-month" aria-labelledby="by-month-title">
+        <div class="bt-month-nav">
+          <h2 id="by-month-title">Jordan weather by month</h2>
+          <p class="bt-sr" id="by-month-desc">Jordan weather, crowds and the best places to visit, month by month</p>
+          <div class="bt-tabs" role="tablist" aria-labelledby="by-month-title" aria-describedby="by-month-desc" data-month-tabs>
+            <button class="bt-tab" type="button" role="tab" id="tab-jan" aria-controls="month-jan" aria-selected="false" tabindex="-1" aria-label="January">Jan</button>
+            <button class="bt-tab" type="button" role="tab" id="tab-feb" aria-controls="month-feb" aria-selected="false" tabindex="-1" aria-label="February">Feb</button>
+            <button class="bt-tab bt-tab--best" type="button" role="tab" id="tab-mar" aria-controls="month-mar" aria-selected="false" tabindex="-1" aria-label="March">Mar</button>
+            <button class="bt-tab bt-tab--best" type="button" role="tab" id="tab-apr" aria-controls="month-apr" aria-selected="false" tabindex="-1" aria-label="April">Apr</button>
+            <button class="bt-tab bt-tab--best" type="button" role="tab" id="tab-may" aria-controls="month-may" aria-selected="false" tabindex="-1" aria-label="May">May</button>
+            <button class="bt-tab" type="button" role="tab" id="tab-jun" aria-controls="month-jun" aria-selected="false" tabindex="-1" aria-label="June">Jun</button>
+            <button class="bt-tab" type="button" role="tab" id="tab-jul" aria-controls="month-jul" aria-selected="false" tabindex="-1" aria-label="July">Jul</button>
+            <button class="bt-tab" type="button" role="tab" id="tab-aug" aria-controls="month-aug" aria-selected="false" tabindex="-1" aria-label="August">Aug</button>
+            <button class="bt-tab bt-tab--best" type="button" role="tab" id="tab-sep" aria-controls="month-sep" aria-selected="false" tabindex="-1" aria-label="September">Sep</button>
+            <button class="bt-tab bt-tab--best" type="button" role="tab" id="tab-oct" aria-controls="month-oct" aria-selected="false" tabindex="-1" aria-label="October">Oct</button>
+            <button class="bt-tab bt-tab--best" type="button" role="tab" id="tab-nov" aria-controls="month-nov" aria-selected="true" tabindex="0" aria-label="November">Nov</button>
+            <button class="bt-tab" type="button" role="tab" id="tab-dec" aria-controls="month-dec" aria-selected="false" tabindex="-1" aria-label="December">Dec</button>
           </div>
-          <p>Jordan is a small country, but its weather changes a lot from place to place. Amman and Petra sit high in the hills, while the Dead Sea lies at the lowest point on Earth and Aqaba sits on the Red Sea. On the same day, you can need a jacket in Petra and swimwear at the Dead Sea. This guide explains when to visit Jordan season by season and month by month, with tips for each destination and for families travelling from the UAE and the Gulf.</p>
-
-          <section class="tg-section" id="seasons" aria-labelledby="seasons-title">
-            <h2 class="tg-h2" id="seasons-title">When to visit Jordan: the seasons at a glance</h2>
-            <div class="tg-seasons">
-              <section class="tg-season" aria-labelledby="spring-title">
-                <h3 class="tg-h3" id="spring-title">Jordan in spring <span>March to May</span></h3>
-                <p>The best all-round season. Days are warm and evenings are cool, the hills in the north turn green and wildflowers bloom, and walking in Petra is comfortable. It is also the busiest time of year, so book hotels and desert camps early.</p>
-              </section>
-              <section class="tg-season" aria-labelledby="summer-title">
-                <h3 class="tg-h3" id="summer-title">Jordan in summer <span>June to August</span></h3>
-                <p>Hot, especially in Wadi Rum, at the Dead Sea and in Aqaba, where days are often above 40°C. Amman, in the hills, is milder. Be at Petra’s gate at opening time and rest in the middle of the day. The warm Red Sea makes it a good season for snorkelling in Aqaba.</p>
-              </section>
-              <section class="tg-season" aria-labelledby="autumn-title">
-                <h3 class="tg-h3" id="autumn-title">Jordan in autumn <span>September to November</span></h3>
-                <p>Excellent weather, with warm days, cooler nights and fewer crowds than in spring. The heat eases from late September, and the desert becomes comfortable again for the 4×4 tours and nights at camp.</p>
-              </section>
-              <section class="tg-season" aria-labelledby="winter-title">
-                <h3 class="tg-h3" id="winter-title">Jordan in winter <span>December to February</span></h3>
-                <p>Cold and sometimes rainy in Amman and Petra, with occasional snow at higher altitude. Days are short, so plan fewer stops each day. The Dead Sea and Aqaba stay mild and sunny, and the main sites are quieter.</p>
-              </section>
+        </div>
+        <div class="bt-month-panels">
+          <div class="bt-month-panel" role="tabpanel" id="month-jan" aria-labelledby="tab-jan" tabindex="0" hidden>
+            <picture data-defer><img class="bt-month-photo" src="../../images-src/discover/dead-sea.jpg" width="2000" height="960" sizes="(min-width: 1440px) 620px, (min-width: 900px) 43vw, 100vw" loading="lazy" alt="Swimmers floating on the still water of the Dead Sea"></picture>
+            <div class="bt-month-name" data-long>
+              <h3>January</h3>
+              <svg class="bt-month-underline" viewBox="0 0 104 25" aria-hidden="true" focusable="false"><path d="M4 18C22 9 46 5 72 7c11 1 20 3 28 6"/><path d="M14 20c18-6 38-8 60-6" opacity=".55"/></svg>
             </div>
-          </section>
-
-          <section class="tg-section" id="by-month" aria-labelledby="by-month-title">
-            <h2 class="tg-h2" id="by-month-title">Jordan weather by month</h2>
-            <p>A general picture of each month across the country. Conditions vary from year to year, and the highlands are always cooler than the Dead Sea, the Jordan Valley and Aqaba.</p>
-            <table class="tg-months">
-              <caption class="tg-visually-hidden">Jordan weather, crowds and the best places to visit, month by month</caption>
-              <thead>
-                <tr><th scope="col">Month</th><th scope="col">Weather</th><th scope="col">Crowds</th><th scope="col">Best for</th></tr>
-              </thead>
-              <tbody>
-                <tr><th scope="row">January</th><td data-label="Weather">Cold in Amman and Petra, with rain possible; mild at the Dead Sea and Aqaba</td><td data-label="Crowds">Quiet</td><td data-label="Best for">The Dead Sea, Aqaba, quiet sites</td></tr>
-                <tr><th scope="row">February</th><td data-label="Weather">Cold mornings, slowly warming; rain possible in the hills</td><td data-label="Crowds">Quiet</td><td data-label="Best for">The Dead Sea, Aqaba, Petra without the crowds</td></tr>
-                <tr><th scope="row">March</th><td data-label="Weather">Mild and fresh; green hills and wildflowers in the north</td><td data-label="Crowds">Getting busier</td><td data-label="Best for">Jerash, Amman, Petra</td></tr>
-                <tr><th scope="row">April</th><td data-label="Weather">Warm days and cool evenings</td><td data-label="Crowds">Busy</td><td data-label="Best for">Petra, Wadi Rum, walking</td></tr>
-                <tr><th scope="row">May</th><td data-label="Weather">Warm, turning hot by the end of the month</td><td data-label="Crowds">Busy</td><td data-label="Best for">Petra early in the day, Wadi Rum</td></tr>
-                <tr><th scope="row">June</th><td data-label="Weather">Hot, and very hot in the desert and the Jordan Valley</td><td data-label="Crowds">Quieter</td><td data-label="Best for">Aqaba’s reef, Amman’s evenings</td></tr>
-                <tr><th scope="row">July</th><td data-label="Weather">The hottest time of year; Amman is milder</td><td data-label="Crowds">Quieter at Petra and Wadi Rum</td><td data-label="Best for">Snorkelling in Aqaba, early-morning visits</td></tr>
-                <tr><th scope="row">August</th><td data-label="Weather">Very hot, like July</td><td data-label="Crowds">Quieter at Petra and Wadi Rum</td><td data-label="Best for">Snorkelling in Aqaba, Amman and the north</td></tr>
-                <tr><th scope="row">September</th><td data-label="Weather">Hot at first, easing late in the month</td><td data-label="Crowds">Moderate</td><td data-label="Best for">Aqaba, the Dead Sea, Petra late in the month</td></tr>
-                <tr><th scope="row">October</th><td data-label="Weather">Warm days and pleasant nights</td><td data-label="Crowds">Busy</td><td data-label="Best for">Petra, Wadi Rum, a full tour of the country</td></tr>
-                <tr><th scope="row">November</th><td data-label="Weather">Mild days, cooler nights; the first rain is possible</td><td data-label="Crowds">Moderate</td><td data-label="Best for">Petra, Wadi Rum, Jerash</td></tr>
-                <tr><th scope="row">December</th><td data-label="Weather">Cool to cold, with short days; mild at the Dead Sea and Aqaba</td><td data-label="Crowds">Quiet</td><td data-label="Best for">The Dead Sea, Aqaba</td></tr>
-              </tbody>
-            </table>
-            <p class="tg-note">Crowds also rise over Eid and school holidays, whose dates change every year.</p>
-          </section>
-
-          <section class="tg-section" id="destinations" aria-labelledby="destinations-title">
-            <h2 class="tg-h2" id="destinations-title">Best time to visit Petra, Wadi Rum and other destinations</h2>
-            <p>Each part of Jordan has its own best season. If your trip covers several places, spring and autumn suit them all.</p>
-            <div class="tg-places">
-              <section class="tg-place" aria-labelledby="when-petra">
-                <h3 class="tg-h3" id="when-petra"><a href="../destinations/petra.html">Petra</a></h3>
-                <p>The best time to visit Petra is spring or autumn, when the long walks through the Siq and up to the Monastery are comfortable. Winter mornings can be cold, and summer middays are hot, with little shade.</p>
-                <p class="tg-tip"><b>Tip:</b> be at the gate when it opens, before the Siq gets busy, and save the climb to the Monastery for the cooler hours.</p>
-              </section>
-              <section class="tg-place" aria-labelledby="when-wadi-rum">
-                <h3 class="tg-h3" id="when-wadi-rum"><a href="../destinations/wadi-rum.html">Wadi Rum</a></h3>
-                <p>The best time to visit Wadi Rum is spring or autumn, with clear days for the 4×4 ride and comfortable evenings at camp. Winter days are often pleasant, but the nights are cold.</p>
-                <p class="tg-tip"><b>Tip:</b> in summer, tours run in the early morning and from late afternoon into sunset. Bring a warm layer for the night in any season.</p>
-              </section>
-              <section class="tg-place" aria-labelledby="when-dead-sea">
-                <h3 class="tg-h3" id="when-dead-sea"><a href="../destinations/dead-sea.html">The Dead Sea</a></h3>
-                <p>From autumn to spring. In winter, the shore is much warmer than Amman or Petra, which makes it a good winter stop. Summer here is very hot.</p>
-                <p class="tg-tip"><b>Tip:</b> in the warmer months, float early in the morning or late in the afternoon and drink plenty of water.</p>
-              </section>
-              <section class="tg-place" aria-labelledby="when-aqaba">
-                <h3 class="tg-h3" id="when-aqaba"><a href="../destinations/aqaba.html">Aqaba</a></h3>
-                <p>Good for most of the year. Spring and autumn bring warm water and comfortable days, and winter is mild, with pleasant middays on the beach. Summer is very hot on land but good for time in the water.</p>
-                <p class="tg-tip"><b>Tip:</b> in summer, plan snorkelling and swimming for the morning or late afternoon.</p>
-              </section>
-              <section class="tg-place" aria-labelledby="when-amman-jerash">
-                <h3 class="tg-h3" id="when-amman-jerash"><a href="../destinations/amman.html">Amman</a> &amp; <a href="../destinations/jerash.html">Jerash</a></h3>
-                <p>Spring is lovely in the north, with green hills around Jerash, and autumn is just as pleasant. In summer, Amman is milder than the rest of the country and its evenings are lively. Winter brings cold and rain.</p>
-                <p class="tg-tip"><b>Tip:</b> visit Jerash in the morning. The site is large and has little shade.</p>
-              </section>
-            </div>
-          </section>
-
-          <section class="tg-section" id="from-the-uae" aria-labelledby="uae-title">
-            <h2 class="tg-h2" id="uae-title">Visiting Jordan from Dubai and the UAE</h2>
-            <p>A Jordan trip from Dubai or anywhere in the UAE is easy to fit into a short break: flights to Amman are short, so a long weekend can cover Amman and the Dead Sea, and a school break leaves time for Petra and Wadi Rum as well.</p>
-            <ul class="tg-list">
-              <li><b>Winter and spring breaks</b> are a good time for the Dead Sea and Aqaba, which stay warm. Petra and Amman can be much colder than the Gulf, so pack warm layers for the mornings and evenings.</li>
-              <li><b>In summer,</b> Amman and the north are cooler than the Gulf, which makes the capital, Jerash and the hills a pleasant escape. Petra and Wadi Rum are still hot, so plan early starts and fewer stops each day.</li>
-              <li><b>Eid is peak time</b> for travel in the region. Hotels at the Dead Sea and in Aqaba fill up, so book early.</li>
+            <ul class="bt-month-facts">
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-sun"></use></svg><span><span class="bt-sr">Weather: </span>Cold in Amman and Petra, with rain possible; mild at the Dead Sea and Aqaba</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-mountains"></use></svg><span>Best for: The Dead Sea, Aqaba, quiet sites</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-layers"></use></svg><span>Crowds: Quiet</span></li>
             </ul>
-          </section>
+          </div>
+          <div class="bt-month-panel" role="tabpanel" id="month-feb" aria-labelledby="tab-feb" tabindex="0" hidden>
+            <picture data-defer><img class="bt-month-photo" src="../../images-src/discover/aqaba-bay-flagpole.webp" width="1290" height="670" sizes="(min-width: 1440px) 620px, (min-width: 900px) 43vw, 100vw" loading="lazy" alt="Aqaba’s palm-lined beach and the Gulf of Aqaba, with the flagpole and mountains behind"></picture>
+            <div class="bt-month-name" data-long>
+              <h3>February</h3>
+              <svg class="bt-month-underline" viewBox="0 0 104 25" aria-hidden="true" focusable="false"><path d="M4 18C22 9 46 5 72 7c11 1 20 3 28 6"/><path d="M14 20c18-6 38-8 60-6" opacity=".55"/></svg>
+            </div>
+            <ul class="bt-month-facts">
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-sun"></use></svg><span><span class="bt-sr">Weather: </span>Cold mornings, slowly warming; rain possible in the hills</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-mountains"></use></svg><span>Best for: The Dead Sea, Aqaba, Petra without the crowds</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-layers"></use></svg><span>Crowds: Quiet</span></li>
+            </ul>
+          </div>
+          <div class="bt-month-panel" role="tabpanel" id="month-mar" aria-labelledby="tab-mar" tabindex="0" hidden>
+            <picture data-defer><img class="bt-month-photo" src="../../images-src/discover/jerash-ruins-hills.webp" width="1920" height="1080" sizes="(min-width: 1440px) 620px, (min-width: 900px) 43vw, 100vw" loading="lazy" alt="Roman columns and ruins of Jerash on green spring hills"></picture>
+            <div class="bt-month-name">
+              <h3>March</h3>
+              <svg class="bt-month-underline" viewBox="0 0 104 25" aria-hidden="true" focusable="false"><path d="M4 18C22 9 46 5 72 7c11 1 20 3 28 6"/><path d="M14 20c18-6 38-8 60-6" opacity=".55"/></svg>
+            </div>
+            <ul class="bt-month-facts">
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-sun"></use></svg><span><span class="bt-sr">Weather: </span>Mild and fresh; green hills and wildflowers in the north</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-mountains"></use></svg><span>Best for: Jerash, Amman, Petra</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-layers"></use></svg><span>Crowds: Getting busier</span></li>
+            </ul>
+          </div>
+          <div class="bt-month-panel" role="tabpanel" id="month-apr" aria-labelledby="tab-apr" tabindex="0" hidden>
+            <picture data-defer><img class="bt-month-photo" src="../../images-src/discover/wadi-rum.jpg" width="2000" height="1500" sizes="(min-width: 1440px) 620px, (min-width: 900px) 43vw, 100vw" loading="lazy" alt="Sandstone mountains rising from the red sand of Wadi Rum"></picture>
+            <div class="bt-month-name">
+              <h3>April</h3>
+              <svg class="bt-month-underline" viewBox="0 0 104 25" aria-hidden="true" focusable="false"><path d="M4 18C22 9 46 5 72 7c11 1 20 3 28 6"/><path d="M14 20c18-6 38-8 60-6" opacity=".55"/></svg>
+            </div>
+            <ul class="bt-month-facts">
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-sun"></use></svg><span><span class="bt-sr">Weather: </span>Warm days and cool evenings</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-mountains"></use></svg><span>Best for: Petra, Wadi Rum, walking</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-layers"></use></svg><span>Crowds: Busy</span></li>
+            </ul>
+          </div>
+          <div class="bt-month-panel" role="tabpanel" id="month-may" aria-labelledby="tab-may" tabindex="0" hidden>
+            <picture data-defer><img class="bt-month-photo" src="../../images-src/discover/petra-treasury-siq.png" width="2071" height="1381" sizes="(min-width: 1440px) 620px, (min-width: 900px) 43vw, 100vw" loading="lazy" alt="The Treasury (Al-Khazneh) carved into the rose-red cliff in Petra"></picture>
+            <div class="bt-month-name">
+              <h3>May</h3>
+              <svg class="bt-month-underline" viewBox="0 0 104 25" aria-hidden="true" focusable="false"><path d="M4 18C22 9 46 5 72 7c11 1 20 3 28 6"/><path d="M14 20c18-6 38-8 60-6" opacity=".55"/></svg>
+            </div>
+            <ul class="bt-month-facts">
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-sun"></use></svg><span><span class="bt-sr">Weather: </span>Warm, turning hot by the end of the month</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-mountains"></use></svg><span>Best for: Petra early in the day, Wadi Rum</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-layers"></use></svg><span>Crowds: Busy</span></li>
+            </ul>
+          </div>
+          <div class="bt-month-panel" role="tabpanel" id="month-jun" aria-labelledby="tab-jun" tabindex="0" hidden>
+            <picture data-defer><img class="bt-month-photo" src="../../images-src/sights/aqaba-snorkelling.jpg" width="1740" height="979" sizes="(min-width: 1440px) 620px, (min-width: 900px) 43vw, 100vw" loading="lazy" alt="Red coral and reef fish in the Red Sea off Aqaba"></picture>
+            <div class="bt-month-name">
+              <h3>June</h3>
+              <svg class="bt-month-underline" viewBox="0 0 104 25" aria-hidden="true" focusable="false"><path d="M4 18C22 9 46 5 72 7c11 1 20 3 28 6"/><path d="M14 20c18-6 38-8 60-6" opacity=".55"/></svg>
+            </div>
+            <ul class="bt-month-facts">
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-sun"></use></svg><span><span class="bt-sr">Weather: </span>Hot, and very hot in the desert and the Jordan Valley</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-mountains"></use></svg><span>Best for: Aqaba’s reef, Amman’s evenings</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-layers"></use></svg><span>Crowds: Quieter</span></li>
+            </ul>
+          </div>
+          <div class="bt-month-panel" role="tabpanel" id="month-jul" aria-labelledby="tab-jul" tabindex="0" hidden>
+            <picture data-defer><img class="bt-month-photo" src="../../images-src/sights/aqaba-diving.jpg" width="1500" height="1000" sizes="(min-width: 1440px) 620px, (min-width: 900px) 43vw, 100vw" loading="lazy" alt="A lionfish over the coral reef off Aqaba"></picture>
+            <div class="bt-month-name">
+              <h3>July</h3>
+              <svg class="bt-month-underline" viewBox="0 0 104 25" aria-hidden="true" focusable="false"><path d="M4 18C22 9 46 5 72 7c11 1 20 3 28 6"/><path d="M14 20c18-6 38-8 60-6" opacity=".55"/></svg>
+            </div>
+            <ul class="bt-month-facts">
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-sun"></use></svg><span><span class="bt-sr">Weather: </span>The hottest time of year; Amman is milder</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-mountains"></use></svg><span>Best for: Snorkelling in Aqaba, early-morning visits</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-layers"></use></svg><span>Crowds: Quieter at Petra and Wadi Rum</span></li>
+            </ul>
+          </div>
+          <div class="bt-month-panel" role="tabpanel" id="month-aug" aria-labelledby="tab-aug" tabindex="0" hidden>
+            <picture data-defer><img class="bt-month-photo" src="../../images-src/discover/amman-citadel-hercules.webp" width="1600" height="1200" sizes="(min-width: 1440px) 620px, (min-width: 900px) 43vw, 100vw" loading="lazy" alt="The Temple of Hercules on Amman’s Citadel, above the city’s hillside houses"></picture>
+            <div class="bt-month-name">
+              <h3>August</h3>
+              <svg class="bt-month-underline" viewBox="0 0 104 25" aria-hidden="true" focusable="false"><path d="M4 18C22 9 46 5 72 7c11 1 20 3 28 6"/><path d="M14 20c18-6 38-8 60-6" opacity=".55"/></svg>
+            </div>
+            <ul class="bt-month-facts">
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-sun"></use></svg><span><span class="bt-sr">Weather: </span>Very hot, like July</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-mountains"></use></svg><span>Best for: Snorkelling in Aqaba, Amman and the north</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-layers"></use></svg><span>Crowds: Quieter at Petra and Wadi Rum</span></li>
+            </ul>
+          </div>
+          <div class="bt-month-panel" role="tabpanel" id="month-sep" aria-labelledby="tab-sep" tabindex="0" hidden>
+            <picture data-defer><img class="bt-month-photo" src="../../images-src/discover/dead-sea-sunset.jpg" width="2400" height="1350" sizes="(min-width: 1440px) 620px, (min-width: 900px) 43vw, 100vw" loading="lazy" alt="The sun setting over the Dead Sea"></picture>
+            <div class="bt-month-name" data-long>
+              <h3>September</h3>
+              <svg class="bt-month-underline" viewBox="0 0 104 25" aria-hidden="true" focusable="false"><path d="M4 18C22 9 46 5 72 7c11 1 20 3 28 6"/><path d="M14 20c18-6 38-8 60-6" opacity=".55"/></svg>
+            </div>
+            <ul class="bt-month-facts">
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-sun"></use></svg><span><span class="bt-sr">Weather: </span>Hot at first, easing late in the month</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-mountains"></use></svg><span>Best for: Aqaba, the Dead Sea, Petra late in the month</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-layers"></use></svg><span>Crowds: Moderate</span></li>
+            </ul>
+          </div>
+          <div class="bt-month-panel" role="tabpanel" id="month-oct" aria-labelledby="tab-oct" tabindex="0" hidden>
+            <picture data-defer><img class="bt-month-photo" src="../../images-src/sights/petra-monastery.jpg" width="1500" height="1000" sizes="(min-width: 1440px) 620px, (min-width: 900px) 43vw, 100vw" loading="lazy" alt="The Monastery (Ad Deir), carved into the mountainside above Petra"></picture>
+            <div class="bt-month-name" data-long>
+              <h3>October</h3>
+              <svg class="bt-month-underline" viewBox="0 0 104 25" aria-hidden="true" focusable="false"><path d="M4 18C22 9 46 5 72 7c11 1 20 3 28 6"/><path d="M14 20c18-6 38-8 60-6" opacity=".55"/></svg>
+            </div>
+            <ul class="bt-month-facts">
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-sun"></use></svg><span><span class="bt-sr">Weather: </span>Warm days and pleasant nights</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-mountains"></use></svg><span>Best for: Petra, Wadi Rum, a full tour of the country</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-layers"></use></svg><span>Crowds: Busy</span></li>
+            </ul>
+          </div>
+          <div class="bt-month-panel" role="tabpanel" id="month-nov" aria-labelledby="tab-nov" tabindex="0">
+            <picture data-defer><img class="bt-month-photo" src="../../images-src/sights/jerash-oval-plaza.jpg" width="1500" height="1000" sizes="(min-width: 1440px) 620px, (min-width: 900px) 43vw, 100vw" loading="lazy" alt="The colonnaded Oval Plaza of Roman Jerash"></picture>
+            <div class="bt-month-name" data-long>
+              <h3>November</h3>
+              <svg class="bt-month-underline" viewBox="0 0 104 25" aria-hidden="true" focusable="false"><path d="M4 18C22 9 46 5 72 7c11 1 20 3 28 6"/><path d="M14 20c18-6 38-8 60-6" opacity=".55"/></svg>
+            </div>
+            <ul class="bt-month-facts">
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-sun"></use></svg><span><span class="bt-sr">Weather: </span>Mild days, cooler nights; the first rain is possible</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-mountains"></use></svg><span>Best for: Petra, Wadi Rum, Jerash</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-layers"></use></svg><span>Crowds: Moderate</span></li>
+            </ul>
+          </div>
+          <div class="bt-month-panel" role="tabpanel" id="month-dec" aria-labelledby="tab-dec" tabindex="0" hidden>
+            <picture data-defer><img class="bt-month-photo" src="../../images-src/discover/aqaba.jpg" width="2000" height="1339" sizes="(min-width: 1440px) 620px, (min-width: 900px) 43vw, 100vw" loading="lazy" alt="The Gulf of Aqaba at dusk, with the flagpole and the mountains behind"></picture>
+            <div class="bt-month-name" data-long>
+              <h3>December</h3>
+              <svg class="bt-month-underline" viewBox="0 0 104 25" aria-hidden="true" focusable="false"><path d="M4 18C22 9 46 5 72 7c11 1 20 3 28 6"/><path d="M14 20c18-6 38-8 60-6" opacity=".55"/></svg>
+            </div>
+            <ul class="bt-month-facts">
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-sun"></use></svg><span><span class="bt-sr">Weather: </span>Cool to cold, with short days; mild at the Dead Sea and Aqaba</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-mountains"></use></svg><span>Best for: The Dead Sea, Aqaba</span></li>
+              <li><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-layers"></use></svg><span>Crowds: Quiet</span></li>
+            </ul>
+          </div>
+        </div>
+        <script>
+          // Show this month's panel before the page is drawn (best-time.js adds the controls)
+          (function () {
+            var ids = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+            var now = ids[new Date().getMonth()];
+            ids.forEach(function (id) {
+              var tab = document.getElementById('tab-' + id), panel = document.getElementById('month-' + id);
+              tab.setAttribute('aria-selected', String(id === now));
+              tab.tabIndex = id === now ? 0 : -1;
+              panel.hidden = id !== now;
+            });
+          })();
+        </script>
+      </section>
 
-          <section class="tg-section" id="ramadan" aria-labelledby="ramadan-title">
-            <h2 class="tg-h2" id="ramadan-title">Visiting Jordan in Ramadan and Eid</h2>
-            <p>Travelling to Jordan in Ramadan is easy, and the evenings have a special atmosphere. The main sites stay open. Some restaurants close during daylight hours, especially outside hotels and tourist areas, so plan where to stop for lunch, and avoid eating or drinking in public in the daytime. After sunset, families gather for iftar and the streets come to life.</p>
-            <p>Eid, at the end of Ramadan, is one of the busiest times of year: many families travel, and the Dead Sea and Aqaba are especially popular. Ramadan and Eid follow the lunar calendar, so their dates move earlier each year. Check them when you choose your dates.</p>
-          </section>
-
-          <section class="tg-section" id="packing" aria-labelledby="packing-title">
-            <h2 class="tg-h2" id="packing-title">What to pack for Jordan in each season</h2>
-            <div class="tg-packing">
-              <section class="tg-pack" aria-labelledby="pack-spring">
-                <h3 class="tg-h3" id="pack-spring">Spring and autumn</h3>
-                <ul>
-                  <li>Light layers for warm days and cool evenings</li>
-                  <li>A warm jacket for the night in Wadi Rum</li>
-                  <li>Walking shoes with good grip</li>
-                  <li>A sun hat, sunglasses and sunscreen</li>
-                </ul>
-              </section>
-              <section class="tg-pack" aria-labelledby="pack-summer">
-                <h3 class="tg-h3" id="pack-summer">Summer</h3>
-                <ul>
-                  <li>Light, loose clothes that cover the shoulders and knees</li>
-                  <li>A wide-brimmed hat and high-factor sunscreen</li>
-                  <li>A refillable water bottle</li>
-                  <li>Water shoes for Aqaba and the Dead Sea</li>
-                </ul>
-              </section>
-              <section class="tg-pack" aria-labelledby="pack-winter">
-                <h3 class="tg-h3" id="pack-winter">Winter</h3>
-                <ul>
-                  <li>A warm coat, a jumper and a waterproof layer</li>
-                  <li>Closed shoes with good grip for wet paths</li>
-                  <li>A hat and gloves for cold mornings</li>
-                  <li>Swimwear for the Dead Sea and Aqaba</li>
-                </ul>
-              </section>
+      <!-- ============ The seasons ============ -->
+      <section class="bt-seasons" id="seasons" aria-labelledby="seasons-title">
+        <div class="bt-heading-row">
+          <h2 class="bt-h2" id="seasons-title">When to visit Jordan: the seasons at a glance</h2>
+          <svg class="bt-flourish" viewBox="0 0 138 24" aria-hidden="true" focusable="false"><path d="M3 14C24 5 42 4 62 10s38 9 56 3c6-2 12-4 17-5"/><path d="M40 16c14 3 30 3 44-1" opacity=".5"/></svg>
+        </div>
+         <div class="bt-season-grid">
+          <section class="bt-season" aria-labelledby="spring-title">
+            <picture data-defer><img src="../../images-src/discover/jerash-ruins-hills.webp" width="1920" height="1080" sizes="(min-width: 1440px) 350px, (min-width: 900px) 24vw, (min-width: 601px) 50vw, 100vw" loading="lazy" alt="Roman columns and ruins of Jerash on green spring hills"></picture>
+            <div class="bt-season-copy">
+              <h3 id="spring-title">Jordan in spring</h3>
+              <p class="bt-season-dates">March to May</p>
+              <p>
+  Warm days, cool evenings and wildflowers make spring a popular
+  time to explore Jordan. Discover green northern landscapes,
+  walk through Petra and enjoy the desert. Book busy periods
+  early. Bring a light jacket for cooler evenings.
+</p>
             </div>
           </section>
-
-          <section class="tg-section tg-faq" id="questions" aria-labelledby="questions-title">
-            <h2 class="tg-h2" id="questions-title">Best time to visit Jordan: frequently asked questions</h2>
-            <div class="dg-faq-list tg-faq-list">
-              <div class="dg-faq-item">
-                <h3 class="dg-faq-q">What is the hottest month in Jordan?</h3>
-                <p class="dg-faq-a">July and August are usually the hottest months. The heat is strongest in Wadi Rum, at the Dead Sea and in Aqaba, while Amman and the highlands are milder.</p>
-              </div>
-              <div class="dg-faq-item">
-                <h3 class="dg-faq-q">Is Jordan good to visit in winter?</h3>
-                <p class="dg-faq-a">Yes, especially for the Dead Sea and Aqaba, which stay mild and sunny. Amman and Petra are cold and sometimes rainy, and the days are short, but the main sites are quieter. Bring warm layers.</p>
-              </div>
-              <div class="dg-faq-item">
-                <h3 class="dg-faq-q">Can you visit Petra in summer?</h3>
-                <p class="dg-faq-a">Yes, with some planning. Arrive at opening time, walk in the morning, rest in the middle of the day and return in the late afternoon. Carry plenty of water, wear a hat and climb to the Monastery early.</p>
-              </div>
-              <div class="dg-faq-item">
-                <h3 class="dg-faq-q">When is the best time to visit Jordan with kids?</h3>
-                <p class="dg-faq-a">Spring and autumn school holidays are ideal: the weather suits walking in Petra and a night at a desert camp in Wadi Rum. Winter breaks are good for the Dead Sea and Aqaba. Summer works with early starts and afternoons at the pool or the beach.</p>
-              </div>
-              <div class="dg-faq-item">
-                <h3 class="dg-faq-q">How many days do you need in Jordan?</h3>
-                <p class="dg-faq-a">Five to eight days covers the highlights. Five days fits Amman, Petra, Wadi Rum and the Dead Sea; six or seven add Jerash or a slower pace; eight let you see it all without rushing. See our <a href="../programs/jordan-explorer.html">5-day Jordan Explorer</a>, <a href="../programs/jordan-delights-1.html">6-day Jordan Delights Tour 1</a>, <a href="../programs/jordan-discovery.html">7-day Jordan Discovery Tour</a> and <a href="../programs/grand-jordan.html">8-day Grand Jordan Tour</a>.</p>
-              </div>
+          <section class="bt-season" aria-labelledby="summer-title">
+            <picture data-defer><img src="../../images-src/discover/aqaba-bay-flagpole.webp" width="1290" height="670" sizes="(min-width: 1440px) 350px, (min-width: 900px) 24vw, (min-width: 601px) 50vw, 100vw" loading="lazy" alt="Aqaba’s palm-lined beach and the turquoise Gulf of Aqaba"></picture>
+            <div class="bt-season-copy">
+              <h3 id="summer-title">Jordan in summer</h3>
+              <p class="bt-season-dates">June to August</p>
+              <p>Plan sightseeing early or late, with a break during the hottest hours. Combine cultural visits with time by the sea in Aqaba, and allow a gentler pace for desert excursions. Bring sun protection and keep drinking water with you throughout the day.</p>
             </div>
           </section>
-        </article>
+          <section class="bt-season" aria-labelledby="autumn-title">
+            <picture data-defer><img src="../../images-src/discover/petra-treasury-siq.png" width="2071" height="1381" sizes="(min-width: 1440px) 350px, (min-width: 900px) 24vw, (min-width: 601px) 50vw, 100vw" loading="lazy" alt="The Treasury (Al-Khazneh) carved into the rose-red cliff in Petra"></picture>
+            <div class="bt-season-copy">
+              <h3 id="autumn-title">Jordan in autumn</h3>
+              <p class="bt-season-dates">September to November</p>
+              <p>As summer heat eases, enjoy Petra’s walking trails and Wadi Rum’s desert scenery. Bring layers for cooler evenings, when staying overnight at a desert camp. Leave time for scenic stops, local meals and exploring Jordan’s towns along the way.</p>
+            </div>
+          </section>
+          <section class="bt-season" aria-labelledby="winter-title">
+            <picture data-defer><img src="../../images-src/discover/dead-sea.jpg" width="2000" height="960" sizes="(min-width: 1440px) 350px, (min-width: 900px) 24vw, (min-width: 601px) 50vw, 100vw" loading="lazy" alt="Swimmers floating on the calm water of the Dead Sea"></picture>
+            <div class="bt-season-copy">
+              <h3 id="winter-title">Jordan in winter</h3>
+              <p class="bt-season-dates">December to February</p>
+              <p>Pack warm layers and allow flexibility for rain and shorter days. Explore cultural sites at a relaxed pace, or head to the Dead Sea and Aqaba for milder weather. Start outings early to make the most of daylight, and keep your itinerary flexible.</p>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <!-- ============ Where to go, when ============ -->
+      <section class="bt-destinations" id="destinations" aria-labelledby="destinations-title">
+        <div class="bt-table-heading">
+          <div class="bt-heading-row">
+            <h2 class="bt-h2" id="destinations-title">Where to go, when</h2>
+            <svg class="bt-flourish bt-flourish--short" viewBox="0 0 138 24" aria-hidden="true" focusable="false"><path d="M3 14C24 5 42 4 62 10s38 9 56 3c6-2 12-4 17-5"/><path d="M40 16c14 3 30 3 44-1" opacity=".5"/></svg>
+          </div>
+          <p class="bt-legend"><span><span class="bt-dot bt-dot--go" aria-hidden="true"></span><span>Recommended </span></span><span><span class="bt-dot bt-dot--plan" aria-hidden="true"></span><span>Plan around the weather </span></span></p>
+        </div>
+        <table class="bt-matrix">
+          <caption class="bt-caption">Best time to visit Petra, Wadi Rum, the Dead Sea, Aqaba, Amman and Jerash</caption>
+          <thead>
+            <tr>
+              <th scope="col">Destination</th>
+              <th scope="col"><span class="bt-col-season"><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-leaf"></use></svg><span>Spring <small>(Mar – May)</small></span></span></th>
+              <th scope="col"><span class="bt-col-season"><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-sun"></use></svg><span>Summer <small>(Jun – Aug)</small></span></span></th>
+              <th scope="col"><span class="bt-col-season"><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-leaf"></use></svg><span>Autumn <small>(Sep – Nov)</small></span></span></th>
+              <th scope="col"><span class="bt-col-season"><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-snow"></use></svg><span>Winter <small>(Dec – Feb)</small></span></span></th>
+            </tr>
+          </thead>
+          <tbody>
+                <tr>
+                  <th scope="row"><span class="bt-place-name"><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-petra"></use></svg><a href="../destinations/petra.html">Petra</a></span></th>
+                  <td data-season="Spring"><span class="bt-dot bt-dot--go" aria-hidden="true"></span><span><span class="bt-sr">Recommended: </span>Comfortable days for exploring</span></td>
+                  <td data-season="Summer"><span class="bt-dot bt-dot--plan" aria-hidden="true"></span><span><span class="bt-sr">Plan around the weather: </span>Hot – explore early or late</span></td>
+                  <td data-season="Autumn"><span class="bt-dot bt-dot--go" aria-hidden="true"></span><span><span class="bt-sr">Recommended: </span>Warm days and clear skies</span></td>
+                  <td data-season="Winter"><span class="bt-dot bt-dot--go" aria-hidden="true"></span><span><span class="bt-sr">Recommended: </span>Cold days and fewer crowds</span></td>
+                </tr>
+                <tr>
+                  <th scope="row"><span class="bt-place-name"><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-mountains"></use></svg><a href="../destinations/wadi-rum.html">Wadi Rum</a></span></th>
+                  <td data-season="Spring"><span class="bt-dot bt-dot--go" aria-hidden="true"></span><span><span class="bt-sr">Recommended: </span>	Mild days for desert adventures</span></td>
+                  <td data-season="Summer"><span class="bt-dot bt-dot--plan" aria-hidden="true"></span><span><span class="bt-sr">Plan around the weather: </span>Very hot – choose cooler hours</span></td>
+                  <td data-season="Autumn"><span class="bt-dot bt-dot--go" aria-hidden="true"></span><span><span class="bt-sr">Recommended: </span>Warm days, cool camping nights</span></td>
+                  <td data-season="Winter"><span class="bt-dot bt-dot--go" aria-hidden="true"></span><span><span class="bt-sr">Recommended: </span>Cold days and very cold nights</span></td>
+                </tr>
+                <tr>
+                  <th scope="row"><span class="bt-place-name"><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-waves"></use></svg><a href="../destinations/dead-sea.html">Dead Sea</a></span></th>
+                  <td data-season="Spring"><span class="bt-dot bt-dot--go" aria-hidden="true"></span><span><span class="bt-sr">Recommended: </span>Warm days for floating and relaxing</span></td>
+                  <td data-season="Summer"><span class="bt-dot bt-dot--plan" aria-hidden="true"></span><span><span class="bt-sr">Plan around the weather: </span>Very hot – visit early or late</span></td>
+                  <td data-season="Autumn"><span class="bt-dot bt-dot--go" aria-hidden="true"></span><span><span class="bt-sr">Recommended: </span>Warm days for relaxing by the water</span></td>
+                  <td data-season="Winter"><span class="bt-dot bt-dot--plan" aria-hidden="true"></span><span><span class="bt-sr">Plan around the weather: </span>Cooler – choose sunny days</span></td>
+                </tr>
+                <tr>
+                  <th scope="row"><span class="bt-place-name"><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-fish"></use></svg><a href="../destinations/aqaba.html">Aqaba</a></span></th>
+                  <td data-season="Spring"><span class="bt-dot bt-dot--go" aria-hidden="true"></span><span><span class="bt-sr">Recommended: </span>Warm days for beach activities</span></td>
+                  <td data-season="Summer"><span class="bt-dot bt-dot--plan" aria-hidden="true"></span><span><span class="bt-sr">Plan around the weather: </span>Hot – enjoy the sea, avoid midday</span></td>
+                  <td data-season="Autumn"><span class="bt-dot bt-dot--go" aria-hidden="true"></span><span><span class="bt-sr">Recommended: </span>Warm seas and sunny days</span></td>
+                  <td data-season="Winter"><span class="bt-dot bt-dot--go" aria-hidden="true"></span><span><span class="bt-sr">Recommended: </span>Mild days for a coastal break</span></td>
+                </tr>
+                <tr>
+                  <th scope="row"><span class="bt-place-name"><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-city"></use></svg><span><a href="../destinations/amman.html">Amman</a> &amp; <a href="../destinations/jerash.html">Jerash</a></span></span></th>
+                  <td data-season="Spring"><span class="bt-dot bt-dot--go" aria-hidden="true"></span><span><span class="bt-sr">Recommended: </span>Green hills and mild days</span></td>
+                  <td data-season="Summer"><span class="bt-dot bt-dot--plan" aria-hidden="true"></span><span><span class="bt-sr">Plan around the weather: </span>Hot – explore during cooler hours</span></td>
+                  <td data-season="Autumn"><span class="bt-dot bt-dot--go" aria-hidden="true"></span><span><span class="bt-sr">Recommended: </span>Comfortable days for exploring</span></td>
+                  <td data-season="Winter"><span class="bt-dot bt-dot--go" aria-hidden="true"></span><span><span class="bt-sr">Recommended: </span>Cool to cold – allow for rain</span></td>
+                </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- ============ Travelling from the Gulf, and Ramadan ============ -->
+      <div class="bt-travel-grid">
+        <section class="bt-travel" id="from-the-uae" aria-labelledby="uae-title">
+          <picture data-defer><img src="../../images-src/discover/amman-citadel-hercules.webp" width="1600" height="1200" sizes="(min-width: 1440px) 280px, (min-width: 900px) 19vw, (min-width: 601px) 35vw, 100vw" loading="lazy" alt="The Temple of Hercules on Amman’s Citadel, above the city’s hillside houses"></picture>
+          <div class="bt-travel-head">
+            <h2 class="bt-h2" id="uae-title">Your first trip to Jordan</h2>
+            <p>Discover ancient cities, desert landscapes and time by the sea. Whether you have a few days or a longer stay, build a journey around the places and experiences that interest you, with time to explore and enjoy Jordanian hospitality.</p>
+          </div>
+        </section>
+        <section class="bt-travel" id="ramadan" aria-labelledby="ramadan-title">
+          <picture data-defer><img src="../../images-src/sights/amman-downtown.jpg" width="1500" height="1000" sizes="(min-width: 1440px) 280px, (min-width: 900px) 19vw, (min-width: 601px) 35vw, 100vw" loading="lazy" alt="The Grand Husseini Mosque in downtown Amman, lit up at night, with people gathered in the square outside"></picture>
+          <div class="bt-travel-head">
+            <h2 class="bt-h2" id="ramadan-title">Ramadan & Eid</h2>
+            <p>Experience another side of Jordan, from quiet daytime sightseeing to lively evenings around the iftar table. Allow flexibility for opening hours, and book ahead if travelling during Eid.</p>
+          </div>
+        </section>
+      </div>
+
+      <!-- ============ What to pack, and questions (build-head reads the FAQPage schema from the questions) ============ -->
+      <div class="bt-bottom-grid">
+        <section class="bt-packing" id="packing" aria-labelledby="packing-title">
+          <div class="bt-section-heading"><h2 class="bt-h2" id="packing-title">What to pack</h2><span aria-hidden="true"></span></div>
+          <div class="bt-packing-grid">
+            <section class="bt-pack" aria-labelledby="pack-light">
+              <svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-shirt"></use></svg>
+              <h3 id="pack-light">Light &amp; breathable</h3>
+              <p>Pack loose, breathable clothing for warm days. Comfortable, modest outfits work well for sightseeing and visiting towns.</p>
+            </section>
+            <section class="bt-pack" aria-labelledby="pack-layers">
+              <svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-layers"></use></svg>
+              <h3 id="pack-layers">Layer up</h3>
+              <p>Add a light jacket for cool evenings in spring and autumn. Pack warmer layers for winter and nights in the desert.</p>
+            </section>
+            <section class="bt-pack" aria-labelledby="pack-sun">
+              <svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-hat"></use></svg>
+              <h3 id="pack-sun">Outdoor essentials</h3>
+              <p>Bring a hat, sunglasses, sunscreen and a refillable water bottle. Choose comfortable walking shoes with good grip.</p>
+            </section>
+          </div>
+        </section>
+
+        <section class="bt-faq" id="questions" aria-labelledby="questions-title">
+          <div class="bt-section-heading"><h2 class="bt-h2" id="questions-title">Best time to visit Jordan: frequently asked questions</h2><span aria-hidden="true"></span></div>
+          <div class="bt-faq-list" data-faq>
+            <div class="dg-faq-item">
+              <h3 class="dg-faq-q"><button class="bt-faq-toggle" type="button" aria-expanded="true" aria-controls="faq-hottest"><span>What is the hottest month in Jordan?</span><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-chevron"></use></svg></button></h3>
+              <p class="dg-faq-a" id="faq-hottest">July and August are usually the hottest months. The heat is strongest in Wadi Rum, at the Dead Sea and in Aqaba, while Amman and the highlands are milder.</p>
+            </div>
+            <div class="dg-faq-item">
+              <h3 class="dg-faq-q"><button class="bt-faq-toggle" type="button" aria-expanded="true" aria-controls="faq-winter"><span>Is Jordan good to visit in winter?</span><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-chevron"></use></svg></button></h3>
+              <p class="dg-faq-a" id="faq-winter">Yes, especially for the Dead Sea and Aqaba, which stay mild and sunny. Amman and Petra are cold and sometimes rainy, and the days are short, but the main sites are quieter. Bring warm layers.</p>
+            </div>
+            <div class="dg-faq-item">
+              <h3 class="dg-faq-q"><button class="bt-faq-toggle" type="button" aria-expanded="true" aria-controls="faq-petra-summer"><span>Can you visit Petra in summer?</span><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-chevron"></use></svg></button></h3>
+              <p class="dg-faq-a" id="faq-petra-summer">Yes, with some planning. Arrive at opening time, walk in the morning, rest in the middle of the day and return in the late afternoon. Carry plenty of water, wear a hat and climb to the Monastery early.</p>
+            </div>
+            <div class="dg-faq-item">
+              <h3 class="dg-faq-q"><button class="bt-faq-toggle" type="button" aria-expanded="true" aria-controls="faq-kids"><span>When is the best time to visit Jordan with kids?</span><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-chevron"></use></svg></button></h3>
+              <p class="dg-faq-a" id="faq-kids">Spring and autumn school holidays are ideal: the weather suits walking in Petra and a night at a desert camp in Wadi Rum. Winter breaks are good for the Dead Sea and Aqaba. Summer works with early starts and afternoons at the pool or the beach.</p>
+            </div>
+            <div class="dg-faq-item">
+              <h3 class="dg-faq-q"><button class="bt-faq-toggle" type="button" aria-expanded="true" aria-controls="faq-days"><span>How many days do you need in Jordan?</span><svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-chevron"></use></svg></button></h3>
+              <p class="dg-faq-a" id="faq-days">Five to eight days covers the highlights. Five days fits Amman, Petra, Wadi Rum and the Dead Sea; six or seven add Jerash or a slower pace; eight let you see it all without rushing. See our <a href="../programs/jordan-explorer.html">5-day Jordan Explorer</a>, <a href="../programs/jordan-delights-1.html">6-day Jordan Delights Tour 1</a>, <a href="../programs/jordan-discovery.html">7-day Jordan Discovery Tour</a> and <a href="../programs/grand-jordan.html">8-day Grand Jordan Tour</a>.</p>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
+    </div>
 
-    <!-- ============ Next step ============ -->
-    <section class="tg-cta" aria-labelledby="cta-title">
-      <div class="container tg-cta-inner">
-        <div>
-          <h2 class="tg-cta-title" id="cta-title">Planning your dates?</h2>
-          <p class="tg-cta-text">Tell us when you’d like to travel and we’ll suggest the best route and pace for that season.</p>
-        </div>
-        <div class="hero-actions">
-          <a class="btn btn--primary" href="../enquire.html">Plan your trip</a>
-          <a class="btn btn--ghost" href="/en/#programs" data-cta>See our programs</a>
-        </div>
-      </div>
+    <!-- ============ Next step: the button and link, over Wadi Rum style mountains drawn in SVG (full page width) ============ -->
+    <section class="bt-cta" aria-label="Start planning">
+      <a class="bt-cta-button" href="../enquire.html">Plan your trip<svg class="bt-icon" aria-hidden="true" focusable="false"><use href="#bt-i-arrow"></use></svg></a>
+      <a class="bt-cta-programs" href="/en/#programs" data-cta>See our programs</a>
+    
     </section>
   </main>
 
@@ -465,5 +675,6 @@
 
   <script src="../../assets/js/tracking.js" defer></script>
   <script src="../../assets/js/main.js" defer></script>
+  <script src="../../assets/js/best-time.js" defer></script>
 </body>
 </html>

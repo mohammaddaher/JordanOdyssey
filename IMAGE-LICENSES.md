@@ -22,6 +22,23 @@ Every photograph is either supplied by Jordan Odyssey or comes from Wikimedia Co
 | discover/petra.jpg | The Treasury façade, portrait | Supplied by Jordan Odyssey | Owned. **Confirm the photographer before launch.** |
 | discover/petra-wide.jpg | Desktop version of petra.jpg. The cliffs at the sides were added by AI outpainting (Higgsfield) | Supplied by Jordan Odyssey | Owned |
 
+## Discover map backgrounds, owner-supplied (images-src/discover/)
+
+Supplied by Jordan Odyssey on 2026-11-23 as the Discover section backgrounds on the homepage map. Treated as owned. The originals are kept untouched in images-src/discover/; the site serves resized AVIF, WebP and JPG copies from assets/img/discover/.
+
+| File | Subject | Original size | Source | Licence |
+|---|---|---|---|---|
+| discover/petra-treasury-siq.png | The Treasury (Al-Khazneh) at the end of the Siq, Petra | 2071 × 1381 | Supplied by Jordan Odyssey | Owner-supplied |
+| discover/jerash-ruins-hills.webp | Roman columns and ruins of Jerash, with the Oval Plaza colonnade | 1920 × 1080 | Supplied by Jordan Odyssey | Owner-supplied |
+| discover/amman-citadel-hercules.webp | Temple of Hercules and the stone hand, Amman Citadel | 1600 × 1200 | Supplied by Jordan Odyssey | Owner-supplied |
+| discover/aqaba-bay-flagpole.webp | Aqaba beach, bay and flagpole | 1290 × 670 | Supplied by Jordan Odyssey | Owner-supplied |
+
+Amman (1600 px) and Aqaba (1290 px) are narrower than the 2000 px wanted for a full-width background. They were approved for use as they are; replace them with wider photos when available.
+
+## Best time to visit Jordan: hero collage (images-src/guides/)
+
+guides/best-time-hero.png (2169 × 725): the hero artwork for Best Time to Visit Jordan, supplied by the site owner on 26 November 2026 (collage artwork of Jerash, Petra and Wadi Rum with the "A year across Jordan" ribbon and lettering). Kept as supplied; the build makes the AVIF/WebP/JPEG sizes.
+
 ## Plan your trip page
 
 photos/enquire-wadi-rum-night.jpg (a Bedouin camp at night in Wadi Rum, on the Plan your trip page) was cropped from the Plan your trip design mockup supplied by Jordan Odyssey.

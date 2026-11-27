@@ -42,7 +42,9 @@ function decode(s) {
     return { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' }[k];
   });
 }
-const text = (html) => decode(html.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
+// tags become spaces (so words never run together), then a space before punctuation is dropped:
+// "<a>Tour</a>, next" reads "Tour, next", as on the page
+const text = (html) => decode(html.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').replace(/ ([,.;:!?)])/g, '$1').trim();
 const attr = (s) => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const first = (html, re) => { const m = html.match(re); return m ? m[1] : ''; };
 

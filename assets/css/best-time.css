@@ -1,0 +1,496 @@
+/* ==========================================================================
+   Best time to visit Jordan (en/travel-guide/best-time-to-visit-jordan.html)
+   The approved "Find your season in Jordan" design. Every rule is scoped to .bt-page, so no other
+   page changes. On desktops the sizes follow the 1024 px design, scaled with the screen by --u
+   (1 unit = 1 px at 1024 px wide, up to 1.40625 px at 1440 px); body text never drops below a
+   readable size. Phones and tablets (899 px and narrower) get the design's mobile layout.
+   ========================================================================== */
+
+/* The large title's typeface ("Odyssey Hero Serif") and its size-matched fallback are declared in the
+   page's <head>, so they apply from the first paint (the build doesn't inline @font-face rules). */
+
+.bt-page {
+  --u: min(calc(100vw / 1024), 1.40625px);
+  --bt-plum: #59162f;
+  --bt-ink: #21151b;
+  --bt-copper: #9b3f22;
+  --bt-line: #e5d6c3;
+  --bt-card: linear-gradient(#f9f0e3, #f4e9da);
+  padding-top: var(--header-h);
+  background:
+    radial-gradient(ellipse at 30% 18%, #fffaf1 0, transparent 43%),
+    radial-gradient(ellipse at 82% 50%, #fffaf2 0, transparent 55%),
+    #fbf2e6;
+  color: #41152e;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:where(.bt-page) *, :where(.bt-page) *::before, :where(.bt-page) *::after { box-sizing: border-box; }
+:where(.bt-page) :is(h1, h2, h3, p, ul, ol) { margin: 0; }
+:where(.bt-page) :is(ul, ol) { padding: 0; list-style: none; }
+:where(.bt-page) img { display: block; max-width: none; }
+:where(.bt-page) a { color: inherit; }
+/* the build wraps each photo in a <picture> (AVIF/WebP); let the photo itself take the picture's place */
+:where(.bt-page) picture { display: contents; }
+.bt-page a:focus-visible, .bt-page button:focus-visible, .bt-page [role="tabpanel"]:focus-visible {
+  outline: 3px solid #b65d31;
+  outline-offset: 3px;
+}
+.bt-sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
+.bt-sr {
+  position: absolute !important; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
+}
+.bt-icon {
+  display: block;
+  flex: none;
+  width: calc(30 * var(--u));
+  height: calc(30 * var(--u));
+  color: #9d3e20;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.bt-wrap { max-width: 1440px; margin-inline: auto; overflow: clip; }
+
+
+/* Section headings: bold italic serif in plum */
+.bt-h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: calc(-1 * var(--u));
+  color: var(--bt-plum);
+  text-wrap: balance;
+}
+
+/* ---------- Title and artwork ---------- */
+.bt-hero { position: relative; isolation: isolate; }
+/* The artwork: one image (2169 x 725), shown whole at the full width; its blank cream area on the left holds the
+   title. Positions below are in the same 1024-wide units (--u), so the text keeps its place as the image scales. */
+.bt-collage { position: relative; z-index: 1; }
+.bt-collage-img {
+  display: block; width: 100%; height: auto;
+  /* the artwork's cream is a shade darker than the page: fade its lower edge (below the ribbon) into the page */
+  -webkit-mask-image: linear-gradient(#000 92%, transparent);
+  mask-image: linear-gradient(#000 92%, transparent);
+}
+/* wider than the page column, its sides meet the page too */
+@media (min-width: 1441px) {
+  .bt-collage-img {
+    -webkit-mask-image: linear-gradient(#000 92%, transparent), linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+    -webkit-mask-composite: source-in;
+    mask-image: linear-gradient(#000 92%, transparent), linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+    mask-composite: intersect;
+  }
+}
+.bt-hero-copy { position: absolute; z-index: 3; top: calc(30 * var(--u)); left: calc(33 * var(--u)); width: calc(250 * var(--u)); }
+.bt-crumbs { position: absolute; top: calc(-22 * var(--u)); left: 0; }
+.bt-crumbs ol { display: flex; gap: 6px; font-size: max(calc(8.5 * var(--u)), 11px); line-height: 1.2; color: #7b5647; white-space: nowrap; }
+.bt-crumbs li:first-child::after { content: "/"; margin-inline-start: 6px; color: #b98f78; }
+.bt-crumbs li:last-child { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }   /* the title says it */
+.bt-crumbs a { text-decoration: none; }
+.bt-crumbs a:hover { text-decoration: underline; }
+.bt-h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: max(calc(16 * var(--u)), 15px);
+  line-height: 1.2;
+  white-space: nowrap;
+  color: #41152e;
+}
+.bt-h1::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(48 * var(--u));
+  height: 1px;
+  margin-left: calc(12 * var(--u));
+  background: #a45d43;
+}
+.bt-updated { position: absolute; top: calc(21 * var(--u)); left: 0; font-size: max(calc(7.5 * var(--u)), 10.5px); line-height: 1.1; color: #7b5647; }
+/* the large decorative subtitle (the page's heading is the h1 above) */
+.bt-hero-heading {
+  margin: calc(20 * var(--u)) 0 0 calc(-2 * var(--u));
+  font-family: "Odyssey Hero Serif", "Odyssey Hero Serif Fallback", Georgia, serif;
+  font-weight: 600;
+  font-size: calc(52 * var(--u));
+  line-height: 0.88;
+  letter-spacing: calc(-2.25 * var(--u));
+  color: #41152e;
+  transform: scaleX(1.14);
+  transform-origin: left center;
+}
+/* three short lines, so the text stays clear of the curve as the cream area narrows toward the ribbon */
+.bt-hero-intro { margin-top: calc(9 * var(--u)); font-size: calc(12 * var(--u)); line-height: 1.45; color: #161114; }
+
+/* ---------- The short answer ---------- */
+.bt-intro {
+  padding: calc(16 * var(--u)) calc(24 * var(--u));
+  border-radius: calc(9 * var(--u));
+  background: linear-gradient(110deg, #f2e5d3, #f6ecde);
+}
+.bt-answer {
+  text-align: justify;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: max(calc(16 * var(--u)), 17px);
+  line-height: 1.4;
+  color: var(--bt-plum);
+}
+
+/* ---------- Month by month ---------- */
+.bt-months { margin-top: calc(6 * var(--u)); }
+.bt-month-nav { display: flex; align-items: center; gap: calc(23 * var(--u)); min-height: calc(48 * var(--u)); padding: calc(4 * var(--u)) calc(30 * var(--u)); }
+.bt-month-nav h2 {
+  padding-right: calc(27 * var(--u));
+  border-right: 1px solid #b87b5e;
+  font: 700 max(calc(18 * var(--u)), 17px)/1 Georgia, "Times New Roman", serif;
+  white-space: nowrap;
+  color: #41152e;
+}
+.bt-tabs { flex: 1; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: calc(7 * var(--u)); align-items: center; }
+.bt-tab {
+  position: relative;
+  height: max(calc(29 * var(--u)), 30px);
+  min-width: 0;
+  padding: 0;
+  border: 1px solid #e9d9c5;
+  border-radius: calc(5 * var(--u));
+  background: #fbf2e6;
+  font: inherit;
+  font-size: max(calc(13 * var(--u)), 13px);
+  color: #181416;
+  cursor: pointer;
+}
+.bt-tab--best { background: #f2d7bf; font-weight: 600; }
+.bt-tab:hover { border-color: #c98f6a; }
+.bt-tab[aria-selected="true"] { background: linear-gradient(#bd683b, #9b3d20); border-color: #aa4d27; color: #fff; font-weight: 600; }
+.bt-tab[aria-selected="true"]::after {
+  content: "";
+  position: absolute;
+  left: calc(50% - 6 * var(--u));
+  bottom: calc(-7 * var(--u));
+  border-left: calc(6 * var(--u)) solid transparent;
+  border-right: calc(6 * var(--u)) solid transparent;
+  border-top: calc(7 * var(--u)) solid #9b3d20;
+}
+.bt-month-panel {
+  display: grid;
+  grid-template-columns: 44.7% 20% 35.3%;
+  min-height: calc(150 * var(--u));
+  overflow: hidden;
+  border-radius: calc(9 * var(--u));
+  background: linear-gradient(110deg, #f2e5d3, #f6ecde);
+}
+.bt-month-panel[hidden] { display: none; }
+/* without scripts every month is shown: see the <noscript> styles in the page's <head> */
+.bt-month-photo {
+  grid-column: 1; grid-row: 1; width: 100%; height: 0; min-height: 100%; min-width: 0; object-fit: cover;
+  /* the edge toward the text curves in toward the bottom */
+  clip-path: polygon(0 0, 100% 0, 99.9% 10%, 99.6% 20%, 99.1% 30%, 98.3% 40%, 97.2% 50%, 95.8% 60%, 94.2% 70%, 92.2% 80%, 89.9% 90%, 87% 100%, 0 100%);
+}
+.bt-month-name {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  padding: calc(5 * var(--u)) calc(8 * var(--u));
+  border-right: 1px solid #986e58;
+  text-align: center;
+  grid-column: 2;
+  grid-row: 1;
+}
+.bt-month-name h3 {
+  font: italic 400 calc(44 * var(--u))/1.05 Georgia, "Times New Roman", serif;
+  letter-spacing: calc(-1.1 * var(--u));
+  white-space: nowrap;
+  color: #41152e;
+}
+.bt-month-name[data-long] h3 { font-size: calc(31 * var(--u)); letter-spacing: calc(-0.6 * var(--u)); }
+.bt-month-underline { display: block; width: calc(104 * var(--u)); height: calc(25 * var(--u)); margin: 0 auto; fill: none; stroke: #9e4123; stroke-width: 1.7; stroke-linecap: round; }
+.bt-month-facts { grid-column: 3; grid-row: 1; align-self: center; display: grid; gap: calc(11 * var(--u)); min-width: 0; padding: calc(12 * var(--u)) calc(18 * var(--u)) calc(12 * var(--u)) calc(21 * var(--u)); }
+.bt-month-facts li { display: flex; align-items: center; gap: calc(11 * var(--u)); min-width: 0; font-size: max(calc(12 * var(--u)), 13.5px); line-height: 1.35; color: var(--bt-ink); }
+.bt-month-facts .bt-icon { width: calc(28 * var(--u)); height: calc(28 * var(--u)); }
+
+/* ---------- The seasons ---------- */
+.bt-heading-row { display: flex; align-items: flex-start; gap: calc(18 * var(--u)); }
+.bt-heading-row .bt-h2 { font-size: max(calc(34 * var(--u)), 26px); }
+.bt-flourish { flex: none; display: block; width: calc(135 * var(--u)); height: calc(22 * var(--u)); margin-top: calc(12 * var(--u)); fill: none; stroke: #a34624; stroke-width: 1.5; stroke-linecap: round; }
+.bt-flourish--short { width: calc(93 * var(--u)); margin-top: calc(9 * var(--u)); }
+.bt-seasons { margin-top: calc(20 * var(--u)); }
+.bt-seasons > .bt-heading-row { padding: 0 calc(5 * var(--u)) calc(6 * var(--u)); }
+.bt-seasons > .bt-lead { margin: 0 calc(5 * var(--u)) calc(12 * var(--u)); font-size: max(calc(12.5 * var(--u)), 14.5px); line-height: 1.45; color: var(--bt-ink); }
+.bt-season-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: calc(7 * var(--u)); }
+.bt-season { min-width: 0; overflow: hidden; border-radius: calc(9 * var(--u)); background: var(--bt-card); }
+.bt-season img { width: 100%; height: calc(132 * var(--u)); object-fit: cover; }
+.bt-season-copy { padding: calc(8 * var(--u)) calc(20 * var(--u)) calc(16 * var(--u)); }
+.bt-season-copy h3 { font: 700 calc(22 * var(--u))/1 Georgia, "Times New Roman", serif; letter-spacing: calc(-1.1 * var(--u)); color: #41152e; }
+.bt-season-dates { margin: calc(3 * var(--u)) 0 calc(7 * var(--u)); font-size: max(calc(14 * var(--u)), 14px); color: var(--bt-copper); }
+.bt-season-copy p:not(.bt-season-dates) {text-align: justify;
+text-align-last: left;
+hyphens: auto;
+word-spacing: normal;
+letter-spacing: normal; font-size: max(calc(12 * var(--u)), 13.5px); line-height: 1.4; color: var(--bt-ink); }
+
+/* ---------- Where to go, when ---------- */
+.bt-destinations { margin-top: calc(22 * var(--u)); }
+.bt-table-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: calc(4 * var(--u)) calc(20 * var(--u)); padding: 0 calc(4 * var(--u)) calc(2 * var(--u)); }
+.bt-table-heading .bt-heading-row { gap: calc(13 * var(--u)); }
+.bt-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 6px calc(23 * var(--u)); margin-left: auto; padding-top: calc(4 * var(--u)); font-size: max(calc(10 * var(--u)), 12px); color: var(--bt-ink); }
+.bt-legend small { font-size: 0.92em; color: #5e4337; }
+.bt-caption { caption-side: top; padding: 0 calc(4 * var(--u)) calc(9 * var(--u)); text-align: left; font-size: max(calc(11 * var(--u)), 13px); line-height: 1.35; color: #6a4a3c; }
+.bt-legend > span { display: flex; align-items: center; gap: calc(8 * var(--u)); }
+.bt-dot { display: inline-block; flex: none; width: max(calc(8 * var(--u)), 8px); height: max(calc(8 * var(--u)), 8px); border-radius: 50%; }
+.bt-legend .bt-dot { width: max(calc(10 * var(--u)), 9px); height: max(calc(10 * var(--u)), 9px); }
+.bt-dot--go { background: #33832b; }
+.bt-dot--plan { background: #cf862b; }
+.bt-matrix {
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 0;
+  border-collapse: separate;
+  overflow: hidden;
+  border-radius: calc(10 * var(--u));
+  background: linear-gradient(90deg, #f8eee0, #f5e9d8);
+  font-size: max(calc(10 * var(--u)), 12px);
+  line-height: 1.2;
+  color: #231424;
+}
+.bt-matrix thead { background: #f0e0ca; }
+.bt-matrix th, .bt-matrix td {
+  height: calc(29.5 * var(--u));
+  padding: calc(4 * var(--u)) calc(8 * var(--u));
+  border-right: 1px solid var(--bt-line);
+  border-bottom: 1px solid var(--bt-line);
+  text-align: left;
+  vertical-align: middle;
+}
+.bt-matrix th { font-weight: 600; }
+.bt-matrix th:first-child { width: 20%; }
+.bt-matrix td { position: relative; padding-left: calc(25 * var(--u)); }
+.bt-matrix td > .bt-dot { position: absolute; left: calc(13 * var(--u)); top: 50%; transform: translateY(-50%); }
+.bt-matrix tbody tr:last-child > * { border-bottom: 0; }
+.bt-matrix tr > *:last-child { border-right: 0; }
+.bt-col-season { display: flex; align-items: center; justify-content: center; gap: calc(8 * var(--u)); font-size: max(calc(12 * var(--u)), 12.5px); white-space: nowrap; }
+.bt-col-season .bt-icon { width: calc(20 * var(--u)); height: calc(20 * var(--u)); }
+.bt-col-season small { font-size: max(calc(10 * var(--u)), 11px); font-weight: 400; }
+.bt-place-name { display: flex; align-items: center; gap: calc(14 * var(--u)); font: 700 max(calc(12 * var(--u)), 13px)/1.1 Georgia, serif; }
+.bt-place-name .bt-icon { width: calc(32 * var(--u)); height: calc(23 * var(--u)); margin-left: calc(10 * var(--u)); }
+.bt-place-name a { text-decoration: none; }
+.bt-place-name a:hover { text-decoration: underline; }
+
+
+/* ---------- From the Gulf, and Ramadan ---------- */
+.bt-travel-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: calc(23 * var(--u)); margin-top: calc(26 * var(--u)); }
+.bt-travel {
+  display: grid;
+  grid-template-columns: 37% 63%;
+  align-items: center;
+  overflow: hidden;
+  border-radius: calc(9 * var(--u));
+  background: linear-gradient(110deg, #f5e8d6, #f4eadc);
+}
+.bt-travel img { grid-column: 1; grid-row: 1; align-self: stretch; width: 100%; height: 0; min-height: max(100%, calc(126 * var(--u))); object-fit: cover; }
+.bt-travel-head { grid-column: 2; grid-row: 1; padding: calc(12 * var(--u)) calc(16 * var(--u)) calc(13 * var(--u)) calc(18 * var(--u)); }
+.bt-travel-head .bt-h2 { margin-bottom: calc(8 * var(--u)); font-size:30px ; }
+.bt-travel p {text-align: justify; font-size: max(calc(11.4 * var(--u)), 13.5px); line-height: 1.42; color: var(--bt-ink); }
+
+/* ---------- What to pack, and questions ---------- */
+.bt-bottom-grid { display: grid; grid-template-columns: 1.02fr 1fr; gap: calc(23 * var(--u)); margin-top: calc(26 * var(--u)); }
+.bt-section-heading { display: flex; align-items: center; gap: calc(18 * var(--u)); margin-bottom: calc(10 * var(--u)); }
+.bt-section-heading .bt-h2 { font-size: max(calc(27 * var(--u)), 24px); }
+.bt-section-heading > span { flex: 1 0 calc(60 * var(--u)); height: 1px; background: linear-gradient(90deg, #9f5037, transparent); }
+.bt-packing-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: calc(10 * var(--u)); padding: 0 calc(8 * var(--u)); }
+.bt-pack + .bt-pack { padding-left: calc(18 * var(--u)); border-left: 1px solid #dcc4ac; }
+.bt-pack > .bt-icon { width: calc(30 * var(--u)); height: calc(28 * var(--u)); margin: calc(2 * var(--u)) 0 calc(5 * var(--u)); }
+.bt-pack h3 { margin-bottom: calc(6 * var(--u)); font: 700 max(calc(13.5 * var(--u)), 15px)/1.15 Georgia, "Times New Roman", serif; color: #41152e; }
+.bt-pack p {text-align: justify; font-size: max(calc(11 * var(--u)), 13px); line-height: 1.4; color: var(--bt-ink); }
+
+.bt-faq { padding-left: calc(23 * var(--u)); border-left: 1px solid #916452; }
+.bt-faq-list { display: grid; gap: calc(5 * var(--u)); }
+.bt-page .dg-faq-item { padding: 0; border: 0; border-radius: calc(5 * var(--u)); background: #f3e5d2; color: #321727; }
+.bt-page .dg-faq-q { margin: 0; font: inherit; color: inherit; }
+.bt-faq-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-height: max(calc(26 * var(--u)), 34px);
+  padding: calc(5 * var(--u)) calc(14 * var(--u)) calc(5 * var(--u)) calc(16 * var(--u));
+  border: 0;
+  background: none;
+  font: 600 max(calc(11.5 * var(--u)), 14px)/1.25 Arial, Helvetica, sans-serif;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.bt-faq-toggle .bt-icon { width: calc(13 * var(--u)); height: calc(13 * var(--u)); min-width: 12px; min-height: 12px; stroke-width: 2; transition: transform 0.2s ease; }
+.bt-faq-toggle[aria-expanded="true"] .bt-icon { transform: rotate(180deg); }
+.bt-page .dg-faq-a { margin: 0; padding: 0 calc(16 * var(--u)) calc(12 * var(--u)); text-align: justify; font-size: max(calc(12 * var(--u)), 14px); line-height: 1.45; color: #321727; }
+.bt-page .dg-faq-a[hidden] { display: none; }
+.bt-page .dg-faq-a a { color: var(--bt-copper); text-underline-offset: 2px; }
+
+/* ---------- Next step ---------- */
+.bt-cta {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: calc(22 * var(--u));
+  
+  text-align: center;
+}
+.bt-cta-button, .bt-cta-programs { position: relative; z-index: 1; }
+.bt-mountains { --mh: clamp(60px, 7.8vw, 150px); position: absolute; left: 0; right: 0; bottom: 0; height: var(--mh); pointer-events: none; }
+/* each range keeps its shape: as wide as its height allows, at most just under half the width */
+.bt-mountains-side { position: absolute; bottom: 0; display: block; width: min(46%, calc(var(--mh) * 660 / 112)); height: 100%; }
+.bt-mountains-side--left { left: 0; }
+.bt-mountains-side--right { right: 0; }
+.bt-mountains-floor { position: absolute; left: 0; bottom: 0; display: block; width: 100%; height: calc(var(--mh) * 0.2); }
+.bt-cta-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: calc(30 * var(--u));
+  width: max(calc(242 * var(--u)), 220px);
+  height: max(calc(46 * var(--u)), 46px);
+  border-radius: calc(11 * var(--u));
+  background: linear-gradient(115deg, #b96035, #a14626);
+  box-shadow: inset 0 1px 1px #ffffff55, 0 3px 7px #ab6b4320;
+  font-size: max(calc(18 * var(--u)), 17px);
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+.bt-page .bt-cta-button { color: #fff; }
+.bt-cta-button:hover { filter: brightness(1.08); }
+.bt-cta-button .bt-icon { width: max(calc(24 * var(--u)), 22px); height: max(calc(24 * var(--u)), 22px); color: inherit; }
+.bt-cta-programs { margin-top: calc(6 * var(--u)); padding: 12px 10px; font-size: max(calc(12 * var(--u)), 14px); font-weight: 600; color: #844c35; text-underline-offset: 3px; }
+.bt-page .bt-cta-programs { color: #844c35; }
+
+/* ---------- Title below 1024 px: text first, then the artwork (too narrow for text beside the curve) ---------- */
+@media (max-width: 1023px) {
+  .bt-hero { display: flex; flex-direction: column; height: auto; padding: 14px 0 4px; }
+  .bt-hero-copy { order: -1; }
+  .bt-hero-copy { position: static; width: auto; padding: 0 20px; }
+  .bt-crumbs { position: static; margin-bottom: 8px; }
+  .bt-h1 { font-size: 15px; }
+  .bt-h1::after { width: 28px; }
+  .bt-updated { position: static; margin-top: 4px; font-size: 11px; }
+  .bt-hero-heading { margin-top: 10px; font-size: 44px; line-height: 1.02; letter-spacing: -1.6px; transform: none; }
+  .bt-hero-heading br, .bt-hero-intro br { display: none; }
+  .bt-hero-intro { max-width: 320px; margin-top: 10px; font-size: 15px; line-height: 1.4; }
+  .bt-collage { margin-top: 6px; }
+}
+
+/* ---------- Phones and tablets ---------- */
+@media (max-width: 899px) {
+  .bt-page { --u: 1px; }
+  .bt-content { padding: 0 16px; }
+
+
+  .bt-intro { margin-top: 16px; padding: 16px 18px; border-radius: 8px; }
+  .bt-answer { font-size: 18px; }
+
+  .bt-months { margin-top: 20px; }
+  .bt-month-nav { display: block; padding: 0 0 14px; }
+  .bt-month-nav h2 { margin-bottom: 13px; padding: 0; border: 0; font-size: 22px; white-space: normal; }
+  .bt-tabs { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 7px; }
+  .bt-tab { height: 44px; font-size: 15px; border-radius: 5px; }
+  .bt-tab[aria-selected="true"]::after { display: none; }
+  .bt-month-panel { display: block; min-height: 0; border-radius: 8px; }
+  .bt-month-photo { height: clamp(145px, 32vw, 240px); min-height: 0; clip-path: none; }
+  .bt-month-name { flex-direction: row; justify-content: flex-start; gap: 15px; padding: 15px 19px 0; border: 0; text-align: left; }
+  .bt-month-name h3, .bt-month-name[data-long] h3 { font-size: 36px; letter-spacing: -1px; }
+  .bt-month-underline { width: 80px; height: 20px; margin: 10px 0 0; }
+  .bt-month-facts { gap: 15px; padding: 16px 20px 22px; }
+  .bt-month-facts li { gap: 13px; font-size: 15px; line-height: 1.4; }
+  .bt-month-facts .bt-icon { width: 26px; height: 26px; }
+
+  .bt-heading-row .bt-h2, .bt-section-heading .bt-h2 { font-size: 28px; letter-spacing: -0.6px; line-height: 1.1; }
+  .bt-flourish { display: none; }
+  .bt-seasons { margin-top: 28px; }
+  .bt-seasons > .bt-heading-row { padding: 0 0 8px; }
+  .bt-seasons > .bt-lead { margin: 0 0 14px; font-size: 15px; }
+  .bt-season-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .bt-season { border-radius: 8px; }
+  .bt-season img { height: clamp(110px, 24vw, 190px); }
+  .bt-season-copy { padding: 10px 14px 16px; }
+  .bt-season-copy h3 { font-size: 23px; letter-spacing: -0.6px; }
+  .bt-season-dates { font-size: 13px; margin: 3px 0 8px; }
+  .bt-season-copy p:not(.bt-season-dates) { font-size: 15px; line-height: 1.45; }
+
+  .bt-destinations { margin-top: 28px; }
+  .bt-table-heading { display: block; padding: 0; }
+  .bt-legend { display: grid; gap: 7px; margin: 0 0 12px; padding-top: 10px; font-size: 13px; }
+  .bt-caption { padding: 0 0 10px; font-size: 14px; }
+  .bt-matrix { font-size: 13px; border-radius: 8px; }
+  .bt-matrix th, .bt-matrix td { height: auto; padding-block: 8px; }
+  .bt-col-season { flex-direction: column; gap: 4px; white-space: normal; font-size: 13px; }
+  .bt-col-season .bt-icon { width: 20px; height: 20px; }
+  .bt-place-name { font-size: 14px; gap: 8px; }
+  .bt-place-name .bt-icon { width: 24px; height: 22px; margin-left: 0; }
+  .bt-matrix th:first-child { width: 27%; }
+
+  .bt-travel-grid { grid-template-columns: 1fr; gap: 14px; margin-top: 28px; }
+  .bt-travel { grid-template-columns: 35% 65%; border-radius: 8px; }
+  .bt-travel img { min-height: max(100%, 130px); }
+  .bt-travel-head { padding: 12px 14px 14px; }
+  .bt-travel-head .bt-h2 { font-size: 22px; letter-spacing: -0.5px; }
+  .bt-travel p { font-size: 15px; line-height: 1.45; }
+
+  .bt-bottom-grid { display: block; margin-top: 28px; padding: 0; }
+  .bt-section-heading { margin-bottom: 12px; }
+  .bt-section-heading > span { display: none; }
+  .bt-packing-grid { gap: 12px; padding: 0; }
+  .bt-pack + .bt-pack { padding-left: 12px; }
+  .bt-pack > .bt-icon { width: 28px; height: 28px; margin: 4px 0 8px; }
+  .bt-pack h3 { font-size: 16px; }
+  .bt-pack p { font-size: 14px; line-height: 1.45; }
+  .bt-faq { margin-top: 26px; padding: 0; border: 0; }
+  .bt-faq-list { gap: 7px; }
+  .bt-faq-toggle { min-height: 48px; padding: 10px 14px; font-size: 15px; }
+  .bt-faq-toggle .bt-icon { width: 15px; height: 15px; }
+  .bt-page .dg-faq-a { padding: 0 14px 14px; font-size: 15px; line-height: 1.5; }
+
+  .bt-cta { margin-top: 26px; padding: 0 16px 70px; }
+  .bt-cta-button { width: 236px; height: 48px; gap: 25px; font-size: 17px; border-radius: 10px; }
+  .bt-cta-programs { margin-top: 10px; font-size: 15px; }
+}
+
+/* ---------- Phones: one column where the text needs the width ---------- */
+@media (max-width: 600px) {
+  .bt-season-grid { grid-template-columns: 1fr; }
+  .bt-season img { height: 150px; }
+  .bt-travel { display: block; }
+  .bt-travel img { width: 100%; height: 160px; min-height: 0; }
+  .bt-packing-grid { grid-template-columns: 1fr; gap: 0; }
+  .bt-pack { display: grid; grid-template-columns: 34px 1fr; column-gap: 12px; padding: 12px 0; }
+  .bt-pack + .bt-pack { padding-left: 0; border-left: 0; border-top: 1px solid #dcc4ac; }
+  .bt-pack > .bt-icon { grid-row: 1 / span 2; margin: 0; }
+  .bt-pack h3 { margin: 4px 0 6px; }
+
+  /* the season table becomes one card per destination */
+  .bt-matrix, .bt-matrix tbody, .bt-matrix caption { display: block; background: none; border-radius: 0; overflow: visible; }
+  .bt-matrix thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  .bt-matrix tr { display: block; margin-bottom: 12px; overflow: hidden; border: 1px solid #e7d4bd; border-radius: 8px; background: #f3e5d2; }
+  .bt-matrix th:first-child { display: block; width: 100%; padding: 9px 13px; background: #edddc7; border-right: 0; }
+  .bt-matrix td { display: grid; grid-template-columns: 66px 1fr; column-gap: 24px; padding: 10px 14px 10px 13px; border-right: 0; font-size: 14px; line-height: 1.35; }
+  .bt-matrix td::before { content: attr(data-season); font-weight: 600; }
+  .bt-matrix td > .bt-dot { left: 85px; top: calc(10px + 0.68em); transform: translateY(-50%); }
+  .bt-matrix tbody tr:last-child > * { border-bottom: 1px solid var(--bt-line); }
+  .bt-matrix tbody tr > td:last-child { border-bottom: 0; }
+  .bt-place-name { font-size: 17px; gap: 12px; }
+  .bt-matrix th:first-child { width: 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bt-faq-toggle .bt-icon { transition: none; }
+}

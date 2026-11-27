@@ -370,13 +370,19 @@
     // Load a background photo on demand (only Petra's is in the HTML from the start)
     var loadPhoto = function (id) {
       var img = bgs[id];
-      // a portrait photo sits inside a wrapper with its blurred fill
-      if (img && img.tagName !== 'IMG') img = img.querySelector('img');
+      // a <picture> background: its AVIF/WebP sources wait in data-srcset until the place is chosen
+      if (img && img.tagName !== 'IMG') {
+        Array.prototype.forEach.call(img.querySelectorAll('source[data-srcset]'), function (s) {
+          s.setAttribute('srcset', s.getAttribute('data-srcset'));
+          s.removeAttribute('data-srcset');
+        });
+        img = img.querySelector('img');
+      }
       if (!img) return Promise.resolve();
       if (img.hasAttribute('data-src')) {
         // responsive sizes from the build, when present
         if (img.hasAttribute('data-srcset')) {
-          img.sizes = img.getAttribute('data-sizes') || '100vw';
+          if (img.hasAttribute('data-sizes') || !img.getAttribute('sizes')) img.sizes = img.getAttribute('data-sizes') || '100vw';
           img.srcset = img.getAttribute('data-srcset');
           img.removeAttribute('data-srcset');
         }

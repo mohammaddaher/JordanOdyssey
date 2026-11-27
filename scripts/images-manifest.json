@@ -1242,6 +1242,86 @@
    "assets/img/cine/wipe-rock-1400.4830ad7b.webp"
   ]
  },
+ "discover/amman-citadel-hercules.webp": {
+  "key": "v1:backdrop:ac62ac61693398ba9dc02a387bdaa93586203bc2610b151ef8c24fdd4075effa",
+  "width": 1600,
+  "height": 1200,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 768,
+     "h": 576,
+     "file": "assets/img/discover/amman-citadel-hercules-768.58782f90.avif",
+     "bytes": 77827
+    },
+    {
+     "w": 1280,
+     "h": 960,
+     "file": "assets/img/discover/amman-citadel-hercules-1280.3ebf7d83.avif",
+     "bytes": 197812
+    },
+    {
+     "w": 1600,
+     "h": 1200,
+     "file": "assets/img/discover/amman-citadel-hercules-1600.3c6a7e51.avif",
+     "bytes": 363700
+    }
+   ],
+   "webp": [
+    {
+     "w": 768,
+     "h": 576,
+     "file": "assets/img/discover/amman-citadel-hercules-768.c1893a75.webp",
+     "bytes": 90742
+    },
+    {
+     "w": 1280,
+     "h": 960,
+     "file": "assets/img/discover/amman-citadel-hercules-1280.dabf4c9c.webp",
+     "bytes": 231066
+    },
+    {
+     "w": 1600,
+     "h": 1200,
+     "file": "assets/img/discover/amman-citadel-hercules-1600.fe629c71.webp",
+     "bytes": 421510
+    }
+   ],
+   "jpg": [
+    {
+     "w": 768,
+     "h": 576,
+     "file": "assets/img/discover/amman-citadel-hercules-768.72be9c4c.jpg",
+     "bytes": 87461
+    },
+    {
+     "w": 1280,
+     "h": 960,
+     "file": "assets/img/discover/amman-citadel-hercules-1280.1ec60c2c.jpg",
+     "bytes": 223612
+    },
+    {
+     "w": 1600,
+     "h": 1200,
+     "file": "assets/img/discover/amman-citadel-hercules-1600.fe60875e.jpg",
+     "bytes": 387842
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/amman-citadel-hercules-768.58782f90.avif",
+   "assets/img/discover/amman-citadel-hercules-1280.3ebf7d83.avif",
+   "assets/img/discover/amman-citadel-hercules-1600.3c6a7e51.avif",
+   "assets/img/discover/amman-citadel-hercules-768.c1893a75.webp",
+   "assets/img/discover/amman-citadel-hercules-1280.dabf4c9c.webp",
+   "assets/img/discover/amman-citadel-hercules-1600.fe629c71.webp",
+   "assets/img/discover/amman-citadel-hercules-768.72be9c4c.jpg",
+   "assets/img/discover/amman-citadel-hercules-1280.1ec60c2c.jpg",
+   "assets/img/discover/amman-citadel-hercules-1600.fe60875e.jpg"
+  ]
+ },
  "discover/amman.jpg": {
   "key": "v1:hero:37db4ea8cdee13b097f3371b314d1814764357a87250e56a1b4852f5482f556d",
   "width": 1772,
@@ -1447,6 +1527,65 @@
    "assets/img/discover/amman-phone-480.e407ae39.jpg",
    "assets/img/discover/amman-phone-768.ab83e0d1.jpg",
    "assets/img/discover/amman-phone-1080.cd2a4e17.jpg"
+  ]
+ },
+ "discover/aqaba-bay-flagpole.webp": {
+  "key": "v1:backdrop:20c453ecf4f37d26ebecd196c87f74bea84ac2afc4202108513cda682e34b268",
+  "width": 1290,
+  "height": 670,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 768,
+     "h": 399,
+     "file": "assets/img/discover/aqaba-bay-flagpole-768.2ff9f2f9.avif",
+     "bytes": 60518
+    },
+    {
+     "w": 1290,
+     "h": 670,
+     "file": "assets/img/discover/aqaba-bay-flagpole-1290.fb2d16ba.avif",
+     "bytes": 161936
+    }
+   ],
+   "webp": [
+    {
+     "w": 768,
+     "h": 399,
+     "file": "assets/img/discover/aqaba-bay-flagpole-768.42505445.webp",
+     "bytes": 74152
+    },
+    {
+     "w": 1290,
+     "h": 670,
+     "file": "assets/img/discover/aqaba-bay-flagpole-1290.a86fcfde.webp",
+     "bytes": 195180
+    }
+   ],
+   "jpg": [
+    {
+     "w": 768,
+     "h": 399,
+     "file": "assets/img/discover/aqaba-bay-flagpole-768.801f08c4.jpg",
+     "bytes": 71839
+    },
+    {
+     "w": 1290,
+     "h": 670,
+     "file": "assets/img/discover/aqaba-bay-flagpole-1290.585e00d3.jpg",
+     "bytes": 187959
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/aqaba-bay-flagpole-768.2ff9f2f9.avif",
+   "assets/img/discover/aqaba-bay-flagpole-1290.fb2d16ba.avif",
+   "assets/img/discover/aqaba-bay-flagpole-768.42505445.webp",
+   "assets/img/discover/aqaba-bay-flagpole-1290.a86fcfde.webp",
+   "assets/img/discover/aqaba-bay-flagpole-768.801f08c4.jpg",
+   "assets/img/discover/aqaba-bay-flagpole-1290.585e00d3.jpg"
   ]
  },
  "discover/aqaba.jpg": {
@@ -1656,6 +1795,128 @@
    "assets/img/discover/aqaba-phone-1080.f3759e65.jpg"
   ]
  },
+ "discover/dead-sea-sunset.jpg": {
+  "key": "v1:std:db8b2311df1804f14c200b74e716128a535a4d5ddc4c402913f291b5c70c5708",
+  "width": 2400,
+  "height": 1350,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 270,
+     "file": "assets/img/discover/dead-sea-sunset-480.a365e73a.avif",
+     "bytes": 5957
+    },
+    {
+     "w": 768,
+     "h": 432,
+     "file": "assets/img/discover/dead-sea-sunset-768.b7cbc727.avif",
+     "bytes": 13668
+    },
+    {
+     "w": 1200,
+     "h": 675,
+     "file": "assets/img/discover/dead-sea-sunset-1200.c1d6be80.avif",
+     "bytes": 32929
+    },
+    {
+     "w": 1600,
+     "h": 900,
+     "file": "assets/img/discover/dead-sea-sunset-1600.5ee0635a.avif",
+     "bytes": 55901
+    },
+    {
+     "w": 2000,
+     "h": 1125,
+     "file": "assets/img/discover/dead-sea-sunset-2000.9311c874.avif",
+     "bytes": 80569
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 270,
+     "file": "assets/img/discover/dead-sea-sunset-480.b0c98178.webp",
+     "bytes": 6104
+    },
+    {
+     "w": 768,
+     "h": 432,
+     "file": "assets/img/discover/dead-sea-sunset-768.a79c2861.webp",
+     "bytes": 14670
+    },
+    {
+     "w": 1200,
+     "h": 675,
+     "file": "assets/img/discover/dead-sea-sunset-1200.e6b3b8bf.webp",
+     "bytes": 35694
+    },
+    {
+     "w": 1600,
+     "h": 900,
+     "file": "assets/img/discover/dead-sea-sunset-1600.26e053ef.webp",
+     "bytes": 57588
+    },
+    {
+     "w": 2000,
+     "h": 1125,
+     "file": "assets/img/discover/dead-sea-sunset-2000.8183169f.webp",
+     "bytes": 83718
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 270,
+     "file": "assets/img/discover/dead-sea-sunset-480.9d31fc1d.jpg",
+     "bytes": 10008
+    },
+    {
+     "w": 768,
+     "h": 432,
+     "file": "assets/img/discover/dead-sea-sunset-768.deceebf6.jpg",
+     "bytes": 22953
+    },
+    {
+     "w": 1200,
+     "h": 675,
+     "file": "assets/img/discover/dead-sea-sunset-1200.03cf6469.jpg",
+     "bytes": 53905
+    },
+    {
+     "w": 1600,
+     "h": 900,
+     "file": "assets/img/discover/dead-sea-sunset-1600.a860d14a.jpg",
+     "bytes": 90368
+    },
+    {
+     "w": 2000,
+     "h": 1125,
+     "file": "assets/img/discover/dead-sea-sunset-2000.311c7745.jpg",
+     "bytes": 132246
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/dead-sea-sunset-480.a365e73a.avif",
+   "assets/img/discover/dead-sea-sunset-768.b7cbc727.avif",
+   "assets/img/discover/dead-sea-sunset-1200.c1d6be80.avif",
+   "assets/img/discover/dead-sea-sunset-1600.5ee0635a.avif",
+   "assets/img/discover/dead-sea-sunset-2000.9311c874.avif",
+   "assets/img/discover/dead-sea-sunset-480.b0c98178.webp",
+   "assets/img/discover/dead-sea-sunset-768.a79c2861.webp",
+   "assets/img/discover/dead-sea-sunset-1200.e6b3b8bf.webp",
+   "assets/img/discover/dead-sea-sunset-1600.26e053ef.webp",
+   "assets/img/discover/dead-sea-sunset-2000.8183169f.webp",
+   "assets/img/discover/dead-sea-sunset-480.9d31fc1d.jpg",
+   "assets/img/discover/dead-sea-sunset-768.deceebf6.jpg",
+   "assets/img/discover/dead-sea-sunset-1200.03cf6469.jpg",
+   "assets/img/discover/dead-sea-sunset-1600.a860d14a.jpg",
+   "assets/img/discover/dead-sea-sunset-2000.311c7745.jpg"
+  ]
+ },
  "discover/dead-sea.jpg": {
   "key": "v1:hero:4c7af3c0da42f612c387b611ad5f628319fb8c5780dc255ae4b7fb2db046582b",
   "width": 2000,
@@ -1863,6 +2124,107 @@
    "assets/img/discover/dead-sea-phone-1080.9fedab6e.jpg"
   ]
  },
+ "discover/jerash-ruins-hills.webp": {
+  "key": "v1:backdrop:aaabecbba9eb6cf0bbaeb656202b670730c7d824abbb325d561dd29329893895",
+  "width": 1920,
+  "height": 1080,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 768,
+     "h": 432,
+     "file": "assets/img/discover/jerash-ruins-hills-768.ec7ee5ab.avif",
+     "bytes": 88287
+    },
+    {
+     "w": 1280,
+     "h": 720,
+     "file": "assets/img/discover/jerash-ruins-hills-1280.b9882b26.avif",
+     "bytes": 216250
+    },
+    {
+     "w": 1600,
+     "h": 900,
+     "file": "assets/img/discover/jerash-ruins-hills-1600.19e00326.avif",
+     "bytes": 297116
+    },
+    {
+     "w": 1920,
+     "h": 1080,
+     "file": "assets/img/discover/jerash-ruins-hills-1920.38da8ed9.avif",
+     "bytes": 493550
+    }
+   ],
+   "webp": [
+    {
+     "w": 768,
+     "h": 432,
+     "file": "assets/img/discover/jerash-ruins-hills-768.e551c682.webp",
+     "bytes": 108200
+    },
+    {
+     "w": 1280,
+     "h": 720,
+     "file": "assets/img/discover/jerash-ruins-hills-1280.67838cb4.webp",
+     "bytes": 265424
+    },
+    {
+     "w": 1600,
+     "h": 900,
+     "file": "assets/img/discover/jerash-ruins-hills-1600.f6cbe6f6.webp",
+     "bytes": 370836
+    },
+    {
+     "w": 1920,
+     "h": 1080,
+     "file": "assets/img/discover/jerash-ruins-hills-1920.9dfc4f39.webp",
+     "bytes": 546510
+    }
+   ],
+   "jpg": [
+    {
+     "w": 768,
+     "h": 432,
+     "file": "assets/img/discover/jerash-ruins-hills-768.779c3b28.jpg",
+     "bytes": 96359
+    },
+    {
+     "w": 1280,
+     "h": 720,
+     "file": "assets/img/discover/jerash-ruins-hills-1280.5edb4fa7.jpg",
+     "bytes": 241508
+    },
+    {
+     "w": 1600,
+     "h": 900,
+     "file": "assets/img/discover/jerash-ruins-hills-1600.c22d7ede.jpg",
+     "bytes": 350466
+    },
+    {
+     "w": 1920,
+     "h": 1080,
+     "file": "assets/img/discover/jerash-ruins-hills-1920.d16d7ead.jpg",
+     "bytes": 525918
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/jerash-ruins-hills-768.ec7ee5ab.avif",
+   "assets/img/discover/jerash-ruins-hills-1280.b9882b26.avif",
+   "assets/img/discover/jerash-ruins-hills-1600.19e00326.avif",
+   "assets/img/discover/jerash-ruins-hills-1920.38da8ed9.avif",
+   "assets/img/discover/jerash-ruins-hills-768.e551c682.webp",
+   "assets/img/discover/jerash-ruins-hills-1280.67838cb4.webp",
+   "assets/img/discover/jerash-ruins-hills-1600.f6cbe6f6.webp",
+   "assets/img/discover/jerash-ruins-hills-1920.9dfc4f39.webp",
+   "assets/img/discover/jerash-ruins-hills-768.779c3b28.jpg",
+   "assets/img/discover/jerash-ruins-hills-1280.5edb4fa7.jpg",
+   "assets/img/discover/jerash-ruins-hills-1600.c22d7ede.jpg",
+   "assets/img/discover/jerash-ruins-hills-1920.d16d7ead.jpg"
+  ]
+ },
  "discover/jerash.jpg": {
   "key": "v1:hero:66e6e0c52d10a1ad1d76f8a5325def1fef17ab62534e657a1bb577b28ed81e81",
   "width": 2000,
@@ -2068,6 +2430,107 @@
    "assets/img/discover/jerash-phone-480.400d9de1.jpg",
    "assets/img/discover/jerash-phone-768.931029da.jpg",
    "assets/img/discover/jerash-phone-1080.baa0be90.jpg"
+  ]
+ },
+ "discover/petra-treasury-siq.png": {
+  "key": "v1:backdrop:77f20df550aa0d737d9de9b429a74c7996d2dd988142d718e081a123bdac88a9",
+  "width": 2071,
+  "height": 1381,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/discover/petra-treasury-siq-768.c92cc786.avif",
+     "bytes": 91026
+    },
+    {
+     "w": 1280,
+     "h": 854,
+     "file": "assets/img/discover/petra-treasury-siq-1280.57713c1f.avif",
+     "bytes": 236405
+    },
+    {
+     "w": 1600,
+     "h": 1067,
+     "file": "assets/img/discover/petra-treasury-siq-1600.2b353d5c.avif",
+     "bytes": 354261
+    },
+    {
+     "w": 2071,
+     "h": 1381,
+     "file": "assets/img/discover/petra-treasury-siq-2071.6395e57c.avif",
+     "bytes": 579621
+    }
+   ],
+   "webp": [
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/discover/petra-treasury-siq-768.230fbde1.webp",
+     "bytes": 114356
+    },
+    {
+     "w": 1280,
+     "h": 854,
+     "file": "assets/img/discover/petra-treasury-siq-1280.5b0f934a.webp",
+     "bytes": 301036
+    },
+    {
+     "w": 1600,
+     "h": 1067,
+     "file": "assets/img/discover/petra-treasury-siq-1600.e6b72411.webp",
+     "bytes": 439844
+    },
+    {
+     "w": 2071,
+     "h": 1381,
+     "file": "assets/img/discover/petra-treasury-siq-2071.d4569fa8.webp",
+     "bytes": 712880
+    }
+   ],
+   "jpg": [
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/discover/petra-treasury-siq-768.1962740e.jpg",
+     "bytes": 101071
+    },
+    {
+     "w": 1280,
+     "h": 854,
+     "file": "assets/img/discover/petra-treasury-siq-1280.7c8e3efc.jpg",
+     "bytes": 264595
+    },
+    {
+     "w": 1600,
+     "h": 1067,
+     "file": "assets/img/discover/petra-treasury-siq-1600.d8a37048.jpg",
+     "bytes": 400525
+    },
+    {
+     "w": 2071,
+     "h": 1381,
+     "file": "assets/img/discover/petra-treasury-siq-2071.ac59ce68.jpg",
+     "bytes": 643716
+    }
+   ]
+  },
+  "files": [
+   "assets/img/discover/petra-treasury-siq-768.c92cc786.avif",
+   "assets/img/discover/petra-treasury-siq-1280.57713c1f.avif",
+   "assets/img/discover/petra-treasury-siq-1600.2b353d5c.avif",
+   "assets/img/discover/petra-treasury-siq-2071.6395e57c.avif",
+   "assets/img/discover/petra-treasury-siq-768.230fbde1.webp",
+   "assets/img/discover/petra-treasury-siq-1280.5b0f934a.webp",
+   "assets/img/discover/petra-treasury-siq-1600.e6b72411.webp",
+   "assets/img/discover/petra-treasury-siq-2071.d4569fa8.webp",
+   "assets/img/discover/petra-treasury-siq-768.1962740e.jpg",
+   "assets/img/discover/petra-treasury-siq-1280.7c8e3efc.jpg",
+   "assets/img/discover/petra-treasury-siq-1600.d8a37048.jpg",
+   "assets/img/discover/petra-treasury-siq-2071.ac59ce68.jpg"
   ]
  },
  "discover/petra-wide.jpg": {
@@ -3734,307 +4197,126 @@
    "assets/img/guides/aqaba-south-beach-474.b7cd3205.jpg"
   ]
  },
- "guides/card-amman.jpg": {
-  "key": "v1:hero:b712042e61b4d44490379c5bd4c380c3287737a0c47b0158a7517a9e5945013b",
-  "width": 472,
-  "height": 223,
+ "guides/best-time-hero.png": {
+  "key": "v1:backdrop:302d2ba7ddd4a18a8c79320b40c3290f439c78144ffd988dc5a9b87169d883b1",
+  "width": 2169,
+  "height": 683,
   "alpha": false,
-  "hero": true,
+  "hero": false,
   "variants": {
    "avif": [
     {
-     "w": 120,
-     "h": 57,
-     "file": "assets/img/guides/card-amman-120.39283ac6.avif",
-     "bytes": 2517
+     "w": 768,
+     "h": 242,
+     "file": "assets/img/guides/best-time-hero-768.f4169844.avif",
+     "bytes": 35381
     },
     {
-     "w": 240,
-     "h": 113,
-     "file": "assets/img/guides/card-amman-240.7fa4bcf8.avif",
-     "bytes": 8338
+     "w": 1280,
+     "h": 403,
+     "file": "assets/img/guides/best-time-hero-1280.900c6572.avif",
+     "bytes": 80046
     },
     {
-     "w": 360,
-     "h": 170,
-     "file": "assets/img/guides/card-amman-360.9b01288f.avif",
-     "bytes": 16670
+     "w": 1600,
+     "h": 504,
+     "file": "assets/img/guides/best-time-hero-1600.4c335061.avif",
+     "bytes": 112392
     },
     {
-     "w": 472,
-     "h": 223,
-     "file": "assets/img/guides/card-amman-472.8f2b0667.avif",
-     "bytes": 25386
+     "w": 2000,
+     "h": 630,
+     "file": "assets/img/guides/best-time-hero-2000.6bc570ff.avif",
+     "bytes": 152913
+    },
+    {
+     "w": 2169,
+     "h": 683,
+     "file": "assets/img/guides/best-time-hero-2169.45ac16a0.avif",
+     "bytes": 172820
     }
    ],
    "webp": [
     {
-     "w": 120,
-     "h": 57,
-     "file": "assets/img/guides/card-amman-120.49b2cba6.webp",
-     "bytes": 2902
+     "w": 768,
+     "h": 242,
+     "file": "assets/img/guides/best-time-hero-768.7af4e0b2.webp",
+     "bytes": 43948
     },
     {
-     "w": 240,
-     "h": 113,
-     "file": "assets/img/guides/card-amman-240.81394f3a.webp",
-     "bytes": 9682
+     "w": 1280,
+     "h": 403,
+     "file": "assets/img/guides/best-time-hero-1280.b160f3b1.webp",
+     "bytes": 103458
     },
     {
-     "w": 360,
-     "h": 170,
-     "file": "assets/img/guides/card-amman-360.c6b28a8d.webp",
-     "bytes": 20160
+     "w": 1600,
+     "h": 504,
+     "file": "assets/img/guides/best-time-hero-1600.d5d2a253.webp",
+     "bytes": 148142
     },
     {
-     "w": 472,
-     "h": 223,
-     "file": "assets/img/guides/card-amman-472.ecf2a19f.webp",
-     "bytes": 31528
+     "w": 2000,
+     "h": 630,
+     "file": "assets/img/guides/best-time-hero-2000.80a566ed.webp",
+     "bytes": 201690
+    },
+    {
+     "w": 2169,
+     "h": 683,
+     "file": "assets/img/guides/best-time-hero-2169.479e714b.webp",
+     "bytes": 225770
     }
    ],
    "jpg": [
     {
-     "w": 120,
-     "h": 57,
-     "file": "assets/img/guides/card-amman-120.c5e9cfe9.jpg",
-     "bytes": 3100
+     "w": 768,
+     "h": 242,
+     "file": "assets/img/guides/best-time-hero-768.7b10c7ab.jpg",
+     "bytes": 43890
     },
     {
-     "w": 240,
-     "h": 113,
-     "file": "assets/img/guides/card-amman-240.e022f97c.jpg",
-     "bytes": 10032
+     "w": 1280,
+     "h": 403,
+     "file": "assets/img/guides/best-time-hero-1280.97a38735.jpg",
+     "bytes": 105096
     },
     {
-     "w": 360,
-     "h": 170,
-     "file": "assets/img/guides/card-amman-360.9078ba44.jpg",
-     "bytes": 20513
+     "w": 1600,
+     "h": 504,
+     "file": "assets/img/guides/best-time-hero-1600.8f256d2a.jpg",
+     "bytes": 153154
     },
     {
-     "w": 472,
-     "h": 223,
-     "file": "assets/img/guides/card-amman-472.e3a05233.jpg",
-     "bytes": 32077
+     "w": 2000,
+     "h": 630,
+     "file": "assets/img/guides/best-time-hero-2000.679b2a07.jpg",
+     "bytes": 219733
+    },
+    {
+     "w": 2169,
+     "h": 683,
+     "file": "assets/img/guides/best-time-hero-2169.7c421a81.jpg",
+     "bytes": 249789
     }
    ]
   },
   "files": [
-   "assets/img/guides/card-amman-120.39283ac6.avif",
-   "assets/img/guides/card-amman-240.7fa4bcf8.avif",
-   "assets/img/guides/card-amman-360.9b01288f.avif",
-   "assets/img/guides/card-amman-472.8f2b0667.avif",
-   "assets/img/guides/card-amman-120.49b2cba6.webp",
-   "assets/img/guides/card-amman-240.81394f3a.webp",
-   "assets/img/guides/card-amman-360.c6b28a8d.webp",
-   "assets/img/guides/card-amman-472.ecf2a19f.webp",
-   "assets/img/guides/card-amman-120.c5e9cfe9.jpg",
-   "assets/img/guides/card-amman-240.e022f97c.jpg",
-   "assets/img/guides/card-amman-360.9078ba44.jpg",
-   "assets/img/guides/card-amman-472.e3a05233.jpg"
-  ]
- },
- "guides/card-jerash.jpg": {
-  "key": "v1:hero:b4956dfd8b5ce06b5ef00ae090c8f66bef76df8a3e54d4678a085f75f63133ed",
-  "width": 474,
-  "height": 222,
-  "alpha": false,
-  "hero": true,
-  "variants": {
-   "avif": [
-    {
-     "w": 120,
-     "h": 56,
-     "file": "assets/img/guides/card-jerash-120.716da2cf.avif",
-     "bytes": 2412
-    },
-    {
-     "w": 240,
-     "h": 112,
-     "file": "assets/img/guides/card-jerash-240.25631716.avif",
-     "bytes": 7959
-    },
-    {
-     "w": 360,
-     "h": 169,
-     "file": "assets/img/guides/card-jerash-360.3ebf8f14.avif",
-     "bytes": 16323
-    },
-    {
-     "w": 474,
-     "h": 222,
-     "file": "assets/img/guides/card-jerash-474.5468b10d.avif",
-     "bytes": 25819
-    }
-   ],
-   "webp": [
-    {
-     "w": 120,
-     "h": 56,
-     "file": "assets/img/guides/card-jerash-120.e7ce4118.webp",
-     "bytes": 2962
-    },
-    {
-     "w": 240,
-     "h": 112,
-     "file": "assets/img/guides/card-jerash-240.043b7bf1.webp",
-     "bytes": 9832
-    },
-    {
-     "w": 360,
-     "h": 169,
-     "file": "assets/img/guides/card-jerash-360.212302c8.webp",
-     "bytes": 20510
-    },
-    {
-     "w": 474,
-     "h": 222,
-     "file": "assets/img/guides/card-jerash-474.7dd30294.webp",
-     "bytes": 32672
-    }
-   ],
-   "jpg": [
-    {
-     "w": 120,
-     "h": 56,
-     "file": "assets/img/guides/card-jerash-120.a5a0e807.jpg",
-     "bytes": 3002
-    },
-    {
-     "w": 240,
-     "h": 112,
-     "file": "assets/img/guides/card-jerash-240.84929045.jpg",
-     "bytes": 9761
-    },
-    {
-     "w": 360,
-     "h": 169,
-     "file": "assets/img/guides/card-jerash-360.d67e38e6.jpg",
-     "bytes": 20838
-    },
-    {
-     "w": 474,
-     "h": 222,
-     "file": "assets/img/guides/card-jerash-474.3e251f0a.jpg",
-     "bytes": 33178
-    }
-   ]
-  },
-  "files": [
-   "assets/img/guides/card-jerash-120.716da2cf.avif",
-   "assets/img/guides/card-jerash-240.25631716.avif",
-   "assets/img/guides/card-jerash-360.3ebf8f14.avif",
-   "assets/img/guides/card-jerash-474.5468b10d.avif",
-   "assets/img/guides/card-jerash-120.e7ce4118.webp",
-   "assets/img/guides/card-jerash-240.043b7bf1.webp",
-   "assets/img/guides/card-jerash-360.212302c8.webp",
-   "assets/img/guides/card-jerash-474.7dd30294.webp",
-   "assets/img/guides/card-jerash-120.a5a0e807.jpg",
-   "assets/img/guides/card-jerash-240.84929045.jpg",
-   "assets/img/guides/card-jerash-360.d67e38e6.jpg",
-   "assets/img/guides/card-jerash-474.3e251f0a.jpg"
-  ]
- },
- "guides/card-petra.jpg": {
-  "key": "v1:hero:3ccb0b4845e70d4e86dc2d3badde5527fe39443f1a1029a728780be079ef8862",
-  "width": 474,
-  "height": 222,
-  "alpha": false,
-  "hero": true,
-  "variants": {
-   "avif": [
-    {
-     "w": 120,
-     "h": 56,
-     "file": "assets/img/guides/card-petra-120.12f9d543.avif",
-     "bytes": 2474
-    },
-    {
-     "w": 240,
-     "h": 112,
-     "file": "assets/img/guides/card-petra-240.526b10e8.avif",
-     "bytes": 8662
-    },
-    {
-     "w": 360,
-     "h": 169,
-     "file": "assets/img/guides/card-petra-360.e1a56291.avif",
-     "bytes": 18052
-    },
-    {
-     "w": 474,
-     "h": 222,
-     "file": "assets/img/guides/card-petra-474.1ed255fe.avif",
-     "bytes": 29104
-    }
-   ],
-   "webp": [
-    {
-     "w": 120,
-     "h": 56,
-     "file": "assets/img/guides/card-petra-120.83a4e3f6.webp",
-     "bytes": 3180
-    },
-    {
-     "w": 240,
-     "h": 112,
-     "file": "assets/img/guides/card-petra-240.937c8166.webp",
-     "bytes": 10908
-    },
-    {
-     "w": 360,
-     "h": 169,
-     "file": "assets/img/guides/card-petra-360.45f8b254.webp",
-     "bytes": 23328
-    },
-    {
-     "w": 474,
-     "h": 222,
-     "file": "assets/img/guides/card-petra-474.75607861.webp",
-     "bytes": 37918
-    }
-   ],
-   "jpg": [
-    {
-     "w": 120,
-     "h": 56,
-     "file": "assets/img/guides/card-petra-120.b3e754ee.jpg",
-     "bytes": 3018
-    },
-    {
-     "w": 240,
-     "h": 112,
-     "file": "assets/img/guides/card-petra-240.4800bb47.jpg",
-     "bytes": 10262
-    },
-    {
-     "w": 360,
-     "h": 169,
-     "file": "assets/img/guides/card-petra-360.8693fb49.jpg",
-     "bytes": 22078
-    },
-    {
-     "w": 474,
-     "h": 222,
-     "file": "assets/img/guides/card-petra-474.8850c21e.jpg",
-     "bytes": 35538
-    }
-   ]
-  },
-  "files": [
-   "assets/img/guides/card-petra-120.12f9d543.avif",
-   "assets/img/guides/card-petra-240.526b10e8.avif",
-   "assets/img/guides/card-petra-360.e1a56291.avif",
-   "assets/img/guides/card-petra-474.1ed255fe.avif",
-   "assets/img/guides/card-petra-120.83a4e3f6.webp",
-   "assets/img/guides/card-petra-240.937c8166.webp",
-   "assets/img/guides/card-petra-360.45f8b254.webp",
-   "assets/img/guides/card-petra-474.75607861.webp",
-   "assets/img/guides/card-petra-120.b3e754ee.jpg",
-   "assets/img/guides/card-petra-240.4800bb47.jpg",
-   "assets/img/guides/card-petra-360.8693fb49.jpg",
-   "assets/img/guides/card-petra-474.8850c21e.jpg"
+   "assets/img/guides/best-time-hero-768.f4169844.avif",
+   "assets/img/guides/best-time-hero-1280.900c6572.avif",
+   "assets/img/guides/best-time-hero-1600.4c335061.avif",
+   "assets/img/guides/best-time-hero-2000.6bc570ff.avif",
+   "assets/img/guides/best-time-hero-2169.45ac16a0.avif",
+   "assets/img/guides/best-time-hero-768.7af4e0b2.webp",
+   "assets/img/guides/best-time-hero-1280.b160f3b1.webp",
+   "assets/img/guides/best-time-hero-1600.d5d2a253.webp",
+   "assets/img/guides/best-time-hero-2000.80a566ed.webp",
+   "assets/img/guides/best-time-hero-2169.479e714b.webp",
+   "assets/img/guides/best-time-hero-768.7b10c7ab.jpg",
+   "assets/img/guides/best-time-hero-1280.97a38735.jpg",
+   "assets/img/guides/best-time-hero-1600.8f256d2a.jpg",
+   "assets/img/guides/best-time-hero-2000.679b2a07.jpg",
+   "assets/img/guides/best-time-hero-2169.7c421a81.jpg"
   ]
  },
  "guides/deadsea-bethany.jpg": {
@@ -7906,6 +8188,431 @@
    "assets/img/photos/hero-petra-treasury-phone-480.fbc301c5.jpg",
    "assets/img/photos/hero-petra-treasury-phone-768.2931e845.jpg",
    "assets/img/photos/hero-petra-treasury-phone-1080.a6de909b.jpg"
+  ]
+ },
+ "sights/amman-downtown.jpg": {
+  "key": "v1:std:73dc5ba23558f1aa45538a4a4e12ab2001e373b712c1c3fa9a1c45de5cb3fb86",
+  "width": 1500,
+  "height": 1000,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/sights/amman-downtown-480.dd96584a.avif",
+     "bytes": 15252
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/sights/amman-downtown-768.24c1c7d0.avif",
+     "bytes": 36817
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/sights/amman-downtown-1200.c6daec29.avif",
+     "bytes": 82131
+    },
+    {
+     "w": 1500,
+     "h": 1000,
+     "file": "assets/img/sights/amman-downtown-1500.a1d60e01.avif",
+     "bytes": 130177
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/sights/amman-downtown-480.a14dc325.webp",
+     "bytes": 18462
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/sights/amman-downtown-768.a584e64e.webp",
+     "bytes": 45570
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/sights/amman-downtown-1200.1d59f7c5.webp",
+     "bytes": 104924
+    },
+    {
+     "w": 1500,
+     "h": 1000,
+     "file": "assets/img/sights/amman-downtown-1500.6eb712a2.webp",
+     "bytes": 159328
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/sights/amman-downtown-480.2c0a18a4.jpg",
+     "bytes": 21318
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/sights/amman-downtown-768.c9ce530a.jpg",
+     "bytes": 50257
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/sights/amman-downtown-1200.56253bcd.jpg",
+     "bytes": 116492
+    },
+    {
+     "w": 1500,
+     "h": 1000,
+     "file": "assets/img/sights/amman-downtown-1500.8efbaa0d.jpg",
+     "bytes": 186103
+    }
+   ]
+  },
+  "files": [
+   "assets/img/sights/amman-downtown-480.dd96584a.avif",
+   "assets/img/sights/amman-downtown-768.24c1c7d0.avif",
+   "assets/img/sights/amman-downtown-1200.c6daec29.avif",
+   "assets/img/sights/amman-downtown-1500.a1d60e01.avif",
+   "assets/img/sights/amman-downtown-480.a14dc325.webp",
+   "assets/img/sights/amman-downtown-768.a584e64e.webp",
+   "assets/img/sights/amman-downtown-1200.1d59f7c5.webp",
+   "assets/img/sights/amman-downtown-1500.6eb712a2.webp",
+   "assets/img/sights/amman-downtown-480.2c0a18a4.jpg",
+   "assets/img/sights/amman-downtown-768.c9ce530a.jpg",
+   "assets/img/sights/amman-downtown-1200.56253bcd.jpg",
+   "assets/img/sights/amman-downtown-1500.8efbaa0d.jpg"
+  ]
+ },
+ "sights/aqaba-diving.jpg": {
+  "key": "v1:std:887878a800cfb2021eecebbe0bfd9d61863d9f6fb1dd97f14cfd95cfad8fd9b9",
+  "width": 1500,
+  "height": 1000,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/sights/aqaba-diving-480.c01472e8.avif",
+     "bytes": 33224
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/sights/aqaba-diving-768.2cab164e.avif",
+     "bytes": 62891
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/sights/aqaba-diving-1200.28c50001.avif",
+     "bytes": 110680
+    },
+    {
+     "w": 1500,
+     "h": 1000,
+     "file": "assets/img/sights/aqaba-diving-1500.3adc0330.avif",
+     "bytes": 150991
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/sights/aqaba-diving-480.d72cc56f.webp",
+     "bytes": 47632
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/sights/aqaba-diving-768.0a4cd726.webp",
+     "bytes": 90324
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/sights/aqaba-diving-1200.4c828841.webp",
+     "bytes": 151570
+    },
+    {
+     "w": 1500,
+     "h": 1000,
+     "file": "assets/img/sights/aqaba-diving-1500.6083c2f1.webp",
+     "bytes": 195344
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/sights/aqaba-diving-480.a4c52c32.jpg",
+     "bytes": 46563
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/sights/aqaba-diving-768.2804b266.jpg",
+     "bytes": 97382
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/sights/aqaba-diving-1200.e0e220f8.jpg",
+     "bytes": 184968
+    },
+    {
+     "w": 1500,
+     "h": 1000,
+     "file": "assets/img/sights/aqaba-diving-1500.e4040267.jpg",
+     "bytes": 258215
+    }
+   ]
+  },
+  "files": [
+   "assets/img/sights/aqaba-diving-480.c01472e8.avif",
+   "assets/img/sights/aqaba-diving-768.2cab164e.avif",
+   "assets/img/sights/aqaba-diving-1200.28c50001.avif",
+   "assets/img/sights/aqaba-diving-1500.3adc0330.avif",
+   "assets/img/sights/aqaba-diving-480.d72cc56f.webp",
+   "assets/img/sights/aqaba-diving-768.0a4cd726.webp",
+   "assets/img/sights/aqaba-diving-1200.4c828841.webp",
+   "assets/img/sights/aqaba-diving-1500.6083c2f1.webp",
+   "assets/img/sights/aqaba-diving-480.a4c52c32.jpg",
+   "assets/img/sights/aqaba-diving-768.2804b266.jpg",
+   "assets/img/sights/aqaba-diving-1200.e0e220f8.jpg",
+   "assets/img/sights/aqaba-diving-1500.e4040267.jpg"
+  ]
+ },
+ "sights/aqaba-snorkelling.jpg": {
+  "key": "v1:std:f57b18f7b388cf146eba165ea15221d7dcbc5bdc55c8e9dd7583847a86c1ff76",
+  "width": 1740,
+  "height": 979,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 270,
+     "file": "assets/img/sights/aqaba-snorkelling-480.ce96aa68.avif",
+     "bytes": 25357
+    },
+    {
+     "w": 768,
+     "h": 432,
+     "file": "assets/img/sights/aqaba-snorkelling-768.f3eb3938.avif",
+     "bytes": 49269
+    },
+    {
+     "w": 1200,
+     "h": 675,
+     "file": "assets/img/sights/aqaba-snorkelling-1200.ee8ae686.avif",
+     "bytes": 89770
+    },
+    {
+     "w": 1600,
+     "h": 900,
+     "file": "assets/img/sights/aqaba-snorkelling-1600.499785c7.avif",
+     "bytes": 131776
+    },
+    {
+     "w": 1740,
+     "h": 979,
+     "file": "assets/img/sights/aqaba-snorkelling-1740.528ed1e8.avif",
+     "bytes": 155025
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 270,
+     "file": "assets/img/sights/aqaba-snorkelling-480.8651e319.webp",
+     "bytes": 33752
+    },
+    {
+     "w": 768,
+     "h": 432,
+     "file": "assets/img/sights/aqaba-snorkelling-768.7f8c142d.webp",
+     "bytes": 66136
+    },
+    {
+     "w": 1200,
+     "h": 675,
+     "file": "assets/img/sights/aqaba-snorkelling-1200.45b2928e.webp",
+     "bytes": 116942
+    },
+    {
+     "w": 1600,
+     "h": 900,
+     "file": "assets/img/sights/aqaba-snorkelling-1600.71c75f05.webp",
+     "bytes": 164866
+    },
+    {
+     "w": 1740,
+     "h": 979,
+     "file": "assets/img/sights/aqaba-snorkelling-1740.0b5e15f2.webp",
+     "bytes": 183558
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 270,
+     "file": "assets/img/sights/aqaba-snorkelling-480.ca905797.jpg",
+     "bytes": 35484
+    },
+    {
+     "w": 768,
+     "h": 432,
+     "file": "assets/img/sights/aqaba-snorkelling-768.07f3c5b9.jpg",
+     "bytes": 74320
+    },
+    {
+     "w": 1200,
+     "h": 675,
+     "file": "assets/img/sights/aqaba-snorkelling-1200.9d8e5f79.jpg",
+     "bytes": 144259
+    },
+    {
+     "w": 1600,
+     "h": 900,
+     "file": "assets/img/sights/aqaba-snorkelling-1600.3d074c76.jpg",
+     "bytes": 216438
+    },
+    {
+     "w": 1740,
+     "h": 979,
+     "file": "assets/img/sights/aqaba-snorkelling-1740.63bf3041.jpg",
+     "bytes": 249812
+    }
+   ]
+  },
+  "files": [
+   "assets/img/sights/aqaba-snorkelling-480.ce96aa68.avif",
+   "assets/img/sights/aqaba-snorkelling-768.f3eb3938.avif",
+   "assets/img/sights/aqaba-snorkelling-1200.ee8ae686.avif",
+   "assets/img/sights/aqaba-snorkelling-1600.499785c7.avif",
+   "assets/img/sights/aqaba-snorkelling-1740.528ed1e8.avif",
+   "assets/img/sights/aqaba-snorkelling-480.8651e319.webp",
+   "assets/img/sights/aqaba-snorkelling-768.7f8c142d.webp",
+   "assets/img/sights/aqaba-snorkelling-1200.45b2928e.webp",
+   "assets/img/sights/aqaba-snorkelling-1600.71c75f05.webp",
+   "assets/img/sights/aqaba-snorkelling-1740.0b5e15f2.webp",
+   "assets/img/sights/aqaba-snorkelling-480.ca905797.jpg",
+   "assets/img/sights/aqaba-snorkelling-768.07f3c5b9.jpg",
+   "assets/img/sights/aqaba-snorkelling-1200.9d8e5f79.jpg",
+   "assets/img/sights/aqaba-snorkelling-1600.3d074c76.jpg",
+   "assets/img/sights/aqaba-snorkelling-1740.63bf3041.jpg"
+  ]
+ },
+ "sights/jerash-oval-plaza.jpg": {
+  "key": "v1:std:c1589413d811e67ec611debc72eb195d7b45214038ec155087a1764a8ba11fc7",
+  "width": 1500,
+  "height": 1000,
+  "alpha": false,
+  "hero": false,
+  "variants": {
+   "avif": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/sights/jerash-oval-plaza-480.49be8f30.avif",
+     "bytes": 25751
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/sights/jerash-oval-plaza-768.0057a838.avif",
+     "bytes": 65233
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/sights/jerash-oval-plaza-1200.c387a14a.avif",
+     "bytes": 151108
+    },
+    {
+     "w": 1500,
+     "h": 1000,
+     "file": "assets/img/sights/jerash-oval-plaza-1500.6bcc8cb1.avif",
+     "bytes": 234729
+    }
+   ],
+   "webp": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/sights/jerash-oval-plaza-480.844fc7b4.webp",
+     "bytes": 33780
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/sights/jerash-oval-plaza-768.53cbdb06.webp",
+     "bytes": 86888
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/sights/jerash-oval-plaza-1200.cde01a34.webp",
+     "bytes": 198152
+    },
+    {
+     "w": 1500,
+     "h": 1000,
+     "file": "assets/img/sights/jerash-oval-plaza-1500.2d0491a3.webp",
+     "bytes": 301770
+    }
+   ],
+   "jpg": [
+    {
+     "w": 480,
+     "h": 320,
+     "file": "assets/img/sights/jerash-oval-plaza-480.ecd762ba.jpg",
+     "bytes": 33963
+    },
+    {
+     "w": 768,
+     "h": 512,
+     "file": "assets/img/sights/jerash-oval-plaza-768.53f19f90.jpg",
+     "bytes": 84394
+    },
+    {
+     "w": 1200,
+     "h": 800,
+     "file": "assets/img/sights/jerash-oval-plaza-1200.23d66e10.jpg",
+     "bytes": 197230
+    },
+    {
+     "w": 1500,
+     "h": 1000,
+     "file": "assets/img/sights/jerash-oval-plaza-1500.9ebca907.jpg",
+     "bytes": 316617
+    }
+   ]
+  },
+  "files": [
+   "assets/img/sights/jerash-oval-plaza-480.49be8f30.avif",
+   "assets/img/sights/jerash-oval-plaza-768.0057a838.avif",
+   "assets/img/sights/jerash-oval-plaza-1200.c387a14a.avif",
+   "assets/img/sights/jerash-oval-plaza-1500.6bcc8cb1.avif",
+   "assets/img/sights/jerash-oval-plaza-480.844fc7b4.webp",
+   "assets/img/sights/jerash-oval-plaza-768.53cbdb06.webp",
+   "assets/img/sights/jerash-oval-plaza-1200.cde01a34.webp",
+   "assets/img/sights/jerash-oval-plaza-1500.2d0491a3.webp",
+   "assets/img/sights/jerash-oval-plaza-480.ecd762ba.jpg",
+   "assets/img/sights/jerash-oval-plaza-768.53f19f90.jpg",
+   "assets/img/sights/jerash-oval-plaza-1200.23d66e10.jpg",
+   "assets/img/sights/jerash-oval-plaza-1500.9ebca907.jpg"
   ]
  },
  "sights/petra-monastery.jpg": {
